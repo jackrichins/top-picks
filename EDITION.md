@@ -1,6 +1,6 @@
 # How Claude publishes an edition
 
-Claude scheduled tasks follow these steps. Jack can edit this file to change how editions are made.
+Claude scheduled tasks follow these steps. The evening and weekend tasks run with access to Jack's Mac so Mail can send the Kindle edition. Jack can edit this file to change how editions are made.
 
 ## Schedule (Pacific time)
 | Edition | When | Kindle? |
@@ -22,9 +22,24 @@ Claude scheduled tasks follow these steps. Jack can edit this file to change how
      `{"<id>": {"score": 7, "reason": "...", "story": "..."}, ...}`
      Use a short script to write it, and check that every id from the export has a score.
 4. **Publish.** `python3 curate.py --apply /tmp/scores.json`
-5. **Push.** Commit `docs/` and `state/` and push to `main`.
-   - Morning edition message: `Morning edition`
-   - Evening and weekend edition message: `Evening edition [kindle]` or `Weekend edition [kindle]`
-   - The `[kindle]` tag starts the GitHub Action that builds The Richins Reader and emails it to Jack's Kindle.
+5. **Push.** Commit `docs/` and `state/` and push to `main` with the message `Morning edition`, `Evening edition`, or `Weekend edition`.
    - If the push is rejected because the remote changed, `git pull --rebase` and push again.
-6. **Check.** Confirm the push succeeded. Report the number of picks and the top 3 titles.
+6. **Kindle edition (evening and weekend editions only).** Mail on Jack's Mac sends it.
+   1. Build it: `mkdir -p /mnt/user-data/outputs && python3 kindle.py --no-send --out /mnt/user-data/outputs/The-Richins-Reader-YYYY-MM-DD.epub` (today's date). It prints JSON with the title. If it says there are too few articles, skip the rest of this step.
+   2. Copy it to the Mac with `device_commit_files`: stagedPath is the file above, devicePath is `/Users/jackr/RichinsReader/<same file name>`.
+   3. Send it with the Mac's `osascript` tool, filling in the file name and title:
+      ```applescript
+      set f to POSIX file "/Users/jackr/RichinsReader/<file name>"
+      tell application "Mail"
+        set m to make new outgoing message with properties {subject:"<title>", content:"Your Richins Reader is attached.", visible:false, sender:"jack@jackrichins.com"}
+        tell m
+          make new to recipient at end of to recipients with properties {address:"jack_FDL360@kindle.com"}
+          make new attachment with properties {file name:f} at after the last paragraph of content
+        end tell
+        delay 3
+        send m
+      end tell
+      ```
+   4. Only if the send succeeded: `python3 kindle.py --mark-sent`, then commit `state/kindle_last.json` with the message `Kindle edition sent` and push.
+   5. If the Mac can't be reached, skip the send and don't mark it sent. The next Kindle edition will include these articles.
+7. **Check.** Confirm the pushes succeeded. Report the number of picks, the top 3 titles, and whether the Kindle edition was sent.

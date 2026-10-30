@@ -228,17 +228,23 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--no-send", action="store_true", help="build the EPUB only")
     ap.add_argument("--out", default="kindle-edition.epub")
+    ap.add_argument("--mark-sent", action="store_true",
+                    help="record that the edition was sent (when Mail on the Mac sent it) and exit")
     args = ap.parse_args()
 
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     kc = cfg.get("kindle") or {}
+    last_path = ROOT / "state" / "kindle_last.json"
+    if args.mark_sent:
+        last_path.write_text(json.dumps({"sent": datetime.now(timezone.utc).isoformat()}))
+        log("Recorded the Kindle edition as sent.")
+        return
     STRIP_LINK_HOSTS[:] = kc.get("strip_link_hosts") or []
     if not kc.get("enabled"):
         log("Kindle edition is turned off in config.yaml.")
         return
     picks = json.loads((ROOT / "state" / "picks.json").read_text(encoding="utf-8"))
     # everything picked since the last edition that was sent (first edition: the last day)
-    last_path = ROOT / "state" / "kindle_last.json"
     try:
         since = datetime.fromisoformat(json.loads(last_path.read_text())["sent"])
     except (FileNotFoundError, KeyError, ValueError):
@@ -257,6 +263,7 @@ def main():
     out = ROOT / args.out
     title = build(cfg, picks, out)
     log(f"Built {out.name} ({out.stat().st_size // 1024} KB, {len(picks)} articles)")
+    print(json.dumps({"file": str(out), "title": title, "articles": len(picks)}))
     if not args.no_send and send(out, title):
         last_path.write_text(json.dumps({"sent": datetime.now(timezone.utc).isoformat(), "title": title}))
 

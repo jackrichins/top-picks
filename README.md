@@ -6,7 +6,7 @@ An AI-curated RSS feed built from your subscriptions, plus **The Richins Reader*
 - **Weekends:** one edition by 8 AM.
 - **Kindle:** the evening and weekend editions are also emailed to your Kindle, with everything picked since the last Kindle edition.
 
-Claude scheduled tasks do the scoring (no API key needed) by following [EDITION.md](EDITION.md), then push the feed here. A push tagged `[kindle]` runs the Kindle edition workflow.
+Claude scheduled tasks do the scoring (no API key needed) by following [EDITION.md](EDITION.md), then push the feed here. For Kindle editions, the book is saved to `~/RichinsReader` on Jack's Mac and Mail sends it from jack@jackrichins.com. If the Mac is asleep or offline, that edition is skipped and its articles roll into the next one.
 
 **Your feed:** `https://jackrichins.github.io/top-picks/top-picks.xml`
 

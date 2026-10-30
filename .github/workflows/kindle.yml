@@ -1,11 +1,8 @@
 name: Kindle edition
 
-# Runs when Claude pushes an edition tagged [kindle] (weekday evenings and weekend mornings),
-# or by hand from the Actions tab. Builds The Richins Reader and emails it to your Kindle.
+# Backup sender, by hand only. Normally Mail on Jack's Mac sends the Kindle edition (see EDITION.md).
+# Needs the SMTP_PASSWORD secret (a Gmail app password) to actually send.
 on:
-  push:
-    branches: [main]
-    paths: [docs/top-picks.xml]
   workflow_dispatch:
 
 permissions:
@@ -15,7 +12,6 @@ concurrency: kindle
 
 jobs:
   kindle:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[kindle]')
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
