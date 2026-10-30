@@ -281,6 +281,11 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dry-run", action="store_true", help="print picks, change nothing")
     ap.add_argument("--fake-scores", action="store_true", help="skip Claude (for testing)")
+    ap.add_argument("--export", metavar="FILE",
+                    help="step 1 of 2 (no API key): fetch feeds, save new items to score to FILE, change nothing else")
+    ap.add_argument("--apply", metavar="SCORES",
+                    help="step 2 of 2: read scores (JSON {id: {score, reason, story}}) for the items "
+                         "saved by --export, then publish")
     args = ap.parse_args()
 
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
@@ -295,8 +300,28 @@ def main():
     pods_on = cfg["podcasts"].get("enabled", True)
     feeds = [f for f in load_feeds(ROOT / cfg.get("opml", "feeds.opml"))
              if f["title"] not in exclude and (pods_on or f["folder"] != pod_folder)]
-    log(f"Fetching {len(feeds)} feeds")
+    pending_path = STATE / "pending.json"
+    if args.apply:
+        # step 2: reuse the items saved by --export instead of fetching again
+        pending = json.loads(pending_path.read_text(encoding="utf-8"))
+        scores = json.loads(Path(args.apply).read_text(encoding="utf-8"))
+        new = pending["items"]
+        for it in new:
+            it["published"] = parse_date(it["published"])
+            sc = scores.get(it["id"])
+            if sc and it.get("score") is None:
+                it["score"] = int(sc.get("score", 0))
+                it["reason"] = str(sc.get("reason", "")).replace("\u2014", ", ")
+                it["story"] = str(sc.get("story") or it["id"])
+        for i in pending["skipped_ids"]:
+            seen[i] = NOW.isoformat()
+        first_run = pending["first_run"]
+        fetched = [{"id": i} for i in pending["backlog_ids"]]
+        missing = sum(1 for it in new if it.get("score") is None)
+        log(f"Applying scores to {len(new)} items ({missing} unscored, they retry next run)")
+        return publish(args, cfg, new, fetched, first_run, seen, picks, pods_on)
 
+    log(f"Fetching {len(feeds)} feeds")
     with ThreadPoolExecutor(max_workers=16) as pool:
         fetched = [it for batch in pool.map(fetch_feed, feeds) for it in batch]
 
@@ -323,7 +348,34 @@ def main():
             it.update(score=10, reason="On your always-include list.", story=it["id"])
         else:
             to_score.append(it)
+
+    if args.export:
+        def ser(it):
+            return dict(it, published=it["published"].isoformat() if it["published"] else None)
+        STATE.mkdir(exist_ok=True)
+        pending_path.write_text(json.dumps({
+            "created": NOW.isoformat(),
+            "first_run": first_run,
+            "backlog_ids": [it["id"] for it in fetched] if first_run else [],
+            "skipped_ids": [it["id"] for it in skipped],
+            "items": [ser(it) for it in new],
+        }, ensure_ascii=False), encoding="utf-8")
+        # a compact sheet for the scorer: only what it needs to judge each item
+        Path(args.export).write_text("\n".join(json.dumps(
+            {"id": it["id"], "source": it["feed"], "folder": it["folder"],
+             "kind": "podcast" if it["enclosure"] else "article/video",
+             "title": it["title"], "summary": it["summary"][:300]}, ensure_ascii=False)
+            for it in to_score) + "\n", encoding="utf-8")
+        log(f"Exported {len(to_score)} items to score to {args.export} "
+            f"({len(new) - len(to_score)} always-include items need no score)")
+        return
+
     score_items(to_score, cfg, interests, fake=args.fake_scores)
+    return publish(args, cfg, new, fetched, first_run, seen, picks, pods_on)
+
+
+def publish(args, cfg, new, fetched, first_run, seen, picks, pods_on):
+    """Select the best scored items, update state, and write the feeds."""
 
     articles = select([i for i in new if not i["is_podcast"]],
                       cfg["articles"]["min_score"], cfg["articles"]["max_per_run"])
@@ -337,6 +389,7 @@ def main():
     if args.dry_run:
         return
 
+    (STATE / "pending.json").unlink(missing_ok=True)
     stamp = NOW.isoformat()
     keep = NOW - timedelta(days=cfg.get("keep_days", 7))
     for p in articles + podcasts:

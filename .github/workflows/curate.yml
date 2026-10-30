@@ -1,18 +1,20 @@
 name: Curate feeds
 
 on:
-  # Pacific time. Each run starts ~20 min early because GitHub can delay scheduled runs.
-  schedule:
-    - cron: "40 5 * * *"     # ready by 6:00 AM: overnight and early East Coast posts
-      timezone: "America/Los_Angeles"
-    - cron: "10 11 * * *"    # ready by 11:30 AM: the 6 to 11 AM publishing peak
-      timezone: "America/Los_Angeles"
-    - cron: "40 15 * * *"    # ready by 4:00 PM: the rest of the workday
-      timezone: "America/Los_Angeles"
-    - cron: "50 16 * * *"    # Kindle edition: on your Kindle by about 5:15 PM, before dinner
-      timezone: "America/Los_Angeles"
-    - cron: "40 18 * * *"    # ready by 7:00 PM: late afternoon stragglers
-      timezone: "America/Los_Angeles"
+  # The schedule is off: Claude scheduled tasks run curate.py --export/--apply instead.
+  # To use an API key instead, add the ANTHROPIC_API_KEY secret and uncomment these lines.
+  # # Pacific time. Each run starts ~20 min early because GitHub can delay scheduled runs.
+  # schedule:
+  #   - cron: "40 5 * * *"     # ready by 6:00 AM: overnight and early East Coast posts
+  #     timezone: "America/Los_Angeles"
+  #   - cron: "10 11 * * *"    # ready by 11:30 AM: the 6 to 11 AM publishing peak
+  #     timezone: "America/Los_Angeles"
+  #   - cron: "40 15 * * *"    # ready by 4:00 PM: the rest of the workday
+  #     timezone: "America/Los_Angeles"
+  #   - cron: "50 16 * * *"    # Kindle edition: on your Kindle by about 5:15 PM, before dinner
+  #     timezone: "America/Los_Angeles"
+  #   - cron: "40 18 * * *"    # ready by 7:00 PM: late afternoon stragglers
+  #     timezone: "America/Los_Angeles"
   workflow_dispatch:          # lets you run it by hand from the Actions tab
     inputs:
       kindle:
