@@ -33,6 +33,12 @@ kindle:
   max_articles: 25
   images: true                 # embedded from each article's page, up to max_images each
   max_images: 10
+  # Links to these sites become plain text (the Kindle browser can't load them).
+  # Links to other web pages are kept.
+  strip_link_hosts: [youtube.com, youtu.be, vimeo.com, x.com, twitter.com, t.co, instagram.com,
+                     facebook.com, fb.com, tiktok.com, threads.net, threads.com, bsky.app, linkedin.com,
+                     reddit.com, spotify.com, open.spotify.com, podcasts.apple.com, music.apple.com,
+                     apps.apple.com, overcast.fm, pca.st, twitch.tv]
   # Sections in reading order, each listing the OPML folders it holds.
   # Anything not listed goes in other_section.
   sections:

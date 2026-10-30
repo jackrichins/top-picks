@@ -38,6 +38,7 @@ from curate import load_feeds
 ROOT = Path(__file__).resolve().parent
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
 VIDEO_HOSTS = ("youtube.com", "youtu.be", "vimeo.com")
+STRIP_LINK_HOSTS = []  # set from config.yaml (kindle.strip_link_hosts)
 
 CSS = """
 body { font-family: serif; line-height: 1.45; }
@@ -96,7 +97,13 @@ def full_text(pick, want_images, max_images):
 
     body = re.sub(r"(?is)^.*?<body[^>]*>|</body>.*$", "", body)
     body = re.sub(r"(?is)<(/?)(main|doc|article)[^>]*>", "", body)
-    body = re.sub(r"(?is)<a\b[^>]*>(.*?)</a>", r"\1", body)
+    # keep links to regular web pages; unwrap links the Kindle browser can't load (video, social)
+    def link(m):
+        href = re.search(r'href="([^"]+)"', m.group(1))
+        host = urlparse(html.unescape(href.group(1))).netloc.lower().removeprefix("www.") if href else ""
+        blocked = not host or any(host == b or host.endswith("." + b) for b in STRIP_LINK_HOSTS)
+        return m.group(2) if blocked else f'<a href="{href.group(1)}">{m.group(2)}</a>'
+    body = re.sub(r"(?is)<a\b([^>]*)>(.*?)</a>", link, body)
     # no audio or video on the Kindle: drop players and embeds
     body = re.sub(r"(?is)<(video|audio|iframe|object|embed)\b.*?(</\1>|/>)", "", body)
     # code and table-like blocks: trafilatura emits <code><pre>; make them valid block divs
@@ -225,6 +232,7 @@ def main():
 
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     kc = cfg.get("kindle") or {}
+    STRIP_LINK_HOSTS[:] = kc.get("strip_link_hosts") or []
     if not kc.get("enabled"):
         log("Kindle edition is turned off in config.yaml.")
         return
