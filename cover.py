@@ -81,26 +81,22 @@ def _furry(poly, step=7, depth=4, seed=3):
     return out
 
 
-# Original Sasquatch outline: points along a smooth closed curve (local units, y down, feet at 390),
-# walking right in the classic striding pose.
-SASQUATCH = [
-    (150, 40), (166, 44), (176, 60), (178, 78), (172, 92),                        # crown and face
-    (188, 108), (204, 138), (218, 172), (232, 198), (246, 214), (254, 228),       # front arm, outer edge
-    (247, 236), (236, 231), (222, 217), (206, 201), (194, 180), (186, 162),       # front hand, inner arm
-    (184, 192), (186, 222), (180, 246),                                           # belly
-    (192, 272), (206, 300), (212, 330), (214, 360), (220, 376), (242, 380),       # leading leg and foot
-    (258, 386), (256, 394), (214, 395), (198, 392), (194, 376), (190, 346),
-    (184, 316), (172, 292), (160, 278),
-    (152, 300), (140, 330), (124, 360), (116, 374), (126, 386), (130, 394),       # trailing leg, heel up
-    (98, 394), (84, 388), (80, 374), (94, 350), (110, 318), (120, 286), (120, 256),
-    (117, 228), (115, 200), (117, 166), (121, 132), (126, 104), (132, 80),        # back and shoulder hump
-    (134, 60), (140, 46),
-]
-# The trailing arm, swinging back behind him (drawn separately so there's daylight between arm and back).
-SASQUATCH_ARM = [
-    (132, 100), (120, 132), (104, 164), (88, 190), (74, 208), (62, 220), (58, 232), (68, 240),
-    (82, 234), (98, 218), (114, 200), (128, 178), (140, 152), (146, 122),
-]
+# Original Sasquatch, built from parts (local units, y down, feet at 394), walking right in the
+# classic pose: torso turned partly toward the viewer, hunched back, head low and turned toward us,
+# near arm hanging heavy and swinging slightly back, far arm swinging forward with the paper.
+SQ_BACK_LEG = [(150, 246), (156, 276), (152, 300), (140, 330), (124, 360), (116, 374), (126, 386),
+               (130, 394), (98, 394), (84, 388), (80, 374), (94, 350), (110, 318), (120, 286), (124, 250)]
+SQ_FRONT_LEG = [(176, 242), (192, 272), (206, 300), (212, 330), (214, 360), (220, 376), (242, 380),
+                (258, 386), (256, 394), (214, 395), (198, 392), (194, 376), (190, 346), (184, 316),
+                (172, 292), (158, 272), (158, 248)]
+SQ_FAR_ARM = [(178, 110), (198, 116), (212, 148), (222, 180), (232, 204), (236, 222), (222, 230),
+              (210, 214), (198, 186), (186, 156), (176, 128)]
+SQ_TORSO = [(118, 104), (128, 84), (146, 72), (168, 74), (188, 86), (200, 108), (204, 138), (204, 172), (196, 212),
+            (188, 250), (156, 260), (126, 254), (116, 222), (112, 184), (112, 146), (114, 120)]
+SQ_HEAD = [(148, 96), (145, 76), (150, 60), (160, 51), (172, 52), (182, 62), (187, 78), (184, 94), (172, 104), (158, 104)]
+SQ_NEAR_ARM = [(118, 102), (138, 110), (130, 142), (118, 174), (106, 204), (100, 228), (98, 248),
+               (88, 256), (76, 250), (76, 230), (82, 204), (92, 172), (102, 138)]
+SASQUATCH_PARTS = [SQ_BACK_LEG, SQ_FRONT_LEG, SQ_FAR_ARM, SQ_TORSO, SQ_HEAD, SQ_NEAR_ARM]
 
 
 def _smooth(pts, n=10):
@@ -126,7 +122,7 @@ def _shaggy(d, outline, x, base, s, fill, rnd):
         px, py = outline[i]
         ly = (py - base) / s + 394
         lx = (px - x) / s + 168
-        if ly > 372 or (lx > 168 and ly < 100):
+        if ly > 372 or (ly < 104 and lx > 160):
             continue
         tx, ty = x1 - x0, y1 - y0
         L = math.hypot(tx, ty) or 1
@@ -146,17 +142,17 @@ def sasquatch(d, x, base, s, fill=INK):
     """An original striding Sasquatch silhouette carrying a folded newspaper.
     (x, base) is the ground point between his feet; s is pixels per unit (the figure is ~355 units tall)."""
     rnd = random.Random(11)
-    for shape in (SASQUATCH_ARM, SASQUATCH):
+    for shape in SASQUATCH_PARTS:
         _shaggy(d, [(x + (px - 168) * s, base + (py - 394) * s) for px, py in _smooth(shape)], x, base, s, fill, rnd)
     # the folded newspaper in his forward hand
     def T(pts):
         return [(x + (px - 168) * s, base + (py - 394) * s) for px, py in pts]
-    d.polygon(T([(236, 206), (276, 198), (282, 240), (242, 248)]), fill=PAPER, outline=fill)
-    d.polygon(T([(240, 210), (273, 204), (274, 211), (241, 217)]), fill=fill)          # masthead
+    d.polygon(T([(226, 200), (264, 190), (272, 232), (232, 242)]), fill=PAPER, outline=fill)
+    d.polygon(T([(229, 205), (262, 196), (264, 203), (231, 212)]), fill=fill)          # masthead
     for row in range(5):
-        y0 = 222 + row * 4.5
-        d.line(T([(242, y0), (277, y0 - 6)]), fill=90, width=max(1, int(1.2 * s)))
-    d.ellipse([x + (238 - 168) * s, base + (210 - 394) * s, x + (256 - 168) * s, base + (234 - 394) * s], fill=fill)  # hand
+        y0 = 218 + row * 4.5
+        d.line(T([(232, y0), (267, y0 - 8)]), fill=90, width=max(1, int(1.2 * s)))
+    d.ellipse([x + (222 - 168) * s, base + (204 - 394) * s, x + (240 - 168) * s, base + (230 - 394) * s], fill=fill)  # hand
 
 
 def scene(width, height, seed=7, sasquatch_on=False):
