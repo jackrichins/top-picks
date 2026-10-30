@@ -1,0 +1,58 @@
+name: Curate feeds
+
+on:
+  # Pacific time. Each run starts ~20 min early because GitHub can delay scheduled runs.
+  schedule:
+    - cron: "40 5 * * *"     # ready by 6:00 AM: overnight and early East Coast posts
+      timezone: "America/Los_Angeles"
+    - cron: "10 11 * * *"    # ready by 11:30 AM: the 6 to 11 AM publishing peak
+      timezone: "America/Los_Angeles"
+    - cron: "40 15 * * *"    # ready by 4:00 PM: the rest of the workday
+      timezone: "America/Los_Angeles"
+    - cron: "50 16 * * *"    # Kindle edition: on your Kindle by about 5:15 PM, before dinner
+      timezone: "America/Los_Angeles"
+    - cron: "40 18 * * *"    # ready by 7:00 PM: late afternoon stragglers
+      timezone: "America/Los_Angeles"
+  workflow_dispatch:          # lets you run it by hand from the Actions tab
+    inputs:
+      kindle:
+        description: "Also send the Kindle edition now"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency: curate
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python curate.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Send Kindle edition (4:50 PM run only, in time for dinner)
+        if: github.event.schedule == '50 16 * * *' || inputs.kindle
+        continue-on-error: true   # a Kindle hiccup should never block saving picks
+        run: |
+          sudo apt-get install -y -qq fonts-dejavu-core >/dev/null || true
+          python kindle.py
+        env:
+          KINDLE_EMAIL: ${{ secrets.KINDLE_EMAIL }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      - name: Save picks
+        run: |
+          git config user.name "top-picks-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs state
+          git diff --cached --quiet || git commit -m "Update picks"
+          git push

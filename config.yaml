@@ -1,0 +1,66 @@
+# Top Picks settings. Edit freely; changes apply on the next run.
+
+opml: feeds.opml
+site_url: https://jackrichins.github.io/top-picks
+model: claude-haiku-5-5        # fast and cheap; use claude-sonnet-5-5 for sharper judgment
+batch_size: 30
+
+lookback_hours: 48             # ignore items older than this when first seen
+keep_days: 7                   # how long a pick stays in the output feeds
+
+articles:
+  min_score: 7                 # raise to 8 for fewer, better picks
+  max_per_run: 12              # runs 4 times a day, so this is a ceiling, not a target
+
+podcasts:
+  enabled: false               # true = also build docs/top-podcasts.xml for Overcast
+  folder: Podcasts             # the OPML folder that holds your podcasts
+  min_score: 7
+  max_per_run: 6
+  artwork:                     # optional square image URL for the podcast feed
+
+# Daily Kindle edition, built by kindle.py in the 4:50 PM run (text only, no audio or video)
+kindle:
+  enabled: true
+  title: The Richins Reader
+  sasquatch: true               # a Sasquatch reading the paper in the cover scene
+  tagline: Only the good stuff, delivered by dinner
+  place: Bothell, Wash.
+  start_date: 2026-10-30         # issue No. 1; numbers count up from here
+  timezone: America/Los_Angeles
+  window_hours: 24             # include articles picked in the last day
+  min_articles: 3              # skip the edition on very quiet days
+  max_articles: 25
+  images: true                 # grayscale, up to max_images per article
+  max_images: 4
+  # Sections in reading order, each listing the OPML folders it holds.
+  # Anything not listed goes in other_section.
+  sections:
+    Security: [Security]
+    Apple: [Apple]
+    Tech and Work: [AI, Programming, PM, Microsoft]
+    Ideas: [Improvement, Misc]
+    News and Science: [News, Science]
+    Life and Leisure: [Rivian, Adventure, Photography, History, Sports, Church, Personal, Comedy]
+  other_section: More
+
+# Titles matching any of these are dropped before scoring (case-insensitive regex)
+skip_title_patterns:
+  - "\\bsponsor(ed|ship)?\\b"   # (Sponsor), [Sponsor], Sponsored, Sponsorship Openings
+  - "\\bpaid post\\b"
+
+# Feeds that always get through, no scoring (exact titles from feeds.opml)
+always_include:
+  - Dan Carlin's Hardcore History
+  - "Dan Carlin's Hardcore History: Addendum"
+  - Hypercritical
+  - xkcd.com
+  - Cliff Mass Weather Blog
+
+# Whole folders that always get through
+always_include_folders:
+  - Personal
+
+# Feeds to ignore entirely
+exclude:
+  - British History Podcast Member's Only   # private feed; keep this one subscribed directly
