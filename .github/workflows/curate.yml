@@ -16,11 +16,6 @@ on:
   #   - cron: "40 18 * * *"    # ready by 7:00 PM: late afternoon stragglers
   #     timezone: "America/Los_Angeles"
   workflow_dispatch:          # lets you run it by hand from the Actions tab
-    inputs:
-      kindle:
-        description: "Also send the Kindle edition now"
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -41,16 +36,6 @@ jobs:
       - run: python curate.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      - name: Send Kindle edition (4:50 PM run only, in time for dinner)
-        if: github.event.schedule == '50 16 * * *' || inputs.kindle
-        continue-on-error: true   # a Kindle hiccup should never block saving picks
-        run: |
-          sudo apt-get install -y -qq fonts-dejavu-core >/dev/null || true
-          python kindle.py
-        env:
-          KINDLE_EMAIL: ${{ secrets.KINDLE_EMAIL }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       - name: Save picks
         run: |
           git config user.name "top-picks-bot"

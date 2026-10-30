@@ -10,7 +10,7 @@ keep_days: 7                   # how long a pick stays in the output feeds
 
 articles:
   min_score: 7                 # raise to 8 for fewer, better picks
-  max_per_run: 12              # aim for 8 to 12 per run; this is the ceiling
+  max_per_run: 12              # aim for 8 to 12 per edition; this is the ceiling
 
 podcasts:
   enabled: false               # true = also build docs/top-podcasts.xml for Overcast
@@ -19,7 +19,7 @@ podcasts:
   max_per_run: 6
   artwork:                     # optional square image URL for the podcast feed
 
-# Daily Kindle edition, built by kindle.py in the 4:50 PM run (text only, no audio or video)
+# Kindle edition: sent with the weekday evening and weekend editions (no audio or video)
 kindle:
   enabled: true
   title: The Richins Reader
@@ -28,7 +28,7 @@ kindle:
   place: Bothell, Wash.
   start_date: 2026-10-30         # issue No. 1; numbers count up from here
   timezone: America/Los_Angeles
-  window_hours: 24             # include articles picked in the last day
+  window_hours: 24             # first edition only; after that, everything since the last edition
   min_articles: 3              # skip the edition on very quiet days
   max_articles: 25
   images: true                 # embedded from each article's page, up to max_images each

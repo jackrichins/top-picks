@@ -1,10 +1,16 @@
 # Top Picks
 
-An AI-curated RSS feed built from your subscriptions. Four times a day (6 AM, 11:30 AM, 4 PM, and 7 PM Pacific), a GitHub Action fetches your feeds, has Claude score each new item against `interests.md`, merges duplicate stories, and publishes the best ones to a single feed you read in Reeder.
+An AI-curated RSS feed built from your subscriptions, plus **The Richins Reader**, a Kindle edition.
 
-At 4:50 PM it also emails a **Kindle edition** to your Kindle: the day's picks as a text-only book with a dated cover, a front page, and sections. It arrives around 5:15 PM, in time for dinner.
+- **Weekdays:** a morning edition by 10 AM and an evening edition by about 4:30 PM.
+- **Weekends:** one edition by 8 AM.
+- **Kindle:** the evening and weekend editions are also emailed to your Kindle, with everything picked since the last Kindle edition.
 
-## Setup (about 10 minutes)
+Claude scheduled tasks do the scoring (no API key needed) by following [EDITION.md](EDITION.md), then push the feed here. A push tagged `[kindle]` runs the Kindle edition workflow.
+
+**Your feed:** `https://jackrichins.github.io/top-picks/top-picks.xml`
+
+## Original setup (API key version, optional)
 
 1. **Create a repo.** Make a new GitHub repo named `top-picks` and push these files to it.
 2. **Add your API key.** Get a key at [console.anthropic.com](https://console.anthropic.com). In the repo, go to **Settings > Secrets and variables > Actions** and add a secret named `ANTHROPIC_API_KEY`.
@@ -19,7 +25,7 @@ At 4:50 PM it also emails a **Kindle edition** to your Kindle: the day's picks a
 2. **Approve the sender.** On the same page, add the Gmail address that will send the edition to the **Approved Personal Document Email List**.
 3. **Make a Gmail app password.** Go to [myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords). This requires 2-Step Verification.
 4. **Add three repo secrets:** `KINDLE_EMAIL`, `SMTP_USER` (the Gmail address), and `SMTP_PASSWORD` (the app password).
-5. **Test it.** Go to **Actions > Curate feeds > Run workflow**, check **Also send the Kindle edition now**, and run it.
+5. **Test it.** Go to **Actions > Kindle edition > Run workflow**.
 
 Notes:
 - **It's text only.** YouTube links, podcast episodes, and embedded audio or video players are left out.

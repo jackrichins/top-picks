@@ -237,7 +237,12 @@ def main():
         log("Kindle edition is turned off in config.yaml.")
         return
     picks = json.loads((ROOT / "state" / "picks.json").read_text(encoding="utf-8"))
-    since = datetime.now(timezone.utc) - timedelta(hours=kc.get("window_hours", 24))
+    # everything picked since the last edition that was sent (first edition: the last day)
+    last_path = ROOT / "state" / "kindle_last.json"
+    try:
+        since = datetime.fromisoformat(json.loads(last_path.read_text())["sent"])
+    except (FileNotFoundError, KeyError, ValueError):
+        since = datetime.now(timezone.utc) - timedelta(hours=kc.get("window_hours", 24))
     picks = [p for p in picks if p.get("kind") == "article"
              and datetime.fromisoformat(p["picked"]) >= since
              and not p.get("enclosure")  # no podcast episodes or other audio/video files
@@ -252,8 +257,8 @@ def main():
     out = ROOT / args.out
     title = build(cfg, picks, out)
     log(f"Built {out.name} ({out.stat().st_size // 1024} KB, {len(picks)} articles)")
-    if not args.no_send:
-        send(out, title)
+    if not args.no_send and send(out, title):
+        last_path.write_text(json.dumps({"sent": datetime.now(timezone.utc).isoformat(), "title": title}))
 
 
 if __name__ == "__main__":
