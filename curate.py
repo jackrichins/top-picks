@@ -107,6 +107,7 @@ def fetch_feed(feed):
                 "title": e.get("title") or clean_text(e.get("content_text") or e.get("content_html"), 90),
                 "link": e.get("url") or e.get("external_url"),
                 "summary": clean_text(e.get("summary") or e.get("content_text") or e.get("content_html")),
+                "content": e.get("content_html") or "",
                 "published": parse_date(e.get("date_published")),
                 "enclosure": {"url": att["url"], "type": att.get("mime_type", "audio/mpeg"),
                               "length": att.get("size_in_bytes", 0)} if att.get("url") else None,
@@ -124,6 +125,7 @@ def fetch_feed(feed):
                 "title": clean_text(e.get("title"), 200),
                 "link": e.get("link"),
                 "summary": clean_text(e.get("summary") or e.get("description")),
+                "content": (e.get("content") or [{}])[0].get("value", "") or e.get("summary", ""),
                 "published": parse_date(e.get("published_parsed") or e.get("updated_parsed")),
                 "enclosure": {"url": enc["href"], "type": enc.get("type", "audio/mpeg"),
                               "length": enc.get("length", 0)} if enc else None,
@@ -232,6 +234,57 @@ def select(items, min_score, limit):
     return picks[:limit]
 
 
+# ---------- full text ----------
+
+VIDEO_HOSTS = ("youtube.com", "youtu.be", "vimeo.com")
+UA_BROWSER = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 "
+              "(KHTML, like Gecko) Version/17.0 Safari/605.1.15")
+
+
+def text_len(html_s):
+    return len(re.sub(r"<[^>]+>", "", html_s or "").strip())
+
+
+def full_article(it):
+    """Full article HTML for the feed: the feed's own content if it's complete, else pulled from the page."""
+    from urllib.parse import urljoin, urlparse
+    link = it.get("link") or ""
+    if urlparse(link).netloc.removeprefix("www.").startswith(VIDEO_HOSTS):
+        return ""  # Reeder plays videos from the link itself
+    content = it.get("content") or ""
+    visual = "<img" in content and text_len(content) < 300  # a comic or photo post: the feed has it all
+    if text_len(content) < 1200 and not visual:  # feed only has an excerpt: fetch the page
+        try:
+            import trafilatura
+            r = requests.get(link, headers={"User-Agent": UA_BROWSER}, timeout=25)
+            r.raise_for_status()
+            page = trafilatura.extract(r.text, url=link, output_format="html", include_images=True,
+                                       include_links=True, include_tables=True, favor_recall=True) or ""
+            page = re.sub(r"(?is)^.*?<body[^>]*>|</body>.*$", "", page)
+            page = re.sub(r"(?is)<(/?)(main|doc|article)[^>]*>", "", page)
+            page = re.sub(r"(?is)<code>\s*<pre", "<pre", page).replace("</pre></code>", "</pre>")
+            if text_len(page) > text_len(content):
+                content = page
+        except Exception as e:  # noqa: BLE001  fall back to whatever the feed gave us
+            log(f"  ! full text for {link}: {e}")
+    # absolute image and link URLs, no scripts
+    content = re.sub(r'(?i)(src|href)="(?!https?:|mailto:|#)([^"]+)"',
+                     lambda m: f'{m.group(1)}="{urljoin(link, html.unescape(m.group(2)))}"', content)
+    content = re.sub(r"(?is)<script\b.*?</script>", "", content)
+    return content
+
+
+def fill_content(picks):
+    todo = [p for p in picks if p.get("kind") == "article" and "content_html" not in p]
+    if todo:
+        log(f"Getting full text for {len(todo)} picks")
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            for p, c in zip(todo, pool.map(full_article, todo)):
+                p["content_html"] = c
+    for p in picks:
+        p.pop("content", None)  # raw feed copy no longer needed
+
+
 # ---------- output ----------
 
 def esc(s):
@@ -239,7 +292,8 @@ def esc(s):
 
 
 def write_rss(path, items, title, description, site_url, podcast=False, image=None):
-    ns = ' xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"' if podcast else ""
+    ns = ' xmlns:content="http://purl.org/rss/1.0/modules/content/"'
+    ns += ' xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"' if podcast else ""
     out = [f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"{ns}><channel>',
            f"<title>{esc(title)}</title><link>{esc(site_url)}</link>",
            f"<description>{esc(description)}</description>",
@@ -265,6 +319,10 @@ def write_rss(path, items, title, description, site_url, podcast=False, image=No
         out.append(f"<pubDate>{format_datetime(datetime.fromisoformat(it['picked']))}</pubDate>")
         out.append(f"<author>{esc(it['feed'])}</author>")
         out.append(f"<description>{esc(body)}</description>")
+        if it.get("content_html"):
+            why = body.split("</p>", 2)
+            full = "".join(why[:2]) + "</p><hr/>" + it["content_html"]  # Why + source, then the article
+            out.append("<content:encoded><![CDATA[" + full.replace("]]>", "]]]]><![CDATA[>") + "]]></content:encoded>")
         if podcast and it.get("enclosure"):
             e = it["enclosure"]
             out.append(f'<enclosure url="{esc(e["url"])}" type="{esc(e["type"])}" length="{esc(e.get("length") or 0)}"/>')
@@ -286,6 +344,8 @@ def main():
     ap.add_argument("--apply", metavar="SCORES",
                     help="step 2 of 2: read scores (JSON {id: {score, reason, story}}) for the items "
                          "saved by --export, then publish")
+    ap.add_argument("--refresh", action="store_true",
+                    help="rebuild the feeds from saved picks (adds full text to any that lack it)")
     args = ap.parse_args()
 
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
@@ -301,6 +361,10 @@ def main():
     feeds = [f for f in load_feeds(ROOT / cfg.get("opml", "feeds.opml"))
              if f["title"] not in exclude and (pods_on or f["folder"] != pod_folder)]
     pending_path = STATE / "pending.json"
+    if args.refresh:
+        fill_content(picks)
+        (STATE / "picks.json").write_text(json.dumps(picks, indent=1, ensure_ascii=False))
+        return write_feeds(cfg, picks, pods_on)
     if args.apply:
         # step 2: reuse the items saved by --export instead of fetching again
         pending = json.loads(pending_path.read_text(encoding="utf-8"))
@@ -398,6 +462,7 @@ def publish(args, cfg, new, fetched, first_run, seen, picks, pods_on):
         p["picked"] = stamp
         p["kind"] = "podcast" if p["is_podcast"] else "article"
         p["published"] = p["published"].isoformat() if p["published"] else None
+    fill_content(articles)
     known = {p["id"] for p in picks}
     picks = [p for p in picks if datetime.fromisoformat(p["picked"]) >= keep]
     picks += [p for p in articles + podcasts if p["id"] not in known]
@@ -417,6 +482,10 @@ def publish(args, cfg, new, fetched, first_run, seen, picks, pods_on):
     (STATE / "seen.json").write_text(json.dumps(seen, indent=0))
     (STATE / "picks.json").write_text(json.dumps(picks, indent=1, ensure_ascii=False))
 
+    return write_feeds(cfg, picks, pods_on)
+
+
+def write_feeds(cfg, picks, pods_on):
     site = cfg.get("site_url", "")
     write_rss(DOCS / "top-picks.xml", [p for p in picks if p["kind"] == "article"],
               "Top Picks", "The best of my feeds, picked by Claude.", site)

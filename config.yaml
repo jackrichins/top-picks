@@ -31,8 +31,8 @@ kindle:
   window_hours: 24             # include articles picked in the last day
   min_articles: 3              # skip the edition on very quiet days
   max_articles: 25
-  images: true                 # grayscale, up to max_images per article
-  max_images: 4
+  images: true                 # embedded from each article's page, up to max_images each
+  max_images: 10
   # Sections in reading order, each listing the OPML folders it holds.
   # Anything not listed goes in other_section.
   sections:

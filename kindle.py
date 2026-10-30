@@ -78,22 +78,25 @@ def fetch_image(url, idx):
 def full_text(pick, want_images, max_images):
     """Return (body_html, [image items]). Falls back to the summary when extraction fails."""
     url = pick.get("link") or ""
-    try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=25)
-        r.raise_for_status()
-        body = trafilatura.extract(r.text, url=url, output_format="html", include_images=want_images,
-                                   include_links=False, include_tables=True, favor_recall=True)
-    except Exception as e:  # noqa: BLE001
-        log(f"  ! {url}: {e}")
-        body = None
+    body = pick.get("content_html")  # full text saved by curate.py, images included
+    if len(re.sub(r"<[^>]+>", "", body or "")) < 400 and "<img" not in (body or ""):
+        try:
+            r = requests.get(url, headers={"User-Agent": UA}, timeout=25)
+            r.raise_for_status()
+            body = trafilatura.extract(r.text, url=url, output_format="html", include_images=want_images,
+                                       include_links=False, include_tables=True, favor_recall=True)
+        except Exception as e:  # noqa: BLE001
+            log(f"  ! {url}: {e}")
+            body = None
 
     text_len = len(re.sub(r"<[^>]+>", "", body or ""))
-    if not body or text_len < 400:
+    if not body or (text_len < 400 and "<img" not in body):
         return (f"<p>{html.escape(pick.get('summary') or '')}</p>"
                 f"<p><i>Full text wasn't available. Read it online: {html.escape(url)}</i></p>"), []
 
     body = re.sub(r"(?is)^.*?<body[^>]*>|</body>.*$", "", body)
     body = re.sub(r"(?is)<(/?)(main|doc|article)[^>]*>", "", body)
+    body = re.sub(r"(?is)<a\b[^>]*>(.*?)</a>", r"\1", body)
     # no audio or video on the Kindle: drop players and embeds
     body = re.sub(r"(?is)<(video|audio|iframe|object|embed)\b.*?(</\1>|/>)", "", body)
     # code and table-like blocks: trafilatura emits <code><pre>; make them valid block divs
