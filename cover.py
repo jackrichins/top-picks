@@ -62,42 +62,52 @@ def tree(d, x, base, h, w, fill=INK):
                    (x + half * 0.35, bot - 10), (x + half, bot)], fill=fill)
 
 
+def _furry(poly, step=7, depth=4, seed=3):
+    """Turn a smooth outline into a shaggy one: small zigzags pushed outward from the center."""
+    rnd = random.Random(seed)
+    cx = sum(p[0] for p in poly) / len(poly)
+    cy = sum(p[1] for p in poly) / len(poly)
+    out = []
+    for (x0, y0), (x1, y1) in zip(poly, poly[1:] + poly[:1]):
+        n = max(1, int(math.hypot(x1 - x0, y1 - y0) / step))
+        for i in range(n):
+            t = i / n
+            x, y = x0 + (x1 - x0) * t, y0 + (y1 - y0) * t
+            if i % 2:
+                dx, dy = x - cx, y - cy
+                k = depth * rnd.uniform(0.6, 1.4) / (math.hypot(dx, dy) or 1)
+                x, y = x + dx * k, y + dy * k
+            out.append((x, y))
+    return out
+
+
 def sasquatch(d, x, base, s, fill=INK):
-    """Sasquatch sitting on a stump, reading the paper. (x, base) is the stump's foot."""
-    def P(pts):
-        return [(x + px * s, base - py * s) for px, py in pts]
-    # stump with growth rings on top
-    d.rectangle([x - 56 * s, base - 58 * s, x + 56 * s, base], fill=150, outline=fill, width=int(3 * s))
-    for bx in (-40, -22, 22, 40):  # bark lines
-        d.line([(x + bx * s, base - 50 * s), (x + bx * s, base - 6 * s)], fill=fill, width=max(1, int(2 * s)))
-    d.ellipse([x - 56 * s, base - 70 * s, x + 56 * s, base - 46 * s], fill=215, outline=fill, width=int(3 * s))
-    d.ellipse([x - 34 * s, base - 64 * s, x + 34 * s, base - 52 * s], outline=fill, width=int(2 * s))
-    # legs and big feet dangling in front of the stump
-    d.polygon(P([(-30, 66), (-32, 30), (-28, 12), (-14, 12), (-12, 30), (-8, 66)]), fill=fill)
-    d.polygon(P([(8, 66), (12, 30), (14, 12), (28, 12), (32, 30), (30, 66)]), fill=fill)
-    d.ellipse([x - 42 * s, base - 16 * s, x - 6 * s, base + 2 * s], fill=fill)
-    d.ellipse([x + 6 * s, base - 16 * s, x + 42 * s, base + 2 * s], fill=fill)
-    # shaggy body and head peeking over the paper
-    d.polygon(P([(-46, 60), (-50, 120), (-36, 150), (36, 150), (50, 120), (46, 60)]), fill=fill)
-    d.ellipse([x - 26 * s, base - 196 * s, x + 26 * s, base - 140 * s], fill=fill)
-    d.polygon(P([(-10, 194), (-4, 206), (2, 196), (8, 206), (12, 192)]), fill=fill)  # tuft of hair
-    d.ellipse([x - 13 * s, base - 176 * s, x - 5 * s, base - 168 * s], fill=PAPER)  # eyes
-    d.ellipse([x + 5 * s, base - 176 * s, x + 13 * s, base - 168 * s], fill=PAPER)
-    d.ellipse([x - 10 * s, base - 173 * s, x - 6 * s, base - 169 * s], fill=fill)
-    d.ellipse([x + 6 * s, base - 173 * s, x + 10 * s, base - 169 * s], fill=fill)
-    # the newspaper, held open, with a masthead rule, a headline bar, and columns
-    pw, ph, top = 78, 96, 160
-    d.polygon(P([(-pw, top), (pw, top - 6), (pw + 4, top - ph), (-pw - 4, top - ph + 6)]), fill=PAPER, outline=fill)
-    d.line(P([(0, top - 3), (2, top - ph + 3)]), fill=fill, width=max(1, int(2 * s)))  # fold
-    for side in (-1, 1):
-        x0 = 8 if side > 0 else -pw + 10
-        d.rectangle([x + x0 * s, base - (top - 14) * s, x + (x0 + 60) * s, base - (top - 22) * s], fill=fill)
-        for row in range(5):
-            yy = top - 32 - row * 11
-            d.line([(x + x0 * s, base - yy * s), (x + (x0 + 60) * s, base - yy * s)], fill=90, width=max(1, int(2 * s)))
-    # hands gripping the edges
-    d.ellipse([x - (pw + 14) * s, base - 128 * s, x - (pw - 8) * s, base - 104 * s], fill=fill)
-    d.ellipse([x + (pw - 8) * s, base - 130 * s, x + (pw + 14) * s, base - 106 * s], fill=fill)
+    """The classic striding Sasquatch, seen in profile mid-step: long arms swinging, hunched back,
+    pointed crown, pure silhouette like a Bigfoot crossing sign, a folded newspaper in his forward hand.
+    (x, base) is the ground point under his hips."""
+    def P(pts, fur=True, depth=3.2):
+        pts = [(x + px * s, base - py * s) for px, py in pts]
+        return _furry(pts, step=5 * s, depth=depth * s) if fur else pts
+    # trailing leg stretched back, toes pushing off
+    d.polygon(P([(-14, 100), (-36, 56), (-62, 14), (-76, 0), (-48, 0), (-42, 12), (-18, 50), (10, 92)]), fill=fill)
+    # leading leg reaching forward, knee bent, heel down
+    d.polygon(P([(-6, 96), (22, 60), (28, 12), (22, 0), (60, 0), (58, 8), (44, 14), (46, 62), (20, 102)]), fill=fill)
+    # trailing arm: long, swinging back to knee height
+    d.polygon(P([(-24, 188), (-46, 144), (-66, 98), (-62, 86), (-48, 92), (-30, 136), (-6, 178)]), fill=fill)
+    # torso leaning into the stride, big hump of shoulders and back
+    d.polygon(P([(-24, 96), (-38, 132), (-40, 168), (-28, 194), (-6, 206), (16, 200), (30, 178),
+                 (34, 142), (26, 104)], depth=3.8), fill=fill)
+    # head set low and forward, pointed crown
+    d.polygon(P([(2, 194), (-2, 214), (6, 232), (16, 240), (28, 228), (32, 210), (26, 194)]), fill=fill)
+    # leading arm swinging forward, hand low, holding the paper
+    d.polygon(P([(10, 186), (34, 146), (48, 104), (60, 98), (62, 110), (48, 150), (28, 190)]), fill=fill)
+    paper = [(52, 118), (88, 112), (86, 74), (50, 80)]
+    d.polygon(P(paper, fur=False), fill=PAPER, outline=fill)
+    d.polygon(P([(54, 112), (85, 107), (85, 101), (54, 106)], fur=False), fill=fill)  # masthead
+    for row in range(5):
+        y0 = 97 - row * 4.2
+        d.line(P([(55, y0), (84, y0 - 5)], fur=False), fill=90, width=max(1, int(1.2 * s)))
+    d.polygon(P([(50, 108), (62, 110), (64, 98), (52, 94)]), fill=fill)  # big hand over the paper
 
 
 def scene(width, height, seed=7, sasquatch_on=False):
@@ -157,7 +167,7 @@ def scene(width, height, seed=7, sasquatch_on=False):
             tree(d, x, sh * 0.88, h, h * 0.42)
         x += rnd.uniform(110, 170)
     if sasquatch_on:
-        sasquatch(d, sw * 0.59, sh * 0.862, 2.4)
+        sasquatch(d, sw * 0.585, sh * 0.865, 2.15)
 
     d.rectangle([0, 0, sw - 1, sh - 1], outline=INK, width=10)
     return img.resize((width, height), Image.LANCZOS)
