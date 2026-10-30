@@ -81,33 +81,82 @@ def _furry(poly, step=7, depth=4, seed=3):
     return out
 
 
+# Original Sasquatch outline: points along a smooth closed curve (local units, y down, feet at 390),
+# walking right in the classic striding pose.
+SASQUATCH = [
+    (150, 40), (166, 44), (176, 60), (178, 78), (172, 92),                        # crown and face
+    (188, 108), (204, 138), (218, 172), (232, 198), (246, 214), (254, 228),       # front arm, outer edge
+    (247, 236), (236, 231), (222, 217), (206, 201), (194, 180), (186, 162),       # front hand, inner arm
+    (184, 192), (186, 222), (180, 246),                                           # belly
+    (192, 272), (206, 300), (212, 330), (214, 360), (220, 376), (242, 380),       # leading leg and foot
+    (258, 386), (256, 394), (214, 395), (198, 392), (194, 376), (190, 346),
+    (184, 316), (172, 292), (160, 278),
+    (152, 300), (140, 330), (124, 360), (116, 374), (126, 386), (130, 394),       # trailing leg, heel up
+    (98, 394), (84, 388), (80, 374), (94, 350), (110, 318), (120, 286), (120, 256),
+    (117, 228), (115, 200), (117, 166), (121, 132), (126, 104), (132, 80),        # back and shoulder hump
+    (134, 60), (140, 46),
+]
+# The trailing arm, swinging back behind him (drawn separately so there's daylight between arm and back).
+SASQUATCH_ARM = [
+    (132, 100), (120, 132), (104, 164), (88, 190), (74, 208), (62, 220), (58, 232), (68, 240),
+    (82, 234), (98, 218), (114, 200), (128, 178), (140, 152), (146, 122),
+]
+
+
+def _smooth(pts, n=10):
+    """Closed Catmull-Rom spline through pts."""
+    out = []
+    for i in range(len(pts)):
+        p0, p1, p2, p3 = pts[i - 1], pts[i], pts[(i + 1) % len(pts)], pts[(i + 2) % len(pts)]
+        for k in range(n):
+            t = k / n
+            t2, t3 = t * t, t * t * t
+            out.append(tuple(0.5 * (2 * p1[j] + (-p0[j] + p2[j]) * t + (2 * p0[j] - 5 * p1[j] + 4 * p2[j] - p3[j]) * t2
+                                    + (-p0[j] + 3 * p1[j] - 3 * p2[j] + p3[j]) * t3) for j in (0, 1)))
+    return out
+
+
+def _shaggy(d, outline, x, base, s, fill, rnd):
+    """Fill a clockwise outline, then hang tapered hair strands from its undersides and back edges,
+    skipping the feet and the face so they stay crisp."""
+    d.polygon(outline, fill=fill)
+    n = len(outline)
+    for i in range(0, n, 2):
+        (x0, y0), (x1, y1) = outline[i - 1], outline[(i + 1) % n]
+        px, py = outline[i]
+        ly = (py - base) / s + 394
+        lx = (px - x) / s + 168
+        if ly > 372 or (lx > 168 and ly < 100):
+            continue
+        tx, ty = x1 - x0, y1 - y0
+        L = math.hypot(tx, ty) or 1
+        nx, ny = ty / L, -tx / L
+        if ny < 0.15 and nx > -0.55:
+            continue
+        dx, dy = nx * 0.45, max(ny, 0.35) + 0.35
+        k = math.hypot(dx, dy)
+        dx, dy = dx / k, dy / k
+        length = rnd.uniform(4, 8) * s
+        w = rnd.uniform(1.4, 2.4) * s
+        d.polygon([(px - tx / L * w, py - ty / L * w), (px + tx / L * w, py + ty / L * w),
+                   (px + dx * length, py + dy * length)], fill=fill)
+
+
 def sasquatch(d, x, base, s, fill=INK):
-    """The classic striding Sasquatch, seen in profile mid-step: long arms swinging, hunched back,
-    pointed crown, pure silhouette like a Bigfoot crossing sign, a folded newspaper in his forward hand.
-    (x, base) is the ground point under his hips."""
-    def P(pts, fur=True, depth=3.2):
-        pts = [(x + px * s, base - py * s) for px, py in pts]
-        return _furry(pts, step=5 * s, depth=depth * s) if fur else pts
-    # trailing leg stretched back, toes pushing off
-    d.polygon(P([(-14, 100), (-36, 56), (-62, 14), (-76, 0), (-48, 0), (-42, 12), (-18, 50), (10, 92)]), fill=fill)
-    # leading leg reaching forward, knee bent, heel down
-    d.polygon(P([(-6, 96), (22, 60), (28, 12), (22, 0), (60, 0), (58, 8), (44, 14), (46, 62), (20, 102)]), fill=fill)
-    # trailing arm: long, swinging back to knee height
-    d.polygon(P([(-24, 188), (-46, 144), (-66, 98), (-62, 86), (-48, 92), (-30, 136), (-6, 178)]), fill=fill)
-    # torso leaning into the stride, big hump of shoulders and back
-    d.polygon(P([(-24, 96), (-38, 132), (-40, 168), (-28, 194), (-6, 206), (16, 200), (30, 178),
-                 (34, 142), (26, 104)], depth=3.8), fill=fill)
-    # head set low and forward, pointed crown
-    d.polygon(P([(2, 194), (-2, 214), (6, 232), (16, 240), (28, 228), (32, 210), (26, 194)]), fill=fill)
-    # leading arm swinging forward, hand low, holding the paper
-    d.polygon(P([(10, 186), (34, 146), (48, 104), (60, 98), (62, 110), (48, 150), (28, 190)]), fill=fill)
-    paper = [(52, 118), (88, 112), (86, 74), (50, 80)]
-    d.polygon(P(paper, fur=False), fill=PAPER, outline=fill)
-    d.polygon(P([(54, 112), (85, 107), (85, 101), (54, 106)], fur=False), fill=fill)  # masthead
+    """An original striding Sasquatch silhouette carrying a folded newspaper.
+    (x, base) is the ground point between his feet; s is pixels per unit (the figure is ~355 units tall)."""
+    rnd = random.Random(11)
+    for shape in (SASQUATCH_ARM, SASQUATCH):
+        _shaggy(d, [(x + (px - 168) * s, base + (py - 394) * s) for px, py in _smooth(shape)], x, base, s, fill, rnd)
+    # the folded newspaper in his forward hand
+    def T(pts):
+        return [(x + (px - 168) * s, base + (py - 394) * s) for px, py in pts]
+    d.polygon(T([(236, 206), (276, 198), (282, 240), (242, 248)]), fill=PAPER, outline=fill)
+    d.polygon(T([(240, 210), (273, 204), (274, 211), (241, 217)]), fill=fill)          # masthead
     for row in range(5):
-        y0 = 97 - row * 4.2
-        d.line(P([(55, y0), (84, y0 - 5)], fur=False), fill=90, width=max(1, int(1.2 * s)))
-    d.polygon(P([(50, 108), (62, 110), (64, 98), (52, 94)]), fill=fill)  # big hand over the paper
+        y0 = 222 + row * 4.5
+        d.line(T([(242, y0), (277, y0 - 6)]), fill=90, width=max(1, int(1.2 * s)))
+    d.ellipse([x + (238 - 168) * s, base + (210 - 394) * s, x + (256 - 168) * s, base + (234 - 394) * s], fill=fill)  # hand
 
 
 def scene(width, height, seed=7, sasquatch_on=False):
@@ -159,7 +208,7 @@ def scene(width, height, seed=7, sasquatch_on=False):
 
     # foreground ground and big trees, leaving a clearing for our friend
     d.rectangle([0, sh * 0.86, sw, sh], fill=INK)
-    clearing = (sw * 0.50, sw * 0.68) if sasquatch_on else (-1, -1)
+    clearing = (sw * 0.48, sw * 0.70) if sasquatch_on else (-1, -1)
     x = -40
     while x < sw + 60:
         if not (clearing[0] < x < clearing[1]):
@@ -167,7 +216,7 @@ def scene(width, height, seed=7, sasquatch_on=False):
             tree(d, x, sh * 0.88, h, h * 0.42)
         x += rnd.uniform(110, 170)
     if sasquatch_on:
-        sasquatch(d, sw * 0.585, sh * 0.865, 2.15)
+        sasquatch(d, sw * 0.585, sh * 0.875, 1.65)
 
     d.rectangle([0, 0, sw - 1, sh - 1], outline=INK, width=10)
     return img.resize((width, height), Image.LANCZOS)
