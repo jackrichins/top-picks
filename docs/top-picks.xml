@@ -2,12 +2,12 @@
 <rss version="2.0"><channel>
 <title>Top Picks</title><link>https://jackrichins.github.io/top-picks</link>
 <description>The best of my feeds, picked by Claude.</description>
-<lastBuildDate>Fri, 30 Oct 2026 23:03:32 +0000</lastBuildDate>
+<lastBuildDate>Fri, 30 Oct 2026 23:19:37 +0000</lastBuildDate>
 <item>
 <title>Earth Sized Planets</title>
 <link>https://xkcd.com/3318/</link>
 <guid isPermaLink="false">ea1eed06a5a2dd65</guid>
-<pubDate>Fri, 30 Oct 2026 23:03:32 +0000</pubDate>
+<pubDate>Fri, 30 Oct 2026 23:19:37 +0000</pubDate>
 <author>xkcd.com</author>
 <description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; On your always-include list. (score 10)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;xkcd.com&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
 </item>
@@ -15,15 +15,15 @@
 <title>Why smart people stay stuck in research mode</title>
 <link>https://bigthink.com/mind-behavior/why-smart-people-stay-stuck-in-research-mode/</link>
 <guid isPermaLink="false">9f0138e6d67ace57</guid>
-<pubDate>Fri, 30 Oct 2026 23:03:32 +0000</pubDate>
+<pubDate>Fri, 30 Oct 2026 23:19:37 +0000</pubDate>
 <author>Big Think</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Why smart people over-research instead of starting, a sharp take on productivity and action. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Big Think&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;I recently had coffee with a university colleague who told me she was in the middle of planning a workshop. She had bought a couple of books about hosting workshops, had created a spreadsheet projecting attendance under different scenarios, and was now comparing ticketing platforms. But she still hadn’t invited a single person. We talked about how none of that research was necessarily a waste of time. When you love learning, figuring out the best approach can be enjoyable in itself. But every an&lt;/p&gt;</description>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Why smart people over-research instead of starting, a sharp take on productivity. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Big Think&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;I recently had coffee with a university colleague who told me she was in the middle of planning a workshop. She had bought a couple of books about hosting workshops, had created a spreadsheet projecting attendance under different scenarios, and was now comparing ticketing platforms. But she still hadn’t invited a single person. We talked about how none of that research was necessarily a waste of time. When you love learning, figuring out the best approach can be enjoyable in itself. But every an&lt;/p&gt;</description>
 </item>
 <item>
 <title>Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis</title>
 <link>https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html</link>
 <guid isPermaLink="false">a1aef0dfbfe55278</guid>
-<pubDate>Fri, 30 Oct 2026 23:03:32 +0000</pubDate>
+<pubDate>Fri, 30 Oct 2026 23:19:37 +0000</pubDate>
 <author>The Hacker News</author>
 <description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A hardware implant that leaks wallet recovery phrases over cellular, a supply-chain attack on key storage. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase. Trezor said in a blog post&lt;/p&gt;</description>
 </item>
@@ -31,7 +31,7 @@
 <title>Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor</title>
 <link>https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html</link>
 <guid isPermaLink="false">435e235b746fa3d9</guid>
-<pubDate>Fri, 30 Oct 2026 23:03:32 +0000</pubDate>
+<pubDate>Fri, 30 Oct 2026 23:19:37 +0000</pubDate>
 <author>The Hacker News</author>
 <description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A trojanized Claude Code extension shipped through an official marketplace, a supply-chain attack on AI dev tools. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Cybersecurity researchers have disclosed that a trojanized version of Anthropic&amp;#x27;s official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension&amp;#x27;s legitimate publisher identity, prompting Cursor to temporarily shut&lt;/p&gt;</description>
 </item>
@@ -39,64 +39,64 @@
 <title>Rivian’s autonomy gamble faces its first real test</title>
 <link>https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026</link>
 <guid isPermaLink="false">aac2a62e0d47fbab</guid>
-<pubDate>Fri, 30 Oct 2026 23:03:32 +0000</pubDate>
+<pubDate>Fri, 30 Oct 2026 23:19:37 +0000</pubDate>
 <author>The Verge</author>
 <description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Rivian&amp;#x27;s autonomy bet faces its first real test, directly relevant as an owner. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;During an hourlong earnings call last night, Rivian CEO RJ Scaringe spent less time talking about the production ramp of the all-important R2 SUV than he did hyping the company&amp;#x27;s still-unproven autonomous vehicle ambitions. But the company faces a crucial test later this year, when it rolls out its point-to-point hands-free driving feature - first […]&lt;/p&gt;</description>
+</item>
+<item>
+<title>★ MacBook Pro Pricing and Configurations for M6, M5 Pro, and M5 Max</title>
+<link>https://daringfireball.net/2026/10/macbook_pro_pricing_and_configurations_for_m6_m5_pro_and_m5_max</link>
+<guid isPermaLink="false">720b03619672413f</guid>
+<pubDate>Fri, 30 Oct 2026 23:19:37 +0000</pubDate>
+<author>Daring Fireball</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Gruber lays out every new MacBook Pro configuration and price in one place. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Apple’s dynamic configuration UI in their online store doesn’t hide or disguise the pricing or configuration options, but it doesn’t present all of the options at a glance. I find it useful to organize all of the configuration options into tables on a single page, and I figured it might be useful to share this now, before I finish writing my full thoughts on the redesigned hardware and displays for the PROLED XDR models. Notes: The old-style (mini-LED, no touchscreens, heavier) M5 Pro and M5 Max&lt;/p&gt;</description>
 </item>
 <item>
 <title>The Only Good Easter Eggs Are Whole-Assed Easter Eggs</title>
 <link>https://daringfireball.net/linked/2026/10/30/wichary-apple-ipod-easter-egg</link>
 <guid isPermaLink="false">40f808ddad826b2e</guid>
-<pubDate>Fri, 30 Oct 2026 23:03:32 +0000</pubDate>
+<pubDate>Fri, 30 Oct 2026 23:19:37 +0000</pubDate>
 <author>Daring Fireball</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A delightful bit of Apple whimsy and craft: a full iPod recreated as a 404 page easter egg. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Marcin Wichary on the original iPod easter egg on Apple Music’s website 404 page: I am usually not a fan of easter eggs — most of them are poorly made — but this might be the best iPod recreation I’ve seen, and it’s an interesting thing to study: I think it generally covers all the modes etc. (with small exceptions) the typography looks accurate, it has the little “haptic” beeps, it has proper acceleration and the scrollbar, it has a little music library with various playlists, I have only notic&lt;/p&gt;</description>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Gruber on Apple Music&amp;#x27;s iPod easter egg, and why craft matters even in jokes. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Marcin Wichary on the original iPod easter egg on Apple Music’s website 404 page: I am usually not a fan of easter eggs — most of them are poorly made — but this might be the best iPod recreation I’ve seen, and it’s an interesting thing to study: I think it generally covers all the modes etc. (with small exceptions) the typography looks accurate, it has the little “haptic” beeps, it has proper acceleration and the scrollbar, it has a little music library with various playlists, I have only notic&lt;/p&gt;</description>
 </item>
 <item>
-<title>GM to Pay $220 Million After Betraying Their Own Drivers’ Privacy</title>
-<link>https://daringfireball.net/linked/2026/10/30/gm-privacy-settlement</link>
-<guid isPermaLink="false">12cd208169661f62</guid>
-<pubDate>Fri, 30 Oct 2026 23:03:32 +0000</pubDate>
-<author>Daring Fireball</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A $220M settlement over GM selling driver location data, a privacy story with real consequences. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Jonathan Stempel, reporting for Reuters: General Motors will pay $220 million to settle ​allegations that it illegally sold drivers’ private behavior and location data to brokers, who then sold the information to insurers that used it to set and sometimes increase rates. The settlement, announced on Thursday, resolves claims by the attorneys general of 35 US states and the District ​of Columbia over the automaker’s Smart Driver program, which enrolled millions of drivers ​between 2016 and its di&lt;/p&gt;</description>
+<title>App Report: Picture perfect</title>
+<link>https://sixcolors.com/post/2026/10/app-report-picture-perfect/</link>
+<guid isPermaLink="false">f6e0ccce887d88a3</guid>
+<pubDate>Fri, 30 Oct 2026 23:19:37 +0000</pubDate>
+<author>Six Colors</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Jason Snell spotlights the best iPhone camera apps. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Six Colors&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Let’s set aside the Mac this week and turn our app spotlight to the iPhone… and a more specific part of the iPhone at that — the camera.…&lt;/p&gt;</description>
 </item>
 <item>
-<title>Alkaline batteries are obsolete — but not for the reason you&#x27;d think</title>
-<link>https://www.youtube.com/watch?v=I1rlK3BKmyA</link>
-<guid isPermaLink="false">c0069883dd710f8d</guid>
-<pubDate>Fri, 30 Oct 2026 23:03:32 +0000</pubDate>
-<author>Technology Connections</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Technology Connections digs into why alkaline batteries are obsolete, a classic engineering explainer. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Technology Connections&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Innovation is sometimes funny. Links &amp;#x27;n stuff: Technology Connections on Bluesky: https://bsky.app/profile/techconnectify.bsky.social Technology Connections on Mastodon: https://mas.to/@TechConnectify Have you ever noticed that I&amp;#x27;ve never done that whole influencer thing? That&amp;#x27;s all thanks to people like you! Viewer support through Patreon keeps this channel independent and possible. If you&amp;#x27;d like to join the amazing folks who fund my work, as well as folks in need in Chicagoland and beyond, che&lt;/p&gt;</description>
+<title>Australia: App Marketplaces, External Payments, No Fees/Audit</title>
+<link>https://mjtsai.com/blog/2026/10/30/australia-app-marketplaces-external-payments-no-fees-audit/</link>
+<guid isPermaLink="false">acad7b627838c20e</guid>
+<pubDate>Fri, 30 Oct 2026 23:19:37 +0000</pubDate>
+<author>Michael Tsai</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Australia orders Apple to allow rival app stores and payments, a major ruling, with Tsai&amp;#x27;s roundup of reactions. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Michael Tsai&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Hartley Charlton (Hacker News): Australia’s Federal Court today ordered Apple to allow competing app stores, direct app downloads, and alternative payment services for Australian users from March 1, 2027. […] Apple must let users find, download, install, and update apps through competing marketplaces and websites without charging for access or obstructing their use. Developers must […]&lt;/p&gt;</description>
 </item>
 <item>
-<title>Ask Ethan: What should you do when a respected theory is false?</title>
-<link>https://bigthink.com/starts-with-a-bang/when-respected-theory-false/</link>
-<guid isPermaLink="false">2ad91f1f82d1e2f3</guid>
-<pubDate>Fri, 30 Oct 2026 23:03:32 +0000</pubDate>
-<author>Big Think</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Ethan Siegel on how science should respond when a respected theory turns out to be wrong. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Big Think&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;At every point in our quest to understand the world and universe — the one around us and the one within us — we can only start based on what we know and can imagine at present. We are biased by what we know and what we’re ignorant of, and we’re also influenced by the range of experiences that we’re aware of. Nobody has access to the full suite of evidence that all of humanity has ever collected, and even that full suite of evidence doesn’t shed light on all that exists and is possible within our&lt;/p&gt;</description>
+<title>Russia Wants User Data From Apple</title>
+<link>https://mjtsai.com/blog/2026/10/30/russia-wants-user-data-from-apple/</link>
+<guid isPermaLink="false">c4bfce3fca85f678</guid>
+<pubDate>Fri, 30 Oct 2026 23:19:37 +0000</pubDate>
+<author>Michael Tsai</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Russia adds Apple to its surveillance registry and demands user data; Tsai collects the reactions. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Michael Tsai&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Hartley Charlton (Hacker News): Apple faces Russian data retention and disclosure requirements after being added to the country&amp;#x27;s state surveillance registry, Bloomberg reports. […] Those obligations cover correspondence and messages containing audio or video. Companies must also keep information identifying users and recording the transmission of their communications within Russia for three years. I guess […]&lt;/p&gt;</description>
 </item>
 <item>
-<title>The 3 great origin mysteries: The universe, life, and consciousness</title>
-<link>https://bigthink.com/series/full-interview/origin-life-davies/</link>
-<guid isPermaLink="false">082c021f98947fbf</guid>
-<pubDate>Fri, 30 Oct 2026 23:03:32 +0000</pubDate>
-<author>Big Think</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Paul Davies on the three great origin mysteries: the universe, life, and consciousness. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Big Think&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Physicist and cosmologist Paul Davies, author of The Demon in the Machine, argues that the deepest mystery of life’s origin is how chemistry came to write its own code. Davies traces the question from Aristotle and Schrödinger’s “aperiodic crystal” to Maxwell’s demon, Michael Levin’s two-headed flatworms, and the possibility of a shadow biosphere hiding on Earth. This video The 3 great origin mysteries: The universe, life, and consciousness is featured on Big Think .&lt;/p&gt;</description>
+<title>iPhone Duo Crackgate</title>
+<link>https://mjtsai.com/blog/2026/10/30/iphone-duo-crackgate/</link>
+<guid isPermaLink="false">320405aabf938946</guid>
+<pubDate>Fri, 30 Oct 2026 23:19:37 +0000</pubDate>
+<author>Michael Tsai</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Tsai rounds up the iPhone Duo hinge-crack reports, the week&amp;#x27;s biggest Apple hardware story. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Michael Tsai&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Juli Clover (forum): Some iPhone Duos are already experiencing hinge issues that cause display cracks, based on photos shared on Reddit and the MacRumors forums. Almost all of the display faults are right along the hinge, and most result in a line of bright pixels across one side of the screen. Juli Clover (iFixit, Hacker […]&lt;/p&gt;</description>
 </item>
 <item>
-<title>Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide</title>
-<link>https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html</link>
-<guid isPermaLink="false">57600b13f515dc1d</guid>
-<pubDate>Fri, 30 Oct 2026 23:03:32 +0000</pubDate>
-<author>The Hacker News</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; State-backed attackers now run an AI-powered pentest framework against 200+ organizations. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based &amp;quot;targeted intrusion adversary&amp;quot; it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in&lt;/p&gt;</description>
-</item>
-<item>
-<title>Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen</title>
-<link>https://thehackernews.com/2026/10/binance-suffers-security-breach.html</link>
-<guid isPermaLink="false">7bbbe615750c0eec</guid>
-<pubDate>Fri, 30 Oct 2026 23:03:32 +0000</pubDate>
-<author>The Hacker News</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A $6.3B exchange breach, likely a key management failure worth watching. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Cryptocurrency giant Binance said on Thursday that a &amp;quot;security incident&amp;quot; on its platform has impacted about $6.3 billion worth of assets. The world&amp;#x27;s biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far. Tether and Circle said they have frozen more than 1.567 billion USDT and 800 million USDC related to the incident, respectively. The&lt;/p&gt;</description>
+<title>The delightfully messy state of Apple gadgets</title>
+<link>https://www.theverge.com/podcast/1023194/the-delightfully-messy-state-of-apple-gadgets</link>
+<guid isPermaLink="false">1283c18d64b02847</guid>
+<pubDate>Fri, 30 Oct 2026 23:19:37 +0000</pubDate>
+<author>The Verge</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A thoughtful look at Apple&amp;#x27;s new era of gadget experimentation. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;The iPhone has more screens! The MacBook has a touchscreen! The HomeView does CarPlay apps! For the first time in a long time, Apple is in a period of unabashed gadget experimentation, and while the final results aren&amp;#x27;t always perfect, it&amp;#x27;s fun to watch the most successful product maker try some new things again. Even […]&lt;/p&gt;</description>
 </item>
 </channel></rss>

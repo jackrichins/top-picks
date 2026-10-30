@@ -148,7 +148,7 @@ PROMPT = """You curate a personal news feed. Here is the reader's interest profi
 
 Score each item below from 1 to 10 for how much this reader would want to see it.
 10 = must read, 7 = worth their time, 4 = mildly interesting, 1 = noise.
-Judge by the profile, not by general popularity. Be strict: most items should score below 7.
+Judge by the profile, not by general popularity. Be strict: most items should score below 7, but timely news the profile asks for counts as 7+.
 
 For each item also give:
 - "reason": one short sentence saying why it matters to this reader (no em dashes).
@@ -334,10 +334,12 @@ def main():
     log(f"{len(fetched)} items fetched, {len(new)} new")
 
     skip = re.compile("|".join(cfg.get("skip_title_patterns") or ["$^"]), re.I)
-    skipped = [it for it in new if skip.search(it["title"] or "")]
+    skip_sum = re.compile("|".join(cfg.get("skip_summary_patterns") or ["$^"]), re.I)
+    is_skip = lambda it: skip.search(it["title"] or "") or skip_sum.search((it["summary"] or "")[:200])
+    skipped = [it for it in new if is_skip(it)]
     for it in skipped:
         seen[it["id"]] = NOW.isoformat()  # never look at these again
-    new = [it for it in new if not skip.search(it["title"] or "")]
+    new = [it for it in new if not is_skip(it)]
     if skipped:
         log(f"Skipped {len(skipped)} sponsor posts")
 
