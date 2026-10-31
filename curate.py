@@ -414,13 +414,15 @@ def main():
 
     skip = re.compile("|".join(cfg.get("skip_title_patterns") or ["$^"]), re.I)
     skip_sum = re.compile("|".join(cfg.get("skip_summary_patterns") or ["$^"]), re.I)
-    is_skip = lambda it: skip.search(it["title"] or "") or skip_sum.search((it["summary"] or "")[:200])
+    skip_link = re.compile("|".join(cfg.get("skip_link_patterns") or ["$^"]), re.I)
+    is_skip = lambda it: (skip.search(it["title"] or "") or skip_sum.search((it["summary"] or "")[:200])
+                          or skip_link.search(it.get("link") or ""))
     skipped = [it for it in new if is_skip(it)]
     for it in skipped:
         seen[it["id"]] = NOW.isoformat()  # never look at these again
     new = [it for it in new if not is_skip(it)]
     if skipped:
-        log(f"Skipped {len(skipped)} sponsor posts")
+        log(f"Skipped {len(skipped)} sponsor or podcast posts")
 
     to_score = []
     for it in new:

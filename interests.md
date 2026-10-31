@@ -10,7 +10,7 @@ I'm Jack, a product manager lead on Azure Security key management at Microsoft a
 ## My favorite Apple writers: score their real posts 7+
 Daring Fireball (Gruber), Six Colors (Snell), 512 Pixels (Hackett), MacStories (Viticci), Hypercritical (Siracusa), Liss is More (Casey Liss), Michael Tsai, Spyglass (Kafka), Pogue's Posts, Basic Apple Guy.
 - **Yes (7+):** opinion pieces, analysis, reviews, history, linked-list posts with real commentary, and their coverage of the day's top Apple news.
-- **No (1 to 3):** podcast episode announcements, "I was on this show" appearance posts, sponsor and "thanks to X for sponsoring" posts, membership pitches, and bare newsletter or issue announcements.
+- **No (1 to 3):** podcast episode announcements and recaps (a post that just summarizes or promotes an episode, like Verge posts under /podcast/), "I was on this show" appearance posts, sponsor and "thanks to X for sponsoring" posts, membership pitches, and bare newsletter or issue announcements.
 
 ## Top Apple news: score 7+
 New products, OS releases, major features, big company news, and legal or regulatory rulings that change how Apple works. Pick the best single version of each story, and prefer my favorite writers over MacRumors, 9to5Mac, and The Verge.

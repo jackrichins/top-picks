@@ -67,6 +67,10 @@ skip_summary_patterns:
   - "thanks to .{1,60} for sponsoring"
   - "^sponsored by"
 
+# Links matching these are dropped too (posts that just promote a podcast episode)
+skip_link_patterns:
+  - "theverge\\.com/podcasts?/"
+
 # Feeds that always get through, no scoring (exact titles from feeds.opml)
 always_include:
   - Dan Carlin's Hardcore History
