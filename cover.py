@@ -176,22 +176,18 @@ def photo_scene(width, height, sasquatch_on=True, seed=5):
     photo = photo.resize((sw, sh), Image.LANCZOS).filter(ImageFilter.GaussianBlur(4))
     # three flat tones: snow, rock, shadow
     snow = photo.point(lambda v: 248 if v > 175 else (168 if v > 120 else 112))
-    # the upper mountain is clean snow (the photo's gray patches up there are cloud shadows)
-    upper = Image.new("L", (sw, sh), 0)
-    ImageDraw.Draw(upper).rectangle([0, 0, sw, int(275 * fy)], fill=255)
-    snow = Image.composite(Image.new("L", (sw, sh), 248), snow, upper.filter(ImageFilter.GaussianBlur(30)))
     # clean sky: soft gradient, lighter near the horizon
-    sky = Image.linear_gradient("L").resize((sw, sh)).point(lambda v: 214 + int(v * 0.12))
+    sky = Image.linear_gradient("L").resize((sw, sh)).point(lambda v: 205 + int(v * 0.17))
     mask = Image.new("L", (sw, sh), 0)
     ImageDraw.Draw(mask).polygon([(x * fx, y * fy) for x, y in RAINIER_OUTLINE], fill=255)
     img = Image.composite(snow, sky, mask)
     d = ImageDraw.Draw(img)
-    d.line([(x * fx, y * fy) for x, y in RAINIER_OUTLINE[:-2]], fill=120, width=4, joint="curve")
+    d.line([(x * fx, y * fy) for x, y in RAINIER_OUTLINE[:-2]], fill=90, width=4, joint="curve")
     rnd = random.Random(seed)
     # foothills in front of the mountain's base
     hills = [(0, sh)] + [(i, sh * 0.60 - math.sin(i / sw * math.pi * 3.1) * sh * 0.025
                           - math.sin(i / sw * math.pi * 7.3 + 1) * sh * 0.012) for i in range(0, sw + 20, 20)] + [(sw, sh)]
-    d.polygon(hills, fill=138)
+    d.polygon(hills, fill=72)
 
     def ridge_y(px):
         return sh * 0.80 - math.sin(px / sw * math.pi * 1.2 + 0.5) * sh * 0.03
