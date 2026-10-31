@@ -155,15 +155,24 @@ def sasquatch(d, x, base, s, fill=INK):
     d.ellipse([x + (222 - 168) * s, base + (204 - 394) * s, x + (240 - 168) * s, base + (230 - 394) * s], fill=fill)  # hand
 
 
-PHOTO = Path(__file__).resolve().parent / "assets" / "rainier-from-north.jpg"
-PHOTO_CREDIT = "Rainier adapted from a photo by Jdtaylor428, CC BY-SA 4.0"
+PHOTO = Path(__file__).resolve().parent / "assets" / "rainier-north-aerial.jpg"
+PHOTO_CREDIT = "Rainier adapted from a photo by Liesl Matthies, CC BY-SA 3.0"
 
 
-# Rainier's north-face profile traced from the photo (in a 1420 x 640 frame), smoothed into a broad dome.
-RAINIER_OUTLINE = [(0, 352), (60, 334), (120, 320), (170, 300), (220, 266), (262, 230), (300, 198),
-                   (340, 176), (400, 165), (460, 167), (520, 178), (570, 193), (640, 215), (700, 240),
-                   (760, 264), (820, 284), (880, 299), (940, 309), (1000, 312), (1060, 318), (1110, 331),
-                   (1170, 346), (1230, 360), (1300, 370), (1420, 378), (1420, 640), (0, 640)]
+# Rainier's true north-face profile, traced from the photo (pixel coordinates in the 1200 x 400 crop):
+# the left-shoulder bump, the broad summit dome, and the long shoulder trailing west.
+RAINIER_OUTLINE = [(28, 291.2), (40, 285.1), (52, 277.1), (156, 277.0), (168, 275.8), (180, 272.4), (196, 268.6),
+    (208, 266.1), (220, 261.9), (232, 253.1), (244, 241.1), (256, 231.1), (268, 225.1), (280, 223.0), (292, 223.0),
+    (304, 223.0), (316, 223.0), (328, 226.3), (340, 230.9), (352, 231.4), (364, 226.3), (376, 219.9), (388, 213.1),
+    (400, 205.6), (412, 197.3), (424, 189.3), (436, 181.9), (448, 174.6), (460, 167.6), (472, 160.7), (484, 153.7),
+    (496, 147.7), (508, 142.6), (520, 137.6), (532, 132.3), (544, 128.6), (556, 127.0), (568, 127.0), (580, 127.0),
+    (592, 127.3), (604, 127.7), (616, 128.0), (628, 128.9), (640, 129.9), (652, 131.6), (664, 133.4), (676, 135.6),
+    (688, 139.4), (700, 144.9), (712, 152.4), (724, 160.3), (736, 167.4), (748, 174.9), (760, 181.4), (772, 187.4),
+    (784, 193.4), (796, 201.0), (808, 210.7), (820, 219.6), (832, 224.4), (844, 229.4), (856, 236.7), (868, 244.7),
+    (880, 250.4), (892, 253.7), (904, 256.7), (916, 260.7), (928, 264.1), (940, 266.7), (952, 268.1), (964, 270.3),
+    (976, 272.0), (988, 273.3), (1000, 275.7), (1012, 278.7), (1024, 281.4), (1036, 284.9), (1048, 288.4),
+    (1060, 291.0), (1072, 292.9), (1084, 293.7), (1096, 294.8), (1108, 296.9), (1120, 299.0), (1132, 299.5),
+    (1144, 299.6)]
 
 
 def photo_scene(width, height, sasquatch_on=True, seed=5):
@@ -171,18 +180,26 @@ def photo_scene(width, height, sasquatch_on=True, seed=5):
     simplified (posterized) version of its glaciers, dark foothills, then the forest ridge and the Sasquatch."""
     from PIL import ImageFilter
     sw, sh = width * 2, height * 2
-    fx, fy = sw / 1420, sh / 640
-    photo = Image.open(PHOTO).convert("L")
-    photo = photo.resize((sw, sh), Image.LANCZOS).filter(ImageFilter.GaussianBlur(4))
-    # three flat tones: snow, rock, shadow
-    snow = photo.point(lambda v: 248 if v > 175 else (168 if v > 120 else 112))
+    # map the photo crop so the mountain spans the frame and its base sits on the foothills
+    k = sw / (1144 - 28) * 1.3
+    ox, oy = sw * 0.47 - 590 * k, sh * 0.60 - 300 * k   # summit a little left of center
+    def M(x, y):
+        return (ox + x * k, oy + y * k)
+    src = Image.open(PHOTO).convert("L")
+    src = src.resize((int(src.width * k), int(src.height * k)), Image.LANCZOS).filter(ImageFilter.GaussianBlur(5))
+    # three flat tones from the real snow pattern: lit snow, shaded snow, rock and shadow
+    tones = src.point(lambda v: 250 if v >= 226 else (214 if v >= 214 else 178))
+    layer = Image.new("L", (sw, sh), 178)
+    layer.paste(tones, (int(ox), int(oy)))
     # clean sky: soft gradient, lighter near the horizon
-    sky = Image.linear_gradient("L").resize((sw, sh)).point(lambda v: 205 + int(v * 0.17))
+    sky = Image.linear_gradient("L").resize((sw, sh)).point(lambda v: 190 + int(v * 0.22))
+    outline = [M(x, y) for x, y in RAINIER_OUTLINE]
+    outline = [(0, outline[0][1])] + outline + [(sw, outline[-1][1])]  # shoulders run off both edges
     mask = Image.new("L", (sw, sh), 0)
-    ImageDraw.Draw(mask).polygon([(x * fx, y * fy) for x, y in RAINIER_OUTLINE], fill=255)
-    img = Image.composite(snow, sky, mask)
+    ImageDraw.Draw(mask).polygon(outline + [(sw, sh), (0, sh)], fill=255)
+    img = Image.composite(layer, sky, mask)
     d = ImageDraw.Draw(img)
-    d.line([(x * fx, y * fy) for x, y in RAINIER_OUTLINE[:-2]], fill=90, width=4, joint="curve")
+    d.line(outline, fill=95, width=4, joint="curve")
     rnd = random.Random(seed)
     # foothills in front of the mountain's base
     hills = [(0, sh)] + [(i, sh * 0.60 - math.sin(i / sw * math.pi * 3.1) * sh * 0.025

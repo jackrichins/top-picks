@@ -195,8 +195,8 @@ def build(cfg, picks, out_path):
         toc.append((epub.Section(sec, href=sec_chapters[0].file_name), sec_chapters))
 
     if cover.PHOTO.exists():
-        front_html.append("<p class='meta'>Cover photo of Mount Rainier: \"Mount Rainier and Seattle\" by Jdtaylor428, "
-                          "CC BY-SA 4.0 (commons.wikimedia.org), stylized: outline traced, clouds removed, tones simplified.</p>")
+        front_html.append("<p class='meta'>Cover art of Mount Rainier adapted from \"Aerial Seattle and Mt Rainier\" by Liesl Matthies, "
+                          "CC BY-SA 3.0 (commons.wikimedia.org): outline traced, tones simplified.</p>")
     front = epub.EpubHtml(title="Front Page", file_name="front.xhtml", lang="en")
     front.content = "".join(front_html)
     front.add_item(style)
