@@ -196,7 +196,7 @@ def build(cfg, picks, out_path):
 
     if cover.PHOTO.exists():
         front_html.append("<p class='meta'>Cover photo of Mount Rainier: \"Mount Rainier and Seattle\" by Jdtaylor428, "
-                          "CC BY-SA 4.0 (commons.wikimedia.org), cropped and converted to grayscale.</p>")
+                          "CC BY-SA 4.0 (commons.wikimedia.org), stylized: outline traced, clouds removed, tones simplified.</p>")
     front = epub.EpubHtml(title="Front Page", file_name="front.xhtml", lang="en")
     front.content = "".join(front_html)
     front.add_item(style)
