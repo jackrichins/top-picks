@@ -271,6 +271,21 @@ def full_article(it):
     content = re.sub(r'(?i)(src|href)="(?!https?:|mailto:|#)([^"]+)"',
                      lambda m: f'{m.group(1)}="{urljoin(link, html.unescape(m.group(2)))}"', content)
     content = re.sub(r"(?is)<script\b.*?</script>", "", content)
+    return add_captions(content, link)
+
+
+def add_captions(content, link):
+    """Show hover and alt text under images as a visible caption (on xkcd, that's where the joke is),
+    and point xkcd comics to their Explain xkcd page."""
+    def caption(m):
+        tag = m.group(0)
+        t = re.search(r'title="([^"]{25,})"', tag) or re.search(r'alt="([^"]{40,})"', tag)
+        return tag + (f"<p><em>{t.group(1)}</em></p>" if t else "")
+    content = re.sub(r"(?is)<img\b[^>]*>", caption, content)
+    num = re.search(r"xkcd\.com/(\d+)", link or "")
+    if num and "explainxkcd" not in content:
+        content += (f'<p><a href="https://www.explainxkcd.com/wiki/index.php/{num.group(1)}">'
+                    "Still not sure? Explain this comic</a></p>")
     return content
 
 
