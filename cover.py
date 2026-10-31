@@ -155,6 +155,48 @@ def sasquatch(d, x, base, s, fill=INK):
     d.ellipse([x + (222 - 168) * s, base + (204 - 394) * s, x + (240 - 168) * s, base + (230 - 394) * s], fill=fill)  # hand
 
 
+PHOTO = Path(__file__).resolve().parent / "assets" / "rainier-from-north.jpg"
+PHOTO_CREDIT = "Rainier photo: Jdtaylor428, CC BY-SA 4.0"
+
+
+def photo_scene(width, height, sasquatch_on=True, seed=5):
+    """Mount Rainier from the north (real photo, grayscale) behind an original forest ridge,
+    with the Sasquatch striding along the ridge against the snow."""
+    sw, sh = width * 2, height * 2
+    photo = Image.open(PHOTO).convert("L")
+    scale = max(sw / photo.width, sh / photo.height)
+    photo = photo.resize((int(photo.width * scale) + 1, int(photo.height * scale) + 1), Image.LANCZOS)
+    left = (photo.width - sw) // 2
+    img = photo.crop((left, 0, left + sw, sh))
+    # light haze over the foothills, like a clear day looking south across Lake Washington
+    haze = Image.linear_gradient("L").resize((sw, sh))            # 0 at top, 255 at bottom
+    haze = haze.point(lambda v: 0 if v < 150 else min(120, (v - 150) * 1.4))
+    img = Image.composite(Image.new("L", (sw, sh), 205), img, haze)
+    d = ImageDraw.Draw(img)
+    rnd = random.Random(seed)
+
+    def ridge_y(px):
+        return sh * 0.80 - math.sin(px / sw * math.pi * 1.2 + 0.5) * sh * 0.03
+
+    # dense tree line along the ridge, then the dark ridge itself
+    x = -20
+    while x < sw + 20:
+        h = rnd.uniform(0.04, 0.10) * sh
+        tree(d, x, ridge_y(x) + 8, h, h * 0.45)
+        x += rnd.uniform(14, 30)
+    d.polygon([(0, sh)] + [(i, ridge_y(i) + rnd.uniform(-3, 3)) for i in range(0, sw + 40, 40)] + [(sw, sh)], fill=INK)
+    # a few tall evergreens framing the edges
+    for x in list(range(-30, int(sw * 0.13), 70)) + list(range(int(sw * 0.88), sw + 60, 70)):
+        edge = min(x, sw - x) / sw
+        h = rnd.uniform(0.30, 0.45) * sh * (1.25 - 3 * max(edge, 0))
+        tree(d, x + rnd.uniform(-15, 15), ridge_y(x) + 40, h, h * 0.40)
+    if sasquatch_on:
+        sx = sw * 0.70
+        sasquatch(d, sx, ridge_y(sx) + 10, 1.15)
+    d.rectangle([0, 0, sw - 1, sh - 1], outline=INK, width=10)
+    return img.resize((width, height), Image.LANCZOS)
+
+
 def scene(width, height, seed=7, sasquatch_on=False):
     """Draw at 2x and downsample for smooth edges."""
     sw, sh = width * 2, height * 2
@@ -251,7 +293,10 @@ def make_cover(name, tagline, date_label, edition, place, picks, feed_count, sas
 
     # illustration
     art_h = 640
-    img.paste(scene(cw, art_h, sasquatch_on=sasquatch), (M, y + 125))
+    art = photo_scene(cw, art_h, sasquatch_on=sasquatch) if PHOTO.exists() else scene(cw, art_h, sasquatch_on=sasquatch)
+    img.paste(art, (M, y + 125))
+    if PHOTO.exists():
+        d.text((W - M - 8, y + 125 + art_h - 10), PHOTO_CREDIT, font=F("body-italic.woff", 20), fill=PAPER, anchor="rb")
     y = y + 125 + art_h + 50
 
     picks = [dict(p, title=clean(p.get("title"))) for p in picks if clean(p.get("title"))]

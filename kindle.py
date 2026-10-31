@@ -149,7 +149,9 @@ def build(cfg, picks, out_path):
     book.set_title(title)
     book.set_language("en")
     book.add_author("Top Picks")
-    top = sorted(picks, key=lambda p: -p.get("score", 0))
+    # cover headlines: real top stories first; always-include items (score 10 by rule) rank like a 7
+    top = sorted(picks, key=lambda p: -(7 if (p.get("reason") or "").startswith("On your always-include")
+                                       else p.get("score", 0)))
     start = datetime.fromisoformat(str(kc.get("start_date", today.date()))).date()
     issue = max(1, (today.date() - start).days + 1)
     volume = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"][min(9, max(0, (issue - 1) // 365))]
@@ -192,6 +194,9 @@ def build(cfg, picks, out_path):
         front_html.append("</ul>")
         toc.append((epub.Section(sec, href=sec_chapters[0].file_name), sec_chapters))
 
+    if cover.PHOTO.exists():
+        front_html.append("<p class='meta'>Cover photo of Mount Rainier: \"Mount Rainier and Seattle\" by Jdtaylor428, "
+                          "CC BY-SA 4.0 (commons.wikimedia.org), cropped and converted to grayscale.</p>")
     front = epub.EpubHtml(title="Front Page", file_name="front.xhtml", lang="en")
     front.content = "".join(front_html)
     front.add_item(style)
