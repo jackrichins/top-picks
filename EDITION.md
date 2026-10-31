@@ -11,9 +11,10 @@ Claude scheduled tasks follow these steps. The evening and weekend tasks run wit
 
 ## Steps
 1. **Set up.** From the repo root: `pip install -r requirements.txt --break-system-packages -q`
-2. **Fetch.** `python3 curate.py --export /tmp/to_score.jsonl`
-   - This prints how many items need scores. If it's 0, skip to step 5.
-3. **Score.** Read `interests.md`, then read every line of `/tmp/to_score.jsonl`. Score every item from 1 to 10 for how much Jack would want to see it, following the score guide in `interests.md`:
+2. **Refresh Jack's tastes (evening and weekend editions only).** Read the private Favorites and Bookmarks links from Jack's Mac with the `osascript` tool: `do shell script "cat /Users/jackr/RichinsReader/taste-feeds.txt"`. Then run `TASTE_FEEDS="<the links>" python3 tastes.py`, which rewrites the "Recently favorited" section of `interests.md`. Never write these links into the repo, a commit, or your report. If the Mac can't be reached, skip this step.
+3. **Fetch.** `python3 curate.py --export /tmp/to_score.jsonl`
+   - This prints how many items need scores. If it's 0, skip to step 6.
+4. **Score.** Read `interests.md` (including its "Recently favorited" section, the freshest signal of Jack's tastes), then read every line of `/tmp/to_score.jsonl`. Score every item from 1 to 10 for how much Jack would want to see it, following the score guide in `interests.md`:
    - Be strict. Most items should score below 7, but timely news the profile asks for counts as 7+.
    - Aim for **8 to 12 items at 7+** per edition (fewer on quiet days is fine).
    - `reason`: one short sentence saying why it matters to Jack. No em dashes.
@@ -21,10 +22,10 @@ Claude scheduled tasks follow these steps. The evening and weekend tasks run wit
    - Write `/tmp/scores.json` as one JSON object keyed by item id:
      `{"<id>": {"score": 7, "reason": "...", "story": "..."}, ...}`
      Use a short script to write it, and check that every id from the export has a score.
-4. **Publish.** `python3 curate.py --apply /tmp/scores.json`
-5. **Push.** Commit `docs/` and `state/` and push to `main` with the message `Morning edition`, `Evening edition`, or `Weekend edition`.
+5. **Publish.** `python3 curate.py --apply /tmp/scores.json`
+6. **Push.** Commit `docs/`, `state/`, and `interests.md` and push to `main` with the message `Morning edition`, `Evening edition`, or `Weekend edition`.
    - If the push is rejected because the remote changed, `git pull --rebase` and push again.
-6. **Kindle edition (evening and weekend editions only).** Mail on Jack's Mac sends it.
+7. **Kindle edition (evening and weekend editions only).** Mail on Jack's Mac sends it.
    1. **Get the private Reeder links.** Read them from Jack's Mac with the `osascript` tool:
       `do shell script "cat /Users/jackr/RichinsReader/later-feed-url.txt"`
       These links are private. Never write them into the repo, a commit, or your report.
@@ -54,4 +55,4 @@ Claude scheduled tasks follow these steps. The evening and weekend tasks run wit
       ```
    6. **Record it.** Only if the send succeeded: `python3 kindle.py --mark-sent`, then commit `state/` (the send time and which saved articles were delivered) with the message `Kindle edition sent` and push.
    7. If the Mac can't be reached, skip the send and don't mark it sent. The next Kindle edition will include these articles.
-7. **Check.** Confirm the pushes succeeded. Report the number of picks, the top 3 titles, and whether the Kindle edition was sent.
+8. **Check.** Confirm the pushes succeeded. Report the number of picks, the top 3 titles, and whether the Kindle edition was sent.

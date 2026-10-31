@@ -8,6 +8,8 @@ An AI-curated RSS feed built from your subscriptions, plus **The Richins Reader*
 
 Claude scheduled tasks do the scoring (no API key needed) by following [EDITION.md](EDITION.md), then push the feed here. For Kindle editions, the book is saved to `~/RichinsReader` on Jack's Mac and Mail sends it from jack@jackrichins.com. If the Mac is asleep or offline, that edition is skipped and its articles roll into the next one.
 
+**Your tastes, kept current:** evening and weekend runs refresh the "Recently favorited" section of `interests.md` from your Reeder Favorites and Bookmarks (links kept privately on your Mac).
+
 **Your feed:** `https://jackrichins.github.io/top-picks/top-picks.xml`
 
 ## Original setup (API key version, optional)

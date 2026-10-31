@@ -68,3 +68,35 @@ New products, OS releases, major features, big company news, and legal or regula
 - The hardest working font in Manhattan
 - Our Universe has more galaxies than Carl Sagan ever imagined
 - Will this new law change hiking forever? Examining the EXPLORE Act
+
+<!-- recent-favorites:start -->
+## Recently favorited (updated automatically)
+What I've saved to Favorites or Bookmarks in Reeder over the last 90 days, newest first. Treat these as the freshest signal of my tastes; weigh similar topics and writers higher.
+
+- Australia: App Marketplaces, External Payments, No Fees/Audit (mjtsai.com, favorites)
+- Patrick Stewart Dies at 86 (daringfireball.net, favorites)
+- App Report: Picture perfect (sixcolors.com, favorites)
+- The Only Good Easter Eggs Are Whole-Assed Easter Eggs (daringfireball.net, favorites)
+- Get Video Wallpapers on Mac & Add Your Own Videos to Screen Savers with Phosphene (osxdaily.com, bookmarks)
+- How to Save Money Now with ChatGPT Finances (6 Real Use Cases) | Ethan Bloch (creatoreconomy.so, favorites)
+- How To Stop Getting Taken Advantage Of: 6 Secrets From Game Theory (bakadesuyo.com, favorites)
+- When Bigger PQC Keys and Signatures Break Software Assumptions (techcommunity.microsoft.com, favorites)
+- How to Invite People to Do Things Without Being Awkward About It (artofmanliness.com, bookmarks)
+- Apple Music honors the iPod with… an iPod ↦ (sixcolors.com, favorites)
+- Measuring Human Cryptanalysis Effort (schneier.com, bookmarks)
+- The Second Amendment has a hidden origin story (bigthink.com, bookmarks)
+- 26 New Rules of Digital Etiquette (artofmanliness.com, bookmarks)
+- You’re a Christian and a Buddhist (whether you like it or not) (bigthink.com, favorites)
+- How to Install & Use the Homebrew GUI App on Mac (osxdaily.com, favorites)
+- ‘Modern Day Typographer’ (daringfireball.net, bookmarks)
+- How to Remember a Person’s Name (And What to Do When You Can’t) (artofmanliness.com, favorites)
+- What Every Man Should Keep in His Glove Box (artofmanliness.com, favorites)
+- A Day in the Life of Siri AI (pogueman.substack.com, favorites)
+- ★ The iPhone 4 ‘Antennagate’ Press Conference Q&A — Finally (daringfireball.net, favorites)
+- Assume misunderstanding (swiss-miss.com, favorites)
+- gocomics.com (gocomics.com, favorites)
+- Reed Jobs Tells a Neuroscience Story (daringfireball.net, bookmarks)
+- Mark Carney on the U.S. Under Trump: ‘Sometimes, Its Signature Is Written in Pencil’ (daringfireball.net, favorites)
+- How Two World Wars Standardized the American Male Grooming Routine (artofmanliness.com, favorites)
+- ★ Retraction: The App Store Rejection of the Week That Was, in Fact, a Correct Rejection (daringfireball.net, favorites)
+<!-- recent-favorites:end -->
