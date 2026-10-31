@@ -30,7 +30,7 @@ Claude scheduled tasks follow these steps. The evening and weekend tasks run wit
       These links are private. Never write them into the repo, a commit, or your report. Don't use the `osascript` tool in scheduled runs: it needs approvals nobody is there to give.
    2. **Write "The Day in Tech" (Techmeme briefing).**
       - Run `python3 kindle.py --techmeme-export /tmp/techmeme.json` and read the stories it saves (Techmeme's ranked Top News: headline, lede, source, link).
-      - Pick the 8 to 12 most important stories. Merge stories about the same event.
+      - Pick the 8 to 12 most important stories. Merge stories about the same event. Skip stories marked `"already_briefed": true` (they were in an earlier edition) unless there's a significant new development.
       - For each, write a short `topic` (a few words, like a headline) and a `summary` of 1 to 2 sentences in your own words: what happened, and why it matters, especially to Jack (security, Apple, AI, Microsoft, the Pacific Northwest). Don't copy Techmeme's or the source's wording. No em dashes.
       - Keep the `link` and `source` (the publication name only, like "Reuters") from the export.
       - Write `/tmp/briefing.json` as `{"items": [{"topic": "...", "summary": "...", "link": "...", "source": "..."}]}`, most important first.

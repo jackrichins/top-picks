@@ -77,6 +77,44 @@ def fetch_image(url, idx):
         return None
 
 
+BLOCK_TAGS = {"div", "p", "ul", "ol", "li", "h1", "h2", "h3", "h4", "h5", "h6", "figure", "figcaption",
+              "table", "thead", "tbody", "tr", "td", "th", "blockquote", "pre", "hr"}
+INLINE_TAGS = {"a", "span", "em", "strong", "b", "i", "small", "cite", "q", "code", "sup", "sub"}
+
+
+def normalize_xhtml(body):
+    """Parse article HTML and fix structure a Kindle may reject: block elements inside inline ones
+    (or inside <p>), and links with characters that aren't legal in URLs."""
+    from urllib.parse import quote
+    import lxml.html
+    from lxml import etree
+    try:
+        root = lxml.html.fragment_fromstring(body, create_parent="div")
+    except Exception:  # noqa: BLE001  unparseable: fall back to plain text
+        return "<p>" + html.escape(re.sub(r"<[^>]+>", " ", body)) + "</p>"
+    changed = True
+    while changed:  # repeat until no inline element (or <p>) holds a block element
+        changed = False
+        for el in list(root.iter()):
+            if not isinstance(el.tag, str) or el is root:
+                continue
+            if el.tag in INLINE_TAGS | {"p"} and any(isinstance(c.tag, str) and c.tag in BLOCK_TAGS for c in el.iterdescendants()):
+                if el.tag == "p":
+                    el.tag = "div"
+                else:
+                    el.drop_tag()
+                changed = True
+                break
+    for el in root.iter("a"):
+        if el.get("href"):
+            el.set("href", quote(el.get("href"), safe=":/?#&=%+@;,.~-_!$'()*"))
+    for el in root.iter("img"):
+        if el.get("src"):
+            el.set("src", quote(el.get("src"), safe=":/?#&=%+@;,.~-_!$'()*"))
+    out = etree.tostring(root, method="xml", encoding="unicode")
+    return re.sub(r"^<div>|</div>$", "", out)
+
+
 def full_text(pick, want_images, max_images):
     """Return (body_html, [image items]). Falls back to the summary when extraction fails."""
     url = pick.get("link") or ""
@@ -141,7 +179,7 @@ def full_text(pick, want_images, max_images):
         body = re.sub(r'(?is)<img[^>]*?src="([^"]+)"[^>]*/?>', swap, body)
     else:
         body = re.sub(r"(?is)<img[^>]*>", "", body)
-    return body, images
+    return normalize_xhtml(body), images
 
 
 APPLE_EPOCH = 978307200  # Reeder stores save dates as seconds since 2001-01-01
@@ -318,6 +356,9 @@ def build(cfg, picks, out_path, briefing=None):
                           "CC BY-SA 3.0 (commons.wikimedia.org): outline traced, tones simplified.</p>")
     brief = briefing_chapter(briefing, style) if briefing else None
     if brief:
+        links = [i.get("link") for i in json.loads(Path(briefing).read_text()).get("items", []) if i.get("link")]
+        (ROOT / "state" / "briefing_pending.json").write_text(json.dumps(links))
+    if brief:
         book.add_item(brief)
         front_html.insert(1, "<h2 class='section'>The Day in Tech</h2><ul class='front'><li>"
                              "<a href='briefing.xhtml'>Techmeme's top stories in a few sentences each</a></li></ul>")
@@ -371,11 +412,21 @@ def main():
     last_path = ROOT / "state" / "kindle_last.json"
     if args.techmeme_export:
         stories = techmeme_top(kc.get("techmeme_stories", 15))
+        done_path = ROOT / "state" / "briefed.json"
+        done = set(json.loads(done_path.read_text())) if done_path.exists() else set()
+        for s in stories:
+            s["already_briefed"] = s["link"] in done
         Path(args.techmeme_export).write_text(json.dumps(stories, indent=1, ensure_ascii=False))
         log(f"Saved {len(stories)} Techmeme top stories to {args.techmeme_export}")
         return
     if args.mark_sent:
         last_path.write_text(json.dumps({"sent": datetime.now(timezone.utc).isoformat()}))
+        bp, bd = ROOT / "state" / "briefing_pending.json", ROOT / "state" / "briefed.json"
+        if bp.exists():
+            done = json.loads(bd.read_text()) if bd.exists() else []
+            done = (done + [l for l in json.loads(bp.read_text()) if l not in done])[-300:]
+            bd.write_text(json.dumps(done))
+            bp.unlink()
         pending, sent = ROOT / "state" / "later_pending.json", ROOT / "state" / "later_sent.json"
         if pending.exists():
             done = set(json.loads(sent.read_text())) if sent.exists() else set()
