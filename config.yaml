@@ -33,6 +33,11 @@ kindle:
   max_articles: 25
   images: true                 # embedded from each article's page, up to max_images each
   max_images: 10
+  # Reeder's Later tag as a Shared Feed (JSON feed URL from Reeder: right-click Later > Share)
+  later_feeds: []
+  later_section: Saved for Later
+  later_max: 15                # most Later articles per edition
+  later_first_days: 7          # first edition only: include Later saves from the last week
   # Links to these sites become plain text (the Kindle browser can't load them).
   # Links to other web pages are kept.
   strip_link_hosts: [youtube.com, youtu.be, vimeo.com, x.com, twitter.com, t.co, instagram.com,

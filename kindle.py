@@ -97,6 +97,13 @@ def full_text(pick, want_images, max_images):
 
     body = re.sub(r"(?is)^.*?<body[^>]*>|</body>.*$", "", body)
     body = re.sub(r"(?is)<(/?)(main|doc|article)[^>]*>", "", body)
+    # keep only safe attributes (pages sometimes carry framework attributes like x-bind:class that break EPUB)
+    def clean_tag(m):
+        name, attrs = m.group(1), m.group(2) or ""
+        keep = re.findall(r'\s(href|src|alt|colspan|rowspan)\s*=\s*("[^"]*"|\'[^\']*\')', attrs, re.I)
+        closing = "/" if attrs.rstrip().endswith("/") else ""
+        return "<" + name + "".join(f" {a.lower()}={v}" for a, v in keep) + closing + ">"
+    body = re.sub(r"<([a-zA-Z][a-zA-Z0-9]*)(\s[^<>]*)?>", clean_tag, body)
     # keep links to regular web pages; unwrap links the Kindle browser can't load (video, social)
     def link(m):
         href = re.search(r'href="([^"]+)"', m.group(1))
@@ -127,6 +134,49 @@ def full_text(pick, want_images, max_images):
     return body, images
 
 
+APPLE_EPOCH = 978307200  # Reeder stores save dates as seconds since 2001-01-01
+
+
+def later_items(kc, sent_ids):
+    """New articles from Reeder's Later tag (a shared JSON feed), skipping video, audio, and social posts."""
+    items = []
+    for src in kc.get("later_feeds") or []:
+        try:
+            if src.startswith("http"):
+                r = requests.get(src, headers={"User-Agent": UA}, timeout=25)
+                r.raise_for_status()
+                data = r.json()
+            else:
+                data = json.loads(Path(src).read_text(encoding="utf-8"))
+        except Exception as e:  # noqa: BLE001  the edition still goes out without them
+            log(f"  ! Later feed {src}: {e}")
+            continue
+        first_time = not sent_ids
+        for e in data.get("items", []):
+            url = e.get("url") or e.get("external_url") or ""
+            host = urlparse(url).netloc.lower().removeprefix("www.")
+            meta = e.get("_reeder") or {}
+            media_types = {m.get("type") for m in meta.get("media") or []}
+            if (not url or any(host == b or host.endswith("." + b) for b in STRIP_LINK_HOSTS)
+                    or any(str(a.get("mime_type", "")).startswith(("audio", "video")) for a in e.get("attachments") or [])
+                    or media_types & {"video", "audio"}):
+                continue
+            iid = "later-" + re.sub(r"[^a-z0-9]+", "-", (e.get("id") or url).lower())[-60:]
+            if iid in sent_ids:
+                continue
+            saved = datetime.fromtimestamp(meta["date"] + APPLE_EPOCH, timezone.utc) if meta.get("date") else None
+            if first_time and saved and saved < datetime.now(timezone.utc) - timedelta(days=kc.get("later_first_days", 7)):
+                continue  # first edition: only recent saves, not the whole backlog
+            text = e.get("content_text") or re.sub(r"<[^>]+>", " ", e.get("content_html") or "")
+            title = e.get("title") or (text.strip().split(". ")[0][:90] if text.strip() else host)
+            items.append({"id": iid, "kind": "article", "title": title, "link": url, "feed": host or "Later",
+                          "folder": "__later__", "summary": text[:500], "score": 8,
+                          "reason": "You saved this to Later in Reeder.",
+                          "content_html": e.get("content_html") or "", "saved": saved})
+    items.sort(key=lambda i: i["saved"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
+    return items[: kc.get("later_max", 15)]
+
+
 def build(cfg, picks, out_path):
     kc = cfg["kindle"]
     tz = ZoneInfo(kc.get("timezone", "America/Los_Angeles"))
@@ -135,7 +185,9 @@ def build(cfg, picks, out_path):
     title = f"{kc.get('title', 'Top Picks')}, {today:%a %b} {today.day}"
 
     folder_map = {f: s for s, folders in kc["sections"].items() for f in folders}
-    order = list(kc["sections"]) + [kc.get("other_section", "More")]
+    later_name = kc.get("later_section", "Saved for Later")
+    folder_map["__later__"] = later_name
+    order = [later_name] + list(kc["sections"]) + [kc.get("other_section", "More")]
     for p in picks:
         p["section"] = folder_map.get(p.get("folder"), order[-1])
     picks.sort(key=lambda p: (order.index(p["section"]), -p.get("score", 0)))
@@ -242,6 +294,12 @@ def main():
     last_path = ROOT / "state" / "kindle_last.json"
     if args.mark_sent:
         last_path.write_text(json.dumps({"sent": datetime.now(timezone.utc).isoformat()}))
+        pending, sent = ROOT / "state" / "later_pending.json", ROOT / "state" / "later_sent.json"
+        if pending.exists():
+            done = set(json.loads(sent.read_text())) if sent.exists() else set()
+            done |= set(json.loads(pending.read_text()))
+            sent.write_text(json.dumps(sorted(done)))
+            pending.unlink()
         log("Recorded the Kindle edition as sent.")
         return
     STRIP_LINK_HOSTS[:] = kc.get("strip_link_hosts") or []
@@ -261,6 +319,15 @@ def main():
     skip = re.compile("|".join(cfg.get("skip_title_patterns") or ["$^"]), re.I)
     picks = [p for p in picks if not skip.search(p.get("title") or "")]
     picks = sorted(picks, key=lambda p: -p.get("score", 0))[: kc.get("max_articles", 25)]
+    sent_path = ROOT / "state" / "later_sent.json"
+    sent_ids = set(json.loads(sent_path.read_text())) if sent_path.exists() else set()
+    later = later_items(kc, sent_ids)
+    known = {p.get("link") for p in picks}
+    later = [i for i in later if i["link"] not in known]
+    (ROOT / "state" / "later_pending.json").write_text(json.dumps([i["id"] for i in later]))
+    if later:
+        log(f"Adding {len(later)} articles from your Later list")
+    picks = later + picks
     if len(picks) < kc.get("min_articles", 3):
         log(f"Only {len(picks)} articles today; skipping the Kindle edition.")
         return
