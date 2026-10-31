@@ -74,6 +74,7 @@ always_include:
   - Hypercritical
   - xkcd.com
   - Cliff Mass Weather Blog
+  - Calvin and Hobbes
 
 # Whole folders that always get through
 always_include_folders:
