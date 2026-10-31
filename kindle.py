@@ -113,6 +113,7 @@ def full_text(pick, want_images, max_images):
         closing = "/" if attrs.rstrip().endswith("/") else ""
         return "<" + name + "".join(f" {a.lower()}={v}" for a, v in keep) + closing + ">"
     body = re.sub(r"<([a-zA-Z][a-zA-Z0-9]*)(\s[^<>]*)?>", clean_tag, body)
+    body = re.sub(r'href="(https?://[^"?]+)\?[^"]*"', lambda m: f'href="{m.group(1)}"' if len(m.group(0)) > 200 else m.group(0), body)
     # keep links to regular web pages; unwrap links the Kindle browser can't load (video, social)
     def link(m):
         href = re.search(r'href="([^"]+)"', m.group(1))
@@ -230,7 +231,8 @@ def briefing_chapter(path, style):
     parts = ["<h1>The Day in Tech</h1>",
              "<p class='meta'>Techmeme's top stories, summarized by Claude</p>"]
     for it in items:
-        link = html.escape(it.get("link") or "")
+        raw = it.get("link") or ""
+        link = html.escape(raw.split("?")[0] if len(raw) > 200 else raw)
         src = html.escape(it.get("source") or "")
         parts.append(f"<h3>{html.escape(it.get('topic') or '')}</h3>"
                      f"<p>{html.escape(it.get('summary') or '')}"
@@ -262,7 +264,9 @@ def build(cfg, picks, out_path, briefing=None):
         results = list(pool.map(lambda p: full_text(p, kc.get("images", True), kc.get("max_images", 4)), picks))
 
     book = epub.EpubBook()
-    book.set_identifier(f"top-picks-{today:%Y%m%d}")
+    # every edition needs its own identifier: a Kindle treats two books with the same one as the same
+    # document, and a second edition on the same day then gets stuck downloading
+    book.set_identifier(f"richins-reader-{today:%Y%m%d-%H%M%S}")
     book.set_title(title)
     book.set_language("en")
     book.add_author("Top Picks")
