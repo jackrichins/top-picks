@@ -39,6 +39,7 @@ kindle:
   later_section: Saved for Later   # your Reeder Later and Links tags
   later_max: 40                # safety cap; saved articles don't count toward max_articles
   later_window_days: 7         # include articles saved to Later or Links within the last week
+  techmeme_stories: 15         # how many Techmeme top stories to export for the briefing
   # Links to these sites become plain text (the Kindle browser can't load them).
   # Links to other web pages are kept.
   strip_link_hosts: [youtube.com, youtu.be, vimeo.com, x.com, twitter.com, t.co, instagram.com,

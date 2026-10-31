@@ -51,6 +51,7 @@ img { max-width: 100%; height: auto; }
 div.code { font-family: monospace; font-size: 0.8em; white-space: pre-wrap; margin: 0.8em 0; }
 figure { margin: 1em 0; }
 .front li { margin-bottom: 0.6em; }
+h3 { font-family: sans-serif; font-size: 1.0em; margin: 1.1em 0 0.2em; }
 .front .why { font-size: 0.85em; font-style: italic; }
 """
 
@@ -195,7 +196,53 @@ def later_items(kc, sent_ids):
     return items[: kc.get("later_max", 40)]
 
 
-def build(cfg, picks, out_path):
+def techmeme_top(limit=15):
+    """The day's top stories from Techmeme's Top News column: headline, lede, source, link."""
+    r = requests.get("https://www.techmeme.com/", headers={"User-Agent": UA}, timeout=25)
+    r.raise_for_status()
+    page = r.text
+    start = page.find('<DIV ID="topcol1">')
+    end = page.find('<DIV ID="topcol2"', start)
+    col = page[start:end if end > 0 else None]
+    stories = []
+    for clus in col.split('<DIV CLASS="clus">')[1:]:
+        m = re.search(r'<A CLASS="ourh" HREF="([^"]+)">(.*?)</A></STRONG>(.*?)</DIV>', clus, re.S)
+        if not m:
+            continue
+        cite = re.search(r"<CITE>(.*?)</CITE>", clus, re.S)
+        source = re.sub(r"<[^>]+>", "", cite.group(1)).strip().rstrip(":") if cite else ""
+        lede = html.unescape(re.sub(r"<[^>]+>", "", m.group(3))).replace("\u2014", "").strip(" \u00a0-")
+        more = len(re.findall(r"<A HREF=", clus.split('CLASS="drhed"')[-1])) if 'CLASS="drhed"' in clus else 0
+        stories.append({"rank": len(stories) + 1, "headline": html.unescape(re.sub(r"<[^>]+>", "", m.group(2))),
+                        "lede": lede[:400], "source": html.unescape(source), "link": m.group(1),
+                        "coverage": more})
+        if len(stories) >= limit:
+            break
+    return stories
+
+
+def briefing_chapter(path, style):
+    """Build the Techmeme briefing article from Claude's summaries (JSON written during the run)."""
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    items = data.get("items") or []
+    if not items:
+        return None
+    parts = ["<h1>The Day in Tech</h1>",
+             "<p class='meta'>Techmeme's top stories, summarized by Claude</p>"]
+    for it in items:
+        link = html.escape(it.get("link") or "")
+        src = html.escape(it.get("source") or "")
+        parts.append(f"<h3>{html.escape(it.get('topic') or '')}</h3>"
+                     f"<p>{html.escape(it.get('summary') or '')}"
+                     + (f" <span class='meta'>({src})</span>" if src else "")
+                     + (f" <a href=\"{link}\">Read more</a>" if link else "") + "</p>")
+    ch = epub.EpubHtml(title="The Day in Tech", file_name="briefing.xhtml", lang="en")
+    ch.content = "".join(parts)
+    ch.add_item(style)
+    return ch
+
+
+def build(cfg, picks, out_path, briefing=None):
     kc = cfg["kindle"]
     tz = ZoneInfo(kc.get("timezone", "America/Los_Angeles"))
     today = datetime.now(tz)
@@ -267,17 +314,23 @@ def build(cfg, picks, out_path):
     if cover.PHOTO.exists():
         front_html.append("<p class='meta'>Cover art of Mount Rainier adapted from \"Aerial Seattle and Mt Rainier\" by Liesl Matthies, "
                           "CC BY-SA 3.0 (commons.wikimedia.org): outline traced, tones simplified.</p>")
+    brief = briefing_chapter(briefing, style) if briefing else None
+    if brief:
+        book.add_item(brief)
+        front_html.insert(1, "<h2 class='section'>The Day in Tech</h2><ul class='front'><li>"
+                             "<a href='briefing.xhtml'>Techmeme's top stories in a few sentences each</a></li></ul>")
     front = epub.EpubHtml(title="Front Page", file_name="front.xhtml", lang="en")
     front.content = "".join(front_html)
     front.add_item(style)
     book.add_item(front)
-    book.toc = [epub.Link("front.xhtml", "Front Page", "front")] + toc
+    book.toc = [epub.Link("front.xhtml", "Front Page", "front")] + (
+        [epub.Link("briefing.xhtml", "The Day in Tech", "briefing")] if brief else []) + toc
     book.add_item(epub.EpubNcx())
     book.add_item(epub.EpubNav())
     cover_page = book.get_item_with_id("cover")
     if cover_page is not None:
         cover_page.is_linear = True  # keep the cover page in the reading order
-    book.spine = ["cover", front] + chapters
+    book.spine = ["cover", front] + ([brief] if brief else []) + chapters
     epub.write_epub(str(out_path), book)
     return title
 
@@ -303,6 +356,10 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--no-send", action="store_true", help="build the EPUB only")
     ap.add_argument("--out", default="kindle-edition.epub")
+    ap.add_argument("--techmeme-export", metavar="FILE",
+                    help="save Techmeme's top stories as JSON for Claude to summarize, then exit")
+    ap.add_argument("--briefing", metavar="FILE",
+                    help="JSON of Claude's Techmeme summaries to include as 'The Day in Tech'")
     ap.add_argument("--mark-sent", action="store_true",
                     help="record that the edition was sent (when Mail on the Mac sent it) and exit")
     args = ap.parse_args()
@@ -310,6 +367,11 @@ def main():
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     kc = cfg.get("kindle") or {}
     last_path = ROOT / "state" / "kindle_last.json"
+    if args.techmeme_export:
+        stories = techmeme_top(kc.get("techmeme_stories", 15))
+        Path(args.techmeme_export).write_text(json.dumps(stories, indent=1, ensure_ascii=False))
+        log(f"Saved {len(stories)} Techmeme top stories to {args.techmeme_export}")
+        return
     if args.mark_sent:
         last_path.write_text(json.dumps({"sent": datetime.now(timezone.utc).isoformat()}))
         pending, sent = ROOT / "state" / "later_pending.json", ROOT / "state" / "later_sent.json"
@@ -351,7 +413,7 @@ def main():
         return
 
     out = ROOT / args.out
-    title = build(cfg, picks, out)
+    title = build(cfg, picks, out, briefing=args.briefing)
     log(f"Built {out.name} ({out.stat().st_size // 1024} KB, {len(picks)} articles)")
     print(json.dumps({"file": str(out), "title": title, "articles": len(picks)}))
     if not args.no_send and send(out, title):

@@ -4,7 +4,7 @@ An AI-curated RSS feed built from your subscriptions, plus **The Richins Reader*
 
 - **Weekdays:** a morning edition by 10 AM and an evening edition by about 4:30 PM.
 - **Weekends:** one edition by 8 AM.
-- **Kindle:** the evening and weekend editions are also emailed to your Kindle, with everything picked since the last Kindle edition, plus new articles from Reeder's **Later** tag (via its Shared Feed) in a "Saved for Later" section up front.
+- **Kindle:** the evening and weekend editions are also emailed to your Kindle, with everything picked since the last Kindle edition, plus new articles from Reeder's **Later** tag (via its Shared Feed) in a "Saved for Later" section up front, and "The Day in Tech": Claude's 1 to 2 sentence takes on Techmeme's top stories.
 
 Claude scheduled tasks do the scoring (no API key needed) by following [EDITION.md](EDITION.md), then push the feed here. For Kindle editions, the book is saved to `~/RichinsReader` on Jack's Mac and Mail sends it from jack@jackrichins.com. If the Mac is asleep or offline, that edition is skipped and its articles roll into the next one.
 

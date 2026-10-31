@@ -28,11 +28,18 @@ Claude scheduled tasks follow these steps. The evening and weekend tasks run wit
    1. **Get the private Reeder links.** Read them from Jack's Mac with the `osascript` tool:
       `do shell script "cat /Users/jackr/RichinsReader/later-feed-url.txt"`
       These links are private. Never write them into the repo, a commit, or your report.
-   2. **Build it** (this adds new articles Jack saved to Later or Links in Reeder):
-      `mkdir -p /mnt/user-data/outputs && REEDER_LATER_FEED="<the links>" python3 kindle.py --no-send --out /mnt/user-data/outputs/The-Richins-Reader-YYYY-MM-DD.epub`
+   2. **Write "The Day in Tech" (Techmeme briefing).**
+      - Run `python3 kindle.py --techmeme-export /tmp/techmeme.json` and read the stories it saves (Techmeme's ranked Top News: headline, lede, source, link).
+      - Pick the 8 to 12 most important stories. Merge stories about the same event.
+      - For each, write a short `topic` (a few words, like a headline) and a `summary` of 1 to 2 sentences in your own words: what happened, and why it matters, especially to Jack (security, Apple, AI, Microsoft, the Pacific Northwest). Don't copy Techmeme's or the source's wording. No em dashes.
+      - Keep the `link` and `source` (the publication name only, like "Reuters") from the export.
+      - Write `/tmp/briefing.json` as `{"items": [{"topic": "...", "summary": "...", "link": "...", "source": "..."}]}`, most important first.
+      - If Techmeme can't be reached, skip the briefing and build without it.
+   3. **Build it** (this adds new articles Jack saved to Later or Links in Reeder, and the briefing):
+      `mkdir -p /mnt/user-data/outputs && REEDER_LATER_FEED="<the links>" python3 kindle.py --no-send --briefing /tmp/briefing.json --out /mnt/user-data/outputs/The-Richins-Reader-YYYY-MM-DD.epub`
       Use today's date. It prints JSON with the title. If it says there are too few articles, skip the rest of this step.
-   3. **Copy it to the Mac** with `device_commit_files`: stagedPath is the file above, devicePath is `/Users/jackr/RichinsReader/<same file name>`.
-   4. **Send it** with the Mac's `osascript` tool, filling in the file name and title:
+   4. **Copy it to the Mac** with `device_commit_files`: stagedPath is the file above, devicePath is `/Users/jackr/RichinsReader/<same file name>`.
+   5. **Send it** with the Mac's `osascript` tool, filling in the file name and title:
       ```applescript
       set f to POSIX file "/Users/jackr/RichinsReader/<file name>"
       tell application "Mail"
@@ -45,6 +52,6 @@ Claude scheduled tasks follow these steps. The evening and weekend tasks run wit
         send m
       end tell
       ```
-   5. **Record it.** Only if the send succeeded: `python3 kindle.py --mark-sent`, then commit `state/` (the send time and which saved articles were delivered) with the message `Kindle edition sent` and push.
-   6. If the Mac can't be reached, skip the send and don't mark it sent. The next Kindle edition will include these articles.
+   6. **Record it.** Only if the send succeeded: `python3 kindle.py --mark-sent`, then commit `state/` (the send time and which saved articles were delivered) with the message `Kindle edition sent` and push.
+   7. If the Mac can't be reached, skip the send and don't mark it sent. The next Kindle edition will include these articles.
 7. **Check.** Confirm the pushes succeeded. Report the number of picks, the top 3 titles, and whether the Kindle edition was sent.
