@@ -294,7 +294,7 @@ def scene(width, height, seed=7, sasquatch_on=False):
 # ---------- the cover ----------
 
 def make_cover(name, tagline, date_label, edition, place, picks, feed_count, sasquatch=False):
-    """picks: list of dicts with title, section, reason (sorted best first)."""
+    """picks: list of dicts with title and section (sorted best first)."""
     img = Image.new("L", (W, H), PAPER)
     d = ImageDraw.Draw(img)
     cw = W - 2 * M
@@ -339,12 +339,7 @@ def make_cover(name, tagline, date_label, edition, place, picks, feed_count, sas
         for line in wrap(d, lead["title"], hf, cw, 3):
             d.text((M, y), line, font=hf, fill=INK)
             y += 104
-        rf = F("body-italic.woff", 38)
-        y += 18
-        for line in wrap(d, lead.get("reason") or "", rf, cw, 2):
-            d.text((M, y + 6), line, font=rf, fill=INK)
-            y += 50
-        y += 40
+        y += 30
 
     # two columns of more headlines
     d.line([(M, y), (W - M, y)], fill=INK, width=3)

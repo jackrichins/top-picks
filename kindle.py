@@ -287,7 +287,7 @@ def build(cfg, picks, out_path, briefing=None):
     style = epub.EpubItem(uid="style", file_name="style.css", media_type="text/css", content=CSS)
     book.add_item(style)
 
-    # Front page: every headline by section, with Claude's one-line reason
+    # Front page: every headline by section
     front_html = [f"<h1>{html.escape(kc.get('title', 'Top Picks'))}</h1><p class='meta'>{date_label}</p>"]
     chapters, toc, spine = [], [], []
     for sec in order:
@@ -300,12 +300,10 @@ def build(cfg, picks, out_path, briefing=None):
             n = len(chapters) + 1
             fname = f"a{n:02d}.xhtml"
             front_html.append(f"<li><a href='{fname}'>{html.escape(p['title'])}</a> "
-                              f"<span class='meta'>({html.escape(p['feed'])})</span><br/>"
-                              f"<span class='why'>{html.escape(p.get('reason') or '')}</span></li>")
+                              f"<span class='meta'>({html.escape(p['feed'])})</span></li>")
             ch = epub.EpubHtml(title=p["title"], file_name=fname, lang="en")
             ch.content = (f"<h1>{html.escape(p['title'])}</h1>"
-                          f"<p class='meta'>{html.escape(p['feed'])} | {html.escape(sec)}</p>"
-                          f"<p class='why'>Why: {html.escape(p.get('reason') or '')}</p>{body}")
+                          f"<p class='meta'>{html.escape(p['feed'])} | {html.escape(sec)}</p>{body}")
             ch.add_item(style)
             for im in images:
                 book.add_item(im)
