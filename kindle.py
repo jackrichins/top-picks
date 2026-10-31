@@ -43,9 +43,9 @@ STRIP_LINK_HOSTS = []  # set from config.yaml (kindle.strip_link_hosts)
 CSS = """
 body { font-family: serif; line-height: 1.45; }
 h1 { font-size: 1.5em; margin: 0 0 0.3em; }
-h2.section { font-size: 1.1em; text-transform: uppercase; letter-spacing: 0.08em;
+h2.section { font-family: sans-serif; font-size: 1.0em; text-transform: uppercase; letter-spacing: 0.08em;
              border-bottom: 1px solid #000; margin-top: 1.4em; }
-p.meta { font-size: 0.85em; color: #444; margin: 0 0 0.2em; }
+p.meta { font-family: sans-serif; font-size: 0.8em; color: #444; margin: 0 0 0.2em; }
 p.why { font-size: 0.9em; font-style: italic; margin: 0 0 1.2em; }
 img { max-width: 100%; height: auto; }
 div.code { font-family: monospace; font-size: 0.8em; white-space: pre-wrap; margin: 0.8em 0; }

@@ -269,22 +269,22 @@ def make_cover(name, tagline, date_label, edition, place, picks, feed_count, sas
     cw = W - 2 * M
 
     # ears
-    ear = F("body-italic.woff", 30)
-    d.multiline_text((M, 70), "Today's forecast:\nask Cliff Mass", font=ear, fill=INK, spacing=6)
-    d.multiline_text((W - M, 70), "Price: free to\none subscriber", font=ear, fill=INK, spacing=6, align="right", anchor="ra")
+    ear = F("sans-medium.woff", 26)
+    d.multiline_text((M, 70), "TODAY'S FORECAST\nAsk Cliff Mass", font=ear, fill=INK, spacing=6)
+    d.multiline_text((W - M, 70), "PRICE\nFree to one subscriber", font=ear, fill=INK, spacing=6, align="right", anchor="ra")
 
     # masthead, sized to fit
-    size = 200
-    while size > 80 and d.textlength(name, font=F("masthead.woff", size)) > cw - 40:
-        size -= 6
-    d.text((W / 2, 230), name, font=F("masthead.woff", size), fill=INK, anchor="mm")
-    d.text((W / 2, 370), tagline, font=F("body-italic.woff", 38), fill=INK, anchor="mm")
+    size = 170
+    while size > 80 and d.textlength(name, font=F("sans-black.woff", size)) > cw - 300:
+        size -= 4
+    d.text((W / 2, 225), name, font=F("sans-black.woff", size), fill=INK, anchor="mm")
+    d.text((W / 2, 362), tagline, font=F("sans-italic.woff", 34), fill=INK, anchor="mm")
 
     # dateline between rules
     y = 420
     d.line([(M, y), (W - M, y)], fill=INK, width=7)
     d.line([(M, y + 14), (W - M, y + 14)], fill=INK, width=2)
-    small = F("body-bold.woff", 28)
+    small = F("sans-bold.woff", 24)
     d.text((M, y + 46), edition.upper(), font=small, fill=INK, anchor="lm")
     d.text((W / 2, y + 46), f"{place}, {date_label}".upper(), font=small, fill=INK, anchor="mm")
     d.text((W - M, y + 46), "CURATED BY CLAUDE", font=small, fill=INK, anchor="rm")
@@ -296,13 +296,13 @@ def make_cover(name, tagline, date_label, edition, place, picks, feed_count, sas
     art = photo_scene(cw, art_h, sasquatch_on=sasquatch) if PHOTO.exists() else scene(cw, art_h, sasquatch_on=sasquatch)
     img.paste(art, (M, y + 125))
     if PHOTO.exists():
-        d.text((W - M - 8, y + 125 + art_h - 10), PHOTO_CREDIT, font=F("body-italic.woff", 20), fill=PAPER, anchor="rb")
+        d.text((W - M - 8, y + 125 + art_h - 10), PHOTO_CREDIT, font=F("sans-medium.woff", 18), fill=PAPER, anchor="rb")
     y = y + 125 + art_h + 50
 
     picks = [dict(p, title=clean(p.get("title"))) for p in picks if clean(p.get("title"))]
     if picks:
         lead = picks[0]
-        d.text((M, y), (lead.get("section") or "Top story").upper(), font=F("body-bold.woff", 30), fill=INK)
+        d.text((M, y), (lead.get("section") or "Top story").upper(), font=F("sans-bold.woff", 27), fill=INK)
         y += 50
         hf = F("headline-black.woff", 92)
         for line in wrap(d, lead["title"], hf, cw, 3):
@@ -321,7 +321,7 @@ def make_cover(name, tagline, date_label, edition, place, picks, feed_count, sas
     colw = (cw - 60) / 2
     d.line([(W / 2, y), (W / 2, H - 200)], fill=INK, width=2)
     cols = [[M, y], [M + colw + 60, y]]
-    kf, hf2 = F("body-bold.woff", 24), F("headline-bold.woff", 46)
+    kf, hf2 = F("sans-bold.woff", 22), F("headline-bold.woff", 46)
     ci = 0
     for p in picks[1:]:
         lines = wrap(d, p["title"], hf2, colw, 3)
@@ -342,7 +342,7 @@ def make_cover(name, tagline, date_label, edition, place, picks, feed_count, sas
     # footer
     d.line([(M, H - 170), (W - M, H - 170)], fill=INK, width=7)
     d.text((W / 2, H - 115), f"{len(picks)} stories inside, picked from {feed_count} feeds",
-           font=F("body-italic.woff", 36), fill=INK, anchor="mm")
+           font=F("sans-medium.woff", 30), fill=INK, anchor="mm")
 
     buf = io.BytesIO()
     img.save(buf, "JPEG", quality=88)
