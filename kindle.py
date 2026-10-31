@@ -97,6 +97,14 @@ def full_text(pick, want_images, max_images):
 
     body = re.sub(r"(?is)^.*?<body[^>]*>|</body>.*$", "", body)
     body = re.sub(r"(?is)<(/?)(main|doc|article)[^>]*>", "", body)
+    # plain reading markup only: drop widgets (with their contents), unwrap any other unknown tag
+    body = re.sub(r"(?is)<(svg|button|script|style|form|noscript|select|textarea|nav|aside|template)\b.*?</\1\s*>", "", body)
+    body = re.sub(r"(?is)<(source|input|link|meta)\b[^>]*>", "", body)
+    allowed = {"p", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "blockquote", "em", "strong", "b", "i",
+               "a", "img", "figure", "figcaption", "table", "thead", "tbody", "tr", "td", "th", "br", "hr", "pre",
+               "code", "div", "span", "sup", "sub", "small", "cite", "q"}
+    body = re.sub(r"</?([a-zA-Z][a-zA-Z0-9:-]*)\b[^>]*>",
+                  lambda m: m.group(0) if m.group(1).lower() in allowed else "", body)
     # keep only safe attributes (pages sometimes carry framework attributes like x-bind:class that break EPUB)
     def clean_tag(m):
         name, attrs = m.group(1), m.group(2) or ""
@@ -140,7 +148,10 @@ APPLE_EPOCH = 978307200  # Reeder stores save dates as seconds since 2001-01-01
 def later_items(kc, sent_ids):
     """New articles from Reeder's Later tag (a shared JSON feed), skipping video, audio, and social posts."""
     items = []
-    for src in kc.get("later_feeds") or []:
+    # the feed link is private (anyone with it can read the list), so it normally comes from the
+    # REEDER_LATER_FEED environment variable rather than this public repo
+    sources = list(kc.get("later_feeds") or []) + [u for u in os.environ.get("REEDER_LATER_FEED", "").split() if u]
+    for src in sources:
         try:
             if src.startswith("http"):
                 r = requests.get(src, headers={"User-Agent": UA}, timeout=25)
@@ -151,7 +162,7 @@ def later_items(kc, sent_ids):
         except Exception as e:  # noqa: BLE001  the edition still goes out without them
             log(f"  ! Later feed {src}: {e}")
             continue
-        first_time = not sent_ids
+        tag = data.get("title") or "Later"
         for e in data.get("items", []):
             url = e.get("url") or e.get("external_url") or ""
             host = urlparse(url).netloc.lower().removeprefix("www.")
@@ -165,16 +176,23 @@ def later_items(kc, sent_ids):
             if iid in sent_ids:
                 continue
             saved = datetime.fromtimestamp(meta["date"] + APPLE_EPOCH, timezone.utc) if meta.get("date") else None
-            if first_time and saved and saved < datetime.now(timezone.utc) - timedelta(days=kc.get("later_first_days", 7)):
-                continue  # first edition: only recent saves, not the whole backlog
+            if not saved or saved < datetime.now(timezone.utc) - timedelta(days=kc.get("later_window_days", 7)):
+                continue  # only articles saved within the last week
             text = e.get("content_text") or re.sub(r"<[^>]+>", " ", e.get("content_html") or "")
             title = e.get("title") or (text.strip().split(". ")[0][:90] if text.strip() else host)
             items.append({"id": iid, "kind": "article", "title": title, "link": url, "feed": host or "Later",
                           "folder": "__later__", "summary": text[:500], "score": 8,
-                          "reason": "You saved this to Later in Reeder.",
+                          "reason": f"You saved this to {tag} in Reeder.",
                           "content_html": e.get("content_html") or "", "saved": saved})
+    seen_links, unique = set(), []
+    for i in items:  # the same article saved to both Later and Links appears once
+        key = i["link"].split("#")[0].rstrip("/")
+        if key not in seen_links:
+            seen_links.add(key)
+            unique.append(i)
+    items = unique
     items.sort(key=lambda i: i["saved"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
-    return items[: kc.get("later_max", 15)]
+    return items[: kc.get("later_max", 40)]
 
 
 def build(cfg, picks, out_path):

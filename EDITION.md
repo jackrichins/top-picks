@@ -25,9 +25,14 @@ Claude scheduled tasks follow these steps. The evening and weekend tasks run wit
 5. **Push.** Commit `docs/` and `state/` and push to `main` with the message `Morning edition`, `Evening edition`, or `Weekend edition`.
    - If the push is rejected because the remote changed, `git pull --rebase` and push again.
 6. **Kindle edition (evening and weekend editions only).** Mail on Jack's Mac sends it.
-   1. Build it (this also pulls new articles from Jack's Reeder Later list, if `later_feeds` is set in config.yaml): `mkdir -p /mnt/user-data/outputs && python3 kindle.py --no-send --out /mnt/user-data/outputs/The-Richins-Reader-YYYY-MM-DD.epub` (today's date). It prints JSON with the title. If it says there are too few articles, skip the rest of this step.
-   2. Copy it to the Mac with `device_commit_files`: stagedPath is the file above, devicePath is `/Users/jackr/RichinsReader/<same file name>`.
-   3. Send it with the Mac's `osascript` tool, filling in the file name and title:
+   1. **Get the private Reeder links.** Read them from Jack's Mac with the `osascript` tool:
+      `do shell script "cat /Users/jackr/RichinsReader/later-feed-url.txt"`
+      These links are private. Never write them into the repo, a commit, or your report.
+   2. **Build it** (this adds new articles Jack saved to Later or Links in Reeder):
+      `mkdir -p /mnt/user-data/outputs && REEDER_LATER_FEED="<the links>" python3 kindle.py --no-send --out /mnt/user-data/outputs/The-Richins-Reader-YYYY-MM-DD.epub`
+      Use today's date. It prints JSON with the title. If it says there are too few articles, skip the rest of this step.
+   3. **Copy it to the Mac** with `device_commit_files`: stagedPath is the file above, devicePath is `/Users/jackr/RichinsReader/<same file name>`.
+   4. **Send it** with the Mac's `osascript` tool, filling in the file name and title:
       ```applescript
       set f to POSIX file "/Users/jackr/RichinsReader/<file name>"
       tell application "Mail"
@@ -40,6 +45,6 @@ Claude scheduled tasks follow these steps. The evening and weekend tasks run wit
         send m
       end tell
       ```
-   4. Only if the send succeeded: `python3 kindle.py --mark-sent`, then commit `state/` (this records the send time and which Later articles were delivered) with the message `Kindle edition sent` and push.
-   5. If the Mac can't be reached, skip the send and don't mark it sent. The next Kindle edition will include these articles.
+   5. **Record it.** Only if the send succeeded: `python3 kindle.py --mark-sent`, then commit `state/` (the send time and which saved articles were delivered) with the message `Kindle edition sent` and push.
+   6. If the Mac can't be reached, skip the send and don't mark it sent. The next Kindle edition will include these articles.
 7. **Check.** Confirm the pushes succeeded. Report the number of picks, the top 3 titles, and whether the Kindle edition was sent.
