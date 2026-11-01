@@ -73,6 +73,9 @@ New products, OS releases, major features, big company news, and legal or regula
 ## Recently favorited (updated automatically)
 What I've saved to Favorites or Bookmarks in Reeder over the last 90 days, newest first. Treat these as the freshest signal of my tastes; weigh similar topics and writers higher.
 
+- The Hallmark dilemma (seths.blog, favorites)
+- What Would This Actually Change? (macsparky.com, favorites)
+- The Microsoft building that was reportedly haunted (devblogs.microsoft.com, favorites)
 - Australia: App Marketplaces, External Payments, No Fees/Audit (mjtsai.com, favorites)
 - Patrick Stewart Dies at 86 (daringfireball.net, favorites)
 - App Report: Picture perfect (sixcolors.com, favorites)
