@@ -136,6 +136,10 @@ def full_text(pick, want_images, max_images):
 
     body = re.sub(r"(?is)^.*?<body[^>]*>|</body>.*$", "", body)
     body = re.sub(r"(?is)<(/?)(main|doc|article)[^>]*>", "", body)
+    # drop HTML comments (like WordPress <!--more-->), CDATA, and processing instructions: ebooklib's
+    # nav builder crashes on comment nodes and then silently leaves nav.xhtml out of the EPUB, which
+    # Send to Kindle rejects with E999
+    body = re.sub(r"(?s)<!--.*?-->|<!\[CDATA\[.*?\]\]>|<\?.*?\?>", "", body)
     # plain reading markup only: drop widgets (with their contents), unwrap any other unknown tag
     body = re.sub(r"(?is)<(svg|button|script|style|form|noscript|select|textarea|nav|aside|template)\b.*?</\1\s*>", "", body)
     body = re.sub(r"(?is)<(source|input|link|meta)\b[^>]*>", "", body)
@@ -374,7 +378,14 @@ def build(cfg, picks, out_path, briefing=None):
     if cover_page is not None:
         cover_page.is_linear = True  # keep the cover page in the reading order
     book.spine = ["cover", front] + ([brief] if brief else []) + chapters
-    epub.write_epub(str(out_path), book)
+    # raise_exceptions: by default ebooklib swallows write errors and leaves a broken, partial EPUB
+    epub.write_epub(str(out_path), book, {"raise_exceptions": True})
+    import zipfile
+    with zipfile.ZipFile(out_path) as z:
+        names = set(z.namelist())
+    missing = [f"EPUB/{i.file_name}" for i in book.get_items() if f"EPUB/{i.file_name}" not in names]
+    if missing:
+        raise RuntimeError(f"EPUB is missing files listed in its manifest: {missing}")
     return title
 
 
