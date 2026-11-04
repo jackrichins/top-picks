@@ -38,6 +38,14 @@ from curate import load_feeds
 ROOT = Path(__file__).resolve().parent
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
 VIDEO_HOSTS = ("youtube.com", "youtu.be", "vimeo.com")
+YOUTUBE_HOSTS = ("youtube.com", "youtu.be", "youtube-nocookie.com")
+
+
+def is_youtube(url):
+    host = urlparse(url or "").netloc.lower().split(":")[0]
+    return any(host == h or host.endswith("." + h) for h in YOUTUBE_HOSTS)
+
+
 STRIP_LINK_HOSTS = []  # set from config.yaml (kindle.strip_link_hosts)
 
 CSS = """
@@ -451,6 +459,12 @@ def main():
         log("Kindle edition is turned off in config.yaml.")
         return
     picks = json.loads((ROOT / "state" / "picks.json").read_text(encoding="utf-8"))
+    # skip everything from YouTube feeds (videos, Shorts, community posts), whatever the item links to
+    # (a few YouTube channels share a name with a site's article feed, like MacStories or Rivian: those
+    # are matched by their youtube.com links instead, so the site's articles stay in)
+    all_feeds = load_feeds(ROOT / cfg.get("opml", "feeds.opml"))
+    youtube_feeds = ({f["title"] for f in all_feeds if is_youtube(f["url"])}
+                     - {f["title"] for f in all_feeds if not is_youtube(f["url"])})
     # everything picked since the last edition that was sent (first edition: the last day)
     try:
         since = datetime.fromisoformat(json.loads(last_path.read_text())["sent"])
@@ -459,7 +473,8 @@ def main():
     picks = [p for p in picks if p.get("kind") == "article"
              and datetime.fromisoformat(p["picked"]) >= since
              and not p.get("enclosure")  # no podcast episodes or other audio/video files
-             and not urlparse(p.get("link") or "").netloc.removeprefix("www.").startswith(VIDEO_HOSTS)]
+             and not urlparse(p.get("link") or "").netloc.removeprefix("www.").startswith(VIDEO_HOSTS)
+             and p.get("feed") not in youtube_feeds and not is_youtube(p.get("link"))]
     skip = re.compile("|".join(cfg.get("skip_title_patterns") or ["$^"]), re.I)
     picks = [p for p in picks if not skip.search(p.get("title") or "")]
     picks = sorted(picks, key=lambda p: -p.get("score", 0))[: kc.get("max_articles", 25)]
