@@ -73,6 +73,11 @@ New products, OS releases, major features, big company news, and legal or regula
 ## Recently favorited (updated automatically)
 What I've saved to Favorites or Bookmarks in Reeder over the last 90 days, newest first. Treat these as the freshest signal of my tastes; weigh similar topics and writers higher.
 
+- Tiny Computers for iPhone Duo (daringfireball.net, favorites)
+- ★ Touch and Glow (daringfireball.net, favorites)
+- This Election Will Not Look Surprising in History (daringfireball.net, favorites)
+- ‘Political Reckoning Shatters Trump’s Grip on Washington’ (daringfireball.net, favorites)
+- The President is Coping Well (daringfireball.net, favorites)
 - The Hallmark dilemma (seths.blog, favorites)
 - What Would This Actually Change? (macsparky.com, favorites)
 - The Microsoft building that was reportedly haunted (devblogs.microsoft.com, favorites)
@@ -98,8 +103,4 @@ What I've saved to Favorites or Bookmarks in Reeder over the last 90 days, newes
 - ★ The iPhone 4 ‘Antennagate’ Press Conference Q&A — Finally (daringfireball.net, favorites)
 - Assume misunderstanding (swiss-miss.com, favorites)
 - gocomics.com (gocomics.com, favorites)
-- Reed Jobs Tells a Neuroscience Story (daringfireball.net, bookmarks)
-- Mark Carney on the U.S. Under Trump: ‘Sometimes, Its Signature Is Written in Pencil’ (daringfireball.net, favorites)
-- How Two World Wars Standardized the American Male Grooming Routine (artofmanliness.com, favorites)
-- ★ Retraction: The App Store Rejection of the Week That Was, in Fact, a Correct Rejection (daringfireball.net, favorites)
 <!-- recent-favorites:end -->
