@@ -73,6 +73,7 @@ New products, OS releases, major features, big company news, and legal or regula
 ## Recently favorited (updated automatically)
 What I've saved to Favorites or Bookmarks in Reeder over the last 90 days, newest first. Treat these as the freshest signal of my tastes; weigh similar topics and writers higher.
 
+- Ambiguity or clarity? (seths.blog, favorites)
 - Tiny Computers for iPhone Duo (daringfireball.net, favorites)
 - ★ Touch and Glow (daringfireball.net, favorites)
 - This Election Will Not Look Surprising in History (daringfireball.net, favorites)
@@ -102,5 +103,4 @@ What I've saved to Favorites or Bookmarks in Reeder over the last 90 days, newes
 - A Day in the Life of Siri AI (pogueman.substack.com, favorites)
 - ★ The iPhone 4 ‘Antennagate’ Press Conference Q&A — Finally (daringfireball.net, favorites)
 - Assume misunderstanding (swiss-miss.com, favorites)
-- gocomics.com (gocomics.com, favorites)
 <!-- recent-favorites:end -->
