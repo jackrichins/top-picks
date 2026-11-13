@@ -2,7 +2,315 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel>
 <title>Top Picks</title><link>https://jackrichins.github.io/top-picks</link>
 <description>The best of my feeds, picked by Claude.</description>
-<lastBuildDate>Thu, 12 Nov 2026 17:36:06 +0000</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 00:16:51 +0000</lastBuildDate>
+<item>
+<title>Apple Explains How HomeView Keeps Camera Data Private</title>
+<link>https://www.macrumors.com/2026/11/12/apple-homeview-secure-exclaves/</link>
+<guid isPermaLink="false">f7097327c64ce32c</guid>
+<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
+<author>MacRumors: Mac News and Rumors - All Stories</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Apple details how Secure Exclaves isolate camera and mic data on HomeView and iPhone, right in your security wheelhouse. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacRumors: Mac News and Rumors - All Stories&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Apple today shared an in-depth look at how it&amp;#x27;s using Secure Exclaves to protect camera and microphone data on the HomeView, iPhone 18 Pro , and other products. Apple describes Secure Exclaves as compartmentalized runtimes that process camera and microphone data while isolated from the rest of the operating system. Data processed in Secure Exclaves is not available to the rest of the OS, apps, or Apple, but processing can take advantage of the full application processor. Secure Exclaves power se&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Apple details how Secure Exclaves isolate camera and mic data on HomeView and iPhone, right in your security wheelhouse. (score 8)<p>From <b>MacRumors: Mac News and Rumors - All Stories</b>.</p><hr/>Apple <a href="https://security.apple.com/blog/secure-exclaves/">today shared</a> an in-depth look at how it's using Secure Exclaves to protect camera and microphone data on the HomeView, <a href="https://www.macrumors.com/roundup/iphone-18-pro/">iPhone 18 Pro</a>, and other products.
+<br />
+
+<br />
+<img alt="" class="aligncenter size-full wp-image-1070618" height="1406" src="https://images.macrumors.com/article-new/2026/10/Apple-HomeView-lineup-feature5.jpg" width="2500" />
+<br />
+Apple describes Secure Exclaves as compartmentalized runtimes that process camera and microphone data while isolated from the rest of the operating system. Data processed in Secure Exclaves is not available to the rest of the OS, apps, or Apple, but processing can take advantage of the full application processor. Secure Exclaves power sensitive features involving video and audio feeds:
+<br />
+<ul>
+<br />
+ 	<li><strong>HomeView</strong> - The HomeView uses facial and voice recognition to identify up to six people in a home. The exclave also protects the LED camera indicator on the device.</li>
+<br />
+ 	<li><strong>Siri Recap and Live Rewind</strong> - Record ambient sound for conversation recaps or to caption the last 15 seconds of someone speaking.</li>
+<br />
+ 	<li><strong>iPhone 18 Pro/iPhone Duo</strong> - Protects the &zwnj;iPhone 18 Pro&zwnj;, Pro Max, and Duo on-screen camera and microphone indicators. Also works with "Hey <a href="https://www.macrumors.com/guide/siri/">Siri</a>" to protect voice data.</li>
+<br />
+ 	<li><strong>MacBook Neo</strong> - Protects the <a href="https://www.macrumors.com/roundup/macbook-neo/">MacBook Neo</a> camera indicator.</li>
+<br />
+</ul>
+<br />
+Apple uses the HomeView as an example of how Secure Exclaves work. The device performs passive minimal visual processing continually to detect whether a person is in its field of view. The HomeView sends a continuous stream of camera frames to a camera exclave, which works alongside a person recognition exclave with face and voice recognition models and an identity database. When a person comes into view, the camera exclave detects the person and lets the main OS know that a person may be present, but no image data leaves the Secure Exclave. An audio exclave does the same thing with audio.
+<br />
+
+<br />
+The person recognition exclave matches face and voice prints against the identity database of enrolled users, giving a confidence score. The OS gets the person identifier, position, and confidence level, but not any of the actual audio or video. These simple signals are used to activate personal features like Calendar and Messages that depend on identity, with raw sensor data discarded.
+<br />
+
+<br />
+Secure Exclaves came about because Apple needed a secure option for ambient video and microphone monitoring, with the groundwork laid starting in iOS 18. Apple devices use indicators for situations where the camera and microphone are actively engaged, but Apple says they weren't ideal for ambient sensing because they would be on all the time. Always-on lights wouldn't give users a way to distinguish between background sensing and active audio and video recording.
+<br />
+
+<br />
+There are two modes for a Secure Exclave: ambient mode and active mode. In ambient mode with no indicator, a sensor can respond to triggers, but it only shares small amounts of metadata with the rest of the system. In active mode, full sensor data is given to the operating system, and an indicator informs the user that the system has audio and video access.
+<br />
+
+<br />
+Apple has long used indicators, but they are now backed by Secure Exclaves. Secure Exclaves make sure an indicator is active before data is allowed to be transferred from the exclave to the rest of the OS.
+<br />
+
+<br />
+Apple built an isolated computing environment that could handle ambient sensing, and the company says isolating memory for Secure Exclaves was a "serious engineering challenge." Full technical details on the process <a href="https://security.apple.com/blog/secure-exclaves/">can be found on Apple's security website</a>.<div class="linkback">Related Roundup: <a href="https://www.macrumors.com/roundup/apple-homeview/">Apple HomeView</a></div><div class="linkback">Buyer's Guide: <a href="https://buyersguide.macrumors.com/#HomeView">HomeView (Buy Now)</a></div><div class="linkback">Related Forum: <a href="https://forums.macrumors.com/forums/homepod-homeview-carplay-–-home-auto-tech.193">HomePod, HomeView, CarPlay – Home & Auto Tech</a></div><br />This article, &quot;<a href="https://www.macrumors.com/2026/11/12/apple-homeview-secure-exclaves/">Apple Explains How HomeView Keeps Camera Data Private</a>&quot; first appeared on <a href="https://www.macrumors.com">MacRumors.com</a><br /><br /><a href="https://forums.macrumors.com/threads/apple-explains-how-homeview-keeps-camera-data-private.2494273/">Discuss this article</a> in our forums<br /><br />]]></content:encoded>
+</item>
+<item>
+<title>The Dream of Quibi Lives On</title>
+<link>https://daringfireball.net/linked/2026/11/12/the-dream-of-quibi-lives-on</link>
+<guid isPermaLink="false">e4cbfe78f4c6f705</guid>
+<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
+<author>Daring Fireball</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A quick, funny Gruber jab at corporate jargon, classic Daring Fireball whimsy. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Actual headline from an actual press release: “Peacock Extends Its Vertical Video Leadership With a Reimagined Mobile Experience”. Please tell me that someone printed up some t-shirts and hats with “Vertical Video Leadership” on them. Link: nbcuniversal.com/article/peacock-extends-its-vertical-video…&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> A quick, funny Gruber jab at corporate jargon, classic Daring Fireball whimsy. (score 7)<p>From <b>Daring Fireball</b>.</p><hr/>
+    <p>By John Gruber</p>
+    <p><a href="https://www.workos.com/airlock?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026">WorkOS</a>: Let agents use your tools without giving them free rein.</p>
+    <ul>
+      <li>
+        <a href="https://www.nbcuniversal.com/article/peacock-extends-its-vertical-video-leadership-reimagined-mobile-experience">The Dream of Quibi Lives On</a>
+      </li>
+      <li>
+<p>Actual headline from an actual press release: “Peacock Extends Its Vertical Video Leadership With a Reimagined Mobile Experience”. Please tell me that someone printed up some t-shirts and hats with “Vertical Video Leadership” on them.</p><p>★ Thursday, 12 November 2026</p></li>
+    </ul>
+  ]]></content:encoded>
+</item>
+<item>
+<title>Reuters Raises the Jensen Huang Affair Tally to Three</title>
+<link>https://daringfireball.net/linked/2026/11/12/reuters-third-woman</link>
+<guid isPermaLink="false">39ec089629776c20</guid>
+<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
+<author>Daring Fireball</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Gruber&amp;#x27;s take on the biggest tech story of the week as Reuters reports a third relationship. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Reuters: Ousted Nvidia CEO Jensen Huang had an intimate relationship with a second employee, according to two people familiar ​with the matter, Reuters has ​learned. The revelation follows two other extramarital affairs that led to his resignation ​Thursday. The two women are Alice Huang, ​who US intelligence suspects of being a Chinese spy, and Kimberly Powell, Nvidia’s vice ​president of health care. Reuters is not ​naming the second employee. Attempts to reach the woman were not successful. W&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Gruber&#x27;s take on the biggest tech story of the week as Reuters reports a third relationship. (score 7)<p>From <b>Daring Fireball</b>.</p><hr/>
+    <p>By John Gruber</p>
+    <p><a href="https://www.workos.com/airlock?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026">WorkOS</a>: Let agents use your tools without giving them free rein.</p>
+    <ul>
+      <li>
+        <a href="https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/">Reuters Raises the Jensen Huang Affair Tally to Three</a>
+      </li>
+      <li>
+<p>Reuters:</p><p>Ousted Nvidia CEO Jensen Huang had an intimate relationship with a second employee, according to two people familiar ​with the matter, Reuters has ​learned.</p><p>The revelation follows two other extramarital affairs that led to his resignation ​Thursday. The two women are Alice Huang, ​who US intelligence suspects of being a Chinese spy, and Kimberly Powell, Nvidia’s vice ​president of health care.</p><p>Reuters is not ​naming the second employee. Attempts to reach the woman were not successful.</p><p>What’s the over-under at? If it’s 4.5, I’ll take the over.</p><p>★ Thursday, 12 November 2026</p></li>
+    </ul>
+  ]]></content:encoded>
+</item>
+<item>
+<title>Apple HomeView Review Roundup: Simple, Charming, and Built for Apple Users</title>
+<link>https://www.macstories.net/news/apple-homeview-review-roundup-simple-charming-and-built-for-apple-users/</link>
+<guid isPermaLink="false">6b055650d6b4f6bf</guid>
+<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
+<author>MacStories</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; MacStories rounds up HomeView reviews, the best single read on Apple&amp;#x27;s new home product. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacStories&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Source: Apple. Apple HomeView reviews are out and it looks like a winner, especially for people already using other Apple products. Let’s look at what folks are saying. Jennifer Pattison Tuohy, writing for The Verge, has what I consider the highest praise of all, saying that the HomeView is “powerful enough to run my smart […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> MacStories rounds up HomeView reviews, the best single read on Apple&#x27;s new home product. (score 7)<p>From <b>MacStories</b>.</p><hr/><div class="media-wrapper"><img alt="Source: Apple." src="https://cdn.macstories.net/images/uploads/2026/11/12/apple-homeview-collection-of-faces-261013-1794513789318-d190e0e321.jpg" /><p class="image-caption">Source: Apple.</p></div>
+<p id="p2">Apple HomeView reviews are out and it looks like a winner, especially for people already using other Apple products. Let’s look at what folks are saying.</p>
+<p id="p3"><a href="https://www.theverge.com/tech/1031726/apple-homeview-review-smart-display-homekit" rel="noopener noreferrer">Jennifer Pattison Tuohy</a>, writing for The Verge, has what I consider the highest praise of all, saying that the HomeView is “powerful enough to run my smart home but simple enough for anyone in it to use.” That’s no small feat. Smart home complexity rises quickly the more devices you have, so it’s great to hear the HomeView seems simple enough for those in a household who care the least about automation. At the same time, though, Pattison Tuohy found user authentication to be clunky at times and ran into situations where personal information like text messages was left available for another person to view after they walked away from the device. Ultimately, The Verge gave the HomeView a 7 out of 10.</p>
+<p id="p4"><a href="https://www.engadget.com/2313999/apple-homeview-review/" rel="noopener noreferrer">Billy Steele at Engadget</a> gave the HomeView an 8.4/10. Steele was impressed with the device’s design, colorful screen, and great sound, but had some reservations about its dependence on an iPhone or iPad. He also concluded that it isn’t a good option for watching videos.</p>
+<div class="media-wrapper"><img alt="Source: Apple." src="https://cdn.macstories.net/images/uploads/2026/11/12/apple-homeview-wall-mounted-261013-1794513791502-c895976234.jpg" /><p class="image-caption">Source: Apple.</p></div>
+<p id="p6"><a href="https://www.techradar.com/home/smart-home-hubs/apple-homeview-review" rel="noopener noreferrer">Jacob Krol at TechRadar</a> gave the HomeView 4/5 stars, coming away from the experience appreciating the fact that the HomeView is not another entertainment screen, praising it for its customizable faces, FaceTime integration, and sound system. The counterweight to Krol is <a href="https://www.tomsguide.com/home/smart-home/apple-homeview-review" rel="noopener noreferrer">Mike Prospero’s review for Tom’s Guide</a>. Prospero gave the HomeView 2.5/5 stars, lamenting the fact that the HomeView <em>isn’t</em> a small TV. Prospero expected more from Apple’s new device, but still came away impressed with its interface, hardware, and iPhone integration.</p>
+<p id="p7"><a href="https://9to5mac.com/2026/11/12/apple-homeview-review-an-adorable-smart-display-that-earns-its-place/" rel="noopener noreferrer">Chance Miller, 9to5Mac’s editor-in-chief</a>, declared the HomeView adorable. Chance set up a HomeView in his kitchen and found that “It’s gone from being a nice-to-have to something I use and rely on for multiple tasks each day,” for things like timers, recipes, music, photos, and Siri requests.</p>
+<p id="p8"><a href="https://sixcolors.com/post/2026/11/homeview-review-a-late-arrival-with-promise-but-still-showing-some-seams/" rel="noopener noreferrer">Jason Snell at Six Colors</a> concludes that the HomeView is an improvement over offerings from Google and Amazon, but he also found the device’s lack of flexibility constraining. Arguably that structure is a feature, not a bug, but I get it. We’re all used to getting more than the HomeView offers when we tap a screen from Apple.</p>
+<p id="p9">Finally, <a href="https://www.youtube.com/watch?v=2dEIBqwrTbc" rel="noopener noreferrer">Brian Tong’s video review</a> explored the HomeView from the perspective of someone already using smart home devices from Google, Amazon, and others. For Tong, it was hard to justify yet another such device, especially since it lacks an App Store and has limited video support. Still, he found it a useful and fun accessory for Apple users.</p>
+<hr id="hr10" /><p id="p11">As someone who has been on the fence about the HomeView from the start, I’m more intrigued than before, especially after having seen it in action in Jennifer Pattison Tuohy’s video and reading Chance Miller’s review. Having a centralized place to control devices, play music, display photos, check calendars and messages, and ask Siri questions are all appealing use cases. Perhaps I’ll give the HomeView a try sometime soon after all.</p>]]></content:encoded>
+</item>
+<item>
+<title>New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access</title>
+<link>https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html</link>
+<guid isPermaLink="false">381ae85437c3cd7d</guid>
+<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
+<author>The Hacker News</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A public SYSTEM exploit that abuses a Windows CLFS security feature matters to a Microsoft security PM. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> A public SYSTEM exploit that abuses a Windows CLFS security feature matters to a Microsoft security PM. (score 7)<p>From <b>The Hacker News</b>.</p><hr/>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-9BW-gpid0fJ4GJSsWoqjYl5qF_EdYchTcxeNjFfMV-MCcvSRTs-rAmiHKNX3M2dr66bJcfUelNR5CR9g-JLKPkMrROsqrM6hf563hIMklj5v08uYDtEp7pdYPcs5Y5TEGxgTWTHDG_Q-L8Tbq12yo57xp0GOlYk8g05nU3peuA_kedIXtggnakiiCGM/s1600/signdrop.jpg"/>
+    <p>Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver.</p>
+    <p>The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of the operation. Microsoft has not confirmed the claimed flaw, assigned a CVE, or released a fix.</p>
+    <p>The researcher behind the exploit, who publishes under the name MSNightmare, released the code and a detailed writeup on GitHub on Tuesday, the same day the company published its November security updates.</p>
+    <p>CLFS is a logging subsystem built into Windows. Its driver has been a frequent target for privilege escalation: 10 CLFS flaws appear in CISA's catalog of vulnerabilities known to have been exploited in attacks, including one used in ransomware campaigns in April 2025.</p>
+    <p>To reduce that exposure, Microsoft added an authentication check to CLFS log files in updates for Windows 11 25H2, 26H1, and Windows Server 2025 shipped in October 2025. The check attaches a hash-based message authentication code, built from log data and a key unique to each machine.</p>
+    <p>The driver then parses only log files it wrote. A companion .cnpf file stores recovery data beside each log and is created with the same security attributes as the original, according to the company's <a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/clfs-authentication">logfile authentication</a> page.</p>
+    <p>SignDrop targets the creation of that companion file. According to the <a href="https://github.com/MSNightmare/SignDrop">proof-of-concept code</a>, a standard user prepares a CLFS log and container with paths the user controls. When a privileged process later opens that log, the driver creates the .cnpf file in the privileged process's security context rather than the user's.</p>
+    <p>The exploit uses object manager symbolic links to redirect that file creation to a location the attacker chooses. In the published code, the privileged process is the Defender antimalware service, triggered through its update interface.</p>
+    <p>"Everything is done properly by Microsoft here but the logic allows abuse," the researcher wrote.</p>
+    <p>
+      <a href=""/>
+    </p>
+    <p>Because the .cnpf file inherits the original log's permissions, the result is a file created as SYSTEM that the standard user can write to. The researcher says that can be chained into a SYSTEM shell.</p>
+    <p>The exploit was tested on Windows 11 26H2, a Windows 11 26H2 Experimental build, and Windows Server 2025 Experimental, according to the repository. Systems are affected when the CLFS authentication registry mode is set to 0 (enforced) or 1 (learning). Systems older than 90 days typically move from learning to enforcement automatically, so the default configuration on established installations is the one the exploit targets.</p>
+    <p>A registry value of 2 or 3 means the mitigation is disabled. That takes the system outside the claimed attack surface, but the researcher and the driver's own documentation both warn against it: disabling lets CLFS parse tampered log files, reopening the memory corruption flaws the protection was built to prevent.</p>
+    <h3>Independent Test</h3>
+    <p>Sungyup Nam, head of research at Korean security firm 78researchlab, reported in a <a href="https://www.linkedin.com/pulse/20261112-%EB%AA%A8%EB%8B%9D%EB%B3%B4%EC%95%88%EA%B8%B0%EC%88%A0kren-sungyup-nam-z2wmc/">published assessment</a> today that researcher Heewon Song of the firm's PurpleHound offensive content team tested the exploit and found that it works. Song assessed that it does not run reliably enough for operational use, Nam wrote.</p>
+    <p>Defender must be enabled for the published chain to succeed. Running the exploit changes every UAC prompt to open a standard user shell and a SYSTEM shell, blocking other actions and making the attack noticeable to anyone at the machine.</p>
+    <p>The repository claims the technique can work against any antimalware engine whose process runs with elevated privileges. That broader claim has not been tested.</p>
+    <h3>What Defenders Can Do</h3>
+    <p>No CVE, advisory, or patch for SignDrop appeared in the November security updates. The CISA Known Exploited Vulnerabilities catalog does not list it, and no attacks using the exploit have been reported.</p>
+    <p>Administrators can check their exposure by reading the CLFS authentication mode at HKLM\SYSTEM\CurrentControlSet\Services\CLFS\Authentication, where a Mode value of 0 or 1 falls within the researcher's claimed scope. The vendor's <a href="https://support.microsoft.com/en-us/servicing/os/windows/2025/03/common-log-file-system-clfs-authentication-mitigation">mitigation guidance</a> describes the setting and the risks of disabling it.</p>
+    <p>The researcher has released a series of exploits targeting Windows and Defender since April. The vendor confirmed an <a href="https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html">earlier Defender exploit</a> called RoguePlanet in June as CVE-2026-50656 and patched it the following month.</p>
+    <p><a href="https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html">The ShieldBreak bypass</a> followed in August and was assigned CVE-2026-69414. Three of the researcher's earlier Defender flaws have been exploited in attacks.</p>
+    <p>SignDrop is a different class of issue. Where the earlier exploits targeted race conditions in Defender's file handling, this one targets the CLFS driver's own authentication feature. The vendor's <a href="https://msrc.microsoft.com/update-guide">security update guide</a> is the place to watch for a response.</p>
+    <p><a href="https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ">Google News</a>,</p>
+  ]]></content:encoded>
+</item>
+<item>
+<title>Tim Peters, RIP</title>
+<link>https://mjtsai.com/blog/2026/11/12/tim-peters-rip/</link>
+<guid isPermaLink="false">1b92d8e031d1411c</guid>
+<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
+<author>Michael Tsai</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Michael Tsai remembers Tim Peters, author of the Zen of Python and a giant of engineering craft. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Michael Tsai&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Guido van Rossum (Hacker News): I am immensely sad to announce that Tim Peters has died earlier this year on July 15. It’s hard to overestimate Tim’s influence on Python. He’s probably best known for writing the Zen of Python (PEP 20), but to me he was a mentor and language co-designer long before that. […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Michael Tsai remembers Tim Peters, author of the Zen of Python and a giant of engineering craft. (score 7)<p>From <b>Michael Tsai</b>.</p><hr/><p><a href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028">Guido van Rossum</a> (<a href="https://news.ycombinator.com/item?id=50450488">Hacker News</a>):</p>
+<blockquote cite="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028">
+<p>I am immensely sad to announce that <a href="https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)">Tim Peters</a> has <a href="https://www.bratleyfamilyfuneralhomes.com/obituary/timothy-peters">died</a> earlier this year on July 15.</p>
+<p>It&rsquo;s hard to overestimate Tim&rsquo;s influence on Python. He&rsquo;s probably best known for writing the Zen of Python (<a href="https://peps.python.org/pep-0020/">PEP 20</a>), but to me he was a mentor and language co-designer long before that.</p>
+<p>Tim found Python not long after its initial release. His first deed was to convince me that Python should support mixed arithmetic between <code>int</code> and <code>float</code>, because most users would expect them to work that way. And he never stopped contributing.</p>
+</blockquote>
+
+<p><a href="https://blog.adafruit.com/2026/11/11/tim-peters-python-user-2-and-prolific-contributor-has-died/">Anne Barela</a> (<a href="https://developers.slashdot.org/story/26/11/11/2318211/tim-peters-python-user-2-and-prolific-contributor-dies-at-74">Slashdot</a>):</p>
+<blockquote cite="https://blog.adafruit.com/2026/11/11/tim-peters-python-user-2-and-prolific-contributor-has-died/">
+<p>He was a director of the Python Software Foundation from 2001 to 2014. Before Python, he wrote compilers at Cray Research and speech-to-text software at Dragon Systems.</p>
+</blockquote>
+
+<p><a href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028/25">David Mertz</a>:</p>
+<blockquote cite="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028/25"><p>Brett famously commented many years ago that he <em>came for the language, but stayed for the community</em> &#8230; for me it was the reverse, I came for the community, and stayed for the language.  That community was in very large measure defined by Uncle Timmy&rsquo;s kindness and wit.</p>
+<p>[&#8230;]</p>
+<p>Python luminary and erstwhile professor of numeric computing Alex Martelli
+commented in 2001 (on &lsquo;&lt;comp.lang.python&gt;&rsquo;):</p>
+<blockquote><p>Anybody who thinks he knows what he&rsquo;s doing when floating
+point is involved IS either naive, or Tim Peters (well, it
+COULD be W. Kahan I guess, but I don&rsquo;t think he writes here).</p>
+</blockquote>
+<p>Fellow Python guru Tim Peters observed:</p>
+<blockquote><p>I find it&rsquo;s possible to be both (wink).  But <em>nothing</em> about
+fp comes easily to anyone, and even Kahan works his butt off
+to come up with the amazing things that he does.</p></blockquote>
+</blockquote>
+
+<p><a href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028/12">Neil Schemenauer</a>:</p>
+<blockquote cite="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028/12"><p>I poked around at Python 2.4, since that seems a good version to show off the things he worked on.  His contributions were all over the codebase but I&rsquo;ll point out a few that stand out to me.  <a href="https://github.com/python/cpython/blob/v2.4/Objects/obmalloc.c">pymalloc</a> was contributed by Vladimir Marangozov but it was Tim who polished it to diamond-like form.  A memory allocator is one of those things where it is impossible to have something completely optimal; you always make tradeoffs.  Tim&rsquo;s special contribution in that unit is <code>Py_ADDRESS_IN_RANGE</code>.  It is well commented, if you want to understand how it works.  Technically, it relies on undefined behavior but Tim figured it should work in practice.  It did so for many years.</p>
+<p>[&#8230;]</p>
+<p>Speaking of Knuth, the <a href="https://github.com/python/cpython/blob/v2.4/Objects/dictobject.c">dict object</a> algorithms were heavily optimized by Tim.  The C file contains lots of comments.  He also wrote <a href="https://github.com/python/cpython/blob/v2.4/Objects/dictnotes.txt">dictnotes</a>, which is a good example of his technical writing.  Another example is <a href="https://github.com/python/cpython/blob/v2.4/Modules/gc_weakref.txt">weakref.txt</a>, which I think Tim wrote after fixing a particularly difficult GC bug revealed by ZODB (while working at Zope Corp).</p>
+<p>On the topic of GC, the initial version of the cyclic garbage collector was written by me, merged before the 2.0 release.  It was Tim who polished it into robust and well-performing shape.  Likewise, I wrote the initial version of &ldquo;simple generators&rdquo; but it was Tim who put them on solid foundation, both the PEP and the implementation.</p></blockquote>
+
+<p><a href="https://www.reddit.com/r/Python/comments/1xt65ah/tim_peters_has_passed_away/">ExoticMandibles</a>:</p>
+<blockquote cite="https://www.reddit.com/r/Python/comments/1xt65ah/tim_peters_has_passed_away/">
+<p>He invented a new sorting algorithm (&ldquo;Timsort&rdquo;); a descendent of it (&ldquo;PowerSort&rdquo;) is still used in Python today, as well as in Java, and several Javascript runtimes (Chrome, Node).</p>
+</blockquote>
+
+<p><a href="https://pyfound.blogspot.com/2018/07/the-happy-medium-distinguished-service.html">Python Software Foundation</a>:</p>
+<blockquote cite="https://pyfound.blogspot.com/2018/07/the-happy-medium-distinguished-service.html">
+<p>In Guido van Rossum&rsquo;s estimation, Peters&rsquo;s biggest contribution to the community has been his years of answering questions and guiding debates on the Python mailing list, writing each message precisely and cheerfully. PSF director Thomas Wouters agrees: &ldquo;Tim is just never flustered. He always takes it in good humor and it definitely has an effect on everyone else, as well.&rdquo; Even an experienced developer like Carol Willing says that when she sees a post from Peters on a topic she knows, she&rsquo;ll take the time to read it for new insights or new ways of explaining.</p>
+</blockquote>]]></content:encoded>
+</item>
+<item>
+<title>Microsoft Outlook is still down</title>
+<link>https://www.theverge.com/tech/1032226/microsoft-outlook-is-down</link>
+<guid isPermaLink="false">787f46fc5425383a</guid>
+<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
+<author>The Verge</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A long global Outlook outage is Microsoft news you&amp;#x27;ll hear about at work. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Since just before 1PM ET on Thursday, reports have come in from around the world that people can&amp;#x27;t access their Outlook email, either through the web or apps. Microsoft quickly acknowledged the issue from its Microsoft 365 Status account, saying that &amp;quot;We&amp;#x27;ve determined a portion of infrastructure is experiencing elevated load across multiple regions, which […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> A long global Outlook outage is Microsoft news you&#x27;ll hear about at work. (score 7)<p>From <b>The Verge</b>.</p><hr/>
+    <p>Since just before 1PM ET on Thursday, reports have come in from around the world that people can’t access their Outlook email, either through the web or apps. Microsoft quickly acknowledged the issue <a href="https://x.com/MSFT365Status/status/2120948642991182117">from its Microsoft 365 Status account</a>, saying that “We’ve determined a portion of infrastructure is experiencing elevated load across multiple regions, which is likely contributing to the connectivity errors.”</p>
+    <h1>Microsoft Outlook is still down</h1>
+    <p class="duet--article--dangerously-set-cms-markup cbn62fh cbn62fg _19wv7tca _19wv7tc1">Microsoft 365 issues have been cutting people off from their email since early Thursday afternoon, and they still aren’t fixed.</p>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_B_66565e.jpg?quality=90&amp;strip=all&amp;crop=0.0058823529411782%2C0%2C99.988235294118%2C100&amp;w=2400" alt="STK153_MICROSOFT_OUTLOOK_B_66565e"/>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_B_66565e.jpg?quality=90&amp;strip=all&amp;crop=0.0058823529411782%2C0%2C99.988235294118%2C100&amp;w=2400" alt="STK153_MICROSOFT_OUTLOOK_B_66565e"/>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/RICHARD_BLURPLE.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Richard Lawler"/>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">There were also some reports of problems with Teams, but not to the same extent, while Microsoft’s official updates said customers may experience issues across its suite of 365 business services. Microsoft comms director Ben Hope said in a statement that “We are aware and investigating reports of users experiencing issues with Microsoft 365 services, primarily issues with Exchange Online. We appreciate our customers’ patience while we work to restore services as soon as possible.”</p>
+    <p>Several hours later, Microsoft has <a href="https://status.cloud.microsoft/m365/referrer=serviceStatusRedirect">gone through several variations of update notes</a> regarding the issues and its attempts to fix them, saying it’s had problems rebooting servers and being able to monitor their health. As of about 6PM ET, Microsoft has a note saying it’s managed to get some of the affected servers running:</p>
+    <blockquote>
+      <p>We’ve begun returning a portion of the affected servers to service, and they’re remaining stable so far. We’ve also shifted traffic and connections to alternative pathways wherever possible and have observed limited recovery in some regions.</p>
+      <p>We’ve streamlined our recovery process to expedite returning the remaining affected servers to service. To further support recovery, we’re implementing protective traffic management measures in a specific location to reduce load on the affected infrastructure, and we’ll expand these measures to additional locations if we observe positive results. As capacity is restored, users may experience a gradual recovery as their clients reconnect to the service.</p>
+    </blockquote>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">There’s still no ETA for full restoration, but we will continue to monitor this ongoing outage.</p>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-12-at-2.01.16-PM.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=2400" alt="User impact: Users may be unable to connect to multiple Microsoft 365 services.More info: Potentially impacted services include:Exchange OnlineMicrosoft TeamsSharePoint OnlineMicrosoft Copilot 365Microsoft Defender XDRCurrent status: We’ve completed redistributing connection traffic across our worldwide infrastructure, and we’re moving additional traffic off the affected infrastructure to further reduce load. We’re also restarting affected servers to return them to service. In parallel, we’re investigating whether the elevated traffic reflects a genuine increase in requests or a shift in how traffic is being routed across our infrastructure."/><p><em>User impact: Users may be unable to connect to multiple Microsoft 365 services.More info: Potentially impacted services include:Exchange OnlineMicrosoft TeamsSharePoint OnlineMicrosoft Copilot 365Microsoft Defender XDRCurrent status: We’ve completed redistributing connection traffic across our worldwide infrastructure, and we’re moving additional traffic off the affected infrastructure to further reduce load. We’re also restarting affected servers to return them to service. In parallel, we’re investigating whether the elevated traffic reflects a genuine increase in requests or a shift in how traffic is being routed across our infrastructure.</em></p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Update, 6:23PM ET: Added latest status update from Microsoft.</p>
+  ]]></content:encoded>
+</item>
+<item>
+<title>No, AI agents did not discover a previously unknown Maya site</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery</link>
+<guid isPermaLink="false">6c7e904c7f4dad8a</guid>
+<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
+<author>The Verge</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A useful cautionary tale about AI agents overclaiming research discoveries. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> A useful cautionary tale about AI agents overclaiming research discoveries. (score 7)<p>From <b>The Verge</b>.</p><hr/>
+    <p>Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which <a href="https://bsky.app/profile/indyfromspace.bsky.social/post/3n2235hwwsk2m">sparked criticism</a> among archeologists online, underscores a growing tension in science as amateurs wielding increasingly powerful AI tools parachute into specialist fields, often without the expertise needed to understand what they are looking at.</p>
+    <h1>No, AI agents did not discover a previously unknown Maya site</h1>
+    <p class="duet--article--dangerously-set-cms-markup cbn62fh cbn62fg _19wv7tca _19wv7tc1">Scientists are getting tired of amateurs parachuting into their fields and making ‘discoveries’ with AI.﻿</p>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/maya-sites.jpg?quality=90&amp;strip=all&amp;crop=0.23099489795919%2C0%2C74.713010204082%2C100&amp;w=2400" alt="maya-sites"/>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/maya-sites.jpg?quality=90&amp;strip=all&amp;crop=0.23099489795919%2C0%2C74.713010204082%2C100&amp;w=2400" alt="maya-sites"/>
+    <p>
+      <a href="http://pietromiotti.com/latest/maya-site/">Pietro Miotti</a>
+    </p>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/ROB_H_BLURPLE.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Robert Hart"/>
+    <p class="duet--article--dangerously-set-cms-markup c39lj12 _19wv7tc9">Local communities are often already well aware of sites in their area.</p>
+    <p>Miotti <a href="https://pietromiotti.com/latest/maya-site/">said</a> the idea to use AI to search for archeological sites came to him while traveling in Peru, when he began wondering what historic explorers might do with access to modern technology. He settled on lidar, a laser-based mapping technology that can produce detailed three-dimensional images of the environment, and set a team of 48 AI agents to comb through NASA lidar data for signs of undocumented sites. As “Peru isn’t well covered” by public lidar data, Miotti wrote, he shifted his focus to the Maya region.</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">The agents flagged numerous promising locations, including “one major village [that] doesn’t seem to have been registered” in existing records. Miotti, who described the research to The Verge as a personal side project done without any Google compute or resources, said he then reached out to Mexico’s National Institute of Anthropology and History (INAH) to check whether the apparent discovery was already known, including through unpublished research. Using the agents to translate his correspondence into Spanish, Miotti said INAH told him it had no record of a registered site at that location.</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“It took less than 72 hours to go from a random thought while traveling to an official reply from the Mexican government. This is by far the best time ever to be alive,” Miotti wrote on his blog.</p>
+    <p>Miotti stressed that he is not an archeologist and emphasized that the finding would need to be verified with fieldwork. Nevertheless, he hailed it as proof that “we’re on the brink of a revolution across every science” and called for the “entire planet” to be mapped with lidar so AI agents could “help us find the rest.” Had he been an archaeologist familiar with the region, however, Miotti might have spotted a problem: The site was already known, and had been <a href="https://www.sciencedirect.com/science/article/pii/S2352409X25003219">documented</a> in an academic journal more than a year earlier.</p>
+    <p class="duet--article--dangerously-set-cms-markup c39lj12 _19wv7tc9">“I didn’t expect it to get this much attention.”</p>
+    <p>Archeologists were quick to point out the oversight on social media. In a series of <a href="https://bsky.app/profile/indyfromspace.bsky.social/post/3n2235hwwsk2m">posts</a> on Bluesky, Sarah Parcak, an archeology professor at the University of Alabama at Birmingham, stressed the importance of carefully checking findings against existing research. “This is why we have peer review,” Parcak wrote, adding that just because the Mexican government doesn’t have something in its database doesn’t mean it is unknown or unmapped. Other archeologists <a href="https://bsky.app/profile/anisekstrong.bsky.social/post/3n225eyyh6k27">echoed</a> her criticism, slamming the project for spreading misinformation and taking credit away from archeologists, who have been using advanced digital tools in their work for decades.</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“This was a personal project that I was excited to share,” Miotti told The Verge. “I didn’t expect it to get this much attention.” He added that as a non-archaeologist, he had not realized a site not being registered wasn’t the same as it not having been mapped, adding that expert knowledge “is needed to verify what the agents find.” He also addressed the limits of his AI tools: “My agents and I missed it. Archaeologists rightly don’t publish the coordinates of sites, so checking whether a site is already known means comparing images against figures in papers, not searching a database. That’s much harder for agents, and it’s something these tools need to get better at. When people pointed it out, I updated the post and the blog as soon as I could to credit their work.”</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Nevertheless, Miotti said this was an example of how agents could be used to help experts sort through large amounts of data. He said he has been encouraged by the archaeologists and PhD students that he said were reaching out to him “excited about the workflow and wanting to know how it works and whether it could help with their own survey data.”</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“Our ‘problem’ is not discovering new sites,” Elizabeth Graham, a professor of Mesoamerican archaeology at University College London, told The Verge. “Most of us working in the Maya area know about tons of sites not explored or excavated or mapped, most of these found on foot,” she said. Graham also critiqued the use of the word “discover,” noting that local communities are often already well aware of sites in their area.</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">While she credited Miotti with doing a decent job of using AI to map the mounds from lidar data — “the interpretation of lidar data can be tricky” — Graham argued the bigger obstacle is funding for research. “The fact is, there just isn’t the funding to excavate or map sites as there was in the past, so in a way it doesn’t matter how many more are ‘discovered.’”</p>
+    <p class="duet--article--dangerously-set-cms-markup c39lj12 _19wv7tc9">“Just spotting something does not add much to our knowledge.”</p>
+    <p>The controversy reflects a broader problem with AI in science, perhaps most visible with OpenAI’s <a href="https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution">recent advances</a> in <a href="https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos">mathematics</a>. While AI tools are increasingly capable of producing genuinely impressive results, they don’t always engage with the existing research those findings build upon. The result can be claimed breakthroughs that have, as is the case here, already been made by someone else, or a general <a href="https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun">failure to credit</a> <a href="https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data">earlier</a> work. Even when the findings are actually new, they can lack context a specialist would bring. Ultimately, amateur use of AI tools often ends up shifting the burden of establishing what has actually been found and why it matters to actual experts, work that would ordinarily be part of making a scientific discovery in the first place.</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Ivan Šprajc, a professor of archaeology at the Research Centre of the Slovenian Academy of Sciences and Arts in Ljubljana and a coauthor of the paper documenting the site, told The Verge he wasn’t particularly impressed by the agents’ work. Archeologists have been using lidar and “other sophisticated remote sensing tools for quite some time,” he said, adding that “just spotting something does not add much to our knowledge.” He told The Verge that while it is commendable that Miotti checked in with INAH, doing so is “not sufficient” as the institution does not have access to all possible information. “The fact that INAH has no official knowledge of a particular cluster of archaeological features does not necessarily mean that it has not been spotted or even explored by archaeologists.”</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Šprajc said that he worries the growing use of AI tools by amateurs could overwhelm archeologists with claims of new discoveries. “Just today I have received an email from another AI ‘discoverer,’ so I am a little bit concerned about being flooded by this kind of message,” he said. He also raised another potential risk of amateurs publicizing the locations of archeological sites: attracting looters. “But as long as these findings do not lead to looting, I don’t see a major problem,” he added.</p>
+  ]]></content:encoded>
+</item>
+<item>
+<title>Five Questions As BYU Hosts Baylor in Pivotal Big 12 Bout</title>
+<link>https://www.vanquishthefoe.com/byu-football/28095/five-questions-as-byu-football-hosts-baylor-in-pivotal-big-12-bout</link>
+<guid isPermaLink="false">657c3c43344f72ac</guid>
+<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
+<author>Vanquish The Foe</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Preview of a pivotal BYU home game with playoff stakes. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Vanquish The Foe&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;BYU returns home for the first time since defeating Arizona State 27-20 on Halloween. A lot has happened since then. The Cougars dropped the Holy War for the first time in seven years, losing 28-20 to the Utes. They now sit at No. 10 in the College Football Playoff rankings. They still have a legitimate […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Preview of a pivotal BYU home game with playoff stakes. (score 7)<p>From <b>Vanquish The Foe</b>.</p><hr/><figure>
+
+<img alt="" src="https://platform.vanquishthefoe.com/wp-content/uploads/sites/174/2026/11/gettyimages-2303976743.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	WACO, TX - NOVEMBER 07: DJ Lagway #2 of the Baylor Bears hands the ball off to Ryelan Morris #25 of the Baylor Bears during the second half of the game against the Iowa State Cyclones on November 07, 2026, at McLane Stadium in Waco, TX. (Photo by Adam Davis/Icon Sportswire via Getty Images) | Icon Sportswire via Getty Images	</figcaption>
+</figure>
+<p class="wp-block-paragraph">BYU returns home for the first time since defeating Arizona State 27-20 on Halloween. A lot has happened since then. The Cougars dropped the Holy War for the first time in seven years, losing 28-20 to the Utes. They now sit at No. 10 in the College Football Playoff rankings. They still have a legitimate shot at a Playoff berth. First things first — beating Baylor.</p>
+
+<p class="wp-block-paragraph">The Cougars enter the matchup as 7.5-point favorites. The game kicks off Saturday at 1:30pm MT on FOX. Let’s explore five questions surrounding the matchup between the Bears and Cougars.</p>
+
+<p class="wp-block-paragraph"><strong>What is at stake for both teams? </strong></p>
+
+<p class="wp-block-paragraph">To put it simply, if BYU loses to Baylor, they can kiss any shot at a Big 12 title game berth or College Football Playoff appearance goodbye. They are already on the bubble, as it were. Losing to the Bears would cause that bubble to burst dramatically. The Cougars would be looking at another trip to the Pop-Tarts or Alamo Bowl, most likely. </p>
+
+<p class="wp-block-paragraph">For Baylor, they currently have the same record in Big 12 play as BYU. They still have something of a pulse in the race to get to Arlington. Their brutal schedule to finish the season also has them controlling their own destiny. After their trip to Provo, they host Texas Tech and then travel to Houston to finish the year. They need to win out and likely have one of Utah or Texas Tech lose an additional game. </p>
+
+<p class="wp-block-paragraph">But if Baylor loses this game, their hopes of getting to Arlington go from slim to none.</p>
+
+<p class="wp-block-paragraph"><strong>What has Baylor done since firing head coach Dave Aranda? </strong></p>
+
+<p class="wp-block-paragraph">Whenever a program fires a long time head coach midseason, the results certainly can vary. For Baylor, it looks like it fired the squad up. The Bears lost at Kansas on October 25 in a gutting 25-24 defeat. News broke not long after that Baylor had fired Aranda after seven seasons at the helm in Waco. All Baylor has done since interim head coach Joe Klanderman took over is beat UCF (something BYU can’t say this year) and Iowa State by a combined score of 83-40. </p>
+
+<p class="wp-block-paragraph">Their offense has been explosive. Along with those 83 points, they have over 900 yards of total offense in those two games. The run game has caught fire, with 378 rushing yards in those two games combined. </p>
+
+<p class="wp-block-paragraph"><strong>Where are the advantages for BYU against Baylor?</strong></p>
+
+<p class="wp-block-paragraph">As mentioned, Baylor’s offense is scorching-hot the last two weeks.  According to ESPN’s SP+ metric, those came against the 69th (UCF) and 94th (Iowa State) ranked defenses in  the country. BYU sits at 20. The Cougars are by far the best defense the Bears have faced this season. Baylor wants to run the ball. BYU ranks 20th in rush yards allowed per game. The next strongest rushing defense Baylor faced was TCU, when they mustered just six points. </p>
+
+<p class="wp-block-paragraph">The quarterback matchup also favors BYU. Bear Bachmeier posses a 141.7 passer efficiency rating. DJ Lagway checks in at 128.2. Lagway has the worst completion percentage in the Big 12. </p>
+
+<p class="wp-block-paragraph">Baylor also has one of the worst passing defenses in college football, ranking 108th in yards allowed per game. Bachmeier and his weapons need to take shots downfield, especially with upstart freshman Legend Glasker. </p>
+
+<p class="wp-block-paragraph">Lastly, BYU certainly has the advantage given this game is in Provo. </p>
+
+<p class="wp-block-paragraph"><strong>Where does Baylor present challenges for BYU? </strong></p>
+
+<p class="wp-block-paragraph">Like BYU, Baylor also possesses a solid run defense. They rank 27th in the FBS in rushing yards allowed. BYU has faced two stout run defenses already in Notre Dame and Utah. Baylor is not too far behind those two against the run. Running LJ Martin was on a very limited snap count against Utah. Hopefully, another week to get back into the groove will give Martin the confidence to let it rip against Baylor.</p>
+
+<p class="wp-block-paragraph">Baylor&#8217;s defense ranks third in the FBS in havoc rate, meaning roughly one in five plays ends in a tackle for loss, sack, interception, or pass breakup. BYU just faced an aggressive, havoc-creating defense in Utah and things did not go well in the second half. Baylor ranks second in FBS with 37 sacks this year. They have been getting sacks from everyone, not just one or two stars. Garrick Ponder leads the team with just four. 13 Baylor defenders have more than 1.0 sacks. </p>
+
+<p class="wp-block-paragraph">Also, BYU needs to be wary of Lagway’s legs. If the Cougars get good coverage downfield, Lagway can ruin a good gameplan by just taking off and using his athleticism to get key conversions. The BYU pass rush needs to be disciplined. </p>
+
+<p class="wp-block-paragraph"><strong>Which non-quarterbacks could decide the game on either side?</strong></p>
+
+<p class="wp-block-paragraph">As mentioned, LJ Martin looks to have a bigger impact for BYU’s run game than he did against Utah. Legend Glasker will test the back of Baylor’s defense several times. The Cougars need to land a couple of big shots with him downfield. Walker Lyons is slowly becoming one of the most solid tight ends in the Big 12. Bachmeier will look to him in key third down and red zone situations. </p>
+
+<p class="wp-block-paragraph">Gavin Freeman is Baylor’s best weapon. He ranks second in the Big 12 with 852 receiving yards. In the Big 12, only four receivers in the conference have been targeted more 20-plus yards down field than Freeman. He is basically their version of Glasker. The Bears have something of a thunder-and-lightning approach to the running back group. Caden Knighten brings the boom with 292 yards after contact this season. Ryelan Morris can beat you off the edge and turn on the afterburners. Also, be aware of tight end Tony Livingston in the red zone. He doesn’t have the gaudy stats but he does have four receiving touchdowns. </p>
+
+<p class="wp-block-paragraph"><strong><em>Prediction: BYU 27, Baylor 24</em></strong></p>]]></content:encoded>
+</item>
 <item>
 <title>Calvin and Hobbes - 2026-11-12</title>
 <link>https://www.gocomics.com/calvinandhobbes/2026/11/12</link>
