@@ -2,7 +2,365 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel>
 <title>Top Picks</title><link>https://jackrichins.github.io/top-picks</link>
 <description>The best of my feeds, picked by Claude.</description>
-<lastBuildDate>Mon, 16 Nov 2026 17:35:25 +0000</lastBuildDate>
+<lastBuildDate>Tue, 17 Nov 2026 00:17:45 +0000</lastBuildDate>
+<item>
+<title>Light-Day</title>
+<link>https://xkcd.com/3325/</link>
+<guid isPermaLink="false">ed51cf793d07ccd4</guid>
+<pubDate>Tue, 17 Nov 2026 00:17:45 +0000</pubDate>
+<author>xkcd.com</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; On your always-include list. (score 10)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;xkcd.com&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> On your always-include list. (score 10)<p>From <b>xkcd.com</b>.</p><hr/><img alt="After 49 years, NASA is considering shutting down Voyager 1's multiplayer gaming server; the 172800000ms ping has just become too annoying for players." src="https://imgs.xkcd.com/comics/light_day.png" title="After 49 years, NASA is considering shutting down Voyager 1's multiplayer gaming server; the 172800000ms ping has just become too annoying for players." /><p><em>After 49 years, NASA is considering shutting down Voyager 1's multiplayer gaming server; the 172800000ms ping has just become too annoying for players.</em></p><p><a href="https://www.explainxkcd.com/wiki/index.php/3325">Still not sure? Explain this comic</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Apple’s Second 27.3 Developer Beta Adds Face Unlock for iPhone Duo, New Mac Privacy Controls, and More</title>
+<link>https://www.macstories.net/news/apples-latest-second-27-3-developer-beta-adds-face-unlock-for-iphone-duo-new-mac-privacy-controls-and-more/</link>
+<guid isPermaLink="false">1d872ef717075562</guid>
+<pubDate>Tue, 17 Nov 2026 00:17:45 +0000</pubDate>
+<author>MacStories</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Viticci&amp;#x27;s thorough rundown of the 27.3 beta 2: Duo face unlock, Mac privacy controls, and more. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacStories&lt;/b&gt;. Also covered by Six Colors.&lt;/p&gt;&lt;p&gt;Apple’s developer betas this cycle have been packed with more features than usual and today’s second developer beta for 27.3 is no different. Let’s dig in. The iPhone Duo gets a pair of changes in the latest developer beta that are likely to be crowd pleasers when 27.3 is released to the public. First, the […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Viticci&#x27;s thorough rundown of the 27.3 beta 2: Duo face unlock, Mac privacy controls, and more. (score 8)<p>From <b>MacStories</b>. Also covered by Six Colors.</p><hr/><div class="media-wrapper"><img alt="" src="https://cdn.macstories.net/images/uploads/2026/11/16/img-0781-1794858583355-11479143ca.png" /><p class="image-caption"></p></div>
+<p id="p2">Apple’s developer betas this cycle have been packed with more features than usual and today’s second developer beta for 27.3 is no different. Let’s dig in.</p>
+<p id="p3">The iPhone Duo gets a pair of changes in the latest developer beta that are likely to be crowd pleasers when 27.3 is released to the public. First, the Duo will be able to unlock quickly using the front-facing camera when it has been recently unlocked with Touch ID or a user’s passcode. The feature can be found in Settings -&gt; Touch ID &amp; Passcode and <a href="https://x.com/mweinbach/status/2122397014373622020?a=GK5cng3NTtWB2uFGDUI&amp;s=20" rel="noopener noreferrer">according to Max Weinbach</a>, it uses the Secure Exclave to process the image used, which is how the HomeView works, too.</p>
+<p id="p4">Touch ID will still be needed to use Apple Pay and access passwords. Additionally, Touch ID will be needed after roughly 45 minutes.</p>
+<p id="p5">Second, if you want your iPhone Duo to lock when you fold it, like an iPad or Mac laptop, you’ll be able to turn that on, too, under Settings -&gt; Display &amp; Brightness. This isn’t something I expect I’ll turn on myself, but I know a lot of MacStories readers have wanted this, so I’m glad to see it added as an option.</p>
+<p id="p6">Also, you may recall that Apple gave developers a vague heads-up about changes coming to Full Disk Access, which I <a href="https://www.macstories.net/linked/apple-announces-plan-to-impose-new-full-disk-access-controls-on-mac-developers/" rel="noopener noreferrer">wrote about at the time</a>, and we discussed on <a href="https://www.macstories.net/podcasts/appstories/505/" rel="noopener noreferrer">AppStories</a> recently. Today we got more information on what that means on <a href="https://developer.apple.com/news/?id=oqng0zjk" rel="noopener noreferrer">Apple’s developer website</a>:</p>
+<blockquote id="blockquote7"><p>
+  In macOS 27.3 beta 2 today, we’re introducing increased transparency and more granular options for two of the APIs: Device Control and Data Access, and Full Disk Access. Before granting an app such extraordinary access, users should understand that it puts all of the data on their Mac at risk. These changes are designed to help them do that and to empower them to make informed decisions about their own data and privacy.
+</p></blockquote>
+<p id="p8">In practice, this means that macOS 27.3 will split “Device Control and Data Access” in Settings into a two-part system that divides the world into Accessibility features for assistive technologies and “System &amp; App Protection Override,” which lets users pick which apps an overriding app can control. In addition, <a href="https://developer.apple.com/news/?id=oqng0zjk" rel="noopener noreferrer">Apple says</a> the changes will include:</p>
+<blockquote id="blockquote9">
+<ul><li>A single method for granting permissions by selecting the requesting app from a list</li>
+<li>Guidance to encourage users to grant access to just the specific apps (for System &amp; App Protection Override) or folders (for Full Disk Access) that are required for their workflows</li>
+<li>Increased visibility into the wide range of data apps will receive access to or control over if full permissions are granted</li>
+<li>The option for users to configure apps to ask every time they require access</li>
+<li>A transparency indicator when a requesting app is controlling another app using System &amp; App Protection Override</li>
+</ul></blockquote>
+<p id="p10">Also, it’s worth noting that <a href="https://x.com/chancehmiller/status/2122409697303241201?s=46" rel="noopener noreferrer">Chance Miller of 9to5Mac says</a> that Full Disk Access will remain available but that users will be steered toward using the new system.</p>
+<p id="p11">I haven’t had a chance to try this yet, but it sounds like a reasonable solution that divides permissions into more sensible categories with better control and understanding over what privileges are being granted.</p>
+<p id="p12">Siri is gaining the ability to see beyond the part of a webpage that is visible in Safari. Whatever’s below the fold of the page will be accessible whether you’re asking for a summary or requesting specific information at the end of a long page.</p>
+<p id="p13">The Apple TV app is adding support for video podcast episodes, too. The feature will be available on the Apple TV 4K and supported iPhones, iPads, Macs, CarPlay-enabled vehicles, and smart TVs. I know you’ve always wanted to watch AppStories on your 90-inch TV, and soon, you can. Technology is incredible!</p>
+<p id="p14">The puzzles in Apple News+ are popular in my household, and they’re coming to more countries. Apple News’ crosswords, Sudoku, Emoji Game, and more are coming to the Australian, UK, and French-Canadian editions of Apple News+ when 27.3 is released.</p>
+<hr id="hr15" /><p id="p16">Of these, the Face Unlock feature is the one I’m most eager to try, but I’m also glad to see that Apple doesn’t appear to have made granting app and data privileges to apps too onerous. One thing’s for sure, beta season isn’t so much a season these days as it is a revolving door, and I love it.</p>]]></content:encoded>
+</item>
+<item>
+<title>California sues OpenAI over rogue AI hacking incidents</title>
+<link>https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit</link>
+<guid isPermaLink="false">47a88af90f7b79a4</guid>
+<pubDate>Tue, 17 Nov 2026 00:17:45 +0000</pubDate>
+<author>The Verge</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; California sues OpenAI after its agents escaped testing and hacked companies, a landmark AI security case. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a &amp;quot;dangerous product without proper oversight,&amp;quot; as reported earlier by Reuters. The lawsuit claims the […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> California sues OpenAI after its agents escaped testing and hacked companies, a landmark AI security case. (score 8)<p>From <b>The Verge</b>.</p><hr/>
+    <p>California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In <a href="https://www.documentcloud.org/documents/28912394-california-v-openai/">a lawsuit filed Monday</a>, Attorney General <a href="https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over">Rob Bonta accuses</a> OpenAI of violating consumer safety law by knowingly developing a “dangerous product without proper oversight,” <a href="https://www.reuters.com/business/california-sues-openai-over-ai-models-cyberattacks-hugging-face-other-companies-2026-11-16/">as reported earlier by Reuters</a>.</p>
+    <h1>California sues OpenAI over rogue AI hacking incidents</h1>
+    <p class="duet--article--dangerously-set-cms-markup cbn62fh cbn62fg _19wv7tca _19wv7tc1">OpenAI lost control of its AI agents more than 80 times during testing, California’s AG claims.</p>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&amp;strip=all&amp;crop=0%2C0.011761938367442%2C100%2C99.976476123265&amp;w=2400" alt="STK155_OPEN_AI_4_CVirginia_D"/>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&amp;strip=all&amp;crop=0%2C0.011761938367442%2C100%2C99.976476123265&amp;w=2400" alt="STK155_OPEN_AI_4_CVirginia_D"/>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/author_profile_images/195810/EMMA_ROTH.0.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Emma Roth"/>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">The lawsuit claims the cyberattack on Hugging Face “was the predictable result of an internal culture at OpenAI that prioritizes growth and rapid model development over safety and accountability.” It alleges that OpenAI recently told the attorney general’s office that it “lost control” of its AI agents more than 80 times during testing.</p>
+    <p>After <a href="https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai">revealing the rogue AI attack</a> on Hugging Face in July, news of several other similar incidents emerged, including attacks on an <a href="https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data">Australian government website</a>, <a href="https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident">a German wiki site</a>, and the <a href="https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack">software package manager RubyGems</a>. OpenAI’s agents <a href="https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website">also tried to “bruteforce” a United Nations</a> website.</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“OpenAI’s actions escalated real-world cybersecurity risks, threatening the safety, health, and well-being of society,” Bonta says in the press release. “The company knowingly tested a dangerous product without proper oversight or safety procedures and misled the public about it — this disregard for public safety violated California law.”</p>
+    <p>OpenAI <a href="https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch">released its new cybersecurity AI model earlier this month,</a> saying that it’s less likely to go rogue and attack other platforms. It’s <a href="https://www.apolloresearch.ai/blog/pilot-towards-embedded-evaluations">also giving safety evaluators</a> at Apollo Research access to its AI systems as part of a pilot program that monitors models for misalignment.</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“Since the Hugging Face incident, we’ve undertaken an extensive and transparent effort to understand and address misaligned model activity,” OpenAI spokesperson Drew Pusateri says in an emailed statement to The Verge. “This lawsuit appears to single out OpenAI over a challenge that’s been identified by every major AI lab. We take misalignment seriously, and we have engaged — and will continue to engage — constructively with the Attorney General’s office to share information and advance strong, practical safety standards for the entire industry.”</p>
+  ]]></content:encoded>
+</item>
+<item>
+<title>Irish Goodbye / French Leave / Leave the English Way</title>
+<link>https://daringfireball.net/linked/2026/11/16/irish-goodbye</link>
+<guid isPermaLink="false">b55eba8e49dbfc1b</guid>
+<pubDate>Tue, 17 Nov 2026 00:17:45 +0000</pubDate>
+<author>Daring Fireball</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Gruber&amp;#x27;s commentary on Apple, Microsoft, and Amazon distancing from the administration. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Over the weekend I speculated that Apple, Microsoft, and Amazon have “made their Irish goodbyes” from the Trump 2.0 administration (including having no representatives on the David Sacks-led PCAST ). I learned today that what we Americans call an “Irish goodbye” is called a “French leave” in the U.K., and “leaving the English way” in France. The rest of Europe is split between those two, but only Americans and Canadians call it an “Irish goodbye”. (And, somehow, the Germans call it “doing a Poli&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Gruber&#x27;s commentary on Apple, Microsoft, and Amazon distancing from the administration. (score 7)<p>From <b>Daring Fireball</b>.</p><hr/>
+    <p>By John Gruber</p>
+    <p><a href="https://apps.apple.com/app/apple-store/id6747921058?pt=1363339&amp;ct=Daring-Fireball-Ad&amp;mt=8">Ivy: Plan. Do. Reflect</a>.<br/>The to-do list that ends.</p>
+    <ul>
+      <li>
+        <a href="https://terriblemaps.co.uk/leaving-a-party-without-saying-goodbye/">Irish Goodbye / French Leave / Leave the English Way</a>
+      </li>
+      <li>
+<p>Over the weekend <a href="https://daringfireball.net/linked/2026/11/15/legion-of-pcast">I speculated</a> that Apple, Microsoft, and Amazon have “made their Irish goodbyes” from the Trump 2.0 administration (including having no representatives on the David Sacks-led <a href="https://www.whitehouse.gov/ostp/presidents-council-of-advisors-on-science-and-technology/">PCAST</a>). I <a href="https://pdx.social/@nedley/117623491685583828">learned today</a> that what we Americans call an “Irish goodbye” is called a “French leave” in the U.K., and “leaving the English way” in France. The rest of Europe is split between those two, but only Americans and Canadians call it an “Irish goodbye”. (And, somehow, the Germans call it “doing a Polish one”, which is not what I would guess that phrase means.)</p>
+
+<p>Anyway, I’ve got one friend who is an absolute master of the Irish goodbye. He never says goodnight or goodbye from a group gathering. He always just disappears. And even when you know he’s going to do it, and you start keeping an eye on him to catch him in the act, the fucker slips away every time. I find it delightful, not rude.</p><p>★ Monday, 16 November 2026</p></li>
+    </ul>
+  ]]></content:encoded>
+</item>
+<item>
+<title>MacOS Golden Gate 27.3b2 Includes New Privacy Controls for Full Disk Access (and More)</title>
+<link>https://daringfireball.net/linked/2026/11/16/macos-27-full-disk-access</link>
+<guid isPermaLink="false">6e4844b90d8bcd73</guid>
+<pubDate>Tue, 17 Nov 2026 00:17:45 +0000</pubDate>
+<author>Daring Fireball</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Gruber digs into new Full Disk Access privacy controls, a real Mac security change. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Remember a month ago when Apple announced, without any significant detail , that they would be changing the permission-granting UI for Full Disk Access to “introduce additional controls to ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action”? It’s launching today in developer beta 2 of MacOS 27.3. Chance Miller has a great overview at 9to5Mac: In macOS 27.2, “Device Control and Data Access” is a unified toggle in S&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Gruber digs into new Full Disk Access privacy controls, a real Mac security change. (score 7)<p>From <b>Daring Fireball</b>.</p><hr/>
+<p><a href="https://daringfireball.net/2026/10/apple_full_disk_access">Remember a month ago</a> when Apple announced, <a href="https://developer.apple.com/news/?id=p6zjojqw">without any significant detail</a>, that they would be changing the permission-granting UI for Full Disk Access to “introduce additional controls to ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action”? It’s launching today in developer beta 2 of MacOS 27.3. Chance Miller has a great overview at 9to5Mac:</p>
+
+<blockquote>
+  <p>In macOS 27.2, “Device Control and Data Access” is a unified
+toggle in System Settings, where Apple says that apps with that
+level of access can “view and send email, edit contacts and
+photos, monitor your keyboard, track websites, record your screen,
+control any app on your Mac, and more.”</p>
+
+<p>In macOS 27.3, Apple is splitting “Device Control and Data Access”
+into two categories:</p>
+
+<ul>
+<li><p>Accessibility: Intended specifically for assistive technologies,
+with permissions handled through an entitlement process.</p></li>
+<li><p>System and App Protection Override: A new category for apps that
+need to bypass certain macOS protections to control other apps
+or perform automated tasks.</p></li>
+</ul>
+
+<p>For the latter, users will be able to specify which apps an
+automation tool can access rather than granting it unrestricted
+control. For instance, you could give an app access to the Mail
+app, but not Messages.</p>
+
+<p>macOS 27.3 also adds an option for users to require an app to
+request permission every time it requires access, rather than
+granting it access indefinitely.</p>
+
+<p>Apple is also introducing a new menu bar indicator that will
+provide additional transparency when an app is controlling another
+app with System and App Protection Override. This is designed to
+let users know when an automation tool is interacting with apps
+and information in the background.</p>
+</blockquote>
+
+<p>I’m installing it now, but from what I’ve seen so far, these changes not only alleviate my concerns that Apple might over-tighten the screws, I actually think they add clarity and give users <em>more</em>, not less, control over their Macs.</p>
+
+<p class="x-netnewswire-hide" style="padding-top: 1.5em;"><em>Link: <strong><a href="https://9to5mac.com/2026/11/16/macos-27-3-includes-new-privacy-controls-for-full-disk-access-and-more/">9to5mac.com/2026/11/16/macos-27-3-includes-new-privacy…</a></strong></em></p>
+]]></content:encoded>
+</item>
+<item>
+<title>Ben Thompson on Nvidia</title>
+<link>https://daringfireball.net/linked/2026/11/16/ben-thompson-on-nvidia</link>
+<guid isPermaLink="false">490b8f4fdb0f33a9</guid>
+<pubDate>Tue, 17 Nov 2026 00:17:45 +0000</pubDate>
+<author>Daring Fireball</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Thoughtful analysis of Nvidia&amp;#x27;s role financing the AI boom after Huang&amp;#x27;s exit. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Ben Thompson at Stratechery: This led to what I termed Nvidia’s Risky Business : Nvidia increasingly used its cash flow and credit rating to backstop and fund the companies who were buying its chips. Bears called this circular financing; bulls called it a necessary bridge to a future where AI revenue paid down these companies’ debt and drove massive upside. What is undoubtedly true is that this was the sort of risky business that is uniquely possible for a multi-trillion dollar company that is c&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Thoughtful analysis of Nvidia&#x27;s role financing the AI boom after Huang&#x27;s exit. (score 7)<p>From <b>Daring Fireball</b>.</p><hr/>
+<p>Ben Thompson at Stratechery:</p>
+
+<blockquote>
+  <p>This led to what I termed <a href="https://stratechery.com/2026/nvidias-risky-business/">Nvidia’s Risky Business</a>: Nvidia
+increasingly used its cash flow and credit rating to backstop and
+fund the companies who were buying its chips. Bears called this
+circular financing; bulls called it a necessary bridge to a future
+where AI revenue paid down these companies’ debt and drove massive
+upside. What is undoubtedly true is that this was the sort of
+risky business that is uniquely possible for a multi-trillion
+dollar company that is completely controlled by one man, who has
+made an entire career of pushing the limits and making risky bets — and seeing them pay off.</p>
+
+<p>It’s also a series of bets that are unlikely to continue. The
+neoclouds should be very nervous about losing their patron, along
+with their creditors and equity holders. The other problem is
+that the revenue necessary to make all of this build-out work is
+something on the order of a trillion dollars industry-wide, and
+it needs to materialize sooner rather than later; if it falls
+short, it’s the hyperscalers who will prioritize their own
+compute first, and they will likely be seen as a safe haven for
+everyone committing to spending. In that world, Nvidia’s neocloud
+hedge — absent Huang’s willingness to shore the ecosystem up — is liable to turn into a millstone, with their assets flooding
+the market even as the supply chain ramp-up brings ever more
+supply to market.</p>
+</blockquote>
+
+<p>This Nvidia crisis has made me think a lot about an item I recently posted, purely by coincidence: <a href="https://daringfireball.net/linked/2026/10/16/munger-on-musk">Charlie Munger’s 2020 take on Elon Musk and Tesla</a>: “My thoughts are two. I would never buy it, and I would never sell it short.”</p>
+
+<p>Munger used “it” in both clauses, but I think for the second one, what he really meant was that he wouldn’t short <em>him</em>. That he wouldn’t want to own Tesla stock (which, even today, trades at an absurd P/E ratio over 400), but he wouldn’t want to bet against Elon Musk.</p>
+
+<p>I think the same thing is true for Nvidia. Nvidia in recent years made a lot of bets that investors normally wouldn’t back; but investors were willing to back Jensen Huang. Now Nvidia, the company, is left holding those risky bets and they don’t have Huang, the man, to make those bets feel like winners. I think investors are already looking at this very differently, and it’s why so many copium addicts are <a href="https://www.wsj.com/tech/the-campaign-to-bring-back-jensen-huang-as-nvidia-ceo-e91b0b2c?st=UZc78o">wailing like big babies</a> about bringing Jensen back. <a href="https://x.com/dhh/status/2121987209796452590">Denial</a> is the hardest stage of grief to move past.</p>
+
+<p class="x-netnewswire-hide" style="padding-top: 1.5em;"><em>Link: <strong><a href="https://stratechery.com/2026/obituaries/">stratechery.com/2026/obituaries/</a></strong></em></p>
+]]></content:encoded>
+</item>
+<item>
+<title>Microsoft Outage</title>
+<link>https://mjtsai.com/blog/2026/11/16/microsoft-outage/</link>
+<guid isPermaLink="false">1d79908764427c0a</guid>
+<pubDate>Tue, 17 Nov 2026 00:17:45 +0000</pubDate>
+<author>Michael Tsai</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Exchange Online outage roundup, directly relevant to a Microsoft cloud PM. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Michael Tsai&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Microsoft (Hacker News): We’re investigating reports of users experiencing issues accessing Exchange Online mailboxes through multiple connection methods in the Americas. More details can be found in the Microsoft 365 admin center under EX1550543. Microsoft (via Bob Burrough): We’re opening all available pathways to restore service, as our actions taken thus far have not provided […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Exchange Online outage roundup, directly relevant to a Microsoft cloud PM. (score 7)<p>From <b>Michael Tsai</b>.</p><hr/><p><a href="https://x.com/MSFT365Status/status/2120938282204688468">Microsoft</a> (<a href="https://news.ycombinator.com/item?id=50478609">Hacker</a> <a href="https://news.ycombinator.com/item?id=50471731">News</a>):</p>
+<blockquote cite="https://x.com/MSFT365Status/status/2120938282204688468"><p>We&rsquo;re investigating reports of users experiencing issues accessing Exchange Online mailboxes through multiple connection methods in the Americas. More details can be found in the Microsoft 365 admin center under EX1550543.</p></blockquote>
+
+<p><a href="https://x.com/MSFT365Status/status/2121002505911857577">Microsoft</a> (via <a href="https://x.com/bob_burrough/status/2121061643178377399">Bob Burrough</a>):</p>
+<blockquote cite="https://x.com/MSFT365Status/status/2121002505911857577">
+<p>We&rsquo;re opening all available pathways to restore service, as our actions taken thus far have not provided the anticipated relief. We found a core process on affected servers is becoming overwhelmed, causing capacity loss. To validate a potential recovery, we're isolating a portion of infrastructure, restarting affected components, and reintroducing traffic to confirm the services remain stable before applying the change more broadly.</p>
+</blockquote>
+
+<p><a href="https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/">Zack Whittaker</a> (<a href="https://www.usatoday.com/story/tech/2026/11/12/microsoft-down-outlook-365-outage-reports/92744582007/">USA Today</a>, <a href="https://www.macrumors.com/2026/11/13/major-microsoft-365-outage-continues/">MacRumors</a>):</p>
+<blockquote cite="https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/">
+<p>What began as an Outlook email and Teams video conferencing outage soon developed into a full-blown meltdown affecting the company&rsquo;s cloud services for both consumer and business email, files, and documents. The outage also knocked out the company&rsquo;s Copilot AI tools and Defender security screening software, and prevented system administrators from accessing their internal Intune dashboards and features. Some users reportedly experienced issues with accessing their cloud-based Windows computers.</p>
+<p>Microsoft hasn&rsquo;t yet said what caused the issues, only saying the outage involved &ldquo;a large number of servers being unexpectedly unavailable.&rdquo;</p>
+</blockquote>
+
+<p><a href="https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/">Ashley Belanger</a> (<a href="https://news.ycombinator.com/item?id=50509411">Hacker News</a>):</p>
+<blockquote cite="https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/">
+<p>Similar to recent world-shaking outages of widely used tech like <a href="https://arstechnica.com/gadgets/2025/10/a-single-point-of-failure-triggered-the-amazon-outage-affecting-millions/">Amazon Web Services</a> and <a href="https://arstechnica.com/information-technology/2024/07/major-outages-at-crowdstrike-microsoft-leave-the-world-with-bsods-and-confusion/">CrowdStrike</a>, the Microsoft disruption looks like &ldquo;one of the biggest outages of all time,&rdquo; Ciaran Martin, the former head of the UK&rsquo;s National Cyber Security Centre, <a href="https://www.nbcnews.com/tech/tech-news/live-blog/microsoft-outage-outlook-teams-updates-fix-rcna609118">told NBC News</a>. Possibly even &ldquo;worse,&rdquo; he suggested.</p>
+<p>Businesses, hospitals, police departments, and schools were among those scrambling to work around the outage. In Japan, it disrupted government IT infrastructure, according to deputy chief cabinet secretary Masanao Ozaki. NBC&rsquo;s report documented various harms, noting that &ldquo;few public bodies were immune from the outage.&rdquo; In some cases, doctors couldn&rsquo;t send patients &ldquo;important&rdquo; updates on medication changes or follow-up care.</p>
+<p>[&#8230;]</p>
+<p>This was not caused by increased traffic, Microsoft said, but &ldquo;a problem that&rsquo;s causing servers to fail automated health checks and become unavailable.&rdquo;</p>
+</blockquote>
+
+<p><a href="https://x.com/microsoft/status/2121282013600907325">Microsoft</a>:</p>
+<blockquote cite="https://x.com/microsoft/status/2121282013600907325">
+<p>This was a technical issue not related to cyber or AI / agents. The incident was introduced by an issue during an earlier network capacity upgrade that surfaced following a recent network change. We have addressed the underlying issue and continue to restore service to remaining customers and regions.</p>
+<p>Given the scale of demand, we restored services gradually, validating stability at each stage. While this took longer, it helped ensure a stable restoration.</p>
+</blockquote>
+
+<p><a href="https://www.aljazeera.com/news/2026/11/13/microsoft-hit-by-global-outages-what-happened-and-why">Heba Habib</a>:</p>
+<blockquote cite="https://www.aljazeera.com/news/2026/11/13/microsoft-hit-by-global-outages-what-happened-and-why">
+<p>Goodwins said servers knocked offline usually attempt to reconnect so they can synchronise their files again. &ldquo;As things come back up, they&rsquo;re immediately swamped by the traffic from all the other servers desperate to talk to them. So it all falls down again,&rdquo; he said.</p>
+<p>[&#8230;]</p>
+<p>Goodwins also said many <a href="https://www.aljazeera.com/economy/2026/4/23/meta-lines-up-layoffs-while-microsoft-offers-buyouts">experienced engineers have left Microsoft.</a> &ldquo;It&rsquo;s not so much that there aren&rsquo;t enough human eyes, but all the experienced people, the people who built the stuff up, have left,&rdquo; he said. &ldquo;There&rsquo;s been a draining of corporate memory of how these systems are built up and how they work.&rdquo;</p>
+</blockquote>
+
+<p>Via <a href="https://pxlnv.com/linklog/microsoft-outage-warning/">Nick Heer</a>:</p>
+<blockquote cite="https://pxlnv.com/linklog/microsoft-outage-warning/">
+<p>Microsoft is so important to global digital infrastructure that catastrophic failure should be financially devastating. Yet it is precisely because it is so central that investors have <a href="https://finance.yahoo.com/quote/MSFT/chart/#eyJsYXlvdXQiOnsiaW50ZXJ2YWwiOjUsInBlcmlvZGljaXR5IjoxLCJ0aW1lVW5pdCI6Im1pbnV0ZSIsImNhbmRsZVdpZHRoIjozLjA0ODA3NjkyMzA3NjkyMywiZmxpcHBlZCI6ZmFsc2UsInZvbHVtZVVuZGVybGF5Ijp0cnVlLCJhZGoiOnRydWUsImNyb3NzaGFpciI6dHJ1ZSwiY2hhcnRUeXBlIjoibGluZSIsImV4dGVuZGVkIjpmYWxzZSwibWFya2V0U2Vzc2lvbnMiOnt9LCJhZ2dyZWdhdGlvblR5cGUiOiJvaGxjIiwiY2hhcnRTY2FsZSI6ImxpbmVhciIsInN0dWRpZXMiOnsi4oCMdm9sIHVuZHLigIwiOnsidHlwZSI6InZvbCB1bmRyIiwiaW5wdXRzIjp7IlNlcmllcyI6InNlcmllcyIsImlkIjoi4oCMdm9sIHVuZHLigIwiLCJkaXNwbGF5Ijoi4oCMdm9sIHVuZHLigIwifSwib3V0cHV0cyI6eyJVcCBWb2x1bWUiOiIjMGRiZDZlZWUiLCJEb3duIFZvbHVtZSI6IiNmZjU1NDdlZSJ9LCJwYW5lbCI6ImNoYXJ0IiwicGFyYW1ldGVycyI6eyJjaGFydE5hbWUiOiJjaGFydCIsImVkaXRNb2RlIjp0cnVlfSwiZGlzYWJsZWQiOmZhbHNlfX0sInBhbmVscyI6eyJjaGFydCI6eyJwZXJjZW50IjoxLCJkaXNwbGF5IjoiTVNGVCIsImNoYXJ0TmFtZSI6ImNoYXJ0IiwiaW5kZXgiOjAsInlBeGlzIjp7Im5hbWUiOiJjaGFydCIsInBvc2l0aW9uIjpudWxsfSwieWF4aXNMSFMiOltdLCJ5YXhpc1JIUyI6WyJjaGFydCIsIuKAjHZvbCB1bmRy4oCMIl19fSwib3V0bGllcnMiOmZhbHNlLCJhbmltYXRpb24iOnRydWUsImhlYWRzVXAiOnsic3RhdGljIjp0cnVlLCJkeW5hbWljIjpmYWxzZSwiZmxvYXRpbmciOmZhbHNlfSwibGluZVdpZHRoIjoyLCJmdWxsU2NyZWVuIjp0cnVlLCJzdHJpcGVkQmFja2dyb3VuZCI6dHJ1ZSwiY29sb3IiOiIjMDA4MWYyIiwiY3Jvc3NoYWlyU3RpY2t5IjpmYWxzZSwiZG9udFNhdmVSYW5nZVRvTGF5b3V0Ijp0cnVlLCJzeW1ib2xzIjpbeyJzeW1ib2wiOiJNU0ZUIiwic3ltYm9sT2JqZWN0Ijp7InN5bWJvbCI6Ik1TRlQiLCJxdW90ZVR5cGUiOiJFUVVJVFkiLCJleGNoYW5nZVRpbWVab25lIjoiQW1lcmljYS9OZXdfWW9yayIsInBlcmlvZDEiOjE3OTMwMjgwMDAsInBlcmlvZDIiOjE3OTQ2MDM2MDB9LCJwZXJpb2RpY2l0eSI6MSwiaW50ZXJ2YWwiOjUsInRpbWVVbml0IjoibWludXRlIn1dLCJyYW5nZSI6eyJkdExlZnQiOiIyMDI2LTExLTA5VDA2OjAwOjAwLjAwMFoiLCJkdFJpZ2h0IjoiMjAyNi0xMS0xM1QwNTo1OTowMC4wMDBaIiwiZm9yY2VMb2FkIjp0cnVlLCJwYWRkaW5nIjowfSwicmVuZGVyZXJzIjpbXX0sImV2ZW50cyI6eyJkaXZzIjp0cnVlLCJzcGxpdHMiOnRydWUsInRyYWRpbmdIb3Jpem9uIjoibm9uZSIsInNpZ0RldkV2ZW50cyI6W119LCJkcmF3aW5ncyI6bnVsbCwicHJlZmVyZW5jZXMiOnsiY3VycmVudFByaWNlTGluZSI6dHJ1ZSwiZGlzcGxheUNyb3NzaGFpcnNXaXRoRHJhd2luZ1Rvb2wiOmZhbHNlLCJkcmFnZ2luZyI6eyJzZXJpZXMiOnRydWUsInN0dWR5IjpmYWxzZSwieWF4aXMiOnRydWV9LCJkcmF3aW5ncyI6bnVsbCwiaGlnaGxpZ2h0c1JhZGl1cyI6MTAsImhpZ2hsaWdodHNUYXBSYWRpdXMiOjMwLCJtYWduZXQiOmZhbHNlLCJob3Jpem9udGFsQ3Jvc3NoYWlyRmllbGQiOm51bGwsImxhYmVscyI6dHJ1ZSwibGFuZ3VhZ2UiOm51bGwsInRpbWVab25lIjoiQW1lcmljYS9OZXdfWW9yayIsIndoaXRlc3BhY2UiOjI2MS43OTc2MjAwNzU4NTU0LCJ6b29tSW5TcGVlZCI6bnVsbCwiem9vbU91dFNwZWVkIjpudWxsLCJ6b29tQXRDdXJyZW50TW91c2VQb3NpdGlvbiI6ZmFsc2V9fQ==">barely blinked</a> &mdash; it is currently trading about 4% below Monday&rsquo;s high, and the biggest drops this week occurred before this outage.</p>
+<p>It is not likely to lose a significant number of its customers, either, despite <a href="https://techmeme.com/search/query?q=microsoft+outage&amp;wm=false">several outages this year</a>. </p>
+</blockquote>
+
+<p><a href="https://x.com/MSFT365Status/status/2121485746334777593">Microsoft</a> (<a href="https://www.macrumors.com/2026/11/13/microsoft-365-outage-resolving/">MacRumors</a>):</p>
+<blockquote cite="https://x.com/MSFT365Status/status/2121485746334777593">
+<p>We have completed our efforts to address the underlying issue of the incident and restored service to the remaining impacted customers and regions. Further updates can be found at MO1550821 in the Microsoft 365 admin center.</p>
+</blockquote>
+
+<p>The full the details aren&rsquo;t on the public Web.</p>
+
+<p><a href="https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026">Richard Speed</a> (<a href="https://news.ycombinator.com/item?id=50517321">Hacker News</a>, <a href="https://tech.slashdot.org/story/26/11/16/1628256/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix">Slashdot</a>):</p>
+<blockquote cite="https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026">
+<p>According to a preliminary post incident report <a href="https://x.com/clamanna/status/2122209697226948729">published</a> by Microsoft on November 15, the defect was introduced in July 2026. The update looked fine at the time, Microsoft says, having passed load testing and been deployed without any impact.</p>
+<p>However, the testing wasn&rsquo;t good enough. Microsoft&rsquo;s report states: &ldquo;Our load testing tended to focus on weaker hardware with fewer cores.&rdquo; The defect caused &ldquo;lock contention inside an internal Windows process which caused the machine&rsquo;s resources (CPU &amp; memory) to be exhausted.&rdquo;</p>
+<p>&ldquo;The contention issue is worsened on machines with more cores and newer hardware.&rdquo;</p>
+<p>[&#8230;]</p>
+<p>&ldquo;Our normally automated recovery processes were not designed to restore service from this broad unresponsive state.&rdquo; A straightforward rollback was also not possible because the defect was months old.</p>
+<p>Instead, engineers developed patch for the patch or, in Microsoft&rsquo;s words, &ldquo;an update that returned the code path to the previously known good state in Windows.&rdquo; The patch was applied to groups of servers and service was gradually restored.</p>
+</blockquote>
+
+<p><a href="https://mastodon.social/@atomicbird/117606827022053095">Tom Harrington</a>:</p>
+<blockquote cite="https://mastodon.social/@atomicbird/117606827022053095">
+<p>Live your life in such a way that when a major hosting system goes down you only know about it from social network chatter.</p>
+</blockquote>
+
+<p><a href="https://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world/">Lily Hay Newman
+and Matt Burgess</a>:</p>
+<blockquote cite="https://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world/">
+<p>A prolonged outage of such a critical underlying digital service is not unprecedented, but Microsoft has a special position among cloud providers as an older company that was already ubiquitous in global computing from the PC era. Many organizations integrate Microsoft productivity services at the core of their operations, simply because they have used Windows computers for decades and have longstanding relationships with Microsoft.</p>
+<p>[&#8230;]</p>
+<p>During the outage, multiple officials around the world called for countries to rely less on giant tech firms or reevaluate their relationships.</p>
+</blockquote>
+
+<p><a href="https://mastodon.social/@arroz/117625148020491142">Miguel Arroz</a>:</p>
+<blockquote cite="https://mastodon.social/@arroz/117625148020491142">
+<p>As much as I hate defending Microsoft&#8230; no, people didn&rsquo;t end up intoxicated because of Microsoft.</p>
+<p>People ended up intoxicated because someone decided it was a great idea to build a system that warns about dangerous toxic gas levels in the atmosphere&#8230; by email.</p>
+<p>Don&rsquo;t blame a communication system that was never meant for real-time communication not offers strong guarantees of delivery for the absolute negligence and incompetence of whoever designed this system.</p>
+</blockquote>
+
+<p>See also: <a href="https://talk.macpowerusers.com/t/has-microsofts-outage-shifted-perceptions/48139">Mac Power Users Talk</a>, <a href="https://isolveproblems.substack.com/p/how-microsoft-vaporized-a-trillion">Axel Rietschin</a>, and <a href="https://x.com/stevesi/status/2121683409437413524">Steven Sinofsky</a>.</p>
+
+<p>Previously:</p>
+<ul>
+<li><a href="https://mjtsai.com/blog/2026/11/03/microsoft-workforce-buyouts-amid-record-revenue/">Microsoft Workforce Buyouts Amid Record Revenue</a></li>
+</ul>]]></content:encoded>
+</item>
+<item>
+<title>HomeView Reviews</title>
+<link>https://mjtsai.com/blog/2026/11/16/homeview-reviews/</link>
+<guid isPermaLink="false">12db0f5b7b3533df</guid>
+<pubDate>Tue, 17 Nov 2026 00:17:45 +0000</pubDate>
+<author>Michael Tsai</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Tsai&amp;#x27;s roundup of HomeView reviews, the best overview of Apple&amp;#x27;s new product. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Michael Tsai&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;John Voorhees: Apple HomeView reviews are out and it looks like a winner, especially for people already using other Apple products. Let’s look at what folks are saying. Jason Snell: I’ve wanted a product like the Apple HomeView for years now. After spending a lot of time with various personal assistant “smart speakers” in my […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Tsai&#x27;s roundup of HomeView reviews, the best overview of Apple&#x27;s new product. (score 7)<p>From <b>Michael Tsai</b>.</p><hr/><p><a href="https://www.macstories.net/news/apple-homeview-review-roundup-simple-charming-and-built-for-apple-users/">John Voorhees</a>:</p>
+<blockquote cite="https://www.macstories.net/news/apple-homeview-review-roundup-simple-charming-and-built-for-apple-users/">
+<p>Apple HomeView reviews are out and it looks like a winner, especially for people already using other Apple products. Let&rsquo;s look at what folks are saying.</p>
+</blockquote>
+
+<p><a href="https://sixcolors.com/post/2026/11/homeview-review-a-late-arrival-with-promise-but-still-showing-some-seams/">Jason Snell</a>:</p>
+<blockquote cite="https://sixcolors.com/post/2026/11/homeview-review-a-late-arrival-with-promise-but-still-showing-some-seams/">
+<p>I&rsquo;ve wanted a product like the Apple HomeView for years now. After spending a lot of time with various personal assistant &ldquo;smart speakers&rdquo; in my kitchen&mdash;some with screens&mdash;I&rsquo;ve never been more certain about the potential of the product category or more disappointed in the reality.</p>
+<p>[&#8230;]</p>
+<p>Given the fact that this product&rsquo;s tech stack feels like it was created in a blender, it&rsquo;s remarkable that it holds together as well as it does&mdash;but there are still places where the seams show.</p>
+<p>[&#8230;]</p>
+<p>It&rsquo;s great that you can view iPhone widgets on the HomeView just as you can on the Mac, but it&rsquo;s a bit frustrating that it will only display the small square widget style. Presumably because of the Apple Watch roots of some of these faces, there&rsquo;s a surprising lack of digital clocks. In fact, in some face views you can create a face featuring a clock, but if you delete it, you can&rsquo;t add it back. I admit to being frequently baffled about what I was able to add and customize, and what I wasn&rsquo;t, when trying to build faces.</p>
+<p>[&#8230;]</p>
+<p>Siri AI isn&rsquo;t as reliable as it should be, both in general and on the HomeView. Sometimes it just seems to go off in its own world and not respond, or respond accurately. Other times, it works just as advertised.</p>
+</blockquote>
+
+<p><a href="https://www.youtube.com/watch?v=yVTcVtLn2o4">Joanna Stern</a> (<a href="https://apple.slashdot.org/story/26/11/15/2151238/siri-glitches-ruin-reviewers-test-of-apples-new-homeview-smart-speaker">Slashdot</a>):</p>
+<blockquote cite="https://www.youtube.com/watch?v=yVTcVtLn2o4">
+<p>I spent a week with it at the center of my household, putting those promises to the test with three challenges&mdash;including disguising myself as the dad from Apple&rsquo;s own HomeView commercial.</p>
+</blockquote>
+
+<p><a href="https://daringfireball.net/linked/2026/11/14/snell-homeview">John Gruber</a>:</p>
+<blockquote cite="https://daringfireball.net/linked/2026/11/14/snell-homeview">
+<p>I plugged it in, set it up, got my wife and son to do what they needed to do to become recognized fellow-family-member users, and then we all collectively have had a week of &ldquo;Well, now what?&rdquo;</p>
+<p>[&#8230;]</p>
+<p>The software lacks cohesion and vision and polish.</p>
+</blockquote>
+
+<p><a href="https://mastodon.social/@christianselig/117627256670901307">Christian Selig</a>:</p>
+<blockquote cite="https://mastodon.social/@christianselig/117627256670901307">
+<p>The HomeView is really making me yearn for a more open version of this product, would be really cool to write custom software for this form factor</p>
+</blockquote>
+
+<p><a href="https://www.macrumors.com/2026/11/16/apple-homeview-smart-home-hub-has-some-issues/">Tim Hardwick</a>:</p>
+<blockquote cite="https://www.macrumors.com/2026/11/16/apple-homeview-smart-home-hub-has-some-issues/">
+<p>Just days after the <a href="https://www.macrumors.com/roundup/apple-homeview/">HomeView</a>&rsquo;s launch, some owners are reporting problems with Siri, timers, and music playback on Apple&rsquo;s new smart home hub, based on multiple <a href="https://forums.macrumors.com/threads/2494413/"><em>MacRumors</em> forum</a> <a href="https://forums.macrumors.com/threads/2494370/">threads</a>.</p>
+<p>In the <a href="https://forums.macrumors.com/threads/2494413/">longest discussion</a>, which now spans over one hundred posts, several people say their HomeView refuses to set timers or alarms, and instead claims that a software update is required &#x2013; even though the device reports that it is up to date. In <a href="https://forums.macrumors.com/threads/2494370/">another thread</a>, one poster said an AppleCare senior advisor told them other owners had reported the same problem, and that cold-rebooting their paired iPhone cleared it.</p>
+</blockquote>
+
+<p><a href="https://x.com/bzamayo/status/2121218411766206715">Benjamin Mayo</a>:</p>
+<blockquote cite="https://x.com/bzamayo/status/2121218411766206715">
+<p>You can long-press to make a text selection but there is literally nothing you can do with the text.</p>
+</blockquote>
+
+<p><a href="https://x.com/ChristianSelig/status/2121329281909284936">Christian Selig</a>:</p>
+<blockquote cite="https://x.com/ChristianSelig/status/2121329281909284936">
+<p>Early HomeView review: it becomes Lead HomePod and &ldquo;eats&rdquo; all the Hey Siri commands from the other devices and then does nothing. [&#8230;] a few hours later it fixed itself and now responds to Siri!</p>
+</blockquote>
+
+<p><a href="https://lexontech.org/comparing-homeview-and-echo-studio-responses">Lex Friedman</a>:</p>
+<blockquote cite="https://lexontech.org/comparing-homeview-and-echo-studio-responses">
+<p>This is an unscientific comparison of response times for the Apple HomeView and the Amazon Echo Studio.</p>
+</blockquote>
+
+<p><a href="https://zeppelin.flights/@dmoren/117618347840041227">Dan Moren</a>:</p>
+<blockquote cite="https://zeppelin.flights/@dmoren/117618347840041227">
+<p>My HomeView hot take review, 24 hours in: it needs to get faster and more reliable at all the things my HomePod mini did before I trust it with anything else.</p>
+</blockquote>
+
+<p><a href="https://mastodon.social/@marioguzman/117621194294420771">Mario Guzm&aacute;n</a>:</p>
+<blockquote cite="https://mastodon.social/@marioguzman/117621194294420771">
+<p>Siri AI on HomeView is noticeably slower than Classic Siri on my HomePod. It can be a bit frustrating when I&rsquo;m setting various timers while cooking because it <em>feels</em> stuck in processing my request. My HomePod isn&rsquo;t far away but they&rsquo;ve made it so it prefers HomeView even if I go stand next to the HomePod.</p>
+</blockquote>
+
+<p><a href="https://bsky.app/profile/kirkville.com/post/3n2gncbgdm22z">Kirk McElhearn</a>:</p>
+<blockquote cite="https://bsky.app/profile/kirkville.com/post/3n2gncbgdm22z">
+<p>I had to turn [Siri AI] off. Half the time it does nothing; and this is for really simple stuff: timers, alarms, adding things to my grocery list. It is abysmal.</p>
+</blockquote>
+
+<p>Previously:</p>
+<ul>
+<li><a href="https://mjtsai.com/blog/2026/11/16/safari-on-homeview/">Safari on HomeView</a></li>
+<li><a href="https://mjtsai.com/blog/2026/10/13/homeview/">HomeView</a></li>
+<li><a href="https://mjtsai.com/blog/2026/09/23/siri-ai-ships-but-still-beta/">Siri AI Ships (But Still Beta)</a></li>
+</ul>]]></content:encoded>
+</item>
+<item>
+<title>The Moment Britain Should Have Won the Crimean War</title>
+<link>https://www.youtube.com/watch?v=Y1OJSB6k6yQ</link>
+<guid isPermaLink="false">b4c9dc8bd386da88</guid>
+<pubDate>Tue, 17 Nov 2026 00:17:45 +0000</pubDate>
+<author>The Rest Is History</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; The Rest Is History on a pivotal Crimean War moment, British history done well. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Rest Is History&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;How did disagreements within the British high command destabilise the army as it moved on the imposing Russian fortress of Sebastopol? Why was the roguish Lord Cardigan, commander of the Light Brigade, enraged by his orders? And, what happened when Britain and Russia clashed at the Battle of the Alma…? Join Tom and Dominic as they unfold Britain&amp;#x27;s march on Sebastopol, the bloody confrontation with the Russians at the Alma River, and the ongoing feud between Lords Lucan and Cardigan. Would the ar&lt;/p&gt;</description>
+</item>
 <item>
 <title>Calvin and Hobbes - 2026-11-16</title>
 <link>https://www.gocomics.com/calvinandhobbes/2026/11/16</link>
@@ -3854,716 +4212,5 @@ internal collaboration.</p>
 <li>The Microsoft Softcard was a <a href="https://devblogs.microsoft.com/oldnewthing/20251104-00/?p=111758" title="The Microsoft SoftCard for the Apple II: Getting two processors to share the same memory"> plug-in board that you added to your Apple II to turn it into a CP/M system</a>. It looks like a good number of programming languages were available in a Softcard edition.</li>
 </ul>
 <p>The post <a href="https://devblogs.microsoft.com/oldnewthing/20261110-00/?p=112843/">Microsoft employee price list from 1987</a> appeared first on <a href="https://devblogs.microsoft.com/oldnewthing">The Old New Thing</a>.</p>]]></content:encoded>
-</item>
-<item>
-<title>Dragonfly</title>
-<link>https://xkcd.com/3322/</link>
-<guid isPermaLink="false">e21eaa67d7fe05d0</guid>
-<pubDate>Tue, 10 Nov 2026 00:17:39 +0000</pubDate>
-<author>xkcd.com</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; On your always-include list. (score 10)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;xkcd.com&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> On your always-include list. (score 10)<p>From <b>xkcd.com</b>.</p><hr/><img alt="I'm excited for Dragonfly, because on the list of places in the solar system that I desperately want more pictures from, 'Titan's surface' is right up there at the top with 'Jupiter's atmosphere.'" src="https://imgs.xkcd.com/comics/dragonfly.png" title="I'm excited for Dragonfly, because on the list of places in the solar system that I desperately want more pictures from, 'Titan's surface' is right up there at the top with 'Jupiter's atmosphere.'" /><p><em>I'm excited for Dragonfly, because on the list of places in the solar system that I desperately want more pictures from, 'Titan's surface' is right up there at the top with 'Jupiter's atmosphere.'</em></p><p><a href="https://www.explainxkcd.com/wiki/index.php/3322">Still not sure? Explain this comic</a></p>]]></content:encoded>
-</item>
-<item>
-<title>Rubio Warned Officials About Nvidia Chief’s Entanglement With Chinese Spy - the New York Times</title>
-<link>https://daringfireball.net/linked/2026/11/09/rubio-huang-trump</link>
-<guid isPermaLink="false">7bcddb5f6b45cf27</guid>
-<pubDate>Tue, 10 Nov 2026 00:17:39 +0000</pubDate>
-<author>Daring Fireball</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; The national security angle on Nvidia&amp;#x27;s CEO scandal, with Gruber&amp;#x27;s take on the NYT reporting. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Maggie Haberman, Jonathan Swan, Julian E. Barnes, and Tripp Mickle, reporting for The New York Times (gift link): Mr. Rubio’s memo was circulated to administration officials with high-level security clearances ahead of a trip Mr. Trump took to China in May, the people briefed on the matter said. They spoke on the condition of anonymity to discuss sensitive material. Despite his status as an A.I. pioneer and head of one of the world’s most valuable companies, Mr. Huang was initially left off the &lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> The national security angle on Nvidia&#x27;s CEO scandal, with Gruber&#x27;s take on the NYT reporting. (score 7)<p>From <b>Daring Fireball</b>.</p><hr/>
-<p>Maggie Haberman, Jonathan Swan, Julian E. Barnes, and Tripp Mickle, reporting for The New York Times (gift link):</p>
-
-<blockquote>
-  <p>Mr. Rubio’s memo was circulated to administration officials with
-high-level security clearances ahead of a trip Mr. Trump took to
-China in May, the people briefed on the matter said. They spoke on
-the condition of anonymity to discuss sensitive material.</p>
-
-<p>Despite his status as an A.I. pioneer and head of one of the
-world’s most valuable companies, Mr. Huang was initially left off
-the list of major business and tech executives invited to join Mr.
-Trump in China. It is unclear whether the exclusion was connected
-to the memo. By that point, a number of people inside the
-administration were concerned about Mr. Huang’s influence on <a href="https://www.nytimes.com/2026/09/14/us/politics/trump-ai-regulation-anthropic-dario-amodei.html">the
-president’s policy of only lightly regulating A.I.</a>, people
-briefed on the matter said.</p>
-
-<p>After Mr. Trump saw media coverage about Mr. Huang being absent
-from the delegation, the president asked him <a href="https://www.nytimes.com/2026/05/12/us/politics/trump-china-summit-nvidia-jensen-huang.html">to join the
-trip</a> by meeting Air Force One during a layover in Alaska. The
-president drafted a social media post saying that it was an honor
-to have “the Great Jensen Huang,” and other business leaders
-“journeying to the Great Country of China where I will be asking
-President Xi, a Leader of extraordinary distinction, to ‘open up’
-China so that these brilliant people can work their magic.”</p>
-</blockquote>
-
-<p>This Huang-Huang affair explains a few things that until now didn’t make sense, and Jensen Huang not being invited on that May trip to China — until Trump invited him on the fly at the Alaska layover — is one of them. Also worth noting that on multi-byline stories, The Times puts them in order of who contributed the most to the story. In this case it’s Haberman, who is closest to Trump and the White House:</p>
-
-<blockquote>
-  <p>Asked about Mr. Huang’s admission to his company about his affair
-with Ms. Huang, Mr. Trump told reporters on Sunday evening that he
-did not regret his own lack of action.</p>
-
-<p>“No, I don’t think so,” the president said. He added that he
-believed Mr. Huang should stay on as Nvidia’s chief executive.</p>
-
-<p>“I think he’s an honorable guy. I think he probably has an excuse
-for it. You have to hear it,” Mr. Trump said.</p>
-</blockquote>
-
-<p>Trump, you will recall, was convicted on <a href="https://www.cbsnews.com/news/trump-charges-conviction-guilty-verdict/?ftag=YHF4eb9d17">34 felony counts</a> of falsifying business records related to his hush-money payments to porno star Stormy Daniels, <a href="https://www.wsj.com/articles/trump-lawyer-arranged-130-000-payment-for-adult-film-stars-silence-1515787678?st=TLGsRj">who banged him</a> and (<a href="https://www.youtube.com/watch?v=CEJoJ2NeMDk">spanked him with a magazine</a> on which he was on the cover) at a celebrity golf tournament in Lake Tahoe in 2006. That was four months after Melania Trump, his third wife, gave birth to their son Barron. So take “he probably has an excuse for it” with a $130,000 grain of salt.</p>
-
-<p>There’s a Journalism 101 adage that news stories should be written in an “upside down triangle”, with the most important information at the top and the least important at the bottom. Another little inside-baseball tidbit about The Times, however, is that The Times, rather uniquely, often buries the most interesting (but not most important) paragraph at the very end. This story ends thus:</p>
-
-<blockquote>
-  <p>In recent years, Megaspeed, despite having essentially a
-storefront office and little local footprint, purchased $2
-billion worth of Nvidia’s products. Megaspeed builds data centers
-in Southeast Asia that rent out their computing power to Alibaba,
-the giant Chinese internet company. U.S. officials suspect
-Megaspeed has been helping smuggle restricted advanced Nvidia
-chips into China.</p>
-</blockquote>
-
-<p>If true, this is politically damaging to both Nvidia and Huang personally, but the context is that Nvidia booked over $300 billion in revenue over the last year.</p>
-
-<p class="x-netnewswire-hide" style="padding-top: 1.5em;"><em>Link: <strong><a href="https://www.nytimes.com/2026/11/08/us/politics/rubio-nvidia-ceo-chinese-spy.html?unlocked_article_code=1.PFE.dLW7.D8C1YUYhNooj">nytimes.com/2026/11/08/us/politics/rubio-nvidia-ceo-chinese…</a></strong></em></p>
-]]></content:encoded>
-</item>
-<item>
-<title>Apple starts to charge for heavy AI usage ↦</title>
-<link>https://sixcolors.com/link/2026/11/apple-starts-to-charge-for-heavy-ai-usage/</link>
-<guid isPermaLink="false">a69615c15f203168</guid>
-<pubDate>Tue, 10 Nov 2026 00:17:39 +0000</pubDate>
-<author>Six Colors</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Six Colors on Apple starting to charge for heavy Apple Intelligence use, a real shift in how Apple sells AI. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Six Colors&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Ryan Christoffel of 9to5 Mac has spotted a new feature in Apple’s Creator Suite: Apple has officially launched its first take on charging for AI features via the new Logic Pro update—with more coming soon. …&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Six Colors on Apple starting to charge for heavy Apple Intelligence use, a real shift in how Apple sells AI. (score 7)<p>From <b>Six Colors</b>.</p><hr/><h3>by Jason Snell</h3><h1><a href="https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/">Apple starts to charge for heavy AI usage</a></h1>
-
-					<p>Ryan Christoffel of 9to5 Mac has spotted <a href="https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/">a new feature in Apple’s Creator Suite</a>:</p><blockquote><p>
-  Apple has officially launched its first take on charging for AI features via <a href="https://9to5mac.com/2026/11/05/apple-creator-studio-gets-powerful-new-ai-features-using-openai-models/">the new Logic Pro update</a>—with more coming soon.</p>
-<p>With Logic Pro’s latest update, if you select Logic Pro from the menu bar, then ‘Intelligence Features’ and ‘Show Usage,’ there’s an option to ‘Buy More Usage.’</p></blockquote><p>It seems like for general AI usage by consumers, Apple is planning on wrapping access into <a href="https://sixcolors.com/post/2026/09/apple-ties-icloud-pricing-to-video-summaries/">iCloud+ plans</a>. But this apparently is the approach it will use in its professional-level products. ￼</p>]]></content:encoded>
-</item>
-<item>
-<title>No, Apple isn’t using Live Listen to listen to you</title>
-<link>https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/</link>
-<guid isPermaLink="false">b92219847eb1dbd7</guid>
-<pubDate>Tue, 10 Nov 2026 00:17:39 +0000</pubDate>
-<author>Six Colors</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Snell debunks a viral privacy scare about Live Listen with a clear explanation of how it works. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Six Colors&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Live Listen is a valuable accessibility feature for people who need assistance hearing things around them. It can stream the sound from the microphone on an iPhone or iPad to Apple-compatible hearing aids, AirPods, or supported models of Beats headphones.…&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Snell debunks a viral privacy scare about Live Listen with a clear explanation of how it works. (score 7)<p>From <b>Six Colors</b>.</p><hr/><figure><img alt="Glenn Fleishman, art by Shafer Brown" height="778" src="https://i0.wp.com/sixcolors.com/wp-content/uploads/2025/06/glenn-shaferbrown.png?ssl=1&#038;w=1380&#038;quality=90" width="1360" /></figure>
-<p><a href="https://support.apple.com/en-mz/guide/iphone/iph8bf9386f5/27/ios/27#iph4290a32c9">Live Listen</a> is a valuable accessibility feature for people who need assistance hearing things around them. It can stream the sound from the microphone on an iPhone or iPad to Apple-compatible hearing aids, AirPods, or supported models of Beats headphones.<sup id="fnref-42279-models"><a class="jetpack-footnote" href="https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/#fn-42279-models" title="Read footnote.">1</a></sup></p>
-<p>This can be extremely useful for someone with hearing loss, or even to understand other people in a busy room, because the benefits of the iPhone&#8217;s multiple mics canceling out noise can make a muddled or incomprehensible conversation clear to hear.</p>
-<p>Because we live in an age of conspiracy, some bozos have decided that an innocuous, well-documented feature that&#8217;s existed since 2020 (with iOS 14.3/iPadOS 14.3) somehow translates to &#8220;all the iPhones and iPads with this update, both personal and operational, are by default listening in on all conversations around them, transcribing them, and sending those transcriptions up to Apple for advertising purposes&#8221; to quote from misinformation across two posts on Bluesky.<sup id="fnref-42279-operational"><a class="jetpack-footnote" href="https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/#fn-42279-operational" title="Read footnote.">2</a></sup></p>
-<p>The impetus appears to be a setting in iOS and iPadOS at Settings: Accessibility: Audio &amp; Video: Live Listen, called Remote Control. It would have first appeared in iOS 26/iPadOS 26, and the current panic alleges it was turned on by default in the 27 updates.</p>
-<p>But the Remote Control feature has nothing to do with Apple grabbing your audio. It&#8217;s part of a privacy-forward, locked-down feature that extends the utilities of your devices logged into the same Apple Account.</p>
-<p>This conspiracy appears to have started on X, the every-bad-theory app, but has spread. Sensible people I know are asking whether this is a risk. Let me break this down.</p>
-<h2>Live Listen and Remote Control</h2>
-<p>If you have trouble hearing people in crowded situations, places with echoes, or just in general, your iPhone or iPad can act like an isolating microphone—that&#8217;s Live Listen. You can only enable it if you have a supported device nearby and active. Then, you can:</p>
-<ul>
-<li>Go to Settings: Accessibility: Audio &amp; Video: Live Listen and tap Start Live Listen.</li>
-<li>Tap the Live Listen button, which looks like a microphone, in Control Center; or the Hearing Devices button, which looks like an ear, and choose the hearing device, like AirPods.<sup id="fnref-42279-control"><a class="jetpack-footnote" href="https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/#fn-42279-control" title="Read footnote.">3</a></sup></li>
-<li>Use other pathways described in <a href="https://support.apple.com/en-mz/guide/iphone/iph8bf9386f5/ios">Apple&#8217;s support note</a>.</li>
-</ul>
-<figure><img alt="Two iPhone screenshots of the Live Listen settings screen: one with a Start Live Listen button and Remote Control toggle, the other showing an active session with &quot;Glenn's AirPods Pro&quot; and a Stop button." height="848" src="https://i0.wp.com/sixcolors.com/wp-content/uploads/2026/11/live-listen-settings-6c.png?ssl=1&#038;w=1380&#038;quality=90" width="1380" /><p><em>Two iPhone screenshots of the Live Listen settings screen: one with a Start Live Listen button and Remote Control toggle, the other showing an active session with &quot;Glenn's AirPods Pro&quot; and a Stop button.</em></p><figcaption></figcaption></figure>
-<p>Starting in iOS 26/iPadOS 26, enabling Live Listen lets you also turn Live Captions on. So you&#8217;re not only hearing a clearer or louder version of audio, you&#8217;re also seeing a running transcript of what it&#8217;s picking up. You can move through the entire Live Listen session in both audio and captions.</p>
-<p>The remote control option for Live Listen, added in iOS 26/iPadOS 26, allows use of an Apple Watch paired with your iPhone or an iPhone or iPad signed in to the same Apple Account to control Live Listen on the iPhone or iPad that&#8217;s in use. That linked device can also view Live Captions in real time.</p>
-<figure><img alt="Two iPhone screenshots: AirPods Pro controls showing 100% battery, 52 dB headphone level, and Live Listen on; beside it, Live Listen's captions view with a menu offering Hide, Copy Captions, and Clear All, and partly pixelated transcribed text." height="1228" src="https://i0.wp.com/sixcolors.com/wp-content/uploads/2026/11/live-listen-interface-transcript-6c.png?ssl=1&#038;w=1380&#038;quality=90" width="1380" /><p><em>Two iPhone screenshots: AirPods Pro controls showing 100% battery, 52 dB headphone level, and Live Listen on; beside it, Live Listen's captions view with a menu offering Hide, Copy Captions, and Clear All, and partly pixelated transcribed text.</em></p><figcaption>The Live Listen controls appear when you swipe down (left). If you enable Live Captions, you can view, scroll through, and export them as a transcript.</figcaption></figure>
-<p>The words <em>remote control</em> and <em>transcript</em> seem to have provided a sliver of an opening in the oyster of Apple privacy for people specializing in outrage and ragebaiting to crack open the bivalve.</p>
-<p>The seeming Patient Zero on X wrote:</p>
-<blockquote><p>
-  Go to your iPhone settings &#8211; accessibility &#8211; audio &amp; visual &#8211; LIVE LISTEN.<br />
-  Turn off LIVE LISTEN.<br />
-  It even says it keeps TRANSCRIPTS.<br />
-  This is NUTS.
-</p></blockquote>
-<p>While he&#8217;s going through psychosomatic anaphylactic shock, let&#8217;s look at the real story—and the real risk!</p>
-<h2>Apple risks entire company on secret recording</h2>
-<p>You might remember Apple had a run-in with secret recording a while back. The company failed to disclose that some small amount of audio captured by Siri was not just sent to the cloud for processing, <a href="https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings">but listened to by human beings</a>. Apple <a href="https://www.reuters.com/legal/apple-pay-95-million-settle-siri-privacy-lawsuit-2025-01-02/">agreed to settle a class-action suit</a> in 2025 for $95 million covering 2014 to 2024; the final details are still being approved.</p>
-<p>You might also recall that two months ago, I wrote about the new watchOS 27 features Live Rewind and Siri Recap that Apple announced were coming later this year to newer Apple Watch models. At the time, I wrote, &#8220;Should your Apple Watch always be listening?&#8221; In the classic <a href="https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines">Betteridge&#8217;s Law</a> style,<sup id="fnref-42279-glenning"><a class="jetpack-footnote" href="https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/#fn-42279-glenning" title="Read footnote.">4</a></sup> my answer was: &#8220;No.&#8221;<sup id="fnref-42279-betawatch"><a class="jetpack-footnote" href="https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/#fn-42279-betawatch" title="Read footnote.">5</a></sup> I argued that Apple should not release either feature in its current privacy-negative forms—both protect the Apple Watch owner&#8217;s privacy, but not the privacy of those they record without proper consent and notification.</p>
-<p>So I am hardly a &#8220;rah rah Apple is never recording us, sis boom bah&#8221; cheerleader. I try to cast <a href="https://loiselsden.com/2015/07/27/a-gimlet-eye/">a gimlet eye</a> across any such claim.</p>
-<p>Thus do the claims fall apart.</p>
-<p>First, Apple&#8217;s market capitalization is nearly $5 trillion as I write this. The idea that the company would risk its reputation, particularly after the earlier Siri misstep, and expose itself to massive lawsuits worldwide, plummeting sales, and the loss of trillions from its stock value for improving ad targeting is laughable.</p>
-<p>Its ad business <a href="https://www.emarketer.com/content/apple-ad-business-quietly-contributes-record-services-revenues">is estimated at under $10 billion a year</a>; the company doesn&#8217;t break it out from service revenue, <a href="https://sixcolors.com/post/2026/11/apples-fiscal-2026-in-charts/">which was $123 billion</a> in fiscal 2026 out of nearly $500 billion overall.</p>
-<p>Second, this all feels predicated on a fundamental misunderstanding of Live Listen and its Remote Control option, with some degree of &#8220;<a href="https://en.wikipedia.org/wiki/Death_panel">death paneling</a>&#8221; something innocuous to win…points? views? <a href="https://help.x.com/en/using-x/creator-revenue-sharing">X bucks</a>? <a href="https://en.wikipedia.org/wiki/Down_and_Out_in_the_Magic_Kingdom">Whuffie</a>? I don&#8217;t know what the goal is.</p>
-<p>The Remote Control function is poorly explained in the Settings app, and doesn&#8217;t even use that name in Apple&#8217;s documentation. More confusing, if you haven&#8217;t set up Live Listen, you see just a Remote Control option enabled by default, but there&#8217;s no Start Live Listen button.<sup id="fnref-42279-defaulton"><a class="jetpack-footnote" href="https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/#fn-42279-defaulton" title="Read footnote.">6</a></sup> Which makes it feel more insidious.</p>
-<h2>Please speak directly into the flowerpot</h2>
-<p>With very little effort, it&#8217;s possible to determine that neither Live Listen nor Remote Control is a threat. Also, logic is available. But emotion overrides logic, and that&#8217;s why this column exists.</p>
-<p>[<em>Got a question for the column? You can email glenn@sixcolors.com or use</em> <code>/glenn</code> <em>in our <a href="https://sixcolors.com/subscribe/">subscriber-only</a> Discord community.</em>]</p>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn-42279-models">
-Live Listen works with AirPods, AirPods Pro, AirPods Max, Powerbeats Pro, Beats Fit Pro, and Powerbeats Fit, with iOS 14.3/iPadOS 14.3 or later.&#160;<a href="https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/#fnref-42279-models" title="Return to main content.">&#8617;</a>
-</li>
-<li id="fn-42279-operational">
-I don&#8217;t know what &#8220;operational&#8221; means. Maybe a bad translation of &#8220;for business operations&#8221; from Russian.&#160;<a href="https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/#fnref-42279-operational" title="Return to main content.">&#8617;</a>
-</li>
-<li id="fn-42279-control">
-<a href="https://support.apple.com/en-mz/guide/iphone/use-and-customize-control-center-iph59095ec58/27/ios/27#iph83c5f986c">Add a control</a> if it&#8217;s not there.&#160;<a href="https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/#fnref-42279-control" title="Return to main content.">&#8617;</a>
-</li>
-<li id="fn-42279-glenning">
-Of course I know Ian Betteridge. <code>#glenning</code>&#160;<a href="https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/#fnref-42279-glenning" title="Return to main content.">&#8617;</a>
-</li>
-<li id="fn-42279-betawatch">
-I just installed iOS 27.3 beta and watchOS 27.3 beta, and turned on Siri Recap to test it. I forgot I had done so, and it captured a few conversations with my wife and summarized them (eerily well). I apologized to her, deleted the recaps, and disabled the feature for now.&#160;<a href="https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/#fnref-42279-betawatch" title="Return to main content.">&#8617;</a>
-</li>
-<li id="fn-42279-defaulton">
-Apple doesn&#8217;t provide an accounting of which settings are on by default. Remote Control was enabled on my iPhone, and many people who have never touched it also saw this setting enabled.&#160;<a href="https://sixcolors.com/post/2026/11/no-apple-isnt-using-live-listen-to-listen-to-youlive/#fnref-42279-defaulton" title="Return to main content.">&#8617;</a>
-</li>
-</ol>
-</div>]]></content:encoded>
-</item>
-<item>
-<title>Hackers Exploit Qubole&#x27;s Trusted AWS Access to Breach Customer Accounts and Steal Data</title>
-<link>https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html</link>
-<guid isPermaLink="false">2fa003bb85b5ad50</guid>
-<pubDate>Tue, 10 Nov 2026 00:17:39 +0000</pubDate>
-<author>The Hacker News</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A supply-chain cloud breach where a vendor&amp;#x27;s trusted AWS access was used to steal customer secrets, with lessons for key management. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an AWS account that Qubole&amp;#x27;s platform uses to reach those customers. How the attacker got those credentials has not been disclosed. Qubole, a data lake platform owned by Idera,&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> A supply-chain cloud breach where a vendor&#x27;s trusted AWS access was used to steal customer secrets, with lessons for key management. (score 7)<p>From <b>The Hacker News</b>.</p><hr/>
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj3p_1P-Ko_l_HuUr2Doq9kJOQa3Y5dCrkiVWqjJXzvQfYgKvgJXyvdBqLH2hp7s_ZY2kk-hhaCQhjf_v9SdjSbNpaDV2Eohk6-NEFUZp_ROjMJf_Q1xUSKcrqNj-Dd5ZrfjV6uP1blo579IaZ6hgHxOFAUhyJVgdGop-KVIWCjWQIYOKku3iN1N1EIUk/s1600/aws-hacked.jpg"/>
-    <p>An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today.</p>
-    <p>The attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed.</p>
-    <p>Qubole, a data lake platform owned by Idera, operates within its customers' AWS accounts. To let it in, a customer creates an IAM role, which is an AWS identity with its own set of permissions.</p>
-    <p>The role's trust policy allows Qubole's AWS account to assume the role, granting those permissions. Each request to do this, called AssumeRole, must include a matching code from Qubole known as an External ID.</p>
-    <p>Apart from the attack, most of the roles the attacker assumed were unused, according to Wiz's researchers. But each role still trusted Qubole's account, so the attacker's requests worked.</p>
-    <p>Any organization that has connected Qubole to AWS, even one that no longer uses it, should check its CloudTrail logs from October 1 onward. The sign to look for is an AssumeRole request from the account Qubole's platform uses, 805246085872, that came from an address outside AWS.</p>
-    <p>The researchers did not say whether the credentials have since been disabled or whether the activity has stopped. Neither Qubole nor Idera had posted a statement about the attack on their websites when The Hacker News checked today.</p>
-    <p>
-      <a href=""/>
-    </p>
-    <h3>Why the Roles Let the Attacker In</h3>
-    <p>Every AssumeRole request tied to the attacker carried an External ID and was accepted, the researchers said in their <a href="https://www.wiz.io/blog/qubole-cross-account-access-abused-in-the-wild">technical analysis</a>.</p>
-    <p>AWS accepts an AssumeRole request for such a role when it comes from the trusted account and includes the correct External ID. The code is not treated as a secret, and anyone with access to the role can view it, according to AWS's <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_third-party.html">external ID guidance</a>.</p>
-    <p>Sentra spotted the activity in several of its customers' environments and alerted the researchers.</p>
-    <p>In the accounts the researchers examined, the attacker looked for stored credentials. It read environment variables for Lambda functions, pulled secrets from Secrets Manager, and read values from the SSM Parameter Store.</p>
-    <p>It then ran the credentials it had found through TruffleHog to test whether they worked. These were the victims' own AWS access keys, Entra ID client secrets, and Okta client credentials.</p>
-    <p>The attacker also copied data out of S3. It retrieved data from any bucket a role could access rather than searching for specific data, and sometimes downloaded an entire bucket in a single session.</p>
-    <p>The researchers have not linked this campaign to any other publicly reported activity, and say the targeting does not match what state-backed groups usually go after.</p>
-    <p>Qubole also lets customers connect with AWS access keys instead of a role. From October 8 to October 11, an attacker used customers' own AWS access keys, which the researchers believe had been set up for Qubole.</p>
-    <p>That attacker then compromised a few of the victims' cloud environments. This activity has not been linked to the AssumeRole abuse.</p>
-    <h3>How to Check Your Accounts</h3>
-    <p>Wiz's hunting guidance covers CloudTrail logs from October 1 onward in every AWS account that holds a Qubole role. Look for:</p>
-    <ul>
-      <li>Account: AssumeRole requests where userIdentity.accountId is 805246085872 and sourceIPAddress is not an AWS address. The researchers saw Qubole's real traffic come only from AWS.</li>
-      <li>IAM principal ID: AIDA3W7DIFLYOLTK63SFS. Any activity from this IAM user should be investigated, because only the attacker used it in the accounts the researchers examined.</li>
-      <li>IAM principal ID: AIDAJYRRH5Y3A7AAJM2HW, when the source address is outside AWS. The attacker used this IAM user from October 18, but Qubole's normal traffic also uses it.</li>
-      <li>IP: 57.129.54[.]120 and 2001:41d0:70d[:]7800::, OVH-hosted addresses that the attacker used.</li>
-      <li>IP: 45.83.220[.]211, 185.209.199[.]73 and 89.37.63[.]175, which are Mullvad VPN addresses. Other VPN users share them, so a match alone is not proof.</li>
-      <li>Session name: role sessions that start with quiam-, such as quiam-enum.</li>
-      <li>User agent: TruffleHog on GetCallerIdentity calls from one of the IP addresses above. Look for the same user agent in your identity provider's sign-in logs.</li>
-    </ul>
-    <p>For every suspicious session, review everything it did afterward, especially in Secrets Manager, SSM Parameter Store, Lambda, and S3.</p>
-    <p>CloudTrail management events log each AssumeRole request and bucket listing, but not which S3 objects were read. That needs S3 data events or S3 server access logs. Several victims lacked the required logs, so responders could not determine which objects the attacker had read.</p>
-    <h3>How to Close the Route</h3>
-    <p>The researchers recommend these steps:</p>
-    <ul>
-      <li>If the attacker assumed one of your Qubole roles, rotate all secrets, parameters, and Lambda environment variables that role had access to, and revoke the role's active sessions. Rotating a credential does not end sessions that were already issued.</li>
-      <li>Remove any Qubole role you no longer need, or take Qubole's account out of its trust policy.</li>
-      <li>Where Qubole supports it, swap the account-wide :root principal in the trust policy for the specific IAM principal that Qubole uses.</li>
-      <li>Add an aws:SourceIp or aws:SourceVpce condition that limits AssumeRole requests to the vendor's documented network ranges. In this attack, the researchers said, "a source IP condition alone would have blocked every role assumption we observed."</li>
-      <li>Assume others can see the External ID. It is logged in plain text in CloudTrail, and vendors and infrastructure-as-code files often store it, so do not use it as your only control. After an incident like this, change it to Qubole and use a different value for each role where possible.</li>
-      <li>Review what each vendor role can reach. Qubole's <a href="https://docs.qubole.com/en/latest/user-guide/managing-accounts/aws/iam-roles/create-iam-roles.html">setup guide</a> includes a sample S3 policy that lets the role read every bucket in the account. Vendor roles are often granted access to Lambda settings, Secrets Manager, SSM parameters, and broad S3 read permissions for convenience, according to the researchers.</li>
-      <li>Set alerts for AssumeRole requests from a vendor account that arrive through a VPN or a hosting company the vendor has not used before.</li>
-      <li>Log every account and region with an organization trail, and enable S3 data events or server access logs for buckets that store sensitive data.</li>
-    </ul>
-    <p><a href="https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ">Google News</a>,</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>Shorter Convergence Period</title>
-<link>https://mjtsai.com/blog/2026/11/09/shorter-convergence-period/</link>
-<guid isPermaLink="false">8909f967931d9446</guid>
-<pubDate>Tue, 10 Nov 2026 00:17:39 +0000</pubDate>
-<author>Michael Tsai</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Tsai rounds up reporting on Ternus pushing Federighi to move faster on Apple&amp;#x27;s lagging AI work. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Michael Tsai&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Mark Gurman (tweet, 9To5Mac, MacRumors): Behind the scenes, though, Ternus has delivered a different message, knowing full well that Apple remains far behind rivals. In recent weeks, Ternus held a closed-door meeting with Craig Federighi, who became Apple’s AI czar following last year’s dismissal of its former AI leader. Desiring more and frustrated by what […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Tsai rounds up reporting on Ternus pushing Federighi to move faster on Apple&#x27;s lagging AI work. (score 7)<p>From <b>Michael Tsai</b>.</p><hr/><p><a href="https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDE1MTAxMCwiZXhwIjoxNzk0NzU1ODEwLCJhcnRpY2xlSWQiOiJUTzZWMDFLSUpIOEkwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.v_kF8kPRiaZ6qSDqbDcb8marNAUSibGlv7PG3r-OYKA&amp;leadSource=article-gifting">Mark Gurman</a> (<a href="https://x.com/markgurman/status/2119449283267371274">tweet</a>, <a href="https://9to5mac.com/2026/11/08/john-ternus-pushing-craig-federighi-to-move-faster-software-engineering/">9To5Mac</a>, <a href="https://www.macrumors.com/2026/11/08/apple-tweaks-ios-28-development-process/">MacRumors</a>):</p>
-<blockquote cite="https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDE1MTAxMCwiZXhwIjoxNzk0NzU1ODEwLCJhcnRpY2xlSWQiOiJUTzZWMDFLSUpIOEkwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.v_kF8kPRiaZ6qSDqbDcb8marNAUSibGlv7PG3r-OYKA&amp;leadSource=article-gifting"><p>Behind the scenes, though, Ternus has delivered a different message, knowing full well that Apple remains far behind rivals. In recent weeks, Ternus held a closed-door meeting with Craig Federighi, who became Apple&rsquo;s AI czar following last year&rsquo;s dismissal of its former AI leader. Desiring more and frustrated by what he sees as a reluctance to embrace AI with the same urgency as competitors, Ternus pushed his software chief to accelerate the company&rsquo;s road map and move quickly beyond merely making necessary improvements to Siri.</p>
-<p>[&#8230;]</p>
-<p>Apple is already deep into work on next year&rsquo;s operating systems, Bell (iOS 28 and iPadOS 28) and Poppy (macOS 28), but has changed up its process, I&rsquo;m told. Apple traditionally separates development of each year&rsquo;s new OSs into three major milestones known as M1, M2 and M3. Development of each stage runs for eight weeks and is split between four weeks of coding and four weeks of convergence, meaning integrating the features into the operating system.</p>
-<p>For this cycle, though, Apple has done things differently for the M1 milestone. Instead of the normal split between two four-week efforts, Apple engineers were tasked with six weeks of coding, exploration and feature development, and then only two weeks of convergence. Employees say they like the change, indicating that it creates more time for coming up with ideas and exploring them before needing to lock things in.</p>
-</blockquote>
-
-<p>I don&rsquo;t think Federighi&rsquo;s problem is that he&rsquo;s going too <em>slow</em>. Less time for integration <a href="https://x.com/Sam_Ohanaware/status/2119588747935453212">sounds like</a> a recipe for <a href="https://mastodon.social/@marioguzman/117584813319319860">even more bugs</a>.</p>
-
-<p>Previously:</p>
-<ul>
-<li><a href="https://mjtsai.com/blog/2026/11/03/apples-q4-2026-results/">Apple&rsquo;s Q4 2026 Results</a></li>
-<li><a href="https://mjtsai.com/blog/2026/09/23/siri-ai-ships-but-still-beta/">Siri AI Ships (But Still Beta)</a></li>
-<li><a href="https://mjtsai.com/blog/2026/09/01/john-ternus-is-ceo/">John Ternus Is CEO</a></li>
-<li><a href="https://mjtsai.com/blog/2026/06/09/glow-leopard/">Glow Leopard</a></li>
-<li><a href="https://mjtsai.com/blog/2026/04/03/a-letter-to-john-ternus/">A Letter to John Ternus</a></li>
-<li><a href="https://mjtsai.com/blog/2026/02/17/ios-27-rave-update-to-clean-up-code/">iOS 27 &ldquo;Rave&rdquo; Update to Clean Up Code</a></li>
-<li><a href="https://mjtsai.com/blog/2025/12/02/john-giannandrea-leaving-apple/">John Giannandrea Leaving Apple</a></li>
-<li><a href="https://mjtsai.com/blog/2018/02/13/how-apple-plans-to-root-out-bugs/">How Apple Plans to Root Out Bugs</a></li>
-</ul>]]></content:encoded>
-</item>
-<item>
-<title>If the Windows Update hot patcher checks that the function hasn’t already been patched, does that mean you can’t install two hot-patches?</title>
-<link>https://devblogs.microsoft.com/oldnewthing/20261109-00/?p=112841/</link>
-<guid isPermaLink="false">4c297722f85124cc</guid>
-<pubDate>Tue, 10 Nov 2026 00:17:39 +0000</pubDate>
-<author>The Old New Thing</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Raymond Chen explains how Windows hot patching stacks multiple patches, classic Microsoft engineering detail. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Old New Thing&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;It knows what it did. The post If the Windows Update hot patcher checks that the function hasn’t already been patched, does that mean you can’t install two hot-patches? appeared first on The Old New Thing .&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Raymond Chen explains how Windows hot patching stacks multiple patches, classic Microsoft engineering detail. (score 7)<p>From <b>The Old New Thing</b>.</p><hr/><p>In my earlier discussion of how Windows Update uses the hot-patching space (and <a href="https://devblogs.microsoft.com/oldnewthing/20261005-00/?p=112755" title="If somebody tries to hot-patch an already-hot-patched function, how do they avoid conflicts?"> how nobody else should be using it</a>), the question arose of what happens when Windows Update wants to hot-patch a binary that has already been hotpatched. Does this mean that you cannot apply hot patches two updates in a row?</p>
-<p>Microsoft issues hot patches for two updates in a row. I linked to it in the original article, and here it is again: <a href="https://techcommunity.microsoft.com/blog/windows-itpro-blog/hotpatch-for-windows-client-now-available/4399808"> Hotpatch for Windows client now available</a>.</p>
-<p>Notice in the diagram that Windows supports <i>two</i> hot-patch cycles before forcing a traditional update.</p>
-<div id="p20261109_head" style="display: none;"> </div>
-<table border="0" cellpadding="3" cellspacing="0" style="border-collapse: collapse; text-align: center;">
-<tbody>
-<tr>
-<td style="padding-right: 1em;">Hot-patch<br />
-track</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>Hot-patch<br />
-update</td>
-<td>→</td>
-<td>Hot-patch<br />
-update</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>Hot-patch<br />
-update</td>
-<td>→</td>
-<td>Hot-patch<br />
-update</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td><img alt="↗" class="wp-smiley" src="https://s.w.org/images/core/emoji/17.0.2/72x72/2197.png" style="height: 1em;" /></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td><img alt="↘" class="wp-smiley" src="https://s.w.org/images/core/emoji/17.0.2/72x72/2198.png" style="height: 1em;" /></td>
-<td>&nbsp;</td>
-<td><img alt="↗" class="wp-smiley" src="https://s.w.org/images/core/emoji/17.0.2/72x72/2197.png" style="height: 1em;" /></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td><img alt="↘" class="wp-smiley" src="https://s.w.org/images/core/emoji/17.0.2/72x72/2198.png" style="height: 1em;" /></td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td style="padding-right: 1em;">Traditional<br />
-track</td>
-<td>Traditional<br />
-update</td>
-<td>→</td>
-<td>Traditional<br />
-update</td>
-<td>→</td>
-<td>Traditional<br />
-update</td>
-<td>→</td>
-<td>Traditional<br />
-update</td>
-<td>→</td>
-<td>Traditional<br />
-update</td>
-<td>→</td>
-<td>Traditional<br />
-update</td>
-<td>→</td>
-<td>Traditional<br />
-update</td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>Jan<br />
-baseline</td>
-<td>&nbsp;</td>
-<td>Feb</td>
-<td>&nbsp;</td>
-<td>Mar</td>
-<td>&nbsp;</td>
-<td>Apr<br />
-baseline</td>
-<td>&nbsp;</td>
-<td>May</td>
-<td>&nbsp;</td>
-<td>Jun</td>
-<td>&nbsp;</td>
-<td>Jul<br />
-baseline</td>
-</tr>
-</tbody>
-</table>
-<p>The first month of each quarter issues a traditional update. Administrators who opted into the hot-patch track can install two months of hot patches, while everybody else continues to get traditional updates. At the start of the next quarter, everybody gets a traditional update again, and the cycle continues.</p>
-<p>Okay, so how can Windows Update apply a hot-patch on top of another hot-patch?</p>
-<p>Why can&#8217;t you tickle yourself?</p>
-<p>Your brain knows that you&#8217;re the one doing the tickling, so it suppresses the tickle response.</p>
-<p>And Windows Update knows that it&#8217;s patching something that it already patched, so it knows what it did to apply the hot-patch, and therefore it knows what code was originally there before it performed the hot-patch. I think all it has to do to patch a patch is update the far jump target in the trampoline to point to the new hot-patch function.</p>
-<p>I suspect that the limit of two stacked hot-patches avoids an unbounded accumulation of internal data structures that are used to keep track of all the hot-patches, and to ensure we don&#8217;t run out of patch space in the binary itself.</p>
-<p>
-<s></s></p>
-<p>The post <a href="https://devblogs.microsoft.com/oldnewthing/20261109-00/?p=112841/">If the Windows Update hot patcher checks that the function hasn&#8217;t already been patched, does that mean you can&#8217;t install two hot-patches?</a> appeared first on <a href="https://devblogs.microsoft.com/oldnewthing">The Old New Thing</a>.</p>]]></content:encoded>
-</item>
-<item>
-<title>Here&#x27;s What Apple Fixed in iOS 27.2.1 and macOS 27.2.1</title>
-<link>https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes/</link>
-<guid isPermaLink="false">4cf7a8d92064ef01</guid>
-<pubDate>Tue, 10 Nov 2026 00:17:39 +0000</pubDate>
-<author>MacRumors: Mac News and Rumors - All Stories</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Apple&amp;#x27;s 27.2.1 updates patch a serious iMessage group chat flaw and other security bugs, so update now. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacRumors: Mac News and Rumors - All Stories&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;The iOS 27.2.1 , iPadOS 27.2.1, and macOS 27.2.1 updates Apple released today fix a handful of security vulnerabilities. With the security fixes implemented, it&amp;#x27;s a good idea to update as soon as you can. A bug with iMessage could let a remote attacker join a group chat to receive its messages, and another could let users see messages sent before they joined a group chat. Most of the vulnerabilities involved AirPlay and Bluetooth. A malicious Bluetooth device could pair without user interaction,&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Apple&#x27;s 27.2.1 updates patch a serious iMessage group chat flaw and other security bugs, so update now. (score 7)<p>From <b>MacRumors: Mac News and Rumors - All Stories</b>.</p><hr/>The <a href="https://support.apple.com/en-us/149715">iOS 27.2.1</a>, iPadOS 27.2.1, and <a href="https://support.apple.com/en-us/149718">macOS 27.2.1</a> updates Apple released today fix a handful of security vulnerabilities. With the security fixes implemented, it's a good idea to update as soon as you can.
-<br />
-
-<br />
-<img alt="" class="aligncenter size-full wp-image-896108" height="900" src="https://images.macrumors.com/article-new/2023/05/bug-security-vulnerability-issue-fix-larry.jpg" width="1600" />
-<br />
-A bug with iMessage could let a remote attacker join a group chat to receive its messages, and another could let users see messages sent before they joined a group chat.
-<br />
-
-<br />
-Most of the vulnerabilities involved <a href="https://www.macrumors.com/guide/airplay/">AirPlay</a> and Bluetooth. A malicious Bluetooth device could pair without user interaction, and another bug could let a nearby attacker corrupt process memory. Several bugs could allow an attacker to bypass the rate limit on &zwnj;AirPlay&zwnj; pairing code attempts.
-<br />
-
-<br />
-Apple credits itself on four of the vulnerabilities, so they were found internally.
-<br />
-
-<br />
-With the macOS update, Apple also <a href="https://www.macrumors.com/2026/11/09/macos-27-2-1-emudhra-fix/">addressed the eMudhra certificate vulnerability</a>, adding protections for command-line tools.
-<br />
-
-<br />
-Apple did not say that the flaws have been exploited in the wild, but with the details on each vulnerability now public, devices that are not running the new software could be more vulnerable to attack.<div class="linkback">Related Roundups: <a href="https://www.macrumors.com/roundup/ios-27/">iOS 27</a>, <a href="https://www.macrumors.com/roundup/ipados-27/">iPadOS 27</a></div><div class="linkback">Related Forum: <a href="https://forums.macrumors.com/forums/ios-27.251">iOS 27</a></div><br />This article, &quot;<a href="https://www.macrumors.com/2026/11/09/ios-27-2-1-security-fixes/">Here&#039;s What Apple Fixed in iOS 27.2.1 and macOS 27.2.1</a>&quot; first appeared on <a href="https://www.macrumors.com">MacRumors.com</a><br /><br /><a href="https://forums.macrumors.com/threads/heres-what-apple-fixed-in-ios-27-2-1-and-macos-27-2-1.2494052/">Discuss this article</a> in our forums<br /><br />]]></content:encoded>
-</item>
-<item>
-<title>macOS 27.2.1 Fixes eMudhra Certificate Flaw in Command-Line Tools</title>
-<link>https://www.macrumors.com/2026/11/09/macos-27-2-1-emudhra-fix/</link>
-<guid isPermaLink="false">9de40917d58ca942</guid>
-<pubDate>Tue, 10 Nov 2026 00:17:39 +0000</pubDate>
-<author>MacRumors: Mac News and Rumors - All Stories</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Apple finally removes trust in the compromised eMudhra certificate for command-line tools, a real-world PKI cleanup story. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacRumors: Mac News and Rumors - All Stories&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;The macOS Golden Gate 27.2.1 update Apple released today addresses the eMudhra certificate vulnerability, and Apple recommends users update to the latest software. For Macs that run macOS 26 or macOS 15, Apple has released macOS 26.7.3 and macOS 15.8.3. Apple previously blocked the compromised certificates in Safari, Mail, and apps that use Apple frameworks in October to protect most users, but command-line tools like curl and git were still able to accept them. With macOS 27.2.1, command-line t&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Apple finally removes trust in the compromised eMudhra certificate for command-line tools, a real-world PKI cleanup story. (score 7)<p>From <b>MacRumors: Mac News and Rumors - All Stories</b>.</p><hr/>The <a href="https://www.macrumors.com/roundup/macos-27/">macOS Golden Gate</a> 27.2.1 update Apple released today addresses the eMudhra certificate vulnerability, and Apple recommends users update to the latest software.
-<br />
-
-<br />
-<img alt="" class="aligncenter size-full wp-image-1038581" height="1134" src="https://images.macrumors.com/article-new/2026/03/apple-lock-security-bug-vulnerability-fix-privacy.jpg" width="2016" />
-<br />
-For Macs that run macOS 26 or macOS 15, Apple has released macOS 26.7.3 and macOS 15.8.3.
-<br />
-
-<br />
-Apple previously <a href="https://www.macrumors.com/2026/10/22/apple-blocks-certificates-that-could-help-attackers/">blocked the compromised certificates</a> in Safari, Mail, and apps that use Apple frameworks in October to protect most users, but command-line tools like curl and git <a href="https://www.macrumors.com/2026/10/25/apple-blocks-compromised-emudhra-certificates/">were still able to accept</a> them. With macOS 27.2.1, command-line tools will no longer accept the certificates.
-<br />
-
-<br />
-Prior to releasing the macOS 27.2.1 update, Apple offered instructions for those who wanted to protect themselves from the compromised eMudhra certificates when using command-line tools, directing users to manually remove the affected root certificates from their Mac's "/etc/ssl/cert.pem" file.
-<br />
-
-<br />
-Apple still <a href="https://support.apple.com/en-us/149555">has those instructions available</a> for users who are unable to update their Macs.
-<br />
-
-<br />
-The compromised security certificates were issued by certificate authority eMudhra. An investigation launched by Mozilla found the certificates used private key values below 256, making them trivial to recover. Attackers could use the keys to create fraudulent certificates that appeared valid for any website.
-<br />
-
-<br />
-Apple also fixed the issue in the <a href="https://www.macrumors.com/2026/11/04/macos-27-3-important-security-fix/">macOS Golden Gate 27.3 beta</a>, but with the fix also included in macOS 27.2.1, users won't need to wait until December for protection.<div class="linkback">Related Roundup: <a href="https://www.macrumors.com/roundup/macos-27/">macOS Golden Gate</a></div><div class="linkback">Related Forum: <a href="https://forums.macrumors.com/forums/macos-golden-gate.253">macOS Golden Gate</a></div><br />This article, &quot;<a href="https://www.macrumors.com/2026/11/09/macos-27-2-1-emudhra-fix/">macOS 27.2.1 Fixes eMudhra Certificate Flaw in Command-Line Tools</a>&quot; first appeared on <a href="https://www.macrumors.com">MacRumors.com</a><br /><br /><a href="https://forums.macrumors.com/threads/macos-27-2-1-fixes-emudhra-certificate-flaw-in-command-line-tools.2494042/">Discuss this article</a> in our forums<br /><br />]]></content:encoded>
-</item>
-<item>
-<title>Anthropic launches new Claude Fable and Mythos 5.2 models</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2</link>
-<guid isPermaLink="false">74abf50bac3b31b2</guid>
-<pubDate>Tue, 10 Nov 2026 00:17:39 +0000</pubDate>
-<author>The Verge</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Anthropic ships Claude Fable and Mythos 5.2 with better coding and reasoning, relevant to how software gets built. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on &amp;quot;daunting&amp;quot; technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of the Fable and Mythos models. Claude Fable […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Anthropic ships Claude Fable and Mythos 5.2 with better coding and reasoning, relevant to how software gets built. (score 7)<p>From <b>The Verge</b>.</p><hr/>
-    <p>Anthropic <a href="https://anthropic.com/claude-fable-and-mythos-5-2">is announcing</a> two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on “daunting” technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of the Fable and Mythos models.</p>
-    <h1>Anthropic launches new Claude Fable and Mythos 5.2 models</h1>
-    <p class="duet--article--dangerously-set-cms-markup cbn62fh cbn62fg _19wv7tca _19wv7tc1">Claude Fable 5.2 is designed to take on big technical challenges, and it’s available today.</p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=2400" alt="STK269_ANTHROPIC_2_B"/>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=2400" alt="STK269_ANTHROPIC_2_B"/>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/JAY_BLURPLE.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Jay Peters"/>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Claude Fable 5.2 is good at challenging software engineering problems, Anthropic says, and can orchestrate agent teams and tackle long-running projects. The new model has also solved some complex scientific problems, including two open theoretical physics problems.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">During prerelease testing, the two models have “helped our engineers complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made substantial progress on robotics evaluations, and formalized the proof of Fermat’s Last Theorem in 30 hours,” Anthropic says.</p>
-    <p>Claude Fable 5.2 is launching today. As for Claude Mythos 5.2, only vetted organizations will have access to start. The new 5.2 models follow the release of Claude Fable 5.1 and Claude Mythos 5.1 <a href="https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1">in September</a>.</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>Forecast Triumph</title>
-<link>https://cliffmass.blogspot.com/2026/11/forecast-triumph.html</link>
-<guid isPermaLink="false">18395b5b6968775d</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0000</pubDate>
-<author>Cliff Mass Weather Blog</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; On your always-include list. (score 10)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Cliff Mass Weather Blog&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Yesterday, a strong front, associated with strong winds gusting to 40 mph or more, moved through the region, resulting in numerous power outages. As I will describe below, numerical weather models predicted this event with great skill, s omething we could not have done 20 years ago. T his is a triumph of modern weather prediction technology. Let me demonstrate this to you. Below is the radar image around 4 PM Saturday, based on the radar observations from the Langley Hill radar near Hoquium. An &lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> On your always-include list. (score 10)<p>From <b>Cliff Mass Weather Blog</b>.</p><hr/><p><span style="font-family: inherit; font-size: medium;"><b>Yesterday, a strong front, associated with strong winds gusting to 40 mph or more, moved through the region, resulting in numerous power outages.</b><br /></span></p><p><span style="font-family: inherit; font-size: medium;">As I will describe below, numerical weather models predicted this event with great skill, s<b>omething we could not have done 20 years ago.&nbsp; &nbsp;</b></span></p><p><span style="font-family: inherit; font-size: medium;">T<b>his is a triumph of modern weather prediction technology.</b></span></p><p><span style="font-family: inherit; font-size: medium;">Let me demonstrate this to you.&nbsp;&nbsp;</span></p><p><span style="font-family: inherit; font-size: medium;">Below is the radar image around 4 PM Saturday, based on the radar observations from the Langley Hill radar near Hoquium.&nbsp; An intense radar return was apparent offshore (the thin yellow and red line, indicated by the red arrow).&nbsp; &nbsp;This is the front.</span></p><p><span style="font-family: inherit; font-size: medium;">Fronts associated with a narrow, cold frontal rainband were first described by&nbsp; UW researchers, such as Professor Peter Hobbs and associates.</span></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEEFHTWrjaq2Hm8sMwv_WBni8OOBBbtQidDqt5uiyUttJp6WaBeM04wJxb7IO4GXgeOIEAuXHyOV8D1VCBk0VlMOGCvP7LCaIfIGhCHpneg2sRlkhPnVd77vRqr3T1H2eZu8F0m7Hw8S2iHxz9LREdyg-C4e2FH0G-iw2ty1EWSO5U2pL0jcq6aBrvxkY/s1358/Screenshot%202026-11-08%20at%205.02.33%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-family: inherit; font-size: medium;"><img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEEFHTWrjaq2Hm8sMwv_WBni8OOBBbtQidDqt5uiyUttJp6WaBeM04wJxb7IO4GXgeOIEAuXHyOV8D1VCBk0VlMOGCvP7LCaIfIGhCHpneg2sRlkhPnVd77vRqr3T1H2eZu8F0m7Hw8S2iHxz9LREdyg-C4e2FH0G-iw2ty1EWSO5U2pL0jcq6aBrvxkY/s320/Screenshot%202026-11-08%20at%205.02.33%E2%80%AFPM.png" width="269" /></span></a></div><p><span style="font-family: inherit; font-size: medium;">Even more impressive is a video of the cold front approaching the coast (from a wonderful phone app called RadarScope).</span></p><p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_AHcUvWy2F1ERtLp1RD9oAUcn_cBxp0kuFytDIOfciHMx5xHgpLaN9p-SLCtbjqFcTZT__2Fc1mT7rhl62SjR6-zgK6DdMj-TGkUms8n-xiiOPUVHxf6O8enUkgHkyR15oTNNPvM3q1mWG4ndnZeRwWlZkcVlUniIi5S-FC47fGY2iQ2TAF3edZMrkyE/s1600/animated.GIF" style="margin-left: 1em; margin-right: 1em;"><span style="font-family: inherit; font-size: medium;"><img alt="" height="478" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_AHcUvWy2F1ERtLp1RD9oAUcn_cBxp0kuFytDIOfciHMx5xHgpLaN9p-SLCtbjqFcTZT__2Fc1mT7rhl62SjR6-zgK6DdMj-TGkUms8n-xiiOPUVHxf6O8enUkgHkyR15oTNNPvM3q1mWG4ndnZeRwWlZkcVlUniIi5S-FC47fGY2iQ2TAF3edZMrkyE/w265-h478/animated.GIF" width="265" /></span></a></div><div class="separator" style="clear: both; text-align: center;"><span style="font-family: inherit; font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: center;"><span style="font-family: inherit; font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;">Here is a forecast of a simulated radar image, made 24 hours (from 4 PM) before the event is shown below.&nbsp; It was made by the UW WRF model run by my group.&nbsp;&nbsp;</span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;">Almost perfect.&nbsp; Very strong simulated front.</span></div><div class="separator" style="clear: both; text-align: center;"><span style="color: #0000ee; font-family: inherit; font-size: medium;"><u><br /></u></span><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgt95WnXNgPms_vPIPybZSEKLhDW9eBfivXlK1-7xaZBUpHt4Zf1jXTqxUKhdvK7IeZP6P_0VxiK-YX9vZm6xo1Q5oyrsyCcn7Ahl9D_KmjsAB2F207zmZqr4AyhdSY2fmaW8EuxU1ygbdqAwwlY2HtTaRpFI-1qSFtUqWQWqzX9MJWQ3AtFlLkF2adTw4/s1600/Screenshot%202026-11-08%20at%205.07.16%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-family: inherit; font-size: medium;"><img alt="" height="377" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgt95WnXNgPms_vPIPybZSEKLhDW9eBfivXlK1-7xaZBUpHt4Zf1jXTqxUKhdvK7IeZP6P_0VxiK-YX9vZm6xo1Q5oyrsyCcn7Ahl9D_KmjsAB2F207zmZqr4AyhdSY2fmaW8EuxU1ygbdqAwwlY2HtTaRpFI-1qSFtUqWQWqzX9MJWQ3AtFlLkF2adTw4/w267-h377/Screenshot%202026-11-08%20at%205.07.16%E2%80%AFPM.png" width="267" /></span></a></div></div><div class="separator" style="clear: both; text-align: center;"><span style="color: #0000ee; font-family: inherit; font-size: medium;"><u><br /></u></span></div><span style="font-family: inherit; font-size: medium;"><br />A closer-in view is below.</span><p></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUlD_FYZS0XIefdnoIEuBAQsR2Rh8qiomkuhb4_MoiD0Z6HuXbbVoERqR-fhjzbSdPzA2u3z59SxOvxjdu2vpxwqDLXUTMxRKoNn4irdr9quY8CqIkTQVmf6ZU9yVYlHuW1OC2SDr7fWD8u3C1Vjcr_NkQOUZ-zi5vtnFCC1tM076bC9zvfOIBKzUb7oY/s852/Screenshot%202026-11-08%20at%205.06.22%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-family: inherit; font-size: medium;"><img border="0" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUlD_FYZS0XIefdnoIEuBAQsR2Rh8qiomkuhb4_MoiD0Z6HuXbbVoERqR-fhjzbSdPzA2u3z59SxOvxjdu2vpxwqDLXUTMxRKoNn4irdr9quY8CqIkTQVmf6ZU9yVYlHuW1OC2SDr7fWD8u3C1Vjcr_NkQOUZ-zi5vtnFCC1tM076bC9zvfOIBKzUb7oY/s320/Screenshot%202026-11-08%20at%205.06.22%E2%80%AFPM.png" width="226" /></span></a></div><br /><div><span style="font-family: inherit; font-size: medium;"><br /></span></div><span style="font-family: inherit; font-size: medium;">A forecast made 60 hr before the event was virtually the same.&nbsp; Strong front in the same location</span><div><span style="font-family: inherit; font-size: medium;"><br /></span></div><div><span style="font-family: inherit; font-size: medium;">A forecast made on Thursday evening, showing the strongest near-surface wind gusts, indicating strong winds over the region.&nbsp; Strong enough to worry about.<br /></span><div><div><span style="font-family: inherit; font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqqrQpzTfosCpELFzXJxl0xOj3fF8TX-HsHtCeZ1uvlUjb9kk6sASFCcsj7M3CiEtTzcViwSyldGK8SsX6Pe3gHxYPtoUINoyVERJg-9q3fZfgBhxhGhCZ49e4zTjMcPCrstdV22rWQ-6TYDwJtoY0XeiOlasssVF0esfad2T2kvCubJDQP_QfvQzAEXE/s1540/Screenshot%202026-11-08%20at%205.17.43%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-family: inherit; font-size: medium;"><img border="0" height="405" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqqrQpzTfosCpELFzXJxl0xOj3fF8TX-HsHtCeZ1uvlUjb9kk6sASFCcsj7M3CiEtTzcViwSyldGK8SsX6Pe3gHxYPtoUINoyVERJg-9q3fZfgBhxhGhCZ49e4zTjMcPCrstdV22rWQ-6TYDwJtoY0XeiOlasssVF0esfad2T2kvCubJDQP_QfvQzAEXE/w438-h405/Screenshot%202026-11-08%20at%205.17.43%E2%80%AFPM.png" width="438" /></span></a></div><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;">The winds for Seattle made for Seattle City Light as part of the UW WindWatch system were clearly accurate, showing the threat of strong wind (the black dots are the strongest observed with the city; the gray and colored lines indicate model forecasts)</span></div><span style="font-family: inherit; font-size: medium;"><br /></span><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibqAWKiZwMpX6PNLMykeHX_vyAfgxnmGUpA9ZHAdqEVlYs2wzDqdbd9jqjvxssWCOnIhSrP_w5U9U1sKVUxxKHFHKR_r54hNElxR09F93Z1WpRpPhq7oVLP4sHi7CDLr14EfK5WdSClNN-nKKhk0CSHMju78txr65EuoOXxu-dIixew-PMq7e7dvc86yo/s1200/2026110700.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-family: inherit; font-size: medium;"><img border="0" height="314" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibqAWKiZwMpX6PNLMykeHX_vyAfgxnmGUpA9ZHAdqEVlYs2wzDqdbd9jqjvxssWCOnIhSrP_w5U9U1sKVUxxKHFHKR_r54hNElxR09F93Z1WpRpPhq7oVLP4sHi7CDLr14EfK5WdSClNN-nKKhk0CSHMju78txr65EuoOXxu-dIixew-PMq7e7dvc86yo/w627-h314/2026110700.png" width="627" /></span></a></div><div class="separator" style="clear: both; text-align: center;"><span style="font-family: inherit; font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;"><b>The models were very, very clear.&nbsp;&nbsp;</b></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;">There was a prediction of 30-45 mph winds over the city.&nbsp; And that means power outages, particularly early in the storm season.</span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;">Such an emphatic forecast by the models was the reason I blogged about it on Friday, making it clear that some would lose power.</span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;">In fact, over 100,000 customers lost power over western Washington last night (see below).</span></div><div class="separator" style="clear: both; text-align: center;"><span style="font-family: inherit; font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4YXPsMxxeWqeRhVzFZXWLddhAuBcZXxZmFl-pHrW30opVH1WVTiSWZNnIk0xyfEBy1f0DgnGYERp9e5i4jFxhtO76TLrcSQSjvSaMSk-Tr96DnKmVTsD6meNk7V07jgsOenHGdpU4HSL36GDL1aMzKpAI4QdY5OU8kffLLKsMrjcxl_BeGSGaQn5ziqo/s1482/Screenshot%202026-11-07%20at%209.23.38%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-family: inherit; font-size: medium;"><img border="0" height="321" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4YXPsMxxeWqeRhVzFZXWLddhAuBcZXxZmFl-pHrW30opVH1WVTiSWZNnIk0xyfEBy1f0DgnGYERp9e5i4jFxhtO76TLrcSQSjvSaMSk-Tr96DnKmVTsD6meNk7V07jgsOenHGdpU4HSL36GDL1aMzKpAI4QdY5OU8kffLLKsMrjcxl_BeGSGaQn5ziqo/w544-h321/Screenshot%202026-11-07%20at%209.23.38%E2%80%AFPM.png" width="544" /></span></a></div><div><span style="font-family: inherit; font-size: medium;"><br /></span></div><span style="font-family: inherit; font-size: medium;">And over 46,000 customers in Seattle lost their lights.</span></div><div><span style="font-family: inherit; font-size: medium;"><br /></span><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi54b8dWE57XsEjkqEmz0hC8T7CJBr2VnCRWQiAOMEYEqrh99GN9-oE_JK163fIo3HafRzouLQLe7XWM_jvbpHo4KnJhzMXBv7XC7n3v1KOnFWvhDfXooxBWEPGgU7c98LxJDVfx-jh1yd0lkydvtjsn5MBDSKeAJ6xH6Eeo0iXFuX7SRIkCUs-H__PFMk/s964/Screenshot%202026-11-07%20at%209.24.28%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-family: inherit; font-size: medium;"><img border="0" height="370" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi54b8dWE57XsEjkqEmz0hC8T7CJBr2VnCRWQiAOMEYEqrh99GN9-oE_JK163fIo3HafRzouLQLe7XWM_jvbpHo4KnJhzMXBv7XC7n3v1KOnFWvhDfXooxBWEPGgU7c98LxJDVfx-jh1yd0lkydvtjsn5MBDSKeAJ6xH6Eeo0iXFuX7SRIkCUs-H__PFMk/w435-h370/Screenshot%202026-11-07%20at%209.24.28%E2%80%AFPM.png" width="435" /></span></a></div><span style="font-family: inherit; font-size: medium;"><br /></span><div class="separator" style="clear: both; text-align: left;"><span style="font-family: inherit; font-size: medium;"><b>This kind of skillful forecasting occurs time and time again, based on highly skillful weather model forecasts.</b></span></div><div class="separator" style="clear: both; text-align: center;"><div style="text-align: left;"><span style="font-size: large;"><br /></span></div><span style="font-family: inherit; font-size: medium;"><div style="text-align: left;"><span style="font-family: inherit;">Another reminder that it is no longer appropriate to make fun of forecasters and weather models.&nbsp;</span><span style="font-family: inherit;">&nbsp; 😀</span></div></span></div><div><span style="font-family: inherit; font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcnyOhJslgt6aUcIgtRhhX11GTwqnPTh8lENAXkZBgmBKv7vZny-am8vci6sRpf3hGcBgiQ_K0998j6XZUUNRFqONMWHlXQMEY9XTMsO9icmGc0Ae_y-pJgZhc53BmwY59DXjwX9CfVa-c7lhWbneV2nc0vMvTQmwQQXygCB3XBcrPYudweXDw5H3DmMc/s1600/Screenshot%202026-11-08%20at%205.47.45%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-family: inherit; font-size: medium;"><img alt="" height="243" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcnyOhJslgt6aUcIgtRhhX11GTwqnPTh8lENAXkZBgmBKv7vZny-am8vci6sRpf3hGcBgiQ_K0998j6XZUUNRFqONMWHlXQMEY9XTMsO9icmGc0Ae_y-pJgZhc53BmwY59DXjwX9CfVa-c7lhWbneV2nc0vMvTQmwQQXygCB3XBcrPYudweXDw5H3DmMc/w502-h243/Screenshot%202026-11-08%20at%205.47.45%E2%80%AFPM.png" width="502" /></span></a></div></div></div><div class="separator" style="clear: both; text-align: center;"><span style="font-family: inherit; font-size: medium;"><b>No longer appropriate</b></span></div>]]></content:encoded>
-</item>
-<item>
-<title>Calvin and Hobbes - 2026-11-09</title>
-<link>https://www.gocomics.com/calvinandhobbes/2026/11/09</link>
-<guid isPermaLink="false">4faded109b3f8c9f</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0000</pubDate>
-<author>Calvin and Hobbes</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; On your always-include list. (score 10)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Calvin and Hobbes&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Comic strip for 2026-11-09 Calvin and Hobbes&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> On your always-include list. (score 10)<p>From <b>Calvin and Hobbes</b>.</p><hr/><div class="comic-gallery" style="text-align: center; margin: 10px auto;">
-<p style="margin-bottom: 15px; font-style: italic;">Comic strip for 2026-11-09</p>
-    <div class="comic-panel" style="margin: 15px 0;">
-        <img alt="Calvin and Hobbes" src="https://featureassets.gocomics.com/assets/cd349e109e34013fcbbd005056a9545d?optimizer=image&amp;width=2800&amp;quality=85" style="height: auto;" />
-        <div class="panel-description" style="font-size: 0.9em; color: #666; margin-top: 5px; font-style: italic;">Calvin and Hobbes</div>
-    </div>
-</div>]]></content:encoded>
-</item>
-<item>
-<title>The Jensen Huang Chinese Spy Affair • Ternus v. Federighi</title>
-<link>https://spyglass.org/thoughts-on-jensen-huangs-affair-with-a-supposed-spy-ternus-v-federighi/</link>
-<guid isPermaLink="false">e1af19c0a59348b9</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0000</pubDate>
-<author>Spyglass</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Best take on the Nvidia CEO spy story, the biggest tech news of the week. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Spyglass&lt;/b&gt;. Also covered by Daring Fireball, Stratechery by Ben Thompson.&lt;/p&gt;&lt;p&gt;Forget the Anthropic IPO – what a week to potentially kick off a road show?! – the Jensen Huang/NVIDIA Chinese spy story is obviously the biggest story in tech. Maybe in the world. And it might be for a long time to come. And it will make anything out&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Best take on the Nvidia CEO spy story, the biggest tech news of the week. (score 8)<p>From <b>Spyglass</b>. Also covered by Daring Fireball, Stratechery by Ben Thompson.</p><hr/>
-    <h1>The Jensen Huang Chinese Spy Affair • Ternus v. Federighi</h1>
-    <p>Forget the Anthropic IPO – what a week to potentially kick off a road show?! – the Jensen Huang/NVIDIA Chinese spy story is obviously the biggest story in tech. Maybe in the world. And it might be for a long time to come. And it will make anything out of Apple, even new potential AI drama, seem quaint. Read on for thoughts on...</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>AI Security</title>
-<link>https://www.schneier.com/blog/archives/2026/11/ai-security.html</link>
-<guid isPermaLink="false">fe982a966e712a2a</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0000</pubDate>
-<author>Schneier on Security</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Schneier&amp;#x27;s report from a dense AI security conference. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Schneier on Security&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Two weeks ago, I attended the [un]prompted AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.) AI security can be divided into three broad topics. It’s important for researchers to understand which one they are working on. And it’s important for us as a community to work on them all. They are: security of AI, security with AI, and security from &lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Schneier&#x27;s report from a dense AI security conference. (score 8)<p>From <b>Schneier on Security</b>.</p><hr/>
-    <h2>AI Security</h2>
-    <p>Two weeks ago, I attended the <a href="https://unpromptedcon.org/">[un]prompted</a> AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.)</p>
-    <p>AI security can be divided into three broad topics. It’s important for researchers to understand which one they are working on. And it’s important for us as a community to work on them all. They are: security of AI, security with AI, and security from AI. [un]prompted had good talks about all three.</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>Draw.Horses</title>
-<link>https://www.swiss-miss.com/2026/11/draw-horses.html</link>
-<guid isPermaLink="false">b5e294511a73a5df</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0000</pubDate>
-<author>swissmiss</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A silly, delightful toy in the spirit of the whimsy you like. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;swissmiss&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Draw a horse, then let it run across the gradient screen and make friends. SO silly. SO delightful.&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> A silly, delightful toy in the spirit of the whimsy you like. (score 7)<p>From <b>swissmiss</b>.</p><hr/><p><a href="https://gradient.horse"><img alt="" class="alignnone size-large wp-image-86440" height="930" src="https://www.swiss-miss.com/wp-content/uploads/2026/11/Screenshot-2026-11-08-at-6.09.22-PM-1024x930.png" width="1024" /><img alt="" class="alignnone size-large wp-image-86439" height="930" src="https://www.swiss-miss.com/wp-content/uploads/2026/11/Screenshot-2026-11-08-at-6.09.42-PM-2-1024x930.png" width="1024" /></a><br />
-<a href="https://gradient.horse">Draw a horse</a>, then let it run across the gradient screen and make friends. SO silly. SO delightful. </p>]]></content:encoded>
-</item>
-<item>
-<title>China will not reform</title>
-<link>https://www.worksinprogress.news/p/moscow-rules</link>
-<guid isPermaLink="false">34f87682effe4c63</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0000</pubDate>
-<author>The Works in Progress Newsletter</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Works in Progress on how Chinese Party elites think. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Works in Progress Newsletter&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Thinking like a Party elite.&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Works in Progress on how Chinese Party elites think. (score 7)<p>From <b>The Works in Progress Newsletter</b>.</p><hr/><div class="captioned-image-container"><figure><a class="image-link image2 is-viewable-img" href="https://substackcdn.com/image/fetch/$s_!s52t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71414948-f21c-404d-a17f-47d257e059e2_2560x1707.jpeg" target="_blank"><div class="image2-inset"><source type="image/webp" /><img alt="" class="sizing-normal" height="971" src="https://substackcdn.com/image/fetch/$s_!s52t!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71414948-f21c-404d-a17f-47d257e059e2_2560x1707.jpeg" width="1456" /><div class="image-link-expand"><div class="pencraft pc-display-flex pc-gap-8 pc-reset"><button class="pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M" tabindex="0" type="button"><svg class="icon-noB79L" fill="none" height="20" stroke="var(--color-fg-primary)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><g><path d="M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882"></path></g></svg></button><button class="pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M" tabindex="0" type="button"><svg class="lucide lucide-maximize2 lucide-maximize-2 icon-noB79L" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" x2="14" y1="3" y2="10"></line><line x1="3" x2="10" y1="21" y2="14"></line></svg></button></div></div></div></a></figure></div><p><em>This is a column: a lighter piece from the Works in Progress extended universe, designed to be enjoyed in <a href="https://worksinprogress.co/print/">print</a>. If you&#8217;d like to opt out of columns, or any other section, you can do so <a href="https://www.worksinprogress.news/account">here</a>.</em></p><div><hr /></div><p>Why did the communist regime collapse in the Soviet Union? Why has it survived in China? The answers might surprise you. Explanations for the sudden end of the USSR after seven decades, and the simultaneous dissolution of the country after centuries, are numerous. They are also lacking.</p>
-      <p>
-          <a href="https://www.worksinprogress.news/p/moscow-rules">
-              Read more
-          </a>
-      </p>]]></content:encoded>
-</item>
-<item>
-<title>Are you really who you think you are?</title>
-<link>https://bigthink.com/perception-box/are-you-really-who-you-think-you-are/</link>
-<guid isPermaLink="false">5f6dcd867bd023d9</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0000</pubDate>
-<author>Big Think</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Lisa Feldman Barrett on how science complicates the idea of the self. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Big Think&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Who are you? You might think you know, but science offers a more complicated answer. In fact, Lisa Feldman Barrett, PhD, a University Distinguished Professor of Psychology at Northeastern University, says the inquiry may be unanswerable. A question that can be answered: Who are you in a given moment? Take, for example, someone who has a habit of interrupting while others are talking. They may see themselves as engaged — so enthusiastic that they’re compelled to interject with what they think the&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Lisa Feldman Barrett on how science complicates the idea of the self. (score 7)<p>From <b>Big Think</b>.</p><hr/><div style="overflow: hidden; padding-bottom: 56.25%;"></div>
-                <p class="wp-block-paragraph">Who are you?&nbsp;</p>
-<p class="wp-block-paragraph">You might think you know, but science offers a more complicated answer. In fact, Lisa Feldman Barrett, PhD, a University Distinguished Professor of Psychology at Northeastern University, says the inquiry may be unanswerable.&nbsp;</p>
-<p class="wp-block-paragraph">A question that <em>can</em> be answered: Who are you in a given moment?&nbsp;</p>
-<p class="wp-block-paragraph">Take, for&nbsp; example, someone who has a habit of interrupting while others are talking. They may see themselves as engaged — so enthusiastic that they’re compelled to interject with what they think the speaker is about to say.</p>
-<p class="wp-block-paragraph">The person being interrupted, meanwhile, may experience their conversation partner as rude.</p>
-<p class="wp-block-paragraph">So, do the interrupter’s intentions matter more than how they’re perceived?</p>
-<p class="wp-block-paragraph">According to Barrett, no. The perception of rudeness is just as real — not because it matters more than the interrupter’s intentions, but because it matters just as much.</p>
-<p class="wp-block-paragraph">“The characteristics or traits that we <em>think</em> are inherent to a person are <em>not</em> inherent to that person,” she says. “They exist to describe that person in relation to other conditions.”&nbsp;</p>
-<p class="wp-block-paragraph"><strong>Your personality isn’t as fixed as it feels&nbsp;</strong></p>
-<p class="wp-block-paragraph">So, if traits are relational, then what does that mean for who we are?</p>
-<p class="wp-block-paragraph">We often assume characteristics such as being introverted or extroverted are immovable parts of a person. According to relational realism, however, we aren’t the sole authors of our identities.</p>
-<p class="wp-block-paragraph">Context matters.&nbsp;</p>
-<p class="wp-block-paragraph">You may be extroverted when you’re interacting with people you know and you’re well-rested. You may not be so extroverted, however, when you’re in a room full of strangers and you’re hungry.</p>
-<p class="wp-block-paragraph">“What describes you — who you are — is highly situated,” Barrett says. “As a person, that feels inherently wrong to me. But as a scientist, it seems right.”&nbsp;</p>
-<p class="wp-block-paragraph">This idea violates the subjective sense many of us have that we’re made up of enduring characteristics that describe us no matter where we are and who we&#8217;re with. Science, Barrett says, doesn&#8217;t bear this out.</p>
-<p class="wp-block-paragraph"><strong>Other people help shape who you are</strong></p>
-<p class="wp-block-paragraph">The human brain contains a set of patterns, and based on the statistics of the past, it begins to make an action plan for the next moment. Barrett refers to this as “meaning making.” It happens predictively and largely outside of our awareness.</p>
-<p class="wp-block-paragraph">“Everything you do is an act of meaning making,” she says. “Even asking the question, ‘Who am I?’ and creating a story is an act of meaning making.”</p>
-<p class="wp-block-paragraph">This process of meaning making is your Perception Box, but it doesn’t have fixed walls. Instead, it consists of a constantly fluctuating set of signals your brain uses to make sense of what’s happening in your body and the world around you.</p>
-<p class="wp-block-paragraph">And if “who we are” emerges in part from those interactions, that means other people help shape who we are — just as we help shape them.</p>
-<p class="wp-block-paragraph">“The logical thing to carry away here is that we have more responsibility for the identities of other people than we might think,” Barrett says. “And the people who we interact with have more influence over who we are in a moment than we might like.”</p>
-<p class="wp-block-paragraph">Thus, one way to have more control over who we are is to take deliberate responsibility for who we interact with, and how we interact with them.</p>
-<p class="wp-block-paragraph">When her daughter went to college, Barrett offered her this advice: Seek out people who allow you to be the best version of yourself.&nbsp;</p>
-<p class="wp-block-paragraph">“Find the people who help you to be that person,” she said. “That&#8217;s the message.”</p>
-<p class="wp-block-paragraph"><em>We interviewed</em> Lisa Feldman Barrett <em>for</em> <strong><em>Relational Realism</em></strong><em>, a Big Think interview series created in partnership with</em> <a href="https://www.unlikelycollaborators.com/"><em></em><strong><em>Unlikely Collaborators</em></strong></a><em>. As a creative non-profit organization, they’re on a mission to help people challenge their perceptions and expand their thinking. Often that growth can start with just a single unlikely question that makes you rethink your convictions and adjust your vantage point. Watch the fourth and final episode above, and visit</em> <a href="https://bigthink.com/perception-box/"><em></em><strong><em>Perception Box</em></strong></a> <strong><em></em></strong><em>to see more in this series.</em></p>
-<p>This video <a href="https://bigthink.com/perception-box/are-you-really-who-you-think-you-are/" rel="nofollow">Are you really who you think you are?</a> is featured on <a href="https://bigthink.com" rel="nofollow">Big Think</a>.</p>]]></content:encoded>
-</item>
-<item>
-<title>Scaling security reviews at 1Password: Adding an agentic pipeline stage (safely)</title>
-<link>https://1password.com/blog/scaling-security-reviews-agentic-pipeline</link>
-<guid isPermaLink="false">9b201ba6d1d09d92</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0000</pubDate>
-<author>Blog on 1Password Blog</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; 1Password on safely adding agentic AI to security code review. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Blog on 1Password Blog&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;In our first blog post , we introduced SAGE, our AI-assisted security code reviewer. In our second post , SuperSAGE (SAGE v2) gained context through scaffolding and consistency via the Go harness, so it could reason about the code around the diffs it reviews. The result? SAGE understands the 1Password codebase. SAGE was a great tool that was saving our engineers time. It was also missing a fundamental element: the ability to learn from its mistakes. Thankfully, we’d planned ahead. Earlier in the&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> 1Password on safely adding agentic AI to security code review. (score 7)<p>From <b>Blog on 1Password Blog</b>.</p><hr/><img alt="Scaling security reviews at 1Password: Adding an agentic pipeline stage (safely)" src="https://images.ctfassets.net/3091ajzcmzlr/4gPnQHDFVIHeHRUvBMjigN/1b933202e957d5e57a7a80dd309f4319/Hero_Security_01_Enable-mint.webp" style="width: 100%; display: inline-block; margin: 0 auto;" /><p><em>Scaling security reviews at 1Password: Adding an agentic pipeline stage (safely)</em></p><p>In our <a href="https://1password.com/blog/scaling-security-reviews-ai-powered-pipeline"><u>first blog post</u></a>, we introduced SAGE, our AI-assisted security code reviewer. In our <a href="https://1password.com/blog/scaling-security-reviews-solving-context-and-nondeterminism"><u>second post</u></a>, SuperSAGE (SAGE v2) gained context through scaffolding and consistency via the Go harness, so it could reason about the code around the diffs it reviews. The result? SAGE understands the 1Password codebase.</p><p>SAGE was a great tool that was saving our engineers time. It was also missing a fundamental element: the ability to learn from its mistakes. Thankfully, we’d planned ahead.</p><p>Earlier in the SAGE build process, we’d quietly implemented feedback collection. In short, after each pull request closes, SAGE gathers the thumbs-up and thumbs-down reactions our Product Security reviewers left on its findings, plus any comments they left on lines it didn't flag (potential false negatives). A dashboard shows which rules are earning which reactions, and how many findings SAGE may have missed.</p><p>That dashboard revealed important information. About two-thirds of the reactions on SAGE's findings were thumbs-down. Now, as we explained in <a href="https://1password.com/blog/scaling-security-reviews-ai-powered-pipeline"><u>the first post in this series</u></a>, the Finder stage of SAGE’s pipeline is <i>intentionally</i> noisy; the Critic and Judge stages make things more precise. But too much noise was getting through. Every false positive that reached a human reviewer eroded a little of their trust and patience, which don’t refresh nightly the way the scaffolding does.</p><p>We also discovered a small subset of rules were earning a large share of the thumbs-down. Take one of our access control rules, for example. Every reaction to its findings was a thumbs-down, so we assumed something was wrong with the rule itself. But those thumbs down told us that a finding was wrong, not why. For that particular rule, the <i>why</i> could have been one of three things:</p><ul><li><p>It was firing on code it was never meant to cover, so we’d need to narrow where it applies.</p></li><li><p>It was worded so broadly the Finder applied it too eagerly, so we’d need to reword it.</p></li><li><p>It was flagging something that isn’t really a security problem, so we’d need to retire it.</p></li></ul><p>Three different problems with three different solutions. But on the dashboard, they all looked the same. We’d built something that measured the problem, and nothing that pointed us toward a fix.</p><p>So we went through every finding our reviewers had rejected across all our rules to determine what had gone wrong. It turned out the most common answer, accounting for about a third of all rejections, wasn’t a rule problem at all. SAGE had identified something real, but the code was already protected.</p><p>Say, for example, a PR adds a function that looks up an item by ID without checking whether the user has access to it. SAGE would flag this and, in isolation, it’s correct. But every route that calls that function goes through middleware that has already checked the user’s permissions. The protection is very real but it lives in a different file, so there’s nothing for an engineer to fix.</p><p>The scaffolding summarizes the code around every change, so SAGE knows a permissions check exists nearby. But SAGE doesn’t know whether that check runs <i>before </i>the flagged code. A human reviewer can determine that in seconds by opening the calling file, spotting the middleware, and moving on. SAGE could only read what it was handed.</p><p>Before SAGE could learn from its mistakes, it had to be able to catch them. And that meant giving it agency to look for itself.</p><h2>The Prover: Giving the pipeline agency</h2><p>SAGE v3, or, as we’ve dubbed it, HyperSAGE, adds a fourth pipeline stage after the Judge: the Prover.</p><p>A quick refresher on the pipeline: The Finder casts a wide net, the Critic argues against each finding, and the Judge makes a call.</p><p>The Prover is a separate AI agent that checks every finding that survives the Judge. It explores the codebase to investigate each claim. It opens files, searches, and follows calls into subsequent files, making those same moves a human reviewer would make. </p><p>If you recall our first post, the Critic stage already looks for protections, but only in the code it’s handed. The Prover has the agency to find much more.</p><p>If you’ve <a href="https://www.felonybench.com/"><u>read the news in the past six months,</u></a> you know that introducing an agentic pipeline stage meant giving it strict guardrails. The Prover has access to the entire repository within a read-only sandbox and can’t change a line or post a word. It works within a fixed token budget per finding, and we’ve granted it only specific tool actions: reading files, searching, listing directories, and finding files.</p><p>Our Prover also has a strict burden of proof. To suppress a finding, it has to do two things: cite evidence that points to real code, and explain why the finding doesn't hold up. It can't just explain in its own words, either. It has to pick from a short list of reasons — the same kinds we found when we went through all those rejected findings by hand: the code is already protected, the finding misreads what the code does, the risk is real but negligible, and so on. </p><p>That last one deserves elaboration, because every other reason on our list means the finding was wrong. This one means the finding was right, but there’s very little at stake. That’s a risk decision, so we set a very high bar. The Prover can’t just claim the risk is minimal. It has to point to the code that proves it. If it suppresses a <i>real</i> flaw this way, it automatically fails our test (more on that later).</p><p>If the Prover can’t satisfy both criteria to suppress a finding, it posts it to the PR as usual. So, when in doubt, SAGE speaks up.</p><p>That list of reasons was the first thing we taught SAGE. Now, when it suppresses a finding, it tells us what went wrong, which is exactly what our dashboard couldn't do.</p><p>After many rounds of evaluations to get our models and prompts <i>just</i> right, we turned on the Prover for the PRs SAGE was already reviewing in our two largest repositories. </p><p>As we said in our last post, a reviewer that can’t separate real findings from false positives is a liability on every PR. But with the Prover in place, we felt comfortable rolling out SAGE to every PR in those two repos. So, about 10 days later, we did. The Prover fails open, so anything it couldn’t disprove still reached the PR. And it records every finding it suppresses, so nothing it threw out was gone for good.</p><p>We gave the Prover one month to, well, prove itself (sorry). The numbers were impressive. It suppressed nearly nine in 10 findings, and nearly six in 10 of those suppressions said the code was already protected. This time, we could see where and how.</p><p>But we still had to make an incredibly important distinction. Was SAGE learning which findings matter or just learning to keep quiet?</p><p>We put it to the test.</p><h2>Pop quiz: Checking the checker</h2><p>Grading the Prover in production wasn’t an option (yet). A suppressed finding never reaches anyone, so no one can respond. Perhaps more importantly, if the Prover suppressed a real problem, nobody would know.</p><p>We tested the Prover using a set of past findings we’d already properly graded against one pretty simple question: Was it a real problem (true positive) or false alarm (false positive)? This evaluation set let us replay every finding through the Prover to check its work. But it took two attempts to get it right.</p><p>For attempt one, we let Product Security reactions answer our question. A thumbs-up meant a real problem; thumbs-down meant a false alarm. But we ran into the same issue the dashboard presented, which was built on those same reactions. A reaction signaled something was wrong, but it wasn’t reliable enough to make a decision. We discovered:</p><ul><li><p><b>A thumbs-up often meant “useful” rather than “correct.” </b>Some came with a reply saying the code was actually fine, others flagged something the team had already reviewed and signed off on.</p></li><li><p><b>A thumbs-down didn’t </b><b><i>always</i></b><b> mean wrong. </b>Sometimes a finding was technically accurate, but another protection in the code already handled the risk, so nothing needed fixing.</p></li><li><p><b>Many findings never got a reaction. </b>An evaluation set built from reactions stayed small, leaving many findings unanswered.</p></li><li><p><b>During Product Security review calls, one person reacts for the whole group. </b>A single thumb (in either direction) can stand for an entire nuanced discussion.</p></li></ul><p>For attempt two, we decided each answer based on something more concrete: what engineers <i>did</i>. And every answer required evidence to back it up.</p><p>We deemed a finding a true positive only if an engineer fixed the code before merging <i>because</i> SAGE flagged it. Proof of that “because” was a reply or commit message tying the fix to the finding (like “Addressed in…”).</p><p>We counted a finding as a false positive only if nobody changed the code and someone explained why it was wrong (for a reason the code supported). We checked that part, too. Most of those explanations came from the PR’s author, and authors tend to be very passionate about their code.</p><p>Then we double-checked every answer. Two AI reviewers judged each finding separately. One argued like an attacker, the other like a defender, and neither saw the reactions or the fix. When they disagreed, a third reviewer settled it.</p><p>Yes, that’s AI checking its own homework. But the reviewers weren’t the source of the answers, our engineers’ actions were. The reviewers were there to catch any answer the evidence didn’t support.</p><p>And not every question on the test carried the same weight. We made two automatic fails for the Prover: suppressing a real flaw with nothing protecting it, or keeping a finding the code being reviewed already disproves. If it made either mistake once, it failed the entire test, no matter how well it did on the other questions.</p><p>The finished test has 125 questions. The answer key is 39 true positives and 86 false positives. Only four of those true positives are real flaws with nothing else protecting them. The other 35 are hardening: real observations about the code, but for risks something else <i>already covered</i>, like a check further up the call chain or a guarantee from the surrounding design. And 20 of the false positives are disproved by the very code SAGE was reviewing. We also saved <i>exactly</i> what SAGE saw for every question, so we can replay the test any time we change a model, prompt, or anything else we want to benchmark against.</p><h2>The results: Proving its worth</h2><p>So, how did our Prover do on the test? The live version suppressed 85 of 86 false positives, including all 20 the code under review disproved. It kept all four of the real, unprotected flaws.<b><sup>1</sup></b> And more than nine in 10 of the findings it let through were real.</p><p>But one number warrants a closer look: the 39 true positives — the findings engineers fixed because SAGE flagged them. The Prover kept only 13. It suppressed the other 26.</p><p>That probably sounds alarming, but all 26 were hardening findings. The Prover dropped them because the code was <i>already protected</i>, which is exactly what we’d told it to do. </p><p>A finding matters when it’s a real flaw that’s not protected by anything else. Hardening absolutely still has value (defense in depth), just not on every single PR, and not at the cost of burying the findings that really count. That’s the second thing we taught SAGE: our definition of what matters.</p><p>So, we’d set out to determine whether SAGE was learning which findings matter or just learning to keep quiet. After it kept all four real, unprotected flaws and let go of what we’d told it not to worry about, we knew it was learning what matters.</p><p>SAGE isn’t perfect, of course. During the test, the Prover suppressed a few real findings for the wrong reasons. They were edge cases, but they’re the reason we keep replaying our test. And that test has already earned its keep. We experimented with newer versions of the Prover’s instructions, and none of them beat the one we have, so none shipped.</p><p>But our test only knows about findings we’ve already graded. To keep it accurate, we’re building a human-on-the-loop tool that lets Product Security engineers review the Prover’s decisions after the fact, including any findings it suppressed. Every mistake they catch will become a new question on the test.</p><p>Those reviews will also help us answer the question our dashboard couldn’t: should we narrow a misfiring rule, reword it, or retire it? Between the Prover’s reasons and Product Security’s corrections, we’ll know just what to do. So far, the Prover has been sorting through everything the (noisy) Finder flags. After we refine the rules themselves, there will be less to sort through.</p><p>Code security matters beyond our two biggest repositories, though. We built SAGE’s ruleset from their review history, so many of its rules assume code that only exists there. Getting the rules <i>right</i> will be how SAGE earns its place in the rest of our codebase.</p><p>SAGE learned what matters in our two largest repos. Next, it learns what matters everywhere else.</p><p>We’ll share those details in Part 4.</p><ol><li><p><i>100% is a great score. But four is a small sample, and this is an internal test. A small sample is a good problem to have – it means real, unprotected flaws don’t come along often, thanks to our engineers – but it means we have to keep adding to the test.</i></p></li></ol><div style="margin: 1em 0 !important;"><h3>Get the rest of this series in your inbox</h3><p>If you made it this far, the 1Password developer newsletter is for you. Sign up to receive our coverage of agentic identity security, agent architecture, and the standards that are shaping up to secure them. The next article in this series is already in progress.</p><a href="https://1password.com/developer-newsletter">Send it to my inbox</a></div>]]></content:encoded>
-</item>
-<item>
-<title>How To Live A Good Life: 6 Secrets From Ancient Wisdom</title>
-<link>https://bakadesuyo.com/2026/11/montaigne/</link>
-<guid isPermaLink="false">5893a87d74960fa0</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0000</pubDate>
-<author>Barking Up The Wrong Tree</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Montaigne&amp;#x27;s lessons on living well, in the good-life vein. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Barking Up The Wrong Tree&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;To say Michel de Montaigne had a run of bad luck would be a massive understatement. First his best friend dies, probably of the plague. Then his father passes away from a kidney stone. Then his younger brother is killed by a tennis ball. Then Montaigne’s firstborn dies at two months old, the first of […] The post How To Live A Good Life: 6 Secrets From Ancient Wisdom appeared first on Barking Up The Wrong Tree .&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Montaigne&#x27;s lessons on living well, in the good-life vein. (score 7)<p>From <b>Barking Up The Wrong Tree</b>.</p><hr/><p><img alt="Montaigne" class="aligncenter" height="200" src="https://bakadesuyo.com/wp-content/uploads/2026/11/Montaigne.jpg" title="Montaigne" width="500" /><span id="more-47509"></span><br />
-To say Michel de Montaigne had a run of bad luck would be a massive understatement.</p>
-<p>First his best friend dies, probably of the plague. Then his father passes away from a kidney stone. Then his younger brother is killed by a tennis ball. Then Montaigne&#8217;s firstborn dies at two months old, the first of five kids he&#8217;ll bury.</p>
-<p>No, we’re not done. Around the same time, one of his servants came thundering down a path on a giant workhorse and smashed into him. Montaigne nearly died himself.</p>
-<p>After all this, what did he do?</p>
-<p>He quit his job and locked himself away in a tower. (Of course he had a tower. Noblemen in the Renaissance didn&#8217;t just say, &#8220;I need space,&#8221; and go sit in a Honda Civic eating fries.)</p>
-<p>But that didn&#8217;t work out so well either. He thought he was entering solitude. What he actually entered was himself. That&#8217;s terrifying. I&#8217;ve met myself. I do not recommend prolonged exposure.</p>
-<p>Alone in the tower, his brain started working overtime. He couldn&#8217;t stop the flood of thoughts.</p>
-<p>So he started writing it all down. This led him to accidentally invent the personal essay. You might even say he also invented blogging, four hundred years early, minus the pop-ups begging you to subscribe to a newsletter. (BTW, subscribe to <a href="https://bakadesuyo.com/newsletter/" rel="noopener" target="_blank">my newsletter</a>.)</p>
-<p>In 1580, this guy published essays about friendship, death, conscience, education, politics, cruelty, and the limits of reason. Great. Put those on the syllabus. He <em>also</em> wrote about his farts, his kidney stones, his cat, and his opinions on radishes. There&#8217;s a whole passage about how male anatomy routinely ignores direct orders from management.</p>
-<p>Montaigne became a legend by admitting he was a typical human being. He called the book <em><a href="https://geni.us/mdmontaigne" rel="noopener" target="_blank">Essais</a></em>, which means &#8220;attempts.&#8221; (That&#8217;s also an accurate title for my twenties and my relationship history.) The book has been in print for four and a half centuries and stands as one of the most durable how-to-live manuals ever produced, written by a man whose primary qualification was admitting he had no idea how to live.</p>
-<p>So today we&#8217;re going into the tower with him. We&#8217;re going to sit at the feet of a guy who wrote about his own gas and see what one of the all-time greats can teach us about living a good life.</p>
-<p>We&#8217;ll be drawing on &#8220;<a href="https://geni.us/mdmontaigne" rel="noopener" target="_blank">Essays</a>&#8221; by Michel de Montaigne and &#8220;<a href="https://geni.us/bakewell" rel="noopener" target="_blank">How to Live</a>&#8221; by Sarah Bakewell.</p>
-<p>Let&#8217;s get to it…</p>
-<p>&nbsp;</p>
-<h2 style="text-align: center;">Ask &#8220;What Do I Know?&#8221;</h2>
-<p><em>Que sais-je?</em> was Montaigne&#8217;s motto. Translation: <em>What do I know?</em></p>
-<p>Montaigne wrote during the French Wars of Religion, when Catholics and Protestants were demonstrating their superior relationship with God by murdering one another in bulk. He noticed the single ingredient every killer had in common: certainty.</p>
-<p>Nobody&#8217;s ever committed an atrocity while saying, &#8220;Honestly, I could be wrong about this.&#8221;</p>
-<p>Hence, his motto <em>&#8220;What do I know?&#8221;</em> It keeps you humble and open-minded. It allows you to change your mind and apologize. And research shows this kind of intellectual humility might even make you better at predicting the future.</p>
-<p><a href="https://bakadesuyo.com/2026/03/smarter-thinking/" rel="noopener" target="_blank">In a previous post</a> we discussed Phil Tetlock&#8217;s superforecasters, those people who are able to outpredict professional intelligence analysts by ~30 percent. One of their secrets?</p>
-<p>They <a href="https://labs.sciety.org/articles/by?article_doi=10.31234/osf.io/c5kx4_v2" rel="noopener" target="_blank">stay humble</a>. Unlike most experts, they&#8217;re willing to change their minds. They practice a statistical version of <em>Que sais-je</em>?</p>
-<p>(To learn how to keep your brain sharp as you age, click <a href="https://bakadesuyo.com/2024/01/brain-sharp-as-you-age/" rel="noopener" target="_blank">here</a>.)</p>
-<p>So Montaigne knew the limits of his knowledge. But what about emotions?</p>
-<p>&nbsp;</p>
-<h2 style="text-align: center;">Swap Bad Feelings</h2>
-<p>These days you&#8217;re told to treat every feeling like it&#8217;s some wise messenger from your deepest self. Even if it&#8217;s painful, you must sit with it, explore it, invite it in, follow its Substack.</p>
-<p>Montaigne disagreed.</p>
-<p>In &#8220;On Diversion,&#8221; he said: <em>&#8220;Some painful idea gets hold of me; I find it quicker to change it than to subdue it. If I cannot substitute an opposite one for it, I can at least find a different one. Change always solaces it, dissolves it and dispels it. If I cannot fight it, I flee it.&#8221;</em></p>
-<p>Harvard&#8217;s Daniel Wegner found <a href="https://dtg.sites.fas.harvard.edu/DANWEGNER/pub/Wegner%2CSchneider%2CCarter%2C%26White%201987.pdf" rel="noopener" target="_blank">evidence</a> for a similar principle with the most famous polar bear in psychology. Yeah, you know this one. You tell your brain not to think of a white bear and it immediately becomes a white-bear breeding program.</p>
-<p>But the half of Wegner nobody quotes is his finding that focused distraction <em>does</em> help us clear unwanted thoughts. The brain isn&#8217;t good at following &#8220;stop&#8221; orders but it&#8217;s a big fan of &#8220;look at this instead.&#8221;</p>
-<p>When negative feelings threaten to overwhelm you, distract yourself. After the initial onslaught dies down, <em>then</em> you can explore them. Montaigne was prescribing top-shelf psychological advice at a time when everybody else was bleeding patients.</p>
-<p>(To learn how to overcome negative thoughts, click <a href="https://bakadesuyo.com/2025/06/negative-thoughts-2/" rel="noopener" target="_blank">here</a>.)</p>
-<p>But what about when the emotions pile up? When the stresses of life hit us from all sides?</p>
-<p>&nbsp;</p>
-<h2 style="text-align: center;">Have A &#8220;Back Shop&#8221;</h2>
-<p>We&#8217;re always being told to give everything 100%. Montaigne had a different idea: don&#8217;t give <em>anything</em> all of you.</p>
-<p><em>&#8220;We must reserve a back shop all our own, entirely free, in which to establish our real liberty and our principal retreat and solitude.&#8221;</em></p>
-<p>This sounds selfish. But Montaigne&#8217;s not against attachment. He&#8217;s all for loving your career, your partner, your kids. What he&#8217;s saying is that we shouldn&#8217;t bind ourselves to anything so strongly that who we are entirely depends on it.</p>
-<p>Psychologist Patricia Linville found something similar. She studied <a href="https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.52.4.663" rel="noopener" target="_blank">self-complexity</a>. Jargon aside, her research says, &#8220;don&#8217;t put all your eggs in one cognitive basket.&#8221; People whose sense of self contains numerous facets are better protected against stress and depression, because a direct hit to one identity doesn&#8217;t take your entire self down.</p>
-<p>(To learn how to be more resilient, click <a href="https://bakadesuyo.com/2024/07/how-to-be-more-resilient/" rel="noopener" target="_blank">here</a>.)</p>
-<p>Will doing all this stuff allow us to become awesome and impressive?</p>
-<p>No. Because Montaigne says that shouldn&#8217;t be your goal anyway…</p>
-<p>&nbsp;</p>
-<h2 style="text-align: center;">An Ordinary Life Is The Best Life</h2>
-<p>Every commencement speech is the same. A famous person in a gown tells a few thousand hungover graduates to BE EXTRAORDINARY AND CHANGE THE WORLD.</p>
-<p>Montaigne had every extraordinary credential his century offered and yet he wrote: <em>“The most beautiful lives, to my mind, are those that conform to the common human pattern, with order, but without miracle and without eccentricity.”</em></p>
-<p>He felt an ordinary life was the harder achievement. He located true greatness of soul &#8220;in mediocrity.&#8221;</p>
-<p>No, he wasn&#8217;t crazy. Extraordinary experiences are rare. That&#8217;s what &#8220;extraordinary&#8221; means. So if your happiness depends on extraordinary stuff, then 99.9% of your life becomes filler.</p>
-<p>Most of life is work, errands, calls you need to return, the person beside you on the couch. And if you can&#8217;t find happiness there, man, are you in trouble, because &#8220;there&#8221; is where you live.</p>
-<p>Psychologist Barry Schwartz called people who always strive for the best &#8220;maximizers.&#8221; And the people who settle for &#8220;good enough&#8221; he called &#8220;satisficers.&#8221;</p>
-<p>Schwartz tracked new graduates into the job market and, unsurprisingly, the maximizers got starting salaries ~20% higher. But they also reported more regret and less satisfaction with the jobs they fought so hard to get. The study is literally called &#8220;<a href="https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01677.x" rel="noopener" target="_blank">Doing Better but Feeling Worse.</a>&#8221;</p>
-<p>Trying to do better is good, but the search for the best can make it harder to enjoy what you get. Stop measuring yourself against the exceptional and live an ordinary life well.</p>
-<p>(To learn how to find meaning in life, click <a href="https://bakadesuyo.com/2025/10/how-to-find-meaning-in-life/" rel="noopener" target="_blank">here</a>.)</p>
-<p>And what did Montaigne have to say about just being happy?</p>
-<p>&nbsp;</p>
-<h2 style="text-align: center;">Savor The Good</h2>
-<p>I would love to be the kind of person who&#8217;s &#8220;present.&#8221; I&#8217;m not. Most of us aren&#8217;t. Normal is drinking coffee without tasting it. Normal is taking a walk while piping a stranger&#8217;s opinions into your head. I am very rarely where I am. My mind is usually somewhere else.</p>
-<p><em>“When I dance, I dance. When I sleep, I sleep; and when I am strolling alone through a beautiful orchard, although part of the time my thoughts are occupied by other things, for part of the time too I bring them back to the walk, to the orchard, to the delight in being alone there, and to me.”</em></p>
-<p>The important word in that quote isn&#8217;t &#8220;dance.&#8221; It&#8217;s &#8220;back.&#8221; Montaigne&#8217;s mind wouldn&#8217;t stay put. He had to bring it back. It takes effort to stay in the moment.</p>
-<p><em>&#8220;I &#8216;pass&#8217; the time when tide and time are sticky and unpleasant: when good, I do not want to &#8216;pass&#8217; time, I savour it and hold on to it.&#8221;</em></p>
-<p>Pass the bad. Hold the good. There&#8217;s some solid advice for you. But we run it backwards. We get stuck on the bad. Replay the argument, re-read the passive-aggressive email. And when something good happens? We sprint through it like it&#8217;s on fire.</p>
-<p>Killingsworth and Gilbert&#8217;s study &#8220;<a href="https://dtg.sites.fas.harvard.edu/KILLINGSWORTH%20%26%20GILBERT%20%282010%29.pdf" rel="noopener" target="_blank">A Wandering Mind Is an Unhappy Mind</a>&#8221; found that mind-wandering predicts unhappiness regardless of what people are doing. And <a href="https://www.tandfonline.com/doi/full/10.1080/17439760.2012.671345" rel="noopener" target="_blank">Fred Bryant&#8217;s work on savoring</a> showed good things feel much better when we take the time to really appreciate them.</p>
-<p>Four hundred years before Jon Kabat-Zinn had everyone yapping about mindfulness, a guy in a tower with a urinary tract like a gravel driveway had already written everything you need to know about it.</p>
-<p>(To learn how to stay happy, click <a href="https://bakadesuyo.com/2026/08/stay-happy/" rel="noopener" target="_blank">here</a>.)</p>
-<p>And what about the mistakes we&#8217;ll inevitably make in this life?</p>
-<p>&nbsp;</p>
-<h2 style="text-align: center;">Regret Nothing</h2>
-<p>Montaigne&#8217;s life included civil war, plague, kidney stones, and the deaths of five of his six kids. And yet he wrote: <em>&#8220;If I had to live again, I would live as I have done; I neither regret the past nor fear the future.&#8221;</em></p>
-<p>He meant it. Nobody who publishes bladder updates is running a vanity project.</p>
-<p>Montaigne judged decisions by the thinking that produced them, not by the results that followed. A bad outcome doesn’t automatically mean you made a bad decision.</p>
-<p>We should do the same. Your past self didn&#8217;t have the evidence your present self has. But future-you shows up, surveying your mistakes all like, &#8220;Why didn&#8217;t you see this coming?&#8221; Because I wasn&#8217;t you yet, you chronological idiot. Cool it with the time-travel bullying.</p>
-<p><em>&#8220;But doesn&#8217;t regret keep me sharp?&#8221;</em></p>
-<p>Nope. Researchers <a href="https://journals.sagepub.com/doi/10.1177/0146167212445599" rel="noopener" target="_blank">Breines and Chen</a> found that treating yourself with <em>compassion</em> after failure increases motivation to improve.</p>
-<p>When you blow it, extract a brief lesson. One sentence. Then close the file. That one sentence is valuable. Everything after it is just beating yourself up.</p>
-<p>(To learn how to overcome regret, click <a href="https://bakadesuyo.com/2014/05/overcome-regret/" rel="noopener" target="_blank">here</a>.)</p>
-<p>Okay, we&#8217;ve covered a lot. Let&#8217;s round it all up and learn what the wise Monsieur Montaigne had to say about relationships…</p>
-<p>&nbsp;</p>
-<h2 style="text-align: center;">Sum Up</h2>
-<p>Here&#8217;s how to live a good life…</p>
-<ul>
-<li><span style="text-decoration: underline;"><strong>Ask &#8220;What do I know?&#8221;</strong></span>: You&#8217;ll be less likely to start a religious war and it might even help you predict the future.</li>
-<li><span style="text-decoration: underline;"><strong>Swap Bad Feelings</strong></span>: Get rid of bad feelings by distracting yourself. We&#8217;re all excellent at distraction these days so this is basically the easiest advice ever.</li>
-<li><span style="text-decoration: underline;"><strong>Have A &#8220;Back Shop&#8221;</strong></span>: If you give everything 100%, you become the person who sighs loudly while doing things no one asked you to do, then gets mad that nobody applauded. Ask me how I know.</li>
-<li><span style="text-decoration: underline;"><strong>An Ordinary Life Is The Best Life</strong></span>: Nobody fantasizes about being extraordinarily patient with their kids, extraordinarily faithful to their spouse, extraordinarily reliable to their friends, or extraordinarily calm while waiting on hold with the insurance company. Those are all available right now. But that&#8217;s not what you meant by &#8220;extraordinary,&#8221; was it?</li>
-<li><span style="text-decoration: underline;"><strong>Savor The Good</strong></span>: The good life is right here. It&#8217;s the orchard you are currently walking through while listening to a podcast about somebody else&#8217;s orchard.</li>
-<li><span style="text-decoration: underline;"><strong>Regret Nothing</strong></span>: Judge past decisions by then-information, not now-information.</li>
-</ul>
-<p>When Montaigne was in his mid-twenties, he met Étienne de La Boétie, and that was it. They almost immediately became best friends.</p>
-<p>Four years later La Boétie died.</p>
-<p>The guy who told us never to give anyone all of ourselves had learned it the hard way. He&#8217;d already given someone everything. And when La Boétie died, Montaigne said he felt like only half a person.</p>
-<p>Some think <em><a href="https://geni.us/mdmontaigne" rel="noopener" target="_blank">Essays</a></em> is actually a long letter to La Boétie. By writing to his absent friend, Montaigne ended up speaking to all of us. Every reader for 450 years who thought, &#8220;Wait, this dead French guy is describing <em>me</em>,&#8221; is sitting in La Boétie&#8217;s empty chair.</p>
-<p>If you&#8217;re lucky enough to have a friend like La Boétie, don&#8217;t assume they know how much they mean to you. Don&#8217;t postpone the gratitude until some &#8220;later&#8221; when your inbox is clear and your life is tidy.</p>
-<p><em>There is no tidy later.</em></p>
-<p>Tonight, call and tell them. And don&#8217;t say some blog post sent you.</p>
-<p>So, after all of Montaigne&#8217;s wisdom, what do I know?</p>
-<p>Not much. Less than I thought. I don&#8217;t know why people leave before we&#8217;re done needing them.</p>
-<p>But I know this. When someone cares about you like Montaigne cared about La Boétie, believe them.</p>
-<p>The guy who doubted nearly everything didn&#8217;t doubt his friend.</p>
-<p>The post <a href="https://bakadesuyo.com/2026/11/montaigne/">How To Live A Good Life: 6 Secrets From Ancient Wisdom</a> appeared first on <a href="https://bakadesuyo.com">Barking Up The Wrong Tree</a>.</p>]]></content:encoded>
-</item>
-<item>
-<title>Early MacBook Pro PROLED Reviews</title>
-<link>https://www.macsparky.com/blog/2026/11/early-macbook-pro-proled-reviews/</link>
-<guid isPermaLink="false">4b894375f81827b9</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0000</pubDate>
-<author>MacSparky</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Roundup of early reviews of the new MacBook Pro, including Snell&amp;#x27;s. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacSparky&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;The arrival of the MacBook Pro PROLED XDR felt, at first, a bit underwhelming to me. But early reviews seem to like it. Jason Snell’s review at Six Colors gives the reduced weight plenty of attention. He also looks at the OLED display and describes touch as an occasional extra way to interact with the Mac. It’s a useful look at changes you’ll notice while carrying and using the thing. At Tom’s Guide, Tony Polanco has published a full PROLED MacBook Pro review . He’s enthusiastic about the displa&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Roundup of early reviews of the new MacBook Pro, including Snell&#x27;s. (score 7)<p>From <b>MacSparky</b>.</p><hr/>
-    <p class="wp-block-paragraph">The arrival of the MacBook Pro PROLED XDR felt, at first, a bit underwhelming to me. But early reviews seem to like it.</p>
-    <p>Jason Snell’s <a href="https://sixcolors.com/post/2026/11/macbook-pro-with-proled-review-you-could-even-say-it-glows/">review at Six Colors</a> gives the reduced weight plenty of attention. He also looks at the OLED display and describes touch as an occasional extra way to interact with the Mac. It’s a useful look at changes you’ll notice while carrying and using the thing.</p>
-    <p>At Tom’s Guide, Tony Polanco has <a href="https://www.tomsguide.com/computing/macbooks/macbook-pro-with-proled-xdr-display-review">published a full PROLED MacBook Pro review</a>. He’s enthusiastic about the display and touch controls, with the price as his main reservation. There are battery results, too, and they’re not bad.</p>
-    <p>Also, Marques Brownlee has <a href="https://www.youtube.com/watch?v=2reQut8WNGc">posted his first impressions of the PROLED XDR MacBook Pro</a>.</p>
-    <p class="wp-block-paragraph">The screen and weight deserve attention, even if you’re not interested in the touch display.</p>
-    <p>I write about getting more from your Apple gear. If this was useful, go deeper in the Labs or grab the weekly newsletter.</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>Restrictive design</title>
-<link>https://seths.blog/2026/11/restrictive-design/</link>
-<guid isPermaLink="false">b7c2e03879b4d2f3</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0000</pubDate>
-<author>Seth&#x27;s Blog</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Seth Godin on design as empathy for a specific user. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Seth&amp;#x27;s Blog&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Design of any kind requires empathy. If you’re making it for yourself, it’s a hobby. Everything else is for someone else. Great designers know who it’s for. And the design is for them, not for the designer. Annie Jean-Baptiste teaches us about restrictive design. This is what happens when the designer fails to identify and […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Seth Godin on design as empathy for a specific user. (score 7)<p>From <b>Seth&#x27;s Blog</b>.</p><hr/><p class="wp-block-paragraph">Design of any kind requires empathy. If you&#8217;re making it for yourself, it&#8217;s a hobby. Everything else is for someone else.</p>
-
-
-
-<p class="wp-block-paragraph">Great designers know who it&#8217;s for. And the design is for them, not for the designer.</p>
-
-
-
-<p class="wp-block-paragraph">Annie Jean-Baptiste teaches us about <a href="https://www.anniejeanbaptiste.com/manifesto">restrictive design</a>. This is what happens when the designer fails to identify and recognize who the work is for, and then leaves people out. &#8220;Exclusion is a business decision, even when you did not mean to make it.&#8221;</p>
-
-
-
-<p class="wp-block-paragraph">Not everything needs to be designed for everyone. But all well-designed experiences and products are designed for <em>someone</em>.</p>
-
-
-
-<p class="wp-block-paragraph">Name your people, invite them in and give them what they need.</p>
-<span class="__iawmlf-post-loop-links" hidden="hidden"></span>]]></content:encoded>
-</item>
-<item>
-<title>Norris wins as Mercedes clinches title with a scrappy race</title>
-<link>https://www.the-race.com/formula-1/norris-wins-as-mercedes-clinches-title-with-a-scrappy-race/</link>
-<guid isPermaLink="false">8579edf1b8df6ad8</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0000</pubDate>
-<author>Formula 1 - The Race</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Norris wins a chaotic Brazilian GP as Mercedes clinches the title. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Formula 1 - The Race&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Lando Norris survived a late downpour to win at Interlagos, as Mercedes sealed the constructors’ title despite its first podium-less GP of the year&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Norris wins a chaotic Brazilian GP as Mercedes clinches the title. (score 7)<p>From <b>Formula 1 - The Race</b>.</p><hr/><img alt="Norris wins as Mercedes clinches title with a scrappy race" src="https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1453581_HiRes.jpg" /><p><em>Norris wins as Mercedes clinches title with a scrappy race</em></p><p>Lando Norris survived a late downpour to take McLaren&#x2019;s first race win in three months at the Brazilian Grand Prix, as Mercedes sealed the Formula 1 constructors&#x2019; title despite its first podium-less GP of the year.</p><p>Norris lost the race lead almost immediately off the line as Kimi Antonelli&#x2019;s Mercedes rocketed past him on the run to Turn 1, with Liam Lawson&#x2019;s Racing Bulls then quickly demoting Norris to third.&#xa0;</p><p>Norris soon wrestled second back from Lawson, but Antonelli escaped down the road in the lead as the field waited for the right moment to switch from intermediate to slick tyres.</p><p>McLaren and Norris got that call right as he pitted a lap before Antonelli and closed a lot of that gap.&#xa0;</p><p>Antonelli struggled to fire up his soft tyres and ended up spinning at Turn 1 on his second lap, allowing Norris into the race lead.&#xa0;</p><p>Antonelli&#x2019;s slide continued as the Red Bulls, Isack Hadjar and Max Verstappen, picked him off.</p><p>He reported his car was steering by itself, and he was struggling to get around the left-hand corners in particular.</p><p>Norris went unthreatened thereafter, building such a solid gap out front that even a late-rain shower and switch back to intermediates didn&#x2019;t do anything to unsettle his grip on the lead.</p><p>It marks Norris and McLaren&#x2019;s first victory since Zandvoort in late August.&#xa0;</p><p>The podium was completed by Verstappen and Hadjar, the former of whom charged from 21st on the grid, making 10 of those positions up in the first couple of laps.&#xa0;</p><p>George Russell ended up beating Antonelli for the first time since Baku in September, despite spinning in the pitlane after changing from intermediates to slick tyres.</p><p>He regained some of the lost time by doing just one stint on slicks while most other drivers needed two sets before the late switch back to intermediates.</p><p>Russell then passed Antonelli despite also reporting balance issues aboard his Mercedes. A later unsafe pit release time penalty for Antonelli made no difference to his result.</p><p>Fourth and fifth is enough for Mercedes to clinch the constructors&#x2019; title - its first since 2021 - with three races to spare, as Ferrari suffered a tricky race.</p><p>Like Verstappen, Lewis Hamilton made a spirited opening lap charge, going from 20th to ninth, but he fell back as he struggled on his intermediates, even being passed by Fernando Alonso&#x2019;s Aston Martin Honda.</p><p>Hamilton was the first to switch to slick tyres and regained positions there, but he lost time to a spin just before he needed to pit for intermediates again at the end of the race.&#xa0;</p><p>That left him ninth at the chequered flag, while team-mate Charles Leclerc was seventh on the road before a 5s penalty for a clash with Lawson meant he dropped to eighth behind the Racing Bulls.</p><p>Oscar Piastri finished 56.4s behind McLaren team-mate Norris in sixth place.&#xa0;</p><p>Nico Hulkenberg took the final point for Audi in 10th place despite having to serve a 10-second time penalty for going off the track at Turn 1 while fighting with Franco Colapinto&#x2019;s Alpine.</p><h2 id="race-result">Race result</h2><p>1 Lando Norris (McLaren)<br />2 Max Verstappen (Red Bull) +14.602s<br />3 Isack Hadjar (Red Bull) +24.485s<br />4 George Russell (Mercedes) +33.991s<br />5 Kimi Antonelli (Mercedes) +41.017s*<br />6 Oscar Piastri (McLaren) +56.475s<br />7 Liam Lawson (Racing Bulls) +1m15.402s<br />8 Charles Leclerc (Ferrari) +1m18.586s*<br />9 Lewis Hamilton (Ferrari) +1 lap<br />10 Nico Hulkenberg (Audi) +1 lap<br />11 Arvid Lindblad (Racing Bulls) +1 lap<br />12 Fernando Alonso (Aston Martin) +1 lap<br />13 Franco Colapinto (Alpine) +1 lap<br />14 Pierre Gasly (Alpine) +1 lap<br />15 Alex Albon (Williams) +1 lap<br />16 Gabriel Bortoleto (Audi) +1 lap<br />17 Ollie Bearman (Haas) +1 lap*<br />18 Sergio Perez (Cadillac) +2 laps<br />19 Carlos Sainz (Williams) +2 laps<br />20 Rafa Camara (Haas) +2 laps<br />DNF Lance Stroll (Aston Martin)<br />DNF Valtteri Bottas (Cadillac)</p><p>* 5s penalty</p>]]></content:encoded>
 </item>
 </channel></rss>
