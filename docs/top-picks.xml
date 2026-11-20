@@ -2,7 +2,281 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel>
 <title>Top Picks</title><link>https://jackrichins.github.io/top-picks</link>
 <description>The best of my feeds, picked by Claude.</description>
-<lastBuildDate>Thu, 19 Nov 2026 17:35:41 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 00:17:22 +0000</lastBuildDate>
+<item>
+<title>★ Jon McCormack Retires From Apple</title>
+<link>https://daringfireball.net/2026/11/mccormack_retires_from_apple</link>
+<guid isPermaLink="false">a9c297179e2d7782</guid>
+<pubDate>Fri, 20 Nov 2026 00:17:22 +0000</pubDate>
+<author>Daring Fireball</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Gruber on the retirement of the executive behind iPhone Camera and Photos, a notable Apple leadership change. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Mark Gurman, reporting for Bloomberg today (gift link): Jon McCormack retired at the end of October after more than eight years at the company, according to people with knowledge of the matter. He oversaw the Camera and Photos apps and the underlying technology that determines how users capture, view and edit their pictures and video. Apple hasn’t named a new vice president to take over McCormack’s exact role. Instead, his former deputies are assuming his responsibilities under another executive&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Gruber on the retirement of the executive behind iPhone Camera and Photos, a notable Apple leadership change. (score 8)<p>From <b>Daring Fireball</b>.</p><hr/>
+<p>Mark Gurman, <a href="https://www.bloomberg.com/news/articles/2026-11-19/apple-s-iphone-camera-and-photos-software-chief-jon-mccormack-leaves-company?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NTEwOTM1MSwiZXhwIjoxNzk1NzE0MTUxLCJhcnRpY2xlSWQiOiJUT1IzMlJUOU5KTTUwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.aeSQbn794aHs3B5ecmfYGppiDoPtcY_FXRHn7Hbe76Y">reporting for Bloomberg today</a> (gift link):</p>
+
+<blockquote>
+  <p>Jon McCormack retired at the end of October after more than eight
+years at the company, according to people with knowledge of the
+matter. He oversaw the Camera and Photos apps and the underlying
+technology that determines how users capture, view and edit their
+pictures and video.</p>
+
+<p>Apple hasn’t named a new vice president to take over McCormack’s
+exact role. Instead, his former deputies are assuming his
+responsibilities under another executive, said the people, who
+asked not to be identified while discussing internal moves. An
+Apple spokesperson declined to comment.</p>
+
+<p>His work included the redesigned selfie camera introduced with the
+iPhone 17 lineup last year.</p>
+</blockquote>
+
+<p>I’ve met McCormack a few times. He frequently led media briefings for new iPhone camera features. He was always thoughtful, insightful, and fair. Like, sometimes his demonstrations would involve comparisons between photos of the same subjects and scenes captured on iPhones and ones captured with flagship Android phones. The photos were <em>all</em> good. It was never “<em>Here are some beautiful images captured on iPhones and some dogshit ones from a Samsung and OnePlus</em>”. The differences were often subtle. He’d even make the case for why someone might prefer the Android ones. But he could explain why Apple — and he personally — preferred the ones from the iPhone. Not just how the iPhone camera captures and processes images, but why. He also knew when to let the images speak for themselves.</p>
+
+<p>McCormack was deeply informed at a technical level. He reported directly to Craig Federighi and that level of engineering acumen showed. I can’t recall any question being too technical for him to have a ready answer. One of the best iPhone camera innovations in recent years is the redesigned <a href="https://support.apple.com/guide/iphone/take-a-selfie-iph1b88429a6/ios">Center Stage selfie camera</a> introduced with the iPhone 17 (and Air) lineup last year. The square sensor is hardware, and McCormack was a software VP, but the feature exemplifies the way hardware and software are developed in tandem at Apple. McCormack was <a href="https://www.businessworld.in/article/exclusive-jon-mccormack-on-how-apple-reinvented-the-selfie-for-the-iphone-17-575523">the public face for that feature</a> — and internally, pushed to make it happen. That square sensor is bigger, which means (a) it’s more expensive; and (b) it takes up more space internally. Both of those require winning hard-fought arguments inside Apple in order to ship. The bottom line is that it helps iPhone users take better photos of themselves — and <a href="https://www.instagram.com/helloapple/reel/Daiat9bNtiF/">according to McCormack himself</a>, over 1 billion selfies are taken with iPhones <em>every day</em>. The influence Apple’s Camera team has on the daily lives of <em>billions</em> of people is significant; McCormack understood that.</p>
+
+<p>But what really struck me about McCormack, right from the start, is that he is clearly a serious photographer himself. That’s perhaps understating it. He recently published a book of his own nature and travel photography: <em><a href="https://jonmccormack.com/book/">Patterns: Art of the Natural World</a></em>. He <a href="https://www.linkedin.com/in/chenpamela/">discussed the book in an hour-long interview</a> with his Apple colleague Pamela Chen, whose <a href="https://www.linkedin.com/in/chenpamela/">job title</a> is one of the coolest I’ve ever heard: Chief Aesthetics Scientist. (Chen, unsurprisingly, is also <a href="https://www.instagram.com/chenpamela/">a talented photographer</a>.)</p>
+
+<p>Gurman:</p>
+
+<blockquote>
+  <p>His departure comes at a time when Apple is navigating a
+fundamental shift in photography. Competitors such as Alphabet
+Inc.’s Google and Samsung Electronics Co. have increasingly
+embraced generative AI features that allow users to make
+substantial changes to images. That has blurred the distinction
+between capturing a real moment and creating an artificial one.</p>
+</blockquote>
+
+<p>Two years ago <a href="https://www.theverge.com/24247538/apple-iphone-16-pro-review">in his iPhone 16 Pro review</a>, returning to his repeated theme of “What is a photo?”, Nilay Patel quoted, at length, the answer he got from McCormack. I, in turn, <a href="https://daringfireball.net/linked/2024/09/23/nilay-patel-iphone-16-pro-review">quoted Patel quoting McCormack</a>, and added:</p>
+
+<blockquote>
+  <p>McCormack’s response is genuinely thoughtful, and resonates deeply
+with my own personal take. But it’s worth noting that Apple is the
+<em>conservative</em> company when it comes to generative AI and
+photography — and yet they’re still shipping Clean Up. I’m not
+complaining about Clean Up’s existence. I’ve already used it
+personally. I’m just saying that even Apple’s stance involves
+significant use of generative AI.</p>
+</blockquote>
+
+<p>This year, Apple added <a href="https://support.apple.com/guide/iphone/clean-up-extend-and-reframe-photos-xy0grrlxue5w/ios">“extend” and “reframe”</a> alongside Clean Up. I don’t love either of those features simply because I don’t like how they change the meaning of “What is a photo?”, but I don’t <em>hate</em> them either. We can’t put the generative AI genie back in the bottle. Apple, still, is the conservative company in the generative AI phone photography space.</p>
+
+<p>Jon McCormack had a knack for shepherding good new features <em>into</em> the Camera app. But also, based on conversations I’ve had with multiple people who worked with him at Apple, McCormack was <em>great</em> at keeping stupid ideas <em>out</em> of the Camera app. Good new features that ship get more recognition than stupid new features that never ship — but the latter, I would argue, is the rarer and more important management skill. It’s far more important to keep stupid ideas out of any app than it is to add good new features. McCormack was the protector of the Camera app. Under his leadership, it remains focused on the craft and art of photography.</p>
+
+<p>Lastly, everyone I know who worked with him loves the guy. McCormack was the perfect guy for an essential job, and he leaves big shoes to fill.</p>
+
+    ]]></content:encoded>
+</item>
+<item>
+<title>PHP: Mixed-Case URL Schemes Can Expose Data</title>
+<link>https://mjtsai.com/blog/2026/11/19/php-mixed-case-url-schemes-can-expose-data/</link>
+<guid isPermaLink="false">924f18e59d7a5e76</guid>
+<pubDate>Fri, 20 Nov 2026 00:17:22 +0000</pubDate>
+<author>Michael Tsai</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A subtle real-world transport security bug where an uppercase S silently drops TLS in PHP streams. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Michael Tsai&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;PHP (Mattias Geniar): PHP’s HTTP and FTP stream wrappers can send data without encryption when an HTTPS or FTPS URL has an uppercase S in its scheme, for example HTTPS://, httpS:// or FTPS://. Applications using file_get_contents(), fopen() or other stream functions may therefore expose passwords, authentication tokens, request bodies or transferred files to an attacker […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> A subtle real-world transport security bug where an uppercase S silently drops TLS in PHP streams. (score 8)<p>From <b>Michael Tsai</b>.</p><hr/><p><a href="https://github.com/php/php-src/security/advisories/GHSA-f6gg-rchx-xw8j">PHP</a> (<a href="https://x.com/mattiasgeniar/status/2123436542995964123">Mattias Geniar</a>):</p>
+<blockquote cite="https://github.com/php/php-src/security/advisories/GHSA-f6gg-rchx-xw8j"><p>PHP&rsquo;s HTTP and FTP stream wrappers can send data without encryption when an HTTPS or FTPS URL has an uppercase <code>S</code> in its scheme, for example <code>HTTPS://</code>, <code>httpS://</code> or <code>FTPS://</code>. Applications using <code>file_get_contents()</code>, <code>fopen()</code> or other stream functions may therefore expose passwords, authentication tokens, request bodies or transferred files to an attacker able to observe the network traffic.</p>
+<p>[&#8230;]</p>
+<p>Mixed-case URLs passed by an application have been affected since PHP 5.2.0, and redirects to a mixed-case URL since PHP 4.3.0.</p></blockquote>
+<p>That was <a href="https://www.php.net/ChangeLog-4.php#4.3.0">in 2002</a>. It&rsquo;s now been fixed in PHP 8.5.13 and other versions.</p>
+
+<p>There&rsquo;s also a new <a href="https://www.php.net/releases/8.6/en.php">PHP 8.6</a> (<a href="https://news.ycombinator.com/item?id=50557870">Hacker News</a>). Lots of <a href="https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911">security fixes</a> recently.</p>
+
+<p>Previously:</p>
+<ul>
+<li><a href="https://mjtsai.com/blog/2026/10/21/php2shell/">PHP2Shell</a></li>
+</ul>]]></content:encoded>
+</item>
+<item>
+<title>Google’s Spark AI Agent Becomes ‘Tasks’</title>
+<link>https://daringfireball.net/linked/2026/11/19/google-spark-is-now-google-tasks</link>
+<guid isPermaLink="false">d4efe2c7c22f6013</guid>
+<pubDate>Fri, 20 Nov 2026 00:17:22 +0000</pubDate>
+<author>Daring Fireball</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Gruber flags Google making its Gemini agent free as Tasks, a sign agents are going mainstream. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Emma Roth, The Verge (gift link): Google is rebranding its Spark AI agent as “Tasks” and making it free to use. The feature, which is powered by Google’s new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US will get access to a few other features, including the ability for the AI agent to call businesses to compare product pricing and check inventory, purchase items w&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Gruber flags Google making its Gemini agent free as Tasks, a sign agents are going mainstream. (score 7)<p>From <b>Daring Fireball</b>.</p><hr/>
+    <p>By John Gruber</p>
+    <p><a href="https://semantical.com/?utm_campaign=df-2026-12">Ivy: Plan. Do. Reflect</a>.<br/>The to-do list that ends.</p>
+    <ul>
+      <li>
+        <a href="https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IksyWGFvWkdyWVIiLCJwIjoiL3RlY2gvMTAzNTc1Ni9nb29nbGUtc3BhcmstYWktdGFza3MtZnJlZSIsImV4cCI6MTc5NTU1MzQxMiwiaWF0IjoxNzk1MTIxNDEyfQ.GdsUKdRXeGBskw7-FDgCXEmIYhdLPPexImzdWhJqA-c&amp;utm_medium=gift-link">Google’s Spark AI Agent Becomes ‘Tasks’</a>
+      </li>
+      <li>
+<p>Emma Roth, The Verge (gift link):</p><p>Google is rebranding its Spark AI agent <a href="https://gemini.google/overview/productivity/">as “Tasks”</a> and making
+it free to use. The <a href="https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/">feature, which is powered</a> by Google’s new
+Gemini 4 Hydrogen AI model, can do things like create meal plans,
+manage your calendar, and dig through your emails to find
+recurring expenses you might not need.</p>
+
+<p>Users in the US will get access to a few other features, including
+the ability for the AI agent to call businesses to compare product
+pricing and check inventory, purchase items with Google Pay, and
+sign into accounts that support Google Password Manager. US users
+can also assign Gemini tasks by emailing <a href="https://daringfireball.net/cdn-cgi/l/email-protection">[email protected]</a> or
+texting it.</p>
+<p>New rule for Google: measure twice and cut once when naming anything. Is there a single product they’ve come out with related to AI that hasn’t gone through at least two entirely different names? And do these ding-dongs realize that “Tasks” sounds like a to-do app — in fact, so much like a to-do app that <a href="https://workspace.google.com/products/tasks/">Google already has one named “Google Tasks”</a>?</p>
+
+<p>★ Thursday, 19 November 2026</p></li>
+    </ul>
+  ]]></content:encoded>
+</item>
+<item>
+<title>phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution</title>
+<link>https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html</link>
+<guid isPermaLink="false">65821aca940d0fbc</guid>
+<pubDate>Fri, 20 Nov 2026 00:17:22 +0000</pubDate>
+<author>The Hacker News</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A clear explainer of how a race in PHP session writes can be chained into remote code execution. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;PHP&amp;#x27;s default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today&amp;#x27;s PHP releases fix the flaw, called phpAfterShell. The flaw is tracked as CVE-2026-126714 and rated&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> A clear explainer of how a race in PHP session writes can be chained into remote code execution. (score 7)<p>From <b>The Hacker News</b>.</p><hr/>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEEFyvreIQgAheXoKRJxLcNgyzFh0rlydmiMfaOBIlmM7zGPc_71mCSG6zWGlpFcRQg59gVUw6NbpmFiNKIcDB3AqVA5eKpjYExWhMu-uBD_W5xu1wiYRtX5MklAgxeuHOBJOI8H9LmaIoXv7IrvFMVHvVhor06lj_ljcIDjIDAPYJ8w01X-BTA51EpOU/s1600/php-after-shell.jpg"/>
+    <p>PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server.</p>
+    <p>Today's PHP releases fix the flaw, called <a href="https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html">phpAfterShell</a>.</p>
+    <p>The flaw is tracked as CVE-2026-126714 and rated 9.2 out of 10 on the CVSS 4.0 scale by PHP's maintainers. Depthfirst, a security company, says it found the flaw and reported it to the maintainers.</p>
+    <p>The October 21 PHP releases, which fixed two critical flaws known as <a href="https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html">PHP2Shell</a>, do not contain this fix. Servers updated then remain affected until they install today's releases. Neither the maintainers nor the company reports any attacks using phpAfterShell.</p>
+    <h3>Who Is Affected and What to Do</h3>
+    <p>These releases are affected, according to the maintainers' <a href="https://github.com/php/php-src/security/advisories/GHSA-fm2m-fjf5-v3cp">security advisory</a>:</p>
+    <table>
+      <tr>
+        <th>Branch</th>
+        <th>Affected releases</th>
+        <th>Fixed release</th>
+      </tr>
+      <tr>
+        <td>PHP 8.2</td>
+        <td>Before 8.2.36</td>
+        <td>8.2.36</td>
+      </tr>
+      <tr>
+        <td>PHP 8.3</td>
+        <td>Before 8.3.37</td>
+        <td>8.3.37</td>
+      </tr>
+      <tr>
+        <td>PHP 8.4</td>
+        <td>Before 8.4.28</td>
+        <td>8.4.28</td>
+      </tr>
+      <tr>
+        <td>PHP 8.5</td>
+        <td>Before 8.5.13</td>
+        <td>8.5.13</td>
+      </tr>
+    </table>
+    <p>PHP 8.6.0, also released today, includes the fix.</p>
+    <p>The flaw is in the files session handler, which PHP uses by default. Sessions kept in Redis, a database, or another store are outside this defect, though each store's handling of a cut-off update needs its own check.</p>
+    <p>Whether an attacker needs to log in depends on how the app exposes its session handling.</p>
+    <p>On the path the company tested, the attacker uses upload progress, a PHP feature that records the progress of a file upload in the user's session. Where the feature is on, a multipart form upload that carries its field makes PHP write to the session before the app's own code runs. The app does not need an upload page, only any page that opens the session later.</p>
+    <p>
+      <a href=""/>
+    </p>
+    <p>PHP 8.1 and older are end-of-life. The official end-of-life mitigation branches for 7.4, 8.0, and 8.1 are not affected, but older unpatched builds of those versions are, according to the company.</p>
+    <p>The company's <a href="https://depthfirst.com/phpaftershell">remediation guidance</a> sets out these steps:</p>
+    <ul>
+      <li>Install the fixed release for your branch, as listed above. If you run PHP 8.1 or older, move to a supported branch.</li>
+      <li>Rebuild any container images and redeploy.</li>
+      <li>Check that the PHP version serving web requests is the new one.</li>
+    </ul>
+    <p>If you cannot update yet and your app does not use upload progress, set session.upload_progress.enabled = 0 in php.ini or the server's PHP settings, then restart the PHP workers. Also limit the untrusted data your app stores in sessions.</p>
+    <p>Switching the feature off is not a full fix. It closes the upload path, but apps that put attacker-controlled data into sessions in other ways remain affected, the maintainers say.</p>
+    <p>The maintainers listed the same setting on October 21 as a temporary measure for one of the PHP2Shell flaws. Servers that have kept it off since then still need the update.</p>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLoqqEe0XW2nWCPLMM5qy5ng0qt6xWov0xxceCfMNzji1DLUEs6eK4emFE5HXp0HTfS2NxSqeUAja5Sb-1OtBTEcTmnDOiQrb8hkoXqR5vMftJ9nDvcFbQlK7rGGqcmMpYAhf2wqWByFnB4h-fkaGKwYJvR_vAuGxV6-5fZJDl4v_6IcI8APkFF7fen90/s1600/phpaftershell.gif"/>
+    <p>Moving sessions to a store that replaces records in one step also avoids this defect. The update is still the recommended fix for sites that keep the files handler.</p>
+    <p>Linux distribution packages may include the fix without changing the PHP version number, according to the company, so the version number alone may not indicate whether a server is fixed.</p>
+    <p>Once installed, the fixed releases empty the session file before each write and stop the write if that step fails. A cut-off write can still lose session data, but it can no longer leave old data behind for an attacker to use.</p>
+    <p>The updates also switch upload progress off by default. The Hacker News compared PHP's source code for the October 21 releases and today's. The built-in setting is on in 8.2.35, 8.3.36, 8.4.27 and 8.5.12, and off in 8.2.36, 8.3.37, 8.4.28, 8.5.13 and 8.6.0.</p>
+    <p>The <a href="https://www.php.net/ChangeLog-8.php">release notes</a> do not mention or explain the change. The sample php.ini files still show the old setting in a commented-out line. A php.ini file, distribution package, or hosting panel that switches the setting on will keep it on.</p>
+    <p>Where nothing else sets it, apps that rely on upload progress will need it switched back on after the update.</p>
+    <p>The same releases also fix <a href="https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html">other PHP security flaws</a>.</p>
+    <h3>How the Attack Works</h3>
+    <p>The attack starts with the session write that upload progress makes before the app's code runs, Depthfirst's researchers say in their <a href="https://depthfirst.com/research/phpaftershell">technical analysis</a>.</p>
+    <p>A PHP session file stores each value as a name followed by serialized data. Length fields in that data tell PHP where each string ends, and nothing in the file marks a write as finished.</p>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRRgv0Ofu1Cy6y2_CrfSNN1cMvxHPWdmfRLFUod5e8en9b7cJuhvUzW9NI9BaZvjluTTp4Mg2jswD9AD9-347eytwEZEl5HeiCYSxZPvdf_k40_yS3F_fW8p71VdEVmw-l4ZcrvqnpaRO2bxP9ZlJA7pZO4imGekDreGIC6hyphenhyphenUnlRzyEV5HJ2o6yFCilU/s1600/explain.jpg"/>
+    <p>PHP locks the file while it writes, but the lock cannot undo a write that stops halfway. If the worker process dies partway through, the file can retain the start of the new data and the end of the old data.</p>
+    <p>By setting the lengths in the new data, an attacker can make text that sat harmlessly inside the old data read as a separate record, including a serialized object. The next request that calls session_start() loads that record and creates the object.</p>
+    <p>The researchers' public proof uses a harmless built-in object, stdClass, which appears in the session once the file is mixed.</p>
+    <p>The emergency PHP2Shell fixes on October 21 addressed an earlier attack via the same step.</p>
+    <p>"The original exploit stopped working, but the underlying problem was still there," the researchers say of the PHP2Shell patch.</p>
+    <p>That exploit needed objects to become active while PHP recorded upload progress, so the maintainers limited which classes can load at that moment. The change did not touch the file write. The object data still reaches the disk and becomes active later, when an ordinary request calls session_start().</p>
+    <p>The attack depends on stopping the write at the right moment. The maintainers say one way is a hard memory-limit failure in another thread of a threaded PHP build, which can kill the process mid-write.</p>
+    <p>Code execution then still needs a suitable gadget chain in the app, and the flaw can also corrupt session state.</p>
+    <p>In the researchers' own Linux tests, PHP's execution timeout fired only after the write had finished, so they used an out-of-memory kill to stop the worker mid-write instead.</p>
+    <p>The planted object appeared on the 11th attempt in a fresh run. That count measures getting the file into the right state on their servers, not how often code execution succeeds.</p>
+    <p>Their own chain needed no gadget from the app, the researchers say. It used a second bug instead, memory corruption in one of PHP's built-in classes.</p>
+    <p>They are holding back its details for coordinated disclosure and have not said whether that bug is fixed in today's releases.</p>
+    <p>The same trick can also replace ordinary session values, such as who is logged in, their permissions, or a CSRF token, before the app checks them, the researchers say.</p>
+    <p><a href="https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ">Google News</a>,</p>
+  ]]></content:encoded>
+</item>
+<item>
+<title>Gone in three hours: What ARTEX does with your credentials</title>
+<link>https://1password.com/blog/artex-exposure-credentials</link>
+<guid isPermaLink="false">71c4e2ade81e2bc3</guid>
+<pubDate>Fri, 20 Nov 2026 00:17:22 +0000</pubDate>
+<author>Blog on 1Password Blog</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A former CISO unpacks the FBI ARTEX advisory and how attackers reach privileged access in hours. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Blog on 1Password Blog&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Threat actors can now go from initial targeting to privileged access in under three hours. Your change advisory board takes longer to approve a firewall rule. That figure comes from the FBI’s November 13 advisory, FBI FLASH-20261113-001 , about a framework called ARTEX. The read as a recovering CISO: all the techniques in the alert are familiar, but the clock has changed. Every credential you left lying around just got easier to pick up. What is ARTEX, and how does it automate cyberattacks? ARTE&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> A former CISO unpacks the FBI ARTEX advisory and how attackers reach privileged access in hours. (score 7)<p>From <b>Blog on 1Password Blog</b>.</p><hr/><img alt="Gone in three hours: What ARTEX does with your credentials" src="https://images.ctfassets.net/3091ajzcmzlr/2wsrG5oqUtKnlM7Nsn0Wpn/fc1f4d8d7402ddc17e3881a12d6bc288/Hero_IT_JTBD_1920x1080_02__1_.webp" style="width: 100%; display: inline-block; margin: 0 auto;" /><p><em>Gone in three hours: What ARTEX does with your credentials</em></p><p>Threat actors can now go from initial targeting to privileged access in under three hours. Your change advisory board takes longer to approve a firewall rule.</p><p>That figure comes from the FBI’s November 13 advisory, <a href="https://www.ic3.gov/CSA/2026/261113.pdf"><u>FBI FLASH-20261113-001</u></a>, about a framework called ARTEX. The read as a recovering CISO: all the techniques in the alert are familiar, but the clock has changed. Every credential you left lying around just got easier to pick up.</p><h2><b>What is ARTEX, and how does it automate cyberattacks?</b></h2><p>ARTEX is an open-source, multi-agent pentesting framework written in Go. An operator types in an objective in plain language. LLM-backed agents turn it into commands, load the proper scripts, and run them.</p><p>The developer published it on GitHub in July 2026 for authorized testing. The FBI reports malicious use since at least August. A month from the initial release to abuse is, for an offensive security tool. </p><p>After reports of misuse surfaced, the developer pulled the repository on October 8. But, forks, mirrors, archives, and a commercial version keep it in circulation because the internet has never once given anything back. The Internet never forgets. By early November, researchers counted more than 1,600 publicly exposed ARTEX consoles.</p><p>The reported targets span at least ten market segments worldwide, including financial services, government, healthcare, and energy. One financially motivated campaign exfiltrated personal information on about 67,000 people. In another incident, a supply chain compromise at a cloud backup service opened access to more than 2,250 downstream tenants.</p><h2><b>Where does ARTEX find credentials?</b></h2><p>The alert maps the activity to 43 ATT&amp;CK techniques. Read it by phase and one thing keeps turning up: a credential somebody forgot about.</p><ul><li><p><b>Reconnaissance.</b> Agents tested the permissions of Azure credentials, including SAS tokens, service principals, Kudu credentials, and storage account keys, with sub-second checks.</p></li><li><p><b>Initial access.</b> Hardcoded administrator passwords in JavaScript bundles, weak administrative credentials, compromised vendor credentials through trusted B2B federation, and stolen VPN configurations with leaked credentials.</p></li><li><p><b>Persistence.</b> Account takeover through password resets, new SSH key pairs, and credentials added to existing <a href="https://1password.com/blog/protect-against-oauth-supply-chain-breaches"><u>OAuth applications</u></a>.</p></li><li><p><b>Privilege escalation.</b> Cloud compute instances launched with high-value IAM roles, harvested Kerberos Service Tickets, DCSync to steal the Kerberos Ticket Granting Tickets (KRBTGT) key, and an administrator token forged with unrotated authentication keys.</p></li><li><p><b>Internal reconnaissance.</b> More than 110,000 Active Directory objects enumerated, and Local Administrator Password Solution (LAPS) passwords read.</p></li></ul><p>On paper, an admin password in a JavaScript bundle is T1552.001. In practice, it is a sticky note on the monitor, served from a CDN.</p><p>One piece of good news: endpoint protection blocked attempted lateral movement to domain controllers through Pass-the-Ticket, WinRM, Kerberos relay, and Pass-the-Hash. So boring controls are still earning their keep.</p><h2><b>Why do AI-driven attacks make exposed credentials more dangerous?</b></h2><p>Automation changes the price of one exposed credential. A hardcoded password or an unrotated signing key used to wait for a human with time and motivation. Now an agent tests it in under a second and feeds the result into the <a href="https://1password.com/blog/ai-credential-harvesting">next technique</a>.</p><p>Two variables decide how quickly an exposed credential can become a broader incident: </p><ul><li><p><b>Standing access</b> sets how far the credential reaches once it is used</p></li><li><p><b>Detection time</b> sets how long you have, and three hours is less than some incident bridges need to agree on a severity level</p></li></ul><p>So we have stopped planning around a patient attacker. Assume anything discoverable gets discovered, and anything valid gets tried.</p><h2><b>Five ways to reduce ARTEX-related credential exposure this week </b></h2><p>The FBI's credential recommendations are specific. The controls below are theirs.</p><ol><li><p><b>Sweep for embedded secrets.</b> Review application configurations, environment variables, infrastructure-as-code, deployment scripts, and CI/CD pipelines. I would add shipped front-end bundles, since that is where the alert found admin passwords.</p></li><li><p><b>Rotate what you find, promptly.</b> Include signing and authentication keys. The forged admin token in the alert relied on keys nobody had rotated.</p></li><li><p><b>Restrict deployment and publishing credentials.</b> List every person and pipeline that can read them today. Cut the list to the ones that deploy.</p></li><li><p><b>Apply least privilege to multi-tenant application permissions and consent grants.</b> Revoke what nobody uses.</p></li><li><p><b>Monitor credential additions and privileged role assignments.</b> Monitor the speed of identity access, and spikes in API traffic.</p></li></ol><p>Steps one and two fit in a week for most teams. Steps three to five need a named owner and a date, or they become a slide.</p><h2><b>Where 1Password helps reduce credential exposure</b></h2><p>Several 1Password capabilities are aligned with those recommendations. The FBI does not endorse products, and each capability has a boundary you should know before you count on it.</p><ul><li><p><a href="https://www.1password.dev/watchtower"><b><u>Developer Watchtower</u></b></a>, in the 1Password desktop apps for Mac, Windows, and Linux, finds unencrypted or insecure SSH keys in ~/.ssh and .env files with plaintext secrets in nine named development folders. It only checks files on local disk that match .env naming patterns, so it doesn’t look at remote repositories or Git history, and other file types like a JavaScript bundle are outside its view even when they sit in a scanned folder..</p></li><li><p><a href="https://1password.com/product/privileged-access"><b><u>Privileged Access</u></b></a> provides just-in-time, task-scoped access to cloud environments with automatic deprovisioning, and discovers overprivileged cloud identities. It applies only to access granted through Privileged Access. </p></li><li><p><a href="https://1password.com/product/saas-manager"><b><u>SaaS Manager</u></b></a> finds apps with high-risk OAuth scopes and revokes their tokens in Google Workspace and Microsoft Entra ID.</p></li><li><p><a href="http://developer.1password.com"><b><u>1Password Developer Tools</u></b></a>, allow for JIT secret injection to coding agents and CI/CD pipelines including <a href="https://www.1password.dev/brokered-access/github-actions"><u>GitHub Actions</u></a>, validates the workload identity against registered policy and releases only the secrets that are scoped to the task only for the duration of the workflow. Secrets are available to the job during the run. They are not single-use or bound to a runner.</p></li></ul><p>None of this is a claim about the ARTEX intrusions themselves. A vendor telling you its product would have stopped a breach it was not present for should make you check your wallet.</p><h2><b>What credential hygiene will not fix</b></h2><p>Most of the ARTEX activity sits outside credential management: web application exploitation, Kerberos attacks, web shells, and command and control. The FBI's guidance also covers reducing the external attack surface, strengthening application protections, and preserving evidence for response. A vault does nothing for an unpatched web app.</p><p>The facts here reflect the FLASH as published on November 13, 2026. They may change as investigations continue.</p><h2><b>Two actions to take before Today</b></h2><ol><li><p>Read <a href="https://www.ic3.gov/CSA/2026/261113.pdf"><u>FBI FLASH-20261113-001</u></a> and send the mitigations section to the person responsible for your CI/CD pipelines</p></li><li><p>Search your production JavaScript bundles for the string &quot;password.&quot; A hit is your first rotation ticket and your opening story at the next all-hands</p></li></ol><div style="margin: 1em 0 !important;"><h3>Secure hardcoded credentials</h3><p>Explore 1Password Developer Tools to learn how to help your team find exposed secrets and keep live credentials out of code and pipelines. </p><a href="https://www.1password.dev/">Explore 1Password Developer</a></div>]]></content:encoded>
+</item>
+<item>
+<title>Anthropic IPO</title>
+<link>https://mjtsai.com/blog/2026/11/19/anthropic-ipo/</link>
+<guid isPermaLink="false">2f796da00fae3af3</guid>
+<pubDate>Fri, 20 Nov 2026 00:17:22 +0000</pubDate>
+<author>Michael Tsai</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Michael Tsai rounds up Anthropic&amp;#x27;s IPO, a milestone for the AI industry shaping how software gets built. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Michael Tsai&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Anthropic (Hacker News): The shares are expected to begin trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol “ANT.” The offering is expected to close on November 20, 2026, subject to the satisfaction of customary closing conditions. Reuters (Hacker News): Anthropic notched a valuation of about $2 trillion in its […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Michael Tsai rounds up Anthropic&#x27;s IPO, a milestone for the AI industry shaping how software gets built. (score 7)<p>From <b>Michael Tsai</b>.</p><hr/><p><a href="https://www.anthropic.com/news/anthropic-prices-initial-public-offering">Anthropic</a> (<a href="https://news.ycombinator.com/item?id=50553843">Hacker News</a>):</p>
+<blockquote cite="https://www.anthropic.com/news/anthropic-prices-initial-public-offering">
+<p>The shares are expected to begin trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol &ldquo;ANT.&rdquo; The offering is expected to close on November 20, 2026, subject to the satisfaction of customary closing conditions.</p>
+</blockquote>
+
+<p><a href="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/">Reuters</a> (<a href="https://news.ycombinator.com/item?id=50562754">Hacker News</a>):</p>
+<blockquote cite="https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/">
+<p>Anthropic notched a valuation of about $2 trillion in its Nasdaq debut on Thursday, vaulting past SpaceX&rsquo;s massive June listing and capping a turbulent stretch for the AI sector that tested Wall Street&rsquo;s appetite for the technology.</p>
+<p>The early &#x200b;exuberance, however, partly faded, signaling volatility ahead as investors locked in quick gains and the main indexes retreated amid renewed jitters over the sector&rsquo;s outlook.</p>
+</blockquote>
+
+<p><a href="https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/">
+Russell Brandom</a>:</p>
+<blockquote cite="https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/">
+<p>In the early minutes of availability, shares were trading at $111.50, a 33% premium over the $83 IPO price.</p>
+<p>Set on Wednesday, the IPO price was already higher than the projected range set by the company, which anticipated a price between $70 and $78 per share. All told, the offering will raise over $81 billion, directed to a combination of employees and the company&rsquo;s own coffers.</p>
+</blockquote>
+
+<p>Previously:</p>
+<ul>
+<li><a href="https://mjtsai.com/blog/2026/11/02/anthropic-s-1/">Anthropic S-1</a></li>
+<li><a href="https://mjtsai.com/blog/2026/11/02/ed-zitrons-ai-predictions/">Ed Zitron&rsquo;s AI Predictions</a></li>
+<li><a href="https://mjtsai.com/blog/2026/06/16/spacex-acquires-xai-goes-public-acquires-cursor/">SpaceX Acquires xAI, Goes Public, Acquires Cursor</a></li>
+<li><a href="https://mjtsai.com/blog/2024/07/10/calling-ai-a-bubble/">Calling AI a Bubble</a></li>
+</ul>]]></content:encoded>
+</item>
+<item>
+<title>Apple is hiring engineers to build its own AI agent</title>
+<link>https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing</link>
+<guid isPermaLink="false">31b164284c830738</guid>
+<pubDate>Fri, 20 Nov 2026 00:17:22 +0000</pubDate>
+<author>The Verge</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Apple is staffing up to build an agent that uses apps and writes code, a big shift in its AI strategy. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That&amp;#x27;s according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Apple is staffing up to build an agent that uses apps and writes code, a big shift in its AI strategy. (score 7)<p>From <b>The Verge</b>.</p><hr/>
+    <p>Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That’s according to <a href="https://jobs.apple.com/en-us/details/200695488-0836/senior-engineering-manager-agentic-ai-proactive?team=SFTWR">a job listing</a> spotted <a href="https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding">by Bloomberg</a>, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant.</p>
+    <h1>Apple is hiring engineers to build its own AI agent</h1>
+    <p class="duet--article--dangerously-set-cms-markup cbn62fh cbn62fg _19wv7tca _19wv7tc1">Apple’s job listing describes an AI agent that can browse the web, work across apps, and call services.</p>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&amp;strip=all&amp;crop=0.13297872340425%2C0%2C99.734042553192%2C100&amp;w=2400" alt="DSC04239"/>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&amp;strip=all&amp;crop=0.13297872340425%2C0%2C99.734042553192%2C100&amp;w=2400" alt="DSC04239"/>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/author_profile_images/195810/EMMA_ROTH.0.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Emma Roth"/>
+    <p>An AI agent from Apple would put the iPhone maker in the running to compete with the likes of <a href="https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute">Meta’s Muse</a>, <a href="https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor">OpenAI’s Dots</a>, <a href="https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on">Anthropic’s Duet</a>, and <a href="https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free">Google’s Tasks</a>. Muse, ChatGPT, and Perplexity can already take control of a computer through their Mac apps, while <a href="https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use">Google just started letting Gemini</a> do the same.</p>
+    <p>Apple began rolling out its <a href="https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on">AI-upgraded Siri</a> in September, which you can use to ask questions about what’s on your screen, as well as perform actions across apps. It looks like Apple is <a href="https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic">planning to give Siri more agentic capabilities</a>, as a report from Bloomberg suggests the company could add the ability to rotate and crop images in Photos, or organize Safari tabs. This lines up with the company’s new job listing, which says the engineer will work closely with teams across its Siri, UI Frameworks, and Apple Foundation Models divisions.</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“People already do their most valuable work by moving fluidly between tools: a browser, a document, a terminal, an editor, a service,” the job listing says. “We’re building AI agents that can do the same… These agents plan and carry out multi-step tasks across apps, browsers, command lines, code, and APIs, and they can coordinate specialized sub-agents along the way.”</p>
+    <p><a href="https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps">With its upcoming iOS 27.3 update</a>, Apple is also giving developers the ability to integrate Siri AI into “all apps.” This is rolling out as part of a Developer Preview and will eventually allow Siri to perform tasks across a wider range of apps.</p>
+  ]]></content:encoded>
+</item>
+<item>
+<title>The Charge of the Light Brigade: Britain’s Most Glorious Disaster</title>
+<link>https://www.youtube.com/watch?v=DUmXYEFoy0g</link>
+<guid isPermaLink="false">22cceada39cead8c</guid>
+<pubDate>Fri, 20 Nov 2026 00:17:22 +0000</pubDate>
+<author>The Rest Is History</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; The Rest Is History on the Charge of the Light Brigade, a classic British military blunder. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Rest Is History&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Into the jaws of Death, Into the mouth of hell Rode the six hundred… Why did Baron Raglan feel pressured to perilously send his forces into battle against the Russians near Balaclava? How did a terrible misunderstanding see Lord Lucan pass on a command to his rival Lord Cardigan, which would send his men riding into a death trap of gunfire? And, how did the Charge of the Light Brigade unfold…? Join Tom and Dominic as they reach the climactic conclusion of their mighty charge through the Crimean &lt;/p&gt;</description>
+</item>
 <item>
 <title>A Wet Transition for the Pacific Northwest</title>
 <link>https://cliffmass.blogspot.com/2026/11/a-wet-transition-for-pacific-northwest.html</link>
@@ -5819,728 +6093,5 @@ As things stand, HomeView is not sold in the European Union because Siri AI is c
     <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">I don’t think Duet or any other AI agent is quite ready to make us feel like we’re all the CEOs of our own little worlds. There’s a key word in the title “personal assistant”: personal. A person can pick up on nuances in tone to understand what’s a big deal and what isn’t. A person will pick up on communication norms and deploy them sensibly. A person can be tactful. Anthropic’s blog post mentions that the company is continuing to “test its judgment about when to message you,” so it’s possible Duet will calibrate a little better over time. But AI overall isn’t good at understanding nuance or tone, and it’s not clear if it ever will be.</p>
     <p>For me, Duet made it a little more clear what I want AI to do for me and what I don’t. Communication happens all over the place in a modern workplace — in emails, DMs, meetings, shared docs. Having AI find discrepancies that have been overlooked between all of these sources and point them out proactively is really helpful. I like it as a backstop for my own organizational systems, not as a replacement for them. I don’t like it in the creative process. Like, at all. I want to find “my own ways into and around a topic,” <a href="https://www.reddit.com/r/nerdfighters/comments/1vbmoj5/comment/p0vzmog/">as Hank Green said of his own reliance on AI</a>. If you send a robot to do the legwork, you miss the opportunity to stumble across something unexpected. It’s part of what makes the work enjoyable. And I’m certainly not about to let an agent review itself for me. You hear that, Duet?</p>
   ]]></content:encoded>
-</item>
-<item>
-<title>Apple Explains How HomeView Keeps Camera Data Private</title>
-<link>https://www.macrumors.com/2026/11/12/apple-homeview-secure-exclaves/</link>
-<guid isPermaLink="false">f7097327c64ce32c</guid>
-<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
-<author>MacRumors: Mac News and Rumors - All Stories</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Apple details how Secure Exclaves isolate camera and mic data on HomeView and iPhone, right in your security wheelhouse. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacRumors: Mac News and Rumors - All Stories&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Apple today shared an in-depth look at how it&amp;#x27;s using Secure Exclaves to protect camera and microphone data on the HomeView, iPhone 18 Pro , and other products. Apple describes Secure Exclaves as compartmentalized runtimes that process camera and microphone data while isolated from the rest of the operating system. Data processed in Secure Exclaves is not available to the rest of the OS, apps, or Apple, but processing can take advantage of the full application processor. Secure Exclaves power se&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Apple details how Secure Exclaves isolate camera and mic data on HomeView and iPhone, right in your security wheelhouse. (score 8)<p>From <b>MacRumors: Mac News and Rumors - All Stories</b>.</p><hr/>Apple <a href="https://security.apple.com/blog/secure-exclaves/">today shared</a> an in-depth look at how it's using Secure Exclaves to protect camera and microphone data on the HomeView, <a href="https://www.macrumors.com/roundup/iphone-18-pro/">iPhone 18 Pro</a>, and other products.
-<br />
-
-<br />
-<img alt="" class="aligncenter size-full wp-image-1070618" height="1406" src="https://images.macrumors.com/article-new/2026/10/Apple-HomeView-lineup-feature5.jpg" width="2500" />
-<br />
-Apple describes Secure Exclaves as compartmentalized runtimes that process camera and microphone data while isolated from the rest of the operating system. Data processed in Secure Exclaves is not available to the rest of the OS, apps, or Apple, but processing can take advantage of the full application processor. Secure Exclaves power sensitive features involving video and audio feeds:
-<br />
-<ul>
-<br />
- 	<li><strong>HomeView</strong> - The HomeView uses facial and voice recognition to identify up to six people in a home. The exclave also protects the LED camera indicator on the device.</li>
-<br />
- 	<li><strong>Siri Recap and Live Rewind</strong> - Record ambient sound for conversation recaps or to caption the last 15 seconds of someone speaking.</li>
-<br />
- 	<li><strong>iPhone 18 Pro/iPhone Duo</strong> - Protects the &zwnj;iPhone 18 Pro&zwnj;, Pro Max, and Duo on-screen camera and microphone indicators. Also works with "Hey <a href="https://www.macrumors.com/guide/siri/">Siri</a>" to protect voice data.</li>
-<br />
- 	<li><strong>MacBook Neo</strong> - Protects the <a href="https://www.macrumors.com/roundup/macbook-neo/">MacBook Neo</a> camera indicator.</li>
-<br />
-</ul>
-<br />
-Apple uses the HomeView as an example of how Secure Exclaves work. The device performs passive minimal visual processing continually to detect whether a person is in its field of view. The HomeView sends a continuous stream of camera frames to a camera exclave, which works alongside a person recognition exclave with face and voice recognition models and an identity database. When a person comes into view, the camera exclave detects the person and lets the main OS know that a person may be present, but no image data leaves the Secure Exclave. An audio exclave does the same thing with audio.
-<br />
-
-<br />
-The person recognition exclave matches face and voice prints against the identity database of enrolled users, giving a confidence score. The OS gets the person identifier, position, and confidence level, but not any of the actual audio or video. These simple signals are used to activate personal features like Calendar and Messages that depend on identity, with raw sensor data discarded.
-<br />
-
-<br />
-Secure Exclaves came about because Apple needed a secure option for ambient video and microphone monitoring, with the groundwork laid starting in iOS 18. Apple devices use indicators for situations where the camera and microphone are actively engaged, but Apple says they weren't ideal for ambient sensing because they would be on all the time. Always-on lights wouldn't give users a way to distinguish between background sensing and active audio and video recording.
-<br />
-
-<br />
-There are two modes for a Secure Exclave: ambient mode and active mode. In ambient mode with no indicator, a sensor can respond to triggers, but it only shares small amounts of metadata with the rest of the system. In active mode, full sensor data is given to the operating system, and an indicator informs the user that the system has audio and video access.
-<br />
-
-<br />
-Apple has long used indicators, but they are now backed by Secure Exclaves. Secure Exclaves make sure an indicator is active before data is allowed to be transferred from the exclave to the rest of the OS.
-<br />
-
-<br />
-Apple built an isolated computing environment that could handle ambient sensing, and the company says isolating memory for Secure Exclaves was a "serious engineering challenge." Full technical details on the process <a href="https://security.apple.com/blog/secure-exclaves/">can be found on Apple's security website</a>.<div class="linkback">Related Roundup: <a href="https://www.macrumors.com/roundup/apple-homeview/">Apple HomeView</a></div><div class="linkback">Buyer's Guide: <a href="https://buyersguide.macrumors.com/#HomeView">HomeView (Buy Now)</a></div><div class="linkback">Related Forum: <a href="https://forums.macrumors.com/forums/homepod-homeview-carplay-–-home-auto-tech.193">HomePod, HomeView, CarPlay – Home & Auto Tech</a></div><br />This article, &quot;<a href="https://www.macrumors.com/2026/11/12/apple-homeview-secure-exclaves/">Apple Explains How HomeView Keeps Camera Data Private</a>&quot; first appeared on <a href="https://www.macrumors.com">MacRumors.com</a><br /><br /><a href="https://forums.macrumors.com/threads/apple-explains-how-homeview-keeps-camera-data-private.2494273/">Discuss this article</a> in our forums<br /><br />]]></content:encoded>
-</item>
-<item>
-<title>The Dream of Quibi Lives On</title>
-<link>https://daringfireball.net/linked/2026/11/12/the-dream-of-quibi-lives-on</link>
-<guid isPermaLink="false">e4cbfe78f4c6f705</guid>
-<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
-<author>Daring Fireball</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A quick, funny Gruber jab at corporate jargon, classic Daring Fireball whimsy. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Actual headline from an actual press release: “Peacock Extends Its Vertical Video Leadership With a Reimagined Mobile Experience”. Please tell me that someone printed up some t-shirts and hats with “Vertical Video Leadership” on them. Link: nbcuniversal.com/article/peacock-extends-its-vertical-video…&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> A quick, funny Gruber jab at corporate jargon, classic Daring Fireball whimsy. (score 7)<p>From <b>Daring Fireball</b>.</p><hr/>
-    <p>By John Gruber</p>
-    <p><a href="https://www.workos.com/airlock?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026">WorkOS</a>: Let agents use your tools without giving them free rein.</p>
-    <ul>
-      <li>
-        <a href="https://www.nbcuniversal.com/article/peacock-extends-its-vertical-video-leadership-reimagined-mobile-experience">The Dream of Quibi Lives On</a>
-      </li>
-      <li>
-<p>Actual headline from an actual press release: “Peacock Extends Its Vertical Video Leadership With a Reimagined Mobile Experience”. Please tell me that someone printed up some t-shirts and hats with “Vertical Video Leadership” on them.</p><p>★ Thursday, 12 November 2026</p></li>
-    </ul>
-  ]]></content:encoded>
-</item>
-<item>
-<title>Reuters Raises the Jensen Huang Affair Tally to Three</title>
-<link>https://daringfireball.net/linked/2026/11/12/reuters-third-woman</link>
-<guid isPermaLink="false">39ec089629776c20</guid>
-<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
-<author>Daring Fireball</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Gruber&amp;#x27;s take on the biggest tech story of the week as Reuters reports a third relationship. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Reuters: Ousted Nvidia CEO Jensen Huang had an intimate relationship with a second employee, according to two people familiar ​with the matter, Reuters has ​learned. The revelation follows two other extramarital affairs that led to his resignation ​Thursday. The two women are Alice Huang, ​who US intelligence suspects of being a Chinese spy, and Kimberly Powell, Nvidia’s vice ​president of health care. Reuters is not ​naming the second employee. Attempts to reach the woman were not successful. W&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Gruber&#x27;s take on the biggest tech story of the week as Reuters reports a third relationship. (score 7)<p>From <b>Daring Fireball</b>.</p><hr/>
-    <p>By John Gruber</p>
-    <p><a href="https://www.workos.com/airlock?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026">WorkOS</a>: Let agents use your tools without giving them free rein.</p>
-    <ul>
-      <li>
-        <a href="https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/">Reuters Raises the Jensen Huang Affair Tally to Three</a>
-      </li>
-      <li>
-<p>Reuters:</p><p>Ousted Nvidia CEO Jensen Huang had an intimate relationship with a second employee, according to two people familiar ​with the matter, Reuters has ​learned.</p><p>The revelation follows two other extramarital affairs that led to his resignation ​Thursday. The two women are Alice Huang, ​who US intelligence suspects of being a Chinese spy, and Kimberly Powell, Nvidia’s vice ​president of health care.</p><p>Reuters is not ​naming the second employee. Attempts to reach the woman were not successful.</p><p>What’s the over-under at? If it’s 4.5, I’ll take the over.</p><p>★ Thursday, 12 November 2026</p></li>
-    </ul>
-  ]]></content:encoded>
-</item>
-<item>
-<title>Apple HomeView Review Roundup: Simple, Charming, and Built for Apple Users</title>
-<link>https://www.macstories.net/news/apple-homeview-review-roundup-simple-charming-and-built-for-apple-users/</link>
-<guid isPermaLink="false">6b055650d6b4f6bf</guid>
-<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
-<author>MacStories</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; MacStories rounds up HomeView reviews, the best single read on Apple&amp;#x27;s new home product. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacStories&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Source: Apple. Apple HomeView reviews are out and it looks like a winner, especially for people already using other Apple products. Let’s look at what folks are saying. Jennifer Pattison Tuohy, writing for The Verge, has what I consider the highest praise of all, saying that the HomeView is “powerful enough to run my smart […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> MacStories rounds up HomeView reviews, the best single read on Apple&#x27;s new home product. (score 7)<p>From <b>MacStories</b>.</p><hr/><div class="media-wrapper"><img alt="Source: Apple." src="https://cdn.macstories.net/images/uploads/2026/11/12/apple-homeview-collection-of-faces-261013-1794513789318-d190e0e321.jpg" /><p class="image-caption">Source: Apple.</p></div>
-<p id="p2">Apple HomeView reviews are out and it looks like a winner, especially for people already using other Apple products. Let’s look at what folks are saying.</p>
-<p id="p3"><a href="https://www.theverge.com/tech/1031726/apple-homeview-review-smart-display-homekit" rel="noopener noreferrer">Jennifer Pattison Tuohy</a>, writing for The Verge, has what I consider the highest praise of all, saying that the HomeView is “powerful enough to run my smart home but simple enough for anyone in it to use.” That’s no small feat. Smart home complexity rises quickly the more devices you have, so it’s great to hear the HomeView seems simple enough for those in a household who care the least about automation. At the same time, though, Pattison Tuohy found user authentication to be clunky at times and ran into situations where personal information like text messages was left available for another person to view after they walked away from the device. Ultimately, The Verge gave the HomeView a 7 out of 10.</p>
-<p id="p4"><a href="https://www.engadget.com/2313999/apple-homeview-review/" rel="noopener noreferrer">Billy Steele at Engadget</a> gave the HomeView an 8.4/10. Steele was impressed with the device’s design, colorful screen, and great sound, but had some reservations about its dependence on an iPhone or iPad. He also concluded that it isn’t a good option for watching videos.</p>
-<div class="media-wrapper"><img alt="Source: Apple." src="https://cdn.macstories.net/images/uploads/2026/11/12/apple-homeview-wall-mounted-261013-1794513791502-c895976234.jpg" /><p class="image-caption">Source: Apple.</p></div>
-<p id="p6"><a href="https://www.techradar.com/home/smart-home-hubs/apple-homeview-review" rel="noopener noreferrer">Jacob Krol at TechRadar</a> gave the HomeView 4/5 stars, coming away from the experience appreciating the fact that the HomeView is not another entertainment screen, praising it for its customizable faces, FaceTime integration, and sound system. The counterweight to Krol is <a href="https://www.tomsguide.com/home/smart-home/apple-homeview-review" rel="noopener noreferrer">Mike Prospero’s review for Tom’s Guide</a>. Prospero gave the HomeView 2.5/5 stars, lamenting the fact that the HomeView <em>isn’t</em> a small TV. Prospero expected more from Apple’s new device, but still came away impressed with its interface, hardware, and iPhone integration.</p>
-<p id="p7"><a href="https://9to5mac.com/2026/11/12/apple-homeview-review-an-adorable-smart-display-that-earns-its-place/" rel="noopener noreferrer">Chance Miller, 9to5Mac’s editor-in-chief</a>, declared the HomeView adorable. Chance set up a HomeView in his kitchen and found that “It’s gone from being a nice-to-have to something I use and rely on for multiple tasks each day,” for things like timers, recipes, music, photos, and Siri requests.</p>
-<p id="p8"><a href="https://sixcolors.com/post/2026/11/homeview-review-a-late-arrival-with-promise-but-still-showing-some-seams/" rel="noopener noreferrer">Jason Snell at Six Colors</a> concludes that the HomeView is an improvement over offerings from Google and Amazon, but he also found the device’s lack of flexibility constraining. Arguably that structure is a feature, not a bug, but I get it. We’re all used to getting more than the HomeView offers when we tap a screen from Apple.</p>
-<p id="p9">Finally, <a href="https://www.youtube.com/watch?v=2dEIBqwrTbc" rel="noopener noreferrer">Brian Tong’s video review</a> explored the HomeView from the perspective of someone already using smart home devices from Google, Amazon, and others. For Tong, it was hard to justify yet another such device, especially since it lacks an App Store and has limited video support. Still, he found it a useful and fun accessory for Apple users.</p>
-<hr id="hr10" /><p id="p11">As someone who has been on the fence about the HomeView from the start, I’m more intrigued than before, especially after having seen it in action in Jennifer Pattison Tuohy’s video and reading Chance Miller’s review. Having a centralized place to control devices, play music, display photos, check calendars and messages, and ask Siri questions are all appealing use cases. Perhaps I’ll give the HomeView a try sometime soon after all.</p>]]></content:encoded>
-</item>
-<item>
-<title>New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access</title>
-<link>https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html</link>
-<guid isPermaLink="false">381ae85437c3cd7d</guid>
-<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
-<author>The Hacker News</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A public SYSTEM exploit that abuses a Windows CLFS security feature matters to a Microsoft security PM. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> A public SYSTEM exploit that abuses a Windows CLFS security feature matters to a Microsoft security PM. (score 7)<p>From <b>The Hacker News</b>.</p><hr/>
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-9BW-gpid0fJ4GJSsWoqjYl5qF_EdYchTcxeNjFfMV-MCcvSRTs-rAmiHKNX3M2dr66bJcfUelNR5CR9g-JLKPkMrROsqrM6hf563hIMklj5v08uYDtEp7pdYPcs5Y5TEGxgTWTHDG_Q-L8Tbq12yo57xp0GOlYk8g05nU3peuA_kedIXtggnakiiCGM/s1600/signdrop.jpg"/>
-    <p>Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver.</p>
-    <p>The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of the operation. Microsoft has not confirmed the claimed flaw, assigned a CVE, or released a fix.</p>
-    <p>The researcher behind the exploit, who publishes under the name MSNightmare, released the code and a detailed writeup on GitHub on Tuesday, the same day the company published its November security updates.</p>
-    <p>CLFS is a logging subsystem built into Windows. Its driver has been a frequent target for privilege escalation: 10 CLFS flaws appear in CISA's catalog of vulnerabilities known to have been exploited in attacks, including one used in ransomware campaigns in April 2025.</p>
-    <p>To reduce that exposure, Microsoft added an authentication check to CLFS log files in updates for Windows 11 25H2, 26H1, and Windows Server 2025 shipped in October 2025. The check attaches a hash-based message authentication code, built from log data and a key unique to each machine.</p>
-    <p>The driver then parses only log files it wrote. A companion .cnpf file stores recovery data beside each log and is created with the same security attributes as the original, according to the company's <a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/clfs-authentication">logfile authentication</a> page.</p>
-    <p>SignDrop targets the creation of that companion file. According to the <a href="https://github.com/MSNightmare/SignDrop">proof-of-concept code</a>, a standard user prepares a CLFS log and container with paths the user controls. When a privileged process later opens that log, the driver creates the .cnpf file in the privileged process's security context rather than the user's.</p>
-    <p>The exploit uses object manager symbolic links to redirect that file creation to a location the attacker chooses. In the published code, the privileged process is the Defender antimalware service, triggered through its update interface.</p>
-    <p>"Everything is done properly by Microsoft here but the logic allows abuse," the researcher wrote.</p>
-    <p>
-      <a href=""/>
-    </p>
-    <p>Because the .cnpf file inherits the original log's permissions, the result is a file created as SYSTEM that the standard user can write to. The researcher says that can be chained into a SYSTEM shell.</p>
-    <p>The exploit was tested on Windows 11 26H2, a Windows 11 26H2 Experimental build, and Windows Server 2025 Experimental, according to the repository. Systems are affected when the CLFS authentication registry mode is set to 0 (enforced) or 1 (learning). Systems older than 90 days typically move from learning to enforcement automatically, so the default configuration on established installations is the one the exploit targets.</p>
-    <p>A registry value of 2 or 3 means the mitigation is disabled. That takes the system outside the claimed attack surface, but the researcher and the driver's own documentation both warn against it: disabling lets CLFS parse tampered log files, reopening the memory corruption flaws the protection was built to prevent.</p>
-    <h3>Independent Test</h3>
-    <p>Sungyup Nam, head of research at Korean security firm 78researchlab, reported in a <a href="https://www.linkedin.com/pulse/20261112-%EB%AA%A8%EB%8B%9D%EB%B3%B4%EC%95%88%EA%B8%B0%EC%88%A0kren-sungyup-nam-z2wmc/">published assessment</a> today that researcher Heewon Song of the firm's PurpleHound offensive content team tested the exploit and found that it works. Song assessed that it does not run reliably enough for operational use, Nam wrote.</p>
-    <p>Defender must be enabled for the published chain to succeed. Running the exploit changes every UAC prompt to open a standard user shell and a SYSTEM shell, blocking other actions and making the attack noticeable to anyone at the machine.</p>
-    <p>The repository claims the technique can work against any antimalware engine whose process runs with elevated privileges. That broader claim has not been tested.</p>
-    <h3>What Defenders Can Do</h3>
-    <p>No CVE, advisory, or patch for SignDrop appeared in the November security updates. The CISA Known Exploited Vulnerabilities catalog does not list it, and no attacks using the exploit have been reported.</p>
-    <p>Administrators can check their exposure by reading the CLFS authentication mode at HKLM\SYSTEM\CurrentControlSet\Services\CLFS\Authentication, where a Mode value of 0 or 1 falls within the researcher's claimed scope. The vendor's <a href="https://support.microsoft.com/en-us/servicing/os/windows/2025/03/common-log-file-system-clfs-authentication-mitigation">mitigation guidance</a> describes the setting and the risks of disabling it.</p>
-    <p>The researcher has released a series of exploits targeting Windows and Defender since April. The vendor confirmed an <a href="https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html">earlier Defender exploit</a> called RoguePlanet in June as CVE-2026-50656 and patched it the following month.</p>
-    <p><a href="https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html">The ShieldBreak bypass</a> followed in August and was assigned CVE-2026-69414. Three of the researcher's earlier Defender flaws have been exploited in attacks.</p>
-    <p>SignDrop is a different class of issue. Where the earlier exploits targeted race conditions in Defender's file handling, this one targets the CLFS driver's own authentication feature. The vendor's <a href="https://msrc.microsoft.com/update-guide">security update guide</a> is the place to watch for a response.</p>
-    <p><a href="https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ">Google News</a>,</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>Tim Peters, RIP</title>
-<link>https://mjtsai.com/blog/2026/11/12/tim-peters-rip/</link>
-<guid isPermaLink="false">1b92d8e031d1411c</guid>
-<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
-<author>Michael Tsai</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Michael Tsai remembers Tim Peters, author of the Zen of Python and a giant of engineering craft. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Michael Tsai&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Guido van Rossum (Hacker News): I am immensely sad to announce that Tim Peters has died earlier this year on July 15. It’s hard to overestimate Tim’s influence on Python. He’s probably best known for writing the Zen of Python (PEP 20), but to me he was a mentor and language co-designer long before that. […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Michael Tsai remembers Tim Peters, author of the Zen of Python and a giant of engineering craft. (score 7)<p>From <b>Michael Tsai</b>.</p><hr/><p><a href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028">Guido van Rossum</a> (<a href="https://news.ycombinator.com/item?id=50450488">Hacker News</a>):</p>
-<blockquote cite="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028">
-<p>I am immensely sad to announce that <a href="https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)">Tim Peters</a> has <a href="https://www.bratleyfamilyfuneralhomes.com/obituary/timothy-peters">died</a> earlier this year on July 15.</p>
-<p>It&rsquo;s hard to overestimate Tim&rsquo;s influence on Python. He&rsquo;s probably best known for writing the Zen of Python (<a href="https://peps.python.org/pep-0020/">PEP 20</a>), but to me he was a mentor and language co-designer long before that.</p>
-<p>Tim found Python not long after its initial release. His first deed was to convince me that Python should support mixed arithmetic between <code>int</code> and <code>float</code>, because most users would expect them to work that way. And he never stopped contributing.</p>
-</blockquote>
-
-<p><a href="https://blog.adafruit.com/2026/11/11/tim-peters-python-user-2-and-prolific-contributor-has-died/">Anne Barela</a> (<a href="https://developers.slashdot.org/story/26/11/11/2318211/tim-peters-python-user-2-and-prolific-contributor-dies-at-74">Slashdot</a>):</p>
-<blockquote cite="https://blog.adafruit.com/2026/11/11/tim-peters-python-user-2-and-prolific-contributor-has-died/">
-<p>He was a director of the Python Software Foundation from 2001 to 2014. Before Python, he wrote compilers at Cray Research and speech-to-text software at Dragon Systems.</p>
-</blockquote>
-
-<p><a href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028/25">David Mertz</a>:</p>
-<blockquote cite="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028/25"><p>Brett famously commented many years ago that he <em>came for the language, but stayed for the community</em> &#8230; for me it was the reverse, I came for the community, and stayed for the language.  That community was in very large measure defined by Uncle Timmy&rsquo;s kindness and wit.</p>
-<p>[&#8230;]</p>
-<p>Python luminary and erstwhile professor of numeric computing Alex Martelli
-commented in 2001 (on &lsquo;&lt;comp.lang.python&gt;&rsquo;):</p>
-<blockquote><p>Anybody who thinks he knows what he&rsquo;s doing when floating
-point is involved IS either naive, or Tim Peters (well, it
-COULD be W. Kahan I guess, but I don&rsquo;t think he writes here).</p>
-</blockquote>
-<p>Fellow Python guru Tim Peters observed:</p>
-<blockquote><p>I find it&rsquo;s possible to be both (wink).  But <em>nothing</em> about
-fp comes easily to anyone, and even Kahan works his butt off
-to come up with the amazing things that he does.</p></blockquote>
-</blockquote>
-
-<p><a href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028/12">Neil Schemenauer</a>:</p>
-<blockquote cite="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028/12"><p>I poked around at Python 2.4, since that seems a good version to show off the things he worked on.  His contributions were all over the codebase but I&rsquo;ll point out a few that stand out to me.  <a href="https://github.com/python/cpython/blob/v2.4/Objects/obmalloc.c">pymalloc</a> was contributed by Vladimir Marangozov but it was Tim who polished it to diamond-like form.  A memory allocator is one of those things where it is impossible to have something completely optimal; you always make tradeoffs.  Tim&rsquo;s special contribution in that unit is <code>Py_ADDRESS_IN_RANGE</code>.  It is well commented, if you want to understand how it works.  Technically, it relies on undefined behavior but Tim figured it should work in practice.  It did so for many years.</p>
-<p>[&#8230;]</p>
-<p>Speaking of Knuth, the <a href="https://github.com/python/cpython/blob/v2.4/Objects/dictobject.c">dict object</a> algorithms were heavily optimized by Tim.  The C file contains lots of comments.  He also wrote <a href="https://github.com/python/cpython/blob/v2.4/Objects/dictnotes.txt">dictnotes</a>, which is a good example of his technical writing.  Another example is <a href="https://github.com/python/cpython/blob/v2.4/Modules/gc_weakref.txt">weakref.txt</a>, which I think Tim wrote after fixing a particularly difficult GC bug revealed by ZODB (while working at Zope Corp).</p>
-<p>On the topic of GC, the initial version of the cyclic garbage collector was written by me, merged before the 2.0 release.  It was Tim who polished it into robust and well-performing shape.  Likewise, I wrote the initial version of &ldquo;simple generators&rdquo; but it was Tim who put them on solid foundation, both the PEP and the implementation.</p></blockquote>
-
-<p><a href="https://www.reddit.com/r/Python/comments/1xt65ah/tim_peters_has_passed_away/">ExoticMandibles</a>:</p>
-<blockquote cite="https://www.reddit.com/r/Python/comments/1xt65ah/tim_peters_has_passed_away/">
-<p>He invented a new sorting algorithm (&ldquo;Timsort&rdquo;); a descendent of it (&ldquo;PowerSort&rdquo;) is still used in Python today, as well as in Java, and several Javascript runtimes (Chrome, Node).</p>
-</blockquote>
-
-<p><a href="https://pyfound.blogspot.com/2018/07/the-happy-medium-distinguished-service.html">Python Software Foundation</a>:</p>
-<blockquote cite="https://pyfound.blogspot.com/2018/07/the-happy-medium-distinguished-service.html">
-<p>In Guido van Rossum&rsquo;s estimation, Peters&rsquo;s biggest contribution to the community has been his years of answering questions and guiding debates on the Python mailing list, writing each message precisely and cheerfully. PSF director Thomas Wouters agrees: &ldquo;Tim is just never flustered. He always takes it in good humor and it definitely has an effect on everyone else, as well.&rdquo; Even an experienced developer like Carol Willing says that when she sees a post from Peters on a topic she knows, she&rsquo;ll take the time to read it for new insights or new ways of explaining.</p>
-</blockquote>]]></content:encoded>
-</item>
-<item>
-<title>Microsoft Outlook is still down</title>
-<link>https://www.theverge.com/tech/1032226/microsoft-outlook-is-down</link>
-<guid isPermaLink="false">787f46fc5425383a</guid>
-<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
-<author>The Verge</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A long global Outlook outage is Microsoft news you&amp;#x27;ll hear about at work. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Since just before 1PM ET on Thursday, reports have come in from around the world that people can&amp;#x27;t access their Outlook email, either through the web or apps. Microsoft quickly acknowledged the issue from its Microsoft 365 Status account, saying that &amp;quot;We&amp;#x27;ve determined a portion of infrastructure is experiencing elevated load across multiple regions, which […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> A long global Outlook outage is Microsoft news you&#x27;ll hear about at work. (score 7)<p>From <b>The Verge</b>.</p><hr/>
-    <p>Since just before 1PM ET on Thursday, reports have come in from around the world that people can’t access their Outlook email, either through the web or apps. Microsoft quickly acknowledged the issue <a href="https://x.com/MSFT365Status/status/2120948642991182117">from its Microsoft 365 Status account</a>, saying that “We’ve determined a portion of infrastructure is experiencing elevated load across multiple regions, which is likely contributing to the connectivity errors.”</p>
-    <h1>Microsoft Outlook is still down</h1>
-    <p class="duet--article--dangerously-set-cms-markup cbn62fh cbn62fg _19wv7tca _19wv7tc1">Microsoft 365 issues have been cutting people off from their email since early Thursday afternoon, and they still aren’t fixed.</p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_B_66565e.jpg?quality=90&amp;strip=all&amp;crop=0.0058823529411782%2C0%2C99.988235294118%2C100&amp;w=2400" alt="STK153_MICROSOFT_OUTLOOK_B_66565e"/>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_B_66565e.jpg?quality=90&amp;strip=all&amp;crop=0.0058823529411782%2C0%2C99.988235294118%2C100&amp;w=2400" alt="STK153_MICROSOFT_OUTLOOK_B_66565e"/>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/RICHARD_BLURPLE.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Richard Lawler"/>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">There were also some reports of problems with Teams, but not to the same extent, while Microsoft’s official updates said customers may experience issues across its suite of 365 business services. Microsoft comms director Ben Hope said in a statement that “We are aware and investigating reports of users experiencing issues with Microsoft 365 services, primarily issues with Exchange Online. We appreciate our customers’ patience while we work to restore services as soon as possible.”</p>
-    <p>Several hours later, Microsoft has <a href="https://status.cloud.microsoft/m365/referrer=serviceStatusRedirect">gone through several variations of update notes</a> regarding the issues and its attempts to fix them, saying it’s had problems rebooting servers and being able to monitor their health. As of about 6PM ET, Microsoft has a note saying it’s managed to get some of the affected servers running:</p>
-    <blockquote>
-      <p>We’ve begun returning a portion of the affected servers to service, and they’re remaining stable so far. We’ve also shifted traffic and connections to alternative pathways wherever possible and have observed limited recovery in some regions.</p>
-      <p>We’ve streamlined our recovery process to expedite returning the remaining affected servers to service. To further support recovery, we’re implementing protective traffic management measures in a specific location to reduce load on the affected infrastructure, and we’ll expand these measures to additional locations if we observe positive results. As capacity is restored, users may experience a gradual recovery as their clients reconnect to the service.</p>
-    </blockquote>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">There’s still no ETA for full restoration, but we will continue to monitor this ongoing outage.</p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-12-at-2.01.16-PM.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=2400" alt="User impact: Users may be unable to connect to multiple Microsoft 365 services.More info: Potentially impacted services include:Exchange OnlineMicrosoft TeamsSharePoint OnlineMicrosoft Copilot 365Microsoft Defender XDRCurrent status: We’ve completed redistributing connection traffic across our worldwide infrastructure, and we’re moving additional traffic off the affected infrastructure to further reduce load. We’re also restarting affected servers to return them to service. In parallel, we’re investigating whether the elevated traffic reflects a genuine increase in requests or a shift in how traffic is being routed across our infrastructure."/><p><em>User impact: Users may be unable to connect to multiple Microsoft 365 services.More info: Potentially impacted services include:Exchange OnlineMicrosoft TeamsSharePoint OnlineMicrosoft Copilot 365Microsoft Defender XDRCurrent status: We’ve completed redistributing connection traffic across our worldwide infrastructure, and we’re moving additional traffic off the affected infrastructure to further reduce load. We’re also restarting affected servers to return them to service. In parallel, we’re investigating whether the elevated traffic reflects a genuine increase in requests or a shift in how traffic is being routed across our infrastructure.</em></p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Update, 6:23PM ET: Added latest status update from Microsoft.</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>No, AI agents did not discover a previously unknown Maya site</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery</link>
-<guid isPermaLink="false">6c7e904c7f4dad8a</guid>
-<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
-<author>The Verge</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A useful cautionary tale about AI agents overclaiming research discoveries. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> A useful cautionary tale about AI agents overclaiming research discoveries. (score 7)<p>From <b>The Verge</b>.</p><hr/>
-    <p>Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which <a href="https://bsky.app/profile/indyfromspace.bsky.social/post/3n2235hwwsk2m">sparked criticism</a> among archeologists online, underscores a growing tension in science as amateurs wielding increasingly powerful AI tools parachute into specialist fields, often without the expertise needed to understand what they are looking at.</p>
-    <h1>No, AI agents did not discover a previously unknown Maya site</h1>
-    <p class="duet--article--dangerously-set-cms-markup cbn62fh cbn62fg _19wv7tca _19wv7tc1">Scientists are getting tired of amateurs parachuting into their fields and making ‘discoveries’ with AI.﻿</p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/maya-sites.jpg?quality=90&amp;strip=all&amp;crop=0.23099489795919%2C0%2C74.713010204082%2C100&amp;w=2400" alt="maya-sites"/>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/maya-sites.jpg?quality=90&amp;strip=all&amp;crop=0.23099489795919%2C0%2C74.713010204082%2C100&amp;w=2400" alt="maya-sites"/>
-    <p>
-      <a href="http://pietromiotti.com/latest/maya-site/">Pietro Miotti</a>
-    </p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/ROB_H_BLURPLE.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Robert Hart"/>
-    <p class="duet--article--dangerously-set-cms-markup c39lj12 _19wv7tc9">Local communities are often already well aware of sites in their area.</p>
-    <p>Miotti <a href="https://pietromiotti.com/latest/maya-site/">said</a> the idea to use AI to search for archeological sites came to him while traveling in Peru, when he began wondering what historic explorers might do with access to modern technology. He settled on lidar, a laser-based mapping technology that can produce detailed three-dimensional images of the environment, and set a team of 48 AI agents to comb through NASA lidar data for signs of undocumented sites. As “Peru isn’t well covered” by public lidar data, Miotti wrote, he shifted his focus to the Maya region.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">The agents flagged numerous promising locations, including “one major village [that] doesn’t seem to have been registered” in existing records. Miotti, who described the research to The Verge as a personal side project done without any Google compute or resources, said he then reached out to Mexico’s National Institute of Anthropology and History (INAH) to check whether the apparent discovery was already known, including through unpublished research. Using the agents to translate his correspondence into Spanish, Miotti said INAH told him it had no record of a registered site at that location.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“It took less than 72 hours to go from a random thought while traveling to an official reply from the Mexican government. This is by far the best time ever to be alive,” Miotti wrote on his blog.</p>
-    <p>Miotti stressed that he is not an archeologist and emphasized that the finding would need to be verified with fieldwork. Nevertheless, he hailed it as proof that “we’re on the brink of a revolution across every science” and called for the “entire planet” to be mapped with lidar so AI agents could “help us find the rest.” Had he been an archaeologist familiar with the region, however, Miotti might have spotted a problem: The site was already known, and had been <a href="https://www.sciencedirect.com/science/article/pii/S2352409X25003219">documented</a> in an academic journal more than a year earlier.</p>
-    <p class="duet--article--dangerously-set-cms-markup c39lj12 _19wv7tc9">“I didn’t expect it to get this much attention.”</p>
-    <p>Archeologists were quick to point out the oversight on social media. In a series of <a href="https://bsky.app/profile/indyfromspace.bsky.social/post/3n2235hwwsk2m">posts</a> on Bluesky, Sarah Parcak, an archeology professor at the University of Alabama at Birmingham, stressed the importance of carefully checking findings against existing research. “This is why we have peer review,” Parcak wrote, adding that just because the Mexican government doesn’t have something in its database doesn’t mean it is unknown or unmapped. Other archeologists <a href="https://bsky.app/profile/anisekstrong.bsky.social/post/3n225eyyh6k27">echoed</a> her criticism, slamming the project for spreading misinformation and taking credit away from archeologists, who have been using advanced digital tools in their work for decades.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“This was a personal project that I was excited to share,” Miotti told The Verge. “I didn’t expect it to get this much attention.” He added that as a non-archaeologist, he had not realized a site not being registered wasn’t the same as it not having been mapped, adding that expert knowledge “is needed to verify what the agents find.” He also addressed the limits of his AI tools: “My agents and I missed it. Archaeologists rightly don’t publish the coordinates of sites, so checking whether a site is already known means comparing images against figures in papers, not searching a database. That’s much harder for agents, and it’s something these tools need to get better at. When people pointed it out, I updated the post and the blog as soon as I could to credit their work.”</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Nevertheless, Miotti said this was an example of how agents could be used to help experts sort through large amounts of data. He said he has been encouraged by the archaeologists and PhD students that he said were reaching out to him “excited about the workflow and wanting to know how it works and whether it could help with their own survey data.”</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“Our ‘problem’ is not discovering new sites,” Elizabeth Graham, a professor of Mesoamerican archaeology at University College London, told The Verge. “Most of us working in the Maya area know about tons of sites not explored or excavated or mapped, most of these found on foot,” she said. Graham also critiqued the use of the word “discover,” noting that local communities are often already well aware of sites in their area.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">While she credited Miotti with doing a decent job of using AI to map the mounds from lidar data — “the interpretation of lidar data can be tricky” — Graham argued the bigger obstacle is funding for research. “The fact is, there just isn’t the funding to excavate or map sites as there was in the past, so in a way it doesn’t matter how many more are ‘discovered.’”</p>
-    <p class="duet--article--dangerously-set-cms-markup c39lj12 _19wv7tc9">“Just spotting something does not add much to our knowledge.”</p>
-    <p>The controversy reflects a broader problem with AI in science, perhaps most visible with OpenAI’s <a href="https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution">recent advances</a> in <a href="https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos">mathematics</a>. While AI tools are increasingly capable of producing genuinely impressive results, they don’t always engage with the existing research those findings build upon. The result can be claimed breakthroughs that have, as is the case here, already been made by someone else, or a general <a href="https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun">failure to credit</a> <a href="https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data">earlier</a> work. Even when the findings are actually new, they can lack context a specialist would bring. Ultimately, amateur use of AI tools often ends up shifting the burden of establishing what has actually been found and why it matters to actual experts, work that would ordinarily be part of making a scientific discovery in the first place.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Ivan Šprajc, a professor of archaeology at the Research Centre of the Slovenian Academy of Sciences and Arts in Ljubljana and a coauthor of the paper documenting the site, told The Verge he wasn’t particularly impressed by the agents’ work. Archeologists have been using lidar and “other sophisticated remote sensing tools for quite some time,” he said, adding that “just spotting something does not add much to our knowledge.” He told The Verge that while it is commendable that Miotti checked in with INAH, doing so is “not sufficient” as the institution does not have access to all possible information. “The fact that INAH has no official knowledge of a particular cluster of archaeological features does not necessarily mean that it has not been spotted or even explored by archaeologists.”</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Šprajc said that he worries the growing use of AI tools by amateurs could overwhelm archeologists with claims of new discoveries. “Just today I have received an email from another AI ‘discoverer,’ so I am a little bit concerned about being flooded by this kind of message,” he said. He also raised another potential risk of amateurs publicizing the locations of archeological sites: attracting looters. “But as long as these findings do not lead to looting, I don’t see a major problem,” he added.</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>Five Questions As BYU Hosts Baylor in Pivotal Big 12 Bout</title>
-<link>https://www.vanquishthefoe.com/byu-football/28095/five-questions-as-byu-football-hosts-baylor-in-pivotal-big-12-bout</link>
-<guid isPermaLink="false">657c3c43344f72ac</guid>
-<pubDate>Fri, 13 Nov 2026 00:16:51 +0000</pubDate>
-<author>Vanquish The Foe</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Preview of a pivotal BYU home game with playoff stakes. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Vanquish The Foe&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;BYU returns home for the first time since defeating Arizona State 27-20 on Halloween. A lot has happened since then. The Cougars dropped the Holy War for the first time in seven years, losing 28-20 to the Utes. They now sit at No. 10 in the College Football Playoff rankings. They still have a legitimate […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Preview of a pivotal BYU home game with playoff stakes. (score 7)<p>From <b>Vanquish The Foe</b>.</p><hr/><figure>
-
-<img alt="" src="https://platform.vanquishthefoe.com/wp-content/uploads/sites/174/2026/11/gettyimages-2303976743.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
-	<figcaption>
-	WACO, TX - NOVEMBER 07: DJ Lagway #2 of the Baylor Bears hands the ball off to Ryelan Morris #25 of the Baylor Bears during the second half of the game against the Iowa State Cyclones on November 07, 2026, at McLane Stadium in Waco, TX. (Photo by Adam Davis/Icon Sportswire via Getty Images) | Icon Sportswire via Getty Images	</figcaption>
-</figure>
-<p class="wp-block-paragraph">BYU returns home for the first time since defeating Arizona State 27-20 on Halloween. A lot has happened since then. The Cougars dropped the Holy War for the first time in seven years, losing 28-20 to the Utes. They now sit at No. 10 in the College Football Playoff rankings. They still have a legitimate shot at a Playoff berth. First things first — beating Baylor.</p>
-
-<p class="wp-block-paragraph">The Cougars enter the matchup as 7.5-point favorites. The game kicks off Saturday at 1:30pm MT on FOX. Let’s explore five questions surrounding the matchup between the Bears and Cougars.</p>
-
-<p class="wp-block-paragraph"><strong>What is at stake for both teams? </strong></p>
-
-<p class="wp-block-paragraph">To put it simply, if BYU loses to Baylor, they can kiss any shot at a Big 12 title game berth or College Football Playoff appearance goodbye. They are already on the bubble, as it were. Losing to the Bears would cause that bubble to burst dramatically. The Cougars would be looking at another trip to the Pop-Tarts or Alamo Bowl, most likely. </p>
-
-<p class="wp-block-paragraph">For Baylor, they currently have the same record in Big 12 play as BYU. They still have something of a pulse in the race to get to Arlington. Their brutal schedule to finish the season also has them controlling their own destiny. After their trip to Provo, they host Texas Tech and then travel to Houston to finish the year. They need to win out and likely have one of Utah or Texas Tech lose an additional game. </p>
-
-<p class="wp-block-paragraph">But if Baylor loses this game, their hopes of getting to Arlington go from slim to none.</p>
-
-<p class="wp-block-paragraph"><strong>What has Baylor done since firing head coach Dave Aranda? </strong></p>
-
-<p class="wp-block-paragraph">Whenever a program fires a long time head coach midseason, the results certainly can vary. For Baylor, it looks like it fired the squad up. The Bears lost at Kansas on October 25 in a gutting 25-24 defeat. News broke not long after that Baylor had fired Aranda after seven seasons at the helm in Waco. All Baylor has done since interim head coach Joe Klanderman took over is beat UCF (something BYU can’t say this year) and Iowa State by a combined score of 83-40. </p>
-
-<p class="wp-block-paragraph">Their offense has been explosive. Along with those 83 points, they have over 900 yards of total offense in those two games. The run game has caught fire, with 378 rushing yards in those two games combined. </p>
-
-<p class="wp-block-paragraph"><strong>Where are the advantages for BYU against Baylor?</strong></p>
-
-<p class="wp-block-paragraph">As mentioned, Baylor’s offense is scorching-hot the last two weeks.  According to ESPN’s SP+ metric, those came against the 69th (UCF) and 94th (Iowa State) ranked defenses in  the country. BYU sits at 20. The Cougars are by far the best defense the Bears have faced this season. Baylor wants to run the ball. BYU ranks 20th in rush yards allowed per game. The next strongest rushing defense Baylor faced was TCU, when they mustered just six points. </p>
-
-<p class="wp-block-paragraph">The quarterback matchup also favors BYU. Bear Bachmeier posses a 141.7 passer efficiency rating. DJ Lagway checks in at 128.2. Lagway has the worst completion percentage in the Big 12. </p>
-
-<p class="wp-block-paragraph">Baylor also has one of the worst passing defenses in college football, ranking 108th in yards allowed per game. Bachmeier and his weapons need to take shots downfield, especially with upstart freshman Legend Glasker. </p>
-
-<p class="wp-block-paragraph">Lastly, BYU certainly has the advantage given this game is in Provo. </p>
-
-<p class="wp-block-paragraph"><strong>Where does Baylor present challenges for BYU? </strong></p>
-
-<p class="wp-block-paragraph">Like BYU, Baylor also possesses a solid run defense. They rank 27th in the FBS in rushing yards allowed. BYU has faced two stout run defenses already in Notre Dame and Utah. Baylor is not too far behind those two against the run. Running LJ Martin was on a very limited snap count against Utah. Hopefully, another week to get back into the groove will give Martin the confidence to let it rip against Baylor.</p>
-
-<p class="wp-block-paragraph">Baylor&#8217;s defense ranks third in the FBS in havoc rate, meaning roughly one in five plays ends in a tackle for loss, sack, interception, or pass breakup. BYU just faced an aggressive, havoc-creating defense in Utah and things did not go well in the second half. Baylor ranks second in FBS with 37 sacks this year. They have been getting sacks from everyone, not just one or two stars. Garrick Ponder leads the team with just four. 13 Baylor defenders have more than 1.0 sacks. </p>
-
-<p class="wp-block-paragraph">Also, BYU needs to be wary of Lagway’s legs. If the Cougars get good coverage downfield, Lagway can ruin a good gameplan by just taking off and using his athleticism to get key conversions. The BYU pass rush needs to be disciplined. </p>
-
-<p class="wp-block-paragraph"><strong>Which non-quarterbacks could decide the game on either side?</strong></p>
-
-<p class="wp-block-paragraph">As mentioned, LJ Martin looks to have a bigger impact for BYU’s run game than he did against Utah. Legend Glasker will test the back of Baylor’s defense several times. The Cougars need to land a couple of big shots with him downfield. Walker Lyons is slowly becoming one of the most solid tight ends in the Big 12. Bachmeier will look to him in key third down and red zone situations. </p>
-
-<p class="wp-block-paragraph">Gavin Freeman is Baylor’s best weapon. He ranks second in the Big 12 with 852 receiving yards. In the Big 12, only four receivers in the conference have been targeted more 20-plus yards down field than Freeman. He is basically their version of Glasker. The Bears have something of a thunder-and-lightning approach to the running back group. Caden Knighten brings the boom with 292 yards after contact this season. Ryelan Morris can beat you off the edge and turn on the afterburners. Also, be aware of tight end Tony Livingston in the red zone. He doesn’t have the gaudy stats but he does have four receiving touchdowns. </p>
-
-<p class="wp-block-paragraph"><strong><em>Prediction: BYU 27, Baylor 24</em></strong></p>]]></content:encoded>
-</item>
-<item>
-<title>Calvin and Hobbes - 2026-11-12</title>
-<link>https://www.gocomics.com/calvinandhobbes/2026/11/12</link>
-<guid isPermaLink="false">741bf9ab07c4fab2</guid>
-<pubDate>Thu, 12 Nov 2026 17:36:06 +0000</pubDate>
-<author>Calvin and Hobbes</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; On your always-include list. (score 10)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Calvin and Hobbes&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Comic strip for 2026-11-12 Calvin and Hobbes&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> On your always-include list. (score 10)<p>From <b>Calvin and Hobbes</b>.</p><hr/><div class="comic-gallery" style="text-align: center; margin: 10px auto;">
-<p style="margin-bottom: 15px; font-style: italic;">Comic strip for 2026-11-12</p>
-    <div class="comic-panel" style="margin: 15px 0;">
-        <img alt="Calvin and Hobbes" src="https://featureassets.gocomics.com/assets/d13e27f09e34013fcbbd005056a9545d?optimizer=image&amp;width=2800&amp;quality=85" style="height: auto;" />
-        <div class="panel-description" style="font-size: 0.9em; color: #666; margin-top: 5px; font-style: italic;">Calvin and Hobbes</div>
-    </div>
-</div>]]></content:encoded>
-</item>
-<item>
-<title>Jensen Huang Resigns From Nvidia</title>
-<link>https://daringfireball.net/linked/2026/11/12/huang-resigns</link>
-<guid isPermaLink="false">6d575ab6f717d894</guid>
-<pubDate>Thu, 12 Nov 2026 17:36:06 +0000</pubDate>
-<author>Daring Fireball</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Jensen Huang resigning as Nvidia CEO is the biggest tech news of the day. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;. Also covered by The Verge.&lt;/p&gt;&lt;p&gt;Nvidia Newsroom: Nvidia Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately. Colette Kress, current Executive Vice President and Chief Financial Officer of NVIDIA, has agreed to serve as Interim Chief Executive Officer. Kress will continue to serve as Executive Vice President and Chief Financial Officer while serving as Interim Chief Executive Officer until a permanent successor has been named. &lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Jensen Huang resigning as Nvidia CEO is the biggest tech news of the day. (score 8)<p>From <b>Daring Fireball</b>. Also covered by The Verge.</p><hr/>
-<p>Nvidia Newsroom:</p>
-
-<blockquote>
-  <p>Nvidia Board of Directors announced today that
-Jensen Huang has resigned as President, Chief Executive Officer,
-and a member of the Board, effective immediately.</p>
-
-<p>Colette Kress, current Executive Vice President and Chief
-Financial Officer of NVIDIA, has agreed to serve as Interim Chief
-Executive Officer. Kress will continue to serve as Executive Vice
-President and Chief Financial Officer while serving as Interim
-Chief Executive Officer until a permanent successor has been
-named. The Board is initiating a search for a permanent Chief
-Executive Officer and will consider internal and external
-candidates. [...]</p>
-
-<p>“Colette has helped lead NVIDIA through a period of extraordinary
-growth and has a deep understanding of our business, customers,
-operations and financial position,” said Harvey Jones, Chair of
-the NVIDIA Board of Directors. “She is supported by an experienced
-leadership team that has been instrumental in executing NVIDIA’s
-strategy and advancing its technology roadmap. The Board has full
-confidence in Colette and the leadership team, and we expect the
-company’s operations, customer commitments and product roadmap to
-continue without interruption.”</p>
-</blockquote>
-
-<p>This might be wishful thinking. Remember all the predictions that Apple would implode without Steve Jobs? That he was the company? I argued, <a href="https://daringfireball.net/2011/08/resigned">on the day of his resignation</a>, that Apple was likely to continue to thrive post-Jobs, writing, “Jobs’s greatest creation isn’t any Apple product. It is Apple itself.” He built a great company with a deep bench and a highly distinctive, incredibly strong culture.</p>
-
-<p>I’m not seeing anyone say those things about Nvidia. In fact I’ve only seen the opposite — that Nvidia has a weak board and an executive structure with <a href="https://www.entrepreneur.com/business-news/why-nvidia-ceo-jensen-huang-never-has-one-on-one-meetings">Huang at the top and 60 direct reports under him</a>. Nvidia sounds like it is the fantasy version of Apple that people imagined when Jobs’s health finally failed.</p>
-
-<blockquote>
-  <p>Nvidia will report its third-quarter fiscal 2027 financial results
-on Tuesday, November 17, at approximately 1:20 p.m. PT, as
-previously scheduled, followed by its earnings call at 2 p.m. PT.</p>
-</blockquote>
-
-<p>They should sell tickets to this one.</p>
-
-<p class="x-netnewswire-hide" style="padding-top: 1.5em;"><em>Link: <strong><a href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition">nvidianews.nvidia.com/news/nvidia-announces-ceo-transition</a></strong></em></p>
-]]></content:encoded>
-</item>
-<item>
-<title>HomeView review: A late arrival, still showing some seams</title>
-<link>https://sixcolors.com/post/2026/11/homeview-review-a-late-arrival-with-promise-but-still-showing-some-seams/</link>
-<guid isPermaLink="false">2f8f403da99ad273</guid>
-<pubDate>Thu, 12 Nov 2026 17:36:06 +0000</pubDate>
-<author>Six Colors</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Six Colors review of Apple&amp;#x27;s HomeView, a new product from a favorite writer. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Six Colors&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;I’ve wanted a product like the Apple HomeView for years now. After spending a lot of time with various personal assistant “smart speakers” in my kitchen—some with screens—I’ve never been more certain about the potential of the product category or more disappointed in the reality.…&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Six Colors review of Apple&#x27;s HomeView, a new product from a favorite writer. (score 8)<p>From <b>Six Colors</b>.</p><hr/><figure><img alt="Rear view of a silver smart home display with a dome-shaped speaker base covered in a perforated mesh grille. A white braided power cable plugs into the base, and the flat screen tilts back on a round metal joint." height="1859" src="https://i0.wp.com/sixcolors.com/wp-content/uploads/2026/11/homeview-back-6c.png?ssl=1&#038;w=1380&#038;quality=90" width="2760" /><p><em>Rear view of a silver smart home display with a dome-shaped speaker base covered in a perforated mesh grille. A white braided power cable plugs into the base, and the flat screen tilts back on a round metal joint.</em></p><figcaption></figcaption></figure>
-<p>I&#8217;ve wanted a product like the Apple HomeView for years now. After spending a lot of time with various personal assistant &#8220;smart speakers&#8221; in my kitchen—some with screens—I&#8217;ve never been more certain about the potential of the product category or more disappointed in the reality.</p>
-<p>I&#8217;ve spent years with Google and Amazon displays in my kitchen, and was never really satisfied. They were slow, their screens weren&#8217;t very good, they didn&#8217;t integrate well with my home, and Amazon would not stop opting me into new forms of distracting marketing messages.</p>
-<p>The HomeView, which has been standing like a tiny, cute sentinel atop the bar in my kitchen for the last week, improves on those other devices in innumerable ways. It&#8217;s got a great 7-inch square screen, it&#8217;s fast and responsive, and it fits into my home ecosystem.</p>
-<p>While it is far from perfect, the HomeView is great at some jobs, and pretty good at others. Where it falls short, it does so while hinting at some great potential that could be addressed with software updates.</p>
-<p>The Echo Show was sent back long ago. The Google Nest Home is unplugged and relocated to the tech recycling pile. The HomeView? It&#8217;s here to stay, at least in my kitchen.</p>
-<h2>An Apple device mash-up</h2>
-<p>The $299 HomeView is a slab-like device that&#8217;s 5.73 inches square and 0.39 inches thick, kind of like a tiny, square iPad. It comes mounted either on a perforated cylindrical aluminum base or (optionally) sans base, ready for wall mounting via a series of optional, extra-cost mounts. I tested one with the aluminum base, which makes it look like an extremely tiny iMac.</p>
-<p>The hardware is solid and coherent, the screen a pleasure to touch and tilt. In terms of software, though, the HomeView feels like a peculiar amalgam of numerous other Apple products. Its main interface makes it look a bit like an overgrown Apple Watch, complete with customizable &#8220;faces&#8221; that sometimes resemble actual Apple Watch faces and other times resemble the iPhone&#8217;s StandBy mode. Its apps sometimes feel like they&#8217;ve escaped from the iPhone or iPad, but at other times they feel more like they&#8217;re right off of an Apple TV. And still other &#8220;apps&#8221; resemble what you might see in your car, since Apple is also using CarPlay to project interfaces from apps running on your iPhone.</p>
-<p>Given the fact that this product&#8217;s tech stack feels like it was created in a blender, it&#8217;s remarkable that it holds together as well as it does—but there are still places where the seams show.</p>
-<p>Let&#8217;s start with the HomeView&#8217;s default &#8220;faces&#8221;, which are what the device defaults to when it&#8217;s not actively being used. Faces are a series of individual pages arranged in a strip that you can swipe through from side to side, very much reminiscent of how Apple Watch faces used to work. Tap and hold on a face and you&#8217;ll enter editing mode, where you can customize a face using an interface that is right out of watchOS or the new editable StandBy mode on the iPhone Duo.</p>
-<p>Some faces feel very much like they&#8217;re from the Apple Watch—simple clocks with the occasional widget that&#8217;s a single line of text very much in the style of a watch complication or a simple iPhone lock screen widget. There&#8217;s also a pretty animated clock and a lighthearted clock face featuring Snoopy animations. My favorite is undoubtedly the Photos face, which lets you choose a set of items, albums, or collections from your iCloud Photos library, all of which will be shuffled through, very much like an iPhone lock screen or the Apple Watch&#8217;s widget face. It is delightful to walk into my kitchen and see a picture of my family.</p>
-<p>Other HomeView faces are much more complex, offering dashboards to control Apple Home items, a live view of a HomeKit-compatible security camera, or even a custom Modular face you can populate with widgets from the device or from your iPhone.</p>
-<p>In many ways, these faces are the core of the product. They are the images you want to look at, yes, but they&#8217;re also the dashboards you can use to quickly interact with items in your home. And this is where HomeView&#8217;s software comes up a bit short.</p>
-<p>The layouts aren&#8217;t flexible enough, for starters. Simple faces like photos work a charm, but more complex faces are kind of a mess. I&#8217;d like more options about what items to place on a face, and where to place them. The HomeView seems like the perfect device to use as a control panel for my smart-home devices, but the Home Modular face is strangely limited. For example, I can only use it to turn dimmable lights on to full brightness. To dim a light, I have to open the Home app, select the item in there, and then swipe up or down on the dimming interface.</p>
-<p>It&#8217;s great that you can view iPhone widgets on the HomeView just as you can on the Mac, but it&#8217;s a bit frustrating that it will only display the small square widget style. Presumably because of the Apple Watch roots of some of these faces, there&#8217;s a surprising lack of digital clocks. In fact, in some face views you can create a face featuring a clock, but if you delete it, you can&#8217;t add it back. I admit to being frequently baffled about what I was able to add and customize, and what I wasn&#8217;t, when trying to build faces.</p>
-<p>All of this is really unsurprising when you consider that this is an interface welded together from disparate parts of other Apple products, but it feels like it needs some more tweaking and attention for it to fully come together.</p>
-<h2>Apps, but no App Store</h2>
-<figure><img alt="Three square smart displays on speaker bases. Left: a home screen with Music, Safari, Overcast, Home, Weather, FaceTime, Calendar and other apps plus a weather widget. Middle: Reminders lists. Right: a Podcasts Resume list with three episodes." height="1048" src="https://i0.wp.com/sixcolors.com/wp-content/uploads/2026/11/homeview-apps-6c-1.png?ssl=1&#038;w=1380&#038;quality=90" width="2760" /><p><em>Three square smart displays on speaker bases. Left: a home screen with Music, Safari, Overcast, Home, Weather, FaceTime, Calendar and other apps plus a weather widget. Middle: Reminders lists. Right: a Podcasts Resume list with three episodes.</em></p><figcaption>The HomeView apps list (left) can include more full-featured apps like Reminders (center) as well as projected CarPlay apps like Overcast (right).</figcaption></figure>
-<p>Swipe up from the bottom of any face and you&#8217;ll find yourself in the HomeView&#8217;s app view, its equivalent of an iOS home screen. You can customize this view to drag icons around and even add widgets. This screen is designed to be personalized to you—it shows your picture and welcomes you by name, all because you train the HomeView on your appearance (via its included webcam) as well as voice, and link it to your iPhone, which needs to be on the same wi-fi network and have been unlocked relatively recently. HomeView uses all of those hints to decide if it&#8217;s you who&#8217;s swiping up. If it doesn&#8217;t recognize you, it&#8217;ll put up a more generic interface without any linked iPhone apps.</p>
-<p>There are some &#8220;real&#8221; Apple apps on the HomeView: Music, Safari, Home, FaceTime, Weather, Find My, Calendar, Messages, Timers/Alarms/World Clock (all escapees from the Clock app), Reminders, and Settings all offer functionality that&#8217;s not far from what you&#8217;d get on an iPhone.</p>
-<p>Also appearing in the same app view are things that <em>look</em> like apps but are not the same as the onboard apps that every person can see. These are items pushed from your paired iPhone, and they&#8217;re actually the CarPlay extensions of iPhone apps (running on the paired iPhone of the person HomeView has determined is using the device, via face/voice/device recognition) in CarPlay&#8217;s audio and video categories. So, for example, Instapaper appears on my HomeView—but only its CarPlay interface, which offers to read stories out loud. The New York Times app is there, but just to play its podcasts. Libby will offer me audiobooks. Overcast and Apple Podcasts will play my podcasts, and the Apple TV app will play TV shows (in an extreme letterbox on this square screen).</p>
-<p>Using CarPlay to let iPhone apps run (in a way) on HomeView was a stroke of genius. The feature works pretty well and it allows Apple not to clutter the device with an App Store or force developers to write new versions of their apps for yet another platform. That said, I do wonder if there might be a better path forward for HomeView that does allow developers to write more full-featured apps if they wish, either via CarPlay (outside of the audio and video categories) or by allowing iPhone apps to install a HomeView version of themselves, which is how most Apple Watch apps are installed. (There are already reports that Apple may be adding <a href="https://www.macrumors.com/2026/11/05/homeview-code-suggests-support-ai-chatbot-apps/">support for AI voice assistants</a> via CarPlay in the future.)</p>
-<figure><img alt="Three square smart-display screens on speaker bases show a Cheesy Potato Gratin Recipe: a cover photo with Ingredients and Start Cooking buttons, an ingredients checklist (Gruyère, Parmesan, cream, garlic, thyme), and Step 4 with 30-minute timers." height="1048" src="https://i0.wp.com/sixcolors.com/wp-content/uploads/2026/11/hv-recipes-6c.png?ssl=1&#038;w=1380&#038;quality=90" width="2760" /><p><em>Three square smart-display screens on speaker bases show a Cheesy Potato Gratin Recipe: a cover photo with Ingredients and Start Cooking buttons, an ingredients checklist (Gruyère, Parmesan, cream, garlic, thyme), and Step 4 with 30-minute timers.</em></p><figcaption>Three steps in Safari&#8217;s Recipe viewer for HomeView.</figcaption></figure>
-<p>Or consider recipe apps as a category. They don&#8217;t really make sense in CarPlay, but they sure do on this device. Apple has built a clever recipe view into Safari on the HomeView that displays recipes with clear ingredients lists, cooking steps, and even hyperlinks to quickly create timers. Unfortunately, I keep all my recipes in Mela, a very nice app that seemingly is unavailable on HomeView. Maybe recipe app developers will find a way to get their content on the HomeView, perhaps via the web, but it would be nice if they had the option to somehow bring their users&#8217; data to this device directly. The clever CarPlay hack only goes so far.</p>
-<h2>Siri speaker with a screen</h2>
-<figure><img alt="A smart display on a kitchen counter shows the text &quot;The painting is the Death of Marat,&quot; a Wikipedia tag, and an image of Jacques-Louis David's painting of a slumped figure in a turban holding a letter." height="1952" src="https://i0.wp.com/sixcolors.com/wp-content/uploads/2026/11/death-of-marat-6c.jpeg?ssl=1&#038;w=1380&#038;quality=90" width="2760" /><p><em>A smart display on a kitchen counter shows the text &quot;The painting is the Death of Marat,&quot; a Wikipedia tag, and an image of Jacques-Louis David's painting of a slumped figure in a turban holding a letter.</em></p><figcaption></figcaption></figure>
-<p>If Mark Gurman&#8217;s reports are to be believed, Apple has had the HomeView hardware ready for quite a while, but felt it was unable to release it because of the 2024 failure to launch of numerous Apple Intelligence features. Now that Siri AI has arrived, HomeView is finally ready to blast into stores.</p>
-<p>Powered by an A18 processor, the HomeView supports Apple Intelligence and Siri AI, and when paired with an Apple Intelligence-capable iPhone or iPad, it&#8217;s capable of using that device to search through your personal context to answer your questions. Just as is true everywhere else, when Siri AI works on the HomeView it can be spectacular. I have asked targeted questions about items in long-ago Messages threads or on my Calendar and it has managed to unearth the answer without me having to do a lick of work. It&#8217;s vastly better at general world-knowledge questions than the old Siri. That said, Siri AI isn&#8217;t as reliable as it should be, both in general and on the HomeView. Sometimes it just seems to go off in its own world and not respond, or respond accurately. Other times, it works just as advertised. Apple&#8217;s challenge (and this goes way beyond the HomePod) is to make Siri AI work more reliably.</p>
-<p>I also had some bizarre, HomeView-specific issues with Siri AI. After I paired my iPhone with the HomeView, every command I gave it to play music was instead routed to Broadcasts, a third-party app on my iPhone (with a CarPlay connector, to be fair) that I use to stream live podcasts. I had to delete Broadcasts entirely in order to get Music playback to work properly. Once I did that, everything settled down, but I still have no idea why Siri got so hung up on an app that couldn&#8217;t offer albums or playlists or anything else I was looking for.</p>
-<p>But again, when it works, it&#8217;s great. I was able to ask the HomeView what that painting is &#8220;where the guy from the French Revolution is dead in a bathtub,&#8221; and not only did it answer correctly that it&#8217;s Jacques-Louis David&#8217;s &#8220;<a href="https://en.wikipedia.org/wiki/The_Death_of_Marat">Death of Marat</a>,&#8221; it pulled up the painting for me to look at on the HomeView screen. My HomePod could never.</p>
-<p>Beyond Siri, the HomeView is pretty versatile as a media device. It will play audio itself, via its speakers and (on the model with the cylindrical base) an extra downward-pointing woofer. It sounds&#8230; fine? It sounds like a kitchen speaker. The HomeView&#8217;s speaker is not going to win any awards from audiophiles, but it&#8217;s absolutely good enough to do the job when you&#8217;re making pizza, drinking some wine, and rocking out to the hits of the &#8217;80s. (Ask me how I know.)</p>
-<figure><img alt="Two photos of a square smart display on a kitchen counter. Left: AirPlay playback of a live Nottingham Forest vs. Manchester City soccer match, 2-0. Right: a UCLA vs. Minnesota football game, Minnesota player in a maroon helmet, UCLA leading 10-7." height="1538" src="https://i0.wp.com/sixcolors.com/wp-content/uploads/2026/11/homeview-twotv-6c.jpeg?ssl=1&#038;w=1380&#038;quality=90" width="2760" /><p><em>Two photos of a square smart display on a kitchen counter. Left: AirPlay playback of a live Nottingham Forest vs. Manchester City soccer match, 2-0. Right: a UCLA vs. Minnesota football game, Minnesota player in a maroon helmet, UCLA leading 10-7.</em></p><figcaption>HomeView is a capable AirPlay receiver as well as player, though video is either going to be extremely letterboxed or wildly cropped.</figcaption></figure>
-<p>HomeView also integrates well with AirPlay, so if you <em>do</em> have other speakers, HomeView can play to them, too. And it&#8217;s an AirPlay receiver, so if you want to play audio or video on the HomeView that originated on another Apple device, it&#8217;s up to the challenge. (This is useful if you want to, for example, watch a college football game on YouTube TV, which does not have a video CarPlay app. Of course, you&#8217;ll be watching it extremely letterboxed, but it does work!)</p>
-<p>The star of HomeView&#8217;s playback versatility may be its support for Handoff, which is <em>extremely</em> present on this device, perhaps even to a fault. Get an iPhone close to a HomeView and both devices will show a ripple on screen, and your phone will ask you to either throw whatever you&#8217;re consuming over to the HomeView, or suck back whatever is playing on the HomeView onto your iPhone. I used this feature to toss music, podcasts, AirPlay from random apps, and even web pages (via Safari) from my iPhone to the HomeView, and pulled music I was listening to on the HomeView back to my iPhone. My only real complaint is that it kept triggering when I came even <em>vaguely</em> close to the HomeView with my phone, though it was easy to just opt not to transfer anything either way.</p>
-<p>There were some other quirks. The HomeView does FaceTime, and does a pretty nice job thanks to its 12-megapixel Center Stage camera. But it struggled to connect to a multi-person FaceTime call when I handed it off from an iPhone, and after a brief two-person interlude, the call failed completely. Occasionally attempts to play audio via a CarPlay-based app (Overcast) would claim to succeed, but no audio would be audible until I switched to playing audio from a different app (Music) and then moved back to Overcast.</p>
-<p>I&#8217;m willing to chalk all this up to this essentially being the 1.0 version of the HomeView software experience, as well as a side effect of Apple&#8217;s ambition in fusing together so many disparate aspects of its ecosystem in this product. It&#8217;s all a little bit messy.</p>
-<h2>A view into Apple&#8217;s home</h2>
-<p>So after years of waiting for Apple&#8217;s take on the smart speaker, was it worth it? To be clear, I would rather have not waited this long—and I&#8217;m pretty sure that&#8217;s true of Apple, as well. But here we are, and at $299 for the self-standing model, it strikes me as being a pretty great deal if you&#8217;re someone who is immersed in the Apple ecosystem and wants a little helper to answer questions, show pictures, play music, control devices, and otherwise just be a nice companion in the kitchen (or wherever else you might want one in your home).</p>
-<p>The wall-mounted model, while also priced at $299, is a worse deal—in that it lacks a woofer and requires an additional purchase of a mounting assembly, meaning it&#8217;s got fewer features and ultimately costs more. I&#8217;m a little baffled why Apple didn&#8217;t offer a basic wall mount for that price, but it didn&#8217;t, and it makes that product a worse deal. (That said, I&#8217;m still interested in buying one, as I&#8217;d really like to put a panel on my wall that allows anyone in my home to control my smart-home stuff even when I&#8217;m not around.)</p>
-<p>My real issues with the HomeView aren&#8217;t with its hardware, which is solid and functional and kind of adorable when spotted from any angle other than screen-on. It&#8217;s with the software, which has an impressive array of features welded on from various other Apple products—but can really show the seams. Apple&#8217;s use of CarPlay to support media apps on the device is clever, but it&#8217;s a little buggy and the device still feels limited. The recipe browser is cute, but I have all my recipes in an app that&#8217;s entirely walled off from the HomeView, and that&#8217;s a bummer.</p>
-<p>The product also really lives or dies by its &#8220;faces,&#8221; and the current ones are either pretty-but-not-useful or useful-but-not-pretty. (I can&#8217;t believe you can&#8217;t dim a light from a face screen.)</p>
-<p>Still, solid hardware and a decent array of services are a start. HomeView (and its successors) has a real chance to fill the homes of avid iPhone users everywhere, so long as Apple works to improve the flexibility and polish of its software.</p>]]></content:encoded>
-</item>
-<item>
-<title>Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories</title>
-<link>https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html</link>
-<guid isPermaLink="false">7ffe807d5125b130</guid>
-<pubDate>Thu, 12 Nov 2026 17:36:06 +0000</pubDate>
-<author>The Hacker News</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Large supply chain attack stealing CI secrets with real lessons for credential handling. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company. The stealer is built to take the secrets and cloud credentials that a repository&amp;#x27;s CI workflows can reach. It ran in at least 1,806 repositories, where the attacker has likely collected&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Large supply chain attack stealing CI secrets with real lessons for credential handling. (score 8)<p>From <b>The Hacker News</b>.</p><hr/>
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1-4OiOkGLcK3fAr2HdhALOfc_BqR21440TsjUIuCNzv4YL0lWRC3lvUjE1vu2RdVfjunxi80gMQyGpjvUdWzMRtthW8_-hFOJ79YhFzJrNGgoKDPYXm2OaWOsN8kgBELqOPs5s9QKL4qzQzu_3NEEqHygpfQzKYxDRIQeFgMHj24oyPyaslUemke-loU/s1600/github.jpg"/>
-    <p>Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company.</p>
-    <p>The stealer is built to take the secrets and cloud credentials that a repository's CI workflows can reach. It ran in at least 1,806 repositories, where the attacker has likely collected those credentials, the company says.</p>
-    <p>Each attack started with a pull request titled docs: dependency audit notes, opened from a branch named wfx-docs to test whether the account could write to the repository. These test pull requests were opened in 61,764 repositories, and the stealer followed in some of them.</p>
-    <p>In a <a href="https://safedep.io/blog/github-actions-wfx-credential-stealer">separate analysis</a>, researchers at SafeDep, which sells software supply chain security tools, counted 8,093 repositories that received malicious commits between 12:46 UTC on Tuesday and 04:36 UTC today. That count covers every repository that received malicious commits, not only those where the stealer ran. Their search covered only the default branches of public repositories, so the true total is higher, the researchers say.</p>
-    <p>In 7,309 of those repositories, the stealer was added to an existing workflow. In 771, it came as an npm postinstall hook, which also runs on a developer's machine during npm install.</p>
-    <p>After pushing the stealer, the attacker usually reverted the change within minutes. Where the stealer ran, its logs were deleted, usually along with the run itself. In those repositories, every secret and cloud role available to the workflows should be treated as compromised.</p>
-    <p>More pull requests with the same title were opened early today, after the company's own GitHub search ended on Wednesday, a check by The Hacker News found. Three that were checked, opened between 05:04 and 05:38 UTC, came from wfx-docs branches. It is not clear whether the stealer followed.</p>
-    <p>Any account that opened one of the attacker's test pull requests is compromised, even if the stealer never ran, Aikido said in its <a href="https://www.aikido.dev/blog/compromised-github-accounts-push-ci-secret-stealer-to-tens-of-thousands-of-repositories">technical analysis</a>. The analysis does not explain how the attacker obtained the credentials.</p>
-    <p>SafeDep's researchers advise owners of affected repositories to revoke the commit author's tokens, OAuth app grants, SSH keys, and sessions, and to turn on 2FA. Owners should also rotate every secret and variable the repository can read. Anyone who ran npm install on an affected commit should treat that machine as compromised and rotate its keys.</p>
-    <p>In most other repositories that received a test, nothing was pushed afterward, or the stealer did not run due to the repository's settings or the account's permissions. The figures cover only the public repositories the company could see.</p>
-    <p>
-      <a href=""/>
-    </p>
-    <p>The tests also reached repositories that the compromised accounts did not own. Of the test pull requests, 10,431 were submitted via collaborator or organization access, and 92% of those were still open when the company checked.</p>
-    <h3>Signs a Repository Was Hit</h3>
-    <p>Check for these signs, from Tuesday onward, in any repository you can write to:</p>
-    <ul>
-      <li>Branch: <pre>wfx-docs</pre></li>
-      <li>Branch: <pre>chore/[a-z0-9]{8}</pre>, short-lived</li>
-      <li>Branch: <pre>ci-check-[0-9]{4}</pre></li>
-      <li>Pull request title: <pre>docs: dependency audit notes</pre></li>
-      <li>Commit message: <pre>ci: refresh build cache</pre>, which adds about 1,500 lines to an existing workflow</li>
-      <li>Commit message: <pre>chore: add ci helper</pre>, which adds a <pre>.ci-xxxxxx.sh</pre> script and a <pre>postinstall</pre> hook in <pre>package.json</pre> that runs it on any npm install</li>
-      <li>Commit message: <pre>chore: add dependency audit workflow</pre>, which adds <pre>.github/workflows/build-audit-xxxxxx.yml</pre> on a <pre>chore/</pre> branch</li>
-      <li>Commit message: <pre>chore: initial commit</pre>, pushed before a new workflow file in an empty repository</li>
-      <li>Commit message: <pre>ci: restore</pre></li>
-      <li>Commit message: <pre>ci: cleanup</pre></li>
-      <li>SHA-256 (stealer script): <pre>89695abb392d5cfd4972672961e644bb46baa98aa1ed7173c2a2816c762735cf</pre></li>
-      <li>IP: <pre>194.150.166[.]244:8080/exfil</pre></li>
-      <li>IP: <pre>18.143.168[.]96:8080/exfil</pre></li>
-      <li>IP: <pre>153.75.82[.]159:8080</pre></li>
-    </ul>
-    <p>A repository can show no wfx-loot artifacts, wfx- cache entries, or WFX-BEGIN step summaries and still have lost data. A missing run number on the attacker's commit is the more reliable sign that the stealer ran.</p>
-    <p>The stealer sends data by HTTP POST to the addresses above or to a Telegram chat, the SafeDep researchers found. In a sample of 200 payload commits, about a fifth used Telegram only.</p>
-    <p>The stealer is built to collect credentials from every source on the runner, according to the company. They include GitHub Actions secrets and variables, the workflow's GITHUB_TOKEN, OIDC and Actions runtime tokens, keys for AI services, and secrets in the memory of the runner's own processes. It reads credential files for AWS, Azure, GCP, Kubernetes, npm, PyPI, SSH, and other tools from their usual locations.</p>
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtSga7KnuQEVNRq8P0ipc-BpahQII_9sitqTPWaJCTeBzd-RM6vhmdtvdYwUFCOW_4uHZMeWasFS3FjiegphcFoKKN96nl_BXvSlg6Jx3tUnNiUdgFIOl_ILO63QpjgEnPBXgzyefhyHL2h04sNUzP2AUdV_MZ9bjklxoloNbPUn1sXRkFTepkON8fwSrd/s1600/github-actions.jpg"/>
-    <p>It also copies the repository, its last 100 commits, and recent workflow artifacts. On self-hosted runners, it takes cloud credentials from instance metadata as well as Docker container state and systemd units.</p>
-    <p>The stealer also has settings for private repositories, and the company says that suggests it may be running in them.</p>
-    <p>The stealer is designed to use those credentials to reach deeper into cloud accounts. It exchanges GitHub OIDC tokens for AWS, GCP, and Azure sessions, and on AWS it can create long-lived access keys for IAM users.</p>
-    <p>Some of its steps are built to survive credential rotation. It can rewrite an AWS role's trust policy to open the role to any AWS account.</p>
-    <p>It can also add federated identity credentials with the prefix wfx-ci- to Azure AD applications. Workflows in the compromised repository can then sign in to Azure without a stored secret, even after all tokens are rotated.</p>
-    <p>To find these backdoors, the researchers suggest checking for:</p>
-    <ul>
-      <li>Entra ID: federated credentials named <pre>wfx-ci-*</pre> that you did not create</li>
-      <li>AWS CloudTrail: <pre>AssumeRoleWithWebIdentity</pre> or <pre>AssumeRole</pre> sessions named <pre>wfx-*</pre>, followed by <pre>CreateAccessKey</pre> or <pre>UpdateAssumeRolePolicy</pre></li>
-      <li>GCP: <pre>GenerateAccessToken</pre> and <pre>SignJwt</pre> calls from your GitHub workload identity pool</li>
-      <li>Vault: JWT logins from the GitHub OIDC issuer</li>
-    </ul>
-    <p>The stealer reached at least one Packagist package and one Go module through automated publishing triggers. At least 50 of the compromised users appear to publish packages for npm, Go, Packagist, PyPI, or crates.</p>
-    <p>The attacker appears to be after CI secrets rather than trying to spread through packages, the company says.</p>
-    <p>Version 3.14.3 of the Packagist package digitalelvis/neuronai-studio is malicious, and the company advises treating any machine that installed or opened it as compromised. Its <a href="https://packagist.org/packages/digitalelvis/neuronai-studio">package listing</a> shows the version was published on Wednesday. Early today, the version was still listed, under a notice that versions of the package had been flagged as malware.</p>
-    <p>A normal composer install does not run the stealer, but running npm install inside the package's vendor directory does, the researchers found. Users should block v3.14.3 and pin v3.14.2 or earlier.</p>
-    <p>Two versions of the Go module github.com/onuragtas/docker-env, v1.0.278 and v1.0.280, carry the stealer only in a GitHub Actions workflow file. The Go code and release binaries are unchanged, and Go builds never run workflow files, so users of the module may not have been affected. The company still recommends removing those versions.</p>
-    <p>The researchers also found the stealer in another Go module, github.com/vkuznet/gocurl, in pseudo-version v0.0.0-20261111095532-8d5aad0cb0da, inside a workflow that has never run. Users should block that pseudo-version.</p>
-    <p>The stealer also reached 28 WebdriverIO repositories through commits authored as the bot account wdio-bot. No package release was affected, but the bot's token should be treated as stolen.</p>
-    <p>The company found that the accounts used this week overlap with those hit in GhostAction's <a href="https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html">October wave</a>, in which stolen GitHub accounts pushed secret-stealing workflows into repositories.</p>
-    <p>Accounts hit in October were about 1,000 times more likely than other active accounts to be used this week. In more than 100 repositories, the new stealer was added to October's workflow files, leaving the older step that sends data out in place.</p>
-    <p>Aikido said, "we don't attribute November to the same actor at this stage," because the infrastructure, tools, and methods differ, and stolen credentials often end up with several attackers.</p>
-    <p>Correction (November 12, 2026): An earlier version of this article said the stealer sent data only by HTTP POST to two addresses and that the attacker reverted each change within a minute. A second analysis found a third server, a Telegram channel, and changes left in place for longer.</p>
-    <p><a href="https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ">Google News</a>,</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>We built our world on “Big Math.” Now we no longer understand it.</title>
-<link>https://bigthink.com/history-society/big-math/</link>
-<guid isPermaLink="false">c02dfa5ea8d6af25</guid>
-<pubDate>Thu, 12 Nov 2026 17:36:06 +0000</pubDate>
-<author>Big Think</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Thoughtful big-ideas essay on math outrunning human understanding. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Big Think&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Math has undeniably escaped the human mind and implanted itself in nearly every corner of the world. Over the past 75 years, as computers became commonplace and grew in power, what once amounted to mental arithmetic has become something else entirely. It’s not just math; it’s “Big Math,” too large for the human brain alone. Big Math’s offshoot algorithms, the step-by-step sets of instructions and rules used to perform calculations, now undergird much of the technologies we take for granted in mo&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Thoughtful big-ideas essay on math outrunning human understanding. (score 7)<p>From <b>Big Think</b>.</p><hr/><img src="https://bigthink.com/wp-content/uploads/2026/11/big-math-escapes_7.gif?w=640" /><p class="wp-block-paragraph">Math has undeniably escaped the human mind and implanted itself in nearly every corner of the world. Over the past 75 years, as computers became commonplace and grew in power, what once amounted to mental arithmetic has become something else entirely. It’s not just math; it’s “Big Math,” too large for the human brain alone.&nbsp;</p>
-<p class="wp-block-paragraph">Big Math’s offshoot algorithms, the step-by-step sets of instructions and rules used to perform calculations, now undergird much of the technologies we take for granted in modern life. They organize your addictive TikTok feed, compress your Netflix shows from terabytes to gigabytes so you can stream seamlessly, help you locate your lost iPhone with Apple’s Find My app, and manage the logistics of your Amazon purchase, among many other functions.</p>
-<p class="wp-block-paragraph">Disassemble these algorithms and what you will see are numbers. Lots of numbers. To the untrained eye, they might seem random, meaningless. But discernible patterns emerge in these digits. While mysterious, they can be demystified.</p>
-<h2 class="wp-block-heading" id="h-when-math-became-big-math">When math became Big Math</h2>
-<p class="wp-block-paragraph">That’s what Cornell University mathematicians and “office neighbors” Steven Strogatz and Alex Townsend ably do in their forthcoming book, <a href="https://www.hachettebookgroup.com/titles/steven-strogatz-2/big-math/9781668659335/?lens=little-brown"><em>Big Math: The Hidden Codes That Run Our World</em></a>. As they told Big Think, that aim is increasingly urgent. Why? Because Big Math isn’t merely augmenting and improving our lives; it’s increasingly determining them.&nbsp;</p>
-<p class="wp-block-paragraph">Will you get a credit card? Be granted a loan? Accepted into college? Considered for a job? Algorithms are making more and more of these vital decisions. And, of course, algorithms provide the foundation for the artificial intelligence models driving the modern economy and altering how we live and work.</p>
-<p class="wp-block-paragraph">“In the democracies of the world, where people still have a choice and can participate, how can they participate meaningfully given how uncomfortable most people are with math?” Strogatz wondered during our conversation, adding that comprehension of these key Big Math advances shouldn&#8217;t be hoarded by tech titans.&nbsp;</p>
-<p class="wp-block-paragraph">“We wanted to write a book for anyone who is curious and wants to be part of this moment and who has felt left out.”</p>
-<h2 class="wp-block-heading" id="h-too-big-to-understand">Too big to understand?</h2>
-<p class="wp-block-paragraph">In <em>Big Math</em>, Strogatz and Townsend excel at explaining the optimization functions that make Amazon fulfillment centers hum, the compression algorithms that shrink down your images and videos, and the Markov chains that, through Google Search, effectively sort the internet. Furthermore, they share stories of great mathematical advancements that render their field — regularly stereotyped as intellectually impenetrable — humanly relatable.&nbsp;</p>
-<p class="wp-block-paragraph">Importantly, they do not conceal an uncomfortable truth: As AI models have advanced at breathtaking pace, their operations defy understanding.&nbsp;</p>
-<p class="wp-block-paragraph">“We don’t know why these models work so well. No one does,” Strogatz and Townsend write. “This is the unnerving moment we’ve reached in Big Math. We are surrounded by systems that perform astonishingly well, yet they defy our attempts to understand them.”</p>
-<p class="wp-block-paragraph">During our conversation, Townsend further explained what that means: “We understand what [AI models] are made of. We understand the mechanics that go into them. We understand … the learning process they undergo. What we don’t understand is how they learn the things that they actually learn.</p>
-<p class="wp-block-paragraph">“We understand the pieces, but not the whole.”</p>
-<h2 class="wp-block-heading" id="h-when-big-math-came-for-mathematicians">When Big Math came for mathematicians</h2>
-<p class="wp-block-paragraph">Mathematicians also don’t fully understand how the AI models, which they helped birth, are now churning out remarkable math proofs at a bewildering pace, upending their entire field.&nbsp;</p>
-<p class="wp-block-paragraph">In early September, OpenAI <a href="https://openai.com/index/navier-stokes-solution/">announced</a> that 88 of their agents solved the Navier–Stokes Millennium Prize Problem, one of math’s “holy grails” (though the highly intricate proof still awaits official verification). A month later, the company <a href="https://www.science.org/content/article/openai-just-changed-math-forever-exactly-how-no-one-yet-knows">released solutions to 372 more problems</a>, each highly sought-after in its own niche of mathematics.</p>
-<p class="wp-block-paragraph">Clearly, their book’s publication was impeccably timed for the moment, and Strogatz and Townsend have since been publicly grappling with the potential ramifications for their field. Notably, in an article in <a href="https://www.nytimes.com/2026/09/22/science/math-ai-history-understanding.html"><em>The New York Times</em></a>, they fretted that using AI as a solution factory for math problems deprives humans of the insights that arise when mathematicians struggle through mind-boggling problems.</p>
-<p class="wp-block-paragraph">One recent OpenAI proof dealt with a problem Townsend himself had been working on. The proof was just 13 pages long, but dense. Using an AI assistant, Townsend expanded it to 150 pages and spent four or five days deciphering it line by line. He told Big Think he now has a close sense of what’s been accomplished.</p>
-<p class="wp-block-paragraph">“There’s been a couple of times when I’m reading it, I go, ‘Wow, that is such a fantastic idea.’ If a human did that, I’d say it was beautifully elegant. It’s been teaching me how to think about matrix/matrix multiplication.”&nbsp;</p>
-<p class="wp-block-paragraph">Mathematicians are now confronting an uncertain future: Their careers as explorers surmounting soaring mountains of arithmetic may be coming to an end. They’ll no longer be heroes foraying into the cognitive unknown to solve epic problems, then teaching others what they’ve discovered. They might all become forever students to AI teachers.</p>
-<p class="wp-block-paragraph">Both Townsend and Strogatz expressed the most concern not for themselves, but for the young, rising mathematicians whose futures have suddenly been thrown into profound doubt. Will there be problems to solve? Will there be careers available? Not just in academia, mind you, but as statisticians, actuaries, cryptographers, and more.&nbsp;</p>
-<p class="wp-block-paragraph">Townsend and Strogatz are also lamenting the potential loss of a less well-known aspect of mathematics. Contrary to the stereotypes, it’s a remarkably social discipline.</p>
-<p class="wp-block-paragraph">“You see in the media that there are all these lonely people that spend ten years on a problem. This is not the reality of most mathematicians,” Townsend said. “Most math is a collaborative, social activity. It’s a rare few that do their own thing in their office. Most papers have many co-authors with many people collaborating and coming up with ideas. We’d like to keep that in the future.”</p>
-<h2 class="wp-block-heading" id="h-the-bigger-picture">The bigger picture</h2>
-<p class="wp-block-paragraph">But again, while AI advances have for the moment focused the limelight on mathematicians, Strogatz and Townsend seek to broaden it.</p>
-<p class="wp-block-paragraph">“This is not just about us; this is about all of us. What does Big Math mean for you as a person, and what does Big Math mean for all of us in the world?” Strogatz told Big Think.</p>
-<p class="wp-block-paragraph">He noted that Big Math fundamentally underpins more controversial technologies: data centers, surveillance systems, cyberweapons, drones, and military targeting systems. The public, not just technocrats, CEOs, and venture capitalists, must shape regulation of these technologies. Mathematical literacy can help people feel empowered to join the conversation and decisions we need to make, Strogatz said.</p>
-<p class="wp-block-paragraph">Such literacy doesn’t mean excelling at geometry and matrix/matrix multiplication; it means having a basic understanding of Big Math’s reach and effects. Then anyone can take action.</p>
-<p class="wp-block-paragraph">To that end, Strogatz and Townsend offered five empowering tips in their book for surviving our algorithmic era. Whenever you encounter Big Math, in any of its myriad forms, intervening in your life (and that’s pretty often), ask yourself:</p>
-<ul class="wp-block-list">
-<li><strong>What’s being optimized?</strong> So much of Big Math is about efficiency and balancing different outcomes, but that goal can leave you, and others, out in the cold. “That’s mathematical thinking as quiet skepticism, asking what goal — and whose goal — the math is serving,” Strogatz and Townsend write.</li>
-<li><strong>Are there feedback loops?</strong> “Your behavior trains the models that shape your behavior,” they remind us. “The first step toward freedom is noticing that the loop exists. That’s how mathematical thinking restores a measure of control.”</li>
-<li><strong>What’s missing?</strong> Is something being left out of the data? Systems are only as capable as the data they are fed.</li>
-<li><strong>Is it interpretable?</strong> “A model that can’t be explained shouldn’t be trusted blindly,” Strogatz and Townsend write. If a model is messing with your life in some way, say at a bank or doctor’s office, don’t hesitate to ask for an explanation. </li>
-<li><strong>How uncertain is it?</strong> Remember probability isn’t a promise, especially in a single moment. “Whether it’s a medical test, a weather forecast, or an election poll, uncertainty is built in,” they write.</li>
-</ul>
-<p class="wp-block-paragraph">Too often today, Big Math is behaving more like Big Brother. But unlike Orwell’s <em>Nineteen Eighty-Four</em> (1949), this story hasn’t been written yet.&nbsp;</p>
-<p class="wp-block-paragraph">“Every mathematical invention begins and ends with human choices,” Townsend and Strogatz write. “We might never fully understand the oracles we’ve made, but we can decide what to ask of them, and why. We can remain the conscience behind the code.”</p>
-<p>This article <a href="https://bigthink.com/history-society/big-math/" rel="nofollow">We built our world on “Big Math.” Now we no longer understand it.</a> is featured on <a href="https://bigthink.com" rel="nofollow">Big Think</a>.</p>]]></content:encoded>
-</item>
-<item>
-<title>Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs</title>
-<link>https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html</link>
-<guid isPermaLink="false">97df1925c0ecbc2a</guid>
-<pubDate>Thu, 12 Nov 2026 17:36:06 +0000</pubDate>
-<author>The Hacker News</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Hardware side channel in cloud VMs is relevant to confidential computing. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Hardware side channel in cloud VMs is relevant to confidential computing. (score 7)<p>From <b>The Hacker News</b>.</p><hr/>
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikEkIc_eg4_tE5XE6CQrLFl74Gk0QwxcqaGXBnDAlitVIbzreq8faf57QtAqFh8rEn7HgTJzvGUZl2yNBhWVKOKo9KqnJHfduQfoT_HqUTlKhE-FzshzDrpIskiMQ3_Lz2hImNMbt9VdCj0O725_WyZsDXDB91phFceXh6Y_qzHgv1nJPMNjv8a7AU52c/s1600/amd.jpg"/>
-    <p>Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.</p>
-    <p>The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel.</p>
-    <p>The affected machine series are C4D, N4D, H4D, Z4D,, and G4, including bare-metal instances of C4D and Z4D. Turin is the code name for fifth-generation AMD EPYC processors.</p>
-    <p>All three flaws are Transient Scheduler Attacks (TSA). Two of them, TSA-SQ (CVE-2024-36350) and TSA-L1 (CVE-2024-36357), were first disclosed on July 8, 2025, for earlier EPYC processors.</p>
-    <p>AMD now says its Zen 5 processors, which include Turin, are "impacted differently from previously characterized AMD processors." The third flaw, CVE-2026-0004, is new. It may let an attacker who can run code on a system infer data in the processor's L1 data cache.</p>
-    <p>The Xen Project, which maintains the Xen hypervisor, calls the new flaw TSA-Fill. It also says an earlier statement has been corrected: "AMD had previously said that Zen5 CPUs were not vulnerable to TSA-SQ and TSA-L1."</p>
-    <p>
-      <a href=""/>
-    </p>
-    <p>Google rates the issue Medium. AMD classifies all three as local attacks with high attack complexity that require only low privileges, according to its <a href="https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7073.html">Zen 5 bulletin</a> and <a href="https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3055.html">CVE-2026-0004 advisory</a>.</p>
-    <p>As of today, none of the three is in the KEV catalog of exploited flaws kept by the U.S. Cybersecurity and Infrastructure Security Agency. Neither company reports any exploitation in its bulletins.</p>
-    <h3>What Google Cloud Customers Need to Do</h3>
-    <p>Google's <a href="https://docs.cloud.google.com/support/bulletins#gcp-2026-081">security bulletin</a> gives these steps for each service:</p>
-    <ul>
-      <li>VMs: Install your OS vendor's fix when it ships. Starting this week, the company will update the CPU information that VMs report, so a patched guest kernel can turn on its mitigations. After that update reaches a VM, stop and start it. As the company puts it: "Rebooting the guest OS isn't enough."</li>
-      <li>Bare metal instances: If you run your own OS or hypervisor on a C4D or Z4D bare metal instance, apply your vendor's fixes when they are available.</li>
-      <li>Hypervisors inside a VM: The same CPU information update applies, so patched guest kernels can turn on their mitigations. Stop and start the VM once the update arrives.</li>
-      <li>GKE: Updated node images for Turin-based bare metal instances will be made available, and upgrading nodes picks up the CPU information update. As of today, the bulletin does not yet list them as available.</li>
-      <li>Cloud Run: No action is needed.</li>
-    </ul>
-    <p>Customers on older Rome, Milan, and Genoa processors got the same stop-and-start instruction in an <a href="https://docs.cloud.google.com/support/bulletins#gcp-2025-037">earlier bulletin</a> at the time of the <a href="https://thehackernews.com/2025/07/amd-warns-of-new-transient-scheduler.html">original disclosure</a> on July 8, 2025.</p>
-    <p>The company lists nothing to do in the meantime for VMs whose OS vendor has not yet shipped a fix. It also does not say how to tell when the CPU information update has reached a VM.</p>
-    <p>A <a href="https://git.kernel.org/linus/cf27412f19c9cc5909b9107cd1b3f4ab7608e362">kernel commit</a> that mitigates TSA on Zen 5, including the new variant, is in the Linux kernel source tree. As of today, Debian has fixed CVE-2026-0004 in its Linux kernel only in its unstable branch. Its <a href="https://security-tracker.debian.org/tracker/CVE-2026-0004">security tracker</a> still lists the kernels in bookworm, trixie, and forky as vulnerable.</p>
-    <p>For Turin servers on your own hardware, AMD says both platform firmware and OS updates are needed to mitigate the flaws fully. The mitigation may affect performance, and administrators should weigh the risk to their own workloads, according to its <a href="https://www.amd.com/content/dam/amd/en/documents/resources/bulletin/technical-guidance-for-mitigating-transient-scheduler-attacks.pdf">technical guidance</a>.</p>
-    <p>The Xen Project has published hypervisor patches in its <a href="https://xenbits.xen.org/xsa/advisory-525.html">Xen advisory</a>. It says microcode for all TSA flaws on Zen 5 has been in linux-firmware since September 23.</p>
-    <p><a href="https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ">Google News</a>,</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>How 1Password for Agents preserves security and privacy</title>
-<link>https://1password.com/blog/1password-for-agents-security-privacy</link>
-<guid isPermaLink="false">8fe39b3548a047b6</guid>
-<pubDate>Thu, 12 Nov 2026 17:36:06 +0000</pubDate>
-<author>Blog on 1Password Blog</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; 1Password&amp;#x27;s security model for AI agent credential access, close to key management concerns. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Blog on 1Password Blog&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;People have trusted 1Password with the credentials behind their digital lives for years. How does 1Password extend that trust to AI agent access while ensuring that the customer is always in control of their information and how it’s accessed? As Ethan Mollick , a professor at the Wharton School at the University of Pennsylvania, puts it, “The agentic web is here earlier than people expected.” It seems like every day, AI agents are able to do more to interact with systems and take action for user&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> 1Password&#x27;s security model for AI agent credential access, close to key management concerns. (score 7)<p>From <b>Blog on 1Password Blog</b>.</p><hr/><img alt="How 1Password for Agents preserves security and privacy" src="https://images.ctfassets.net/3091ajzcmzlr/036l6Hv7XBzXEgUQXWydl/7bc689e63f13a90581cc537c6d6714a2/Hero_Human-in-the-Loop_1920x1080_01.webp" style="width: 100%; display: inline-block; margin: 0 auto;" /><p><em>How 1Password for Agents preserves security and privacy</em></p><p>People have trusted 1Password with the credentials behind their digital lives for years. How does 1Password extend that trust to AI agent access while ensuring that the customer is always in control of their information and how it’s accessed? </p><p>As <a href="https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"><u>Ethan Mollick</u></a>, a professor at the Wharton School at the University of Pennsylvania, puts it, “The agentic web is here earlier than people expected.” It seems like every day, AI agents are able to do more to interact with systems and take action for users, but the speed of their development has left <a href="https://www.forrester.com/blogs/ai-agents-arent-waiting-for-data-security/"><u>traditional security falling behind</u></a>. </p><p>To be useful, agents need access to your accounts. For instance, an agent can plan a trip for you, but would need access to your desired airline account or favorite travel booking website to do so. The value of such use-cases is clear, but giving agents access should not require that you let them see or store your credentials. Pasting your password into a prompt means allowing the agent to have access to your credential, potentially beyond the task at hand.</p><p>What’s needed now more than ever is a secure, seamless way to approve sign-ins for personal agents to access accounts they need to carry out tasks, all without exposing login credentials to the agent.</p><p>1Password solves this through <a href="https://1password.com/personal-ai-agent-integrations"><u>1Password for Agents</u></a>, which enables users to safely provide access to AI agents like Muse, from Meta, SpaceXSI Grok Bot, and Town. 1Password for Agents makes secure sign-in standard for the personal AI agents people use today.</p><h2>How AI agents sign in without seeing your passwords</h2><p>Personal AI agents can plan trips, manage calendars, organize events, and complete tasks across the websites and services you use every day. But to do that work, agents need access to the accounts you want them to interface with. </p><p>That creates a dilemma: how can an agent act on your behalf without taking possession of your passwords or compromising your security and privacy?</p><p>The answer lies in 1Password for Agents’ <a href="https://support.1password.com/1password-for-agents-security/"><u>security model</u></a>, which is built upon the fundamental <a href="https://support.1password.com/1password-security/"><u>1Password security model</u></a> that’s trusted by millions to protect how they live and work. Everything 1Password does is guided by principles that put your safety first. One of these principles is that only you should have the keys required to the data you store in 1Password. </p><p>Here’s how authorization is built to stay true to the principles of those security models so that:</p><ul><li><p>1Password securely stores your credentials</p></li><li><p>Agents can’t see your credentials at sign-in</p></li><li><p>Agents cannot autonomously interact with your vault</p></li></ul><h3>Connecting your account</h3><p>To connect an agent app, you sign into 1Password. When you connect the accounts, your device then creates keys for the connection and encrypts them with a new integration key. 1Password stores the encrypted keys. Only the agent developer receives the integration key, so 1Password can’t decrypt them.</p><p>These keys ensure that, as always, all vault data is encrypted at rest. </p><aside style="margin: 1em 0 !important; padding: 1em !important; background: #f2f2f3 !important;"><p><b>Stopping agent access:</b> At any time, you can go into the agent’s app and disconnect 1Password. This deletes the connection’s keys, every associated approval, and revokes the agent’s access to your account.</p></aside><h3>Approving which login an AI agent can use</h3><p>Once the connection and keys are in place, an agent has to follow a set process to sign in through a browser without handling one of your vault items. </p><ul><li><p>The agent reaches a sign-in page and requests a specific login.</p></li><li><p>The 1Password app shows you an approval prompt describing what the agent is asking for and which saved login could help.</p></li><li><p>You approve or deny the request. </p></li><li><p>If you approve, 1Password browser extension fills and submits the specific password or one-time code directly into the destination.</p></li><li><p>The agent is signed in and keeps working without seeing the password or the rest of your vault.</p></li></ul><div style="text-align: center !important;"></div><p>1Password for Agents delivers the approved vault login to the 1Password browser extension, so that the agent knows it received permission to sign in. The login remains protected because the agent can't see the underlying password.</p><h3>Preventing unapproved vault access through the browser extension</h3><p>Protecting the credential is only part of the problem. When an agent controls a browser, could it also try to interact with other credentials in your 1Password vault?</p><p>1Password and the agent app each have a role in protecting your logins. 1Password’s guarantees cover the storage, approval, delivery, and filling of credentials. We provide the agent with the credentials you’ve approved and only on matching pages, submit right away, and clear values from the page if submission fails. After a successful fill, what the agent does on the website is governed by the agent’s own safeguards. The agent developer stores the authorization tokens and integration key for your connection, and their agent controls the environment into which items are filled. All 1Password for Agents providers have signed an agreement to uphold shared security principles with 1Password and passed a security review. </p><h2>1Password’s trusted access layer for personal agents</h2><p>Personal AI agents become more useful when they have more access. They also pose more risk. Using an agent should not require that you let the agent see your bank passwords or any other credentials. This ensures that your plaintext credentials are never kept in the agent’s context or application logs; the agent can’t use or store your passwords or credentials without your oversight.</p><p>1Password is extending the security role it has always played for credentials and applying it to personal agents. Your vault remains the source of truth, and you remain the decision-maker. 1Password for Agents gives agents a controlled way to request access and lets them sign in without seeing your credentials or passwords. </p><p>You can control what AI agents access and when, without letting them take advantage of your personal information. </p><div style="margin: 1em 0 !important;"><h3>Want to learn more?</h3><p>Explore the 1Password for Agents security documentation to learn more about how connectors and authorization requests work.</p><a href="https://support.1password.com/1password-for-agents-security/">Read the documentation</a></div>]]></content:encoded>
-</item>
-<item>
-<title>Learning from rejection</title>
-<link>https://seths.blog/2026/11/learning-from-rejection/</link>
-<guid isPermaLink="false">3eb1f966f9fc02b3</guid>
-<pubDate>Thu, 12 Nov 2026 17:36:06 +0000</pubDate>
-<author>Seth&#x27;s Blog</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Seth Godin on learning from rejection. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Seth&amp;#x27;s Blog&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;If you’re doing something creative, something important or something new, you’re certain to be rejected along the way. It’s a signal. It might be proof that you offered it to the wrong person, or that the right person saw something about your work that didn’t serve their needs. Without learning from this signal, we’re doomed […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Seth Godin on learning from rejection. (score 7)<p>From <b>Seth&#x27;s Blog</b>.</p><hr/><p class="wp-block-paragraph">If you&#8217;re doing something creative, something important or something new, you&#8217;re certain to be rejected along the way.</p>
-
-
-
-<p class="wp-block-paragraph">It&#8217;s a signal. It might be proof that you offered it to the wrong person, or that the right person saw something about your work that didn&#8217;t serve their needs. Without learning from this signal, we&#8217;re doomed to experience it again and again.</p>
-
-
-
-<p class="wp-block-paragraph">What do we know for sure?</p>
-
-
-
-<p class="wp-block-paragraph"><em>It was rejected.</em></p>
-
-
-
-<p class="wp-block-paragraph">What else?</p>
-
-
-
-<p class="wp-block-paragraph">Nothing. The reasons listed in the rejection letter are almost certainly made up. Perhaps they&#8217;re insulating themselves from being re-sold (&#8220;you said you didn&#8217;t like the color, but we have other colors!&#8221;) or perhaps they&#8217;re protecting your feelings. It could be that they aren&#8217;t telling themselves the truth, or don&#8217;t want to be hassled for telling you the truth.</p>
-
-
-
-<p class="wp-block-paragraph">Few people explain their rejection with, &#8220;I&#8217;m afraid,&#8221; or &#8220;I wanted to do it but my boss won&#8217;t let me,&#8221; or &#8220;you have bad breath and I don&#8217;t like you.&#8221;</p>
-
-
-
-<p class="wp-block-paragraph">Being rejected hurts, and we&#8217;re likely to marinate in the pain. We imagine that the person who rejected us understands everything about what we offered, is a rational actor and cares as much as we do. While we&#8217;re at it, we personalize, amplify and multiply the rejection.</p>
-
-
-
-<p class="wp-block-paragraph">But all we really know is that this person, on this day, in this situation, hearing the story the way we told it, said no.</p>
-
-
-
-<p class="wp-block-paragraph">Years ago, I self-published a booklet for political activists. My timing was good, and I had a chance to sell the books from an organizer&#8217;s booth at a march on the very topic my book was about. It was a beautiful April day, and I stood on the side of route as the march went by. More than 400,000 passed my table, and I sold four books.</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s 399,996 rejections. Maybe more.</p>
-
-
-
-<p class="wp-block-paragraph">Was it the price? Halfway through the march, I lowered it from $10 to $1, just to have a good story to blog a few decades later.</p>
-
-
-
-<p class="wp-block-paragraph">Sales did not increase. Perhaps it was the color of the jacket, the page count or the typo on page 32? None of those things.</p>
-
-
-
-<p class="wp-block-paragraph">What did I learn? That people at a march are at the march to march, not to shop.</p>
-
-
-
-<p class="wp-block-paragraph">Watch what people do, not what they say. And if you really want to learn something, change the situation and see what happens the next time.</p>
-
-
-
-<p class="wp-block-paragraph">Learning from rejection begins with understanding the lesson that&#8217;s being offered.</p>]]></content:encoded>
-</item>
-<item>
-<title>Apple Support Community Deserved a Proper Goodbye</title>
-<link>https://www.macrumors.com/2026/11/11/apple-support-community-deserved-a-proper-goodbye/</link>
-<guid isPermaLink="false">abc39cfe6fd0e985</guid>
-<pubDate>Thu, 12 Nov 2026 17:36:06 +0000</pubDate>
-<author>MacRumors: Mac News and Rumors - All Stories</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Apple abruptly closing its Support Community forums is notable company news. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacRumors: Mac News and Rumors - All Stories&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Apple on Tuesday abruptly placed the Apple Support Community into a read-only state and announced that the forums will be permanently closing on Friday, November 20 . Those who contributed to the site — some for more than two decades — were blindsided by this decision and had no chance to post farewell messages. Even if you felt the Apple Support Community contained too many generic or unhelpful answers from users trying to boost their post counts and earn points , the people volunteering their &lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Apple abruptly closing its Support Community forums is notable company news. (score 7)<p>From <b>MacRumors: Mac News and Rumors - All Stories</b>.</p><hr/>Apple on Tuesday abruptly placed the <a href="https://discussions.apple.com/welcome">Apple Support Community</a> into a read-only state and announced that the forums <a href="https://www.macrumors.com/2026/11/10/apple-support-community-closing-november-20/">will be permanently closing on Friday, November 20</a>. Those who contributed to the site — some for more than two decades — were blindsided by this decision and had no chance to post farewell messages.
-<br />
-
-<br />
-<img alt="" class="aligncenter size-full wp-image-1076860" height="900" src="https://images.macrumors.com/article-new/2026/11/Apple-Support-Community.jpg" width="1600" />
-<br />
-Even if you felt the Apple Support Community contained too many generic or unhelpful answers from users trying to boost their post counts and <a href="https://support.apple.com/en-us/102167">earn points</a>, the people volunteering their time to the site still deserved a proper goodbye.
-<br />
-
-<br />
-Below, we have highlighted some of those people and their experiences.
-<br />
-
-<br />
-<a href="https://discussions.apple.com/profile/Jeff+Donald/participation">Jeff Donald</a> from Florida was a member of the Apple Support Community since November 2000, when the forums were still known as Apple Discussions. This past year, Apple recognized his efforts by inviting him to the <a href="https://discussions.apple.com/docs/DOC-250009628">Apple Community+ program</a>, which launched in 2022 and provided members with a few extra perks and experiences.
-<br />
-
-<br />
-<a href="https://discussions.apple.com/profile/leroydouglas/participation">Leroy Douglas</a> was a member since July 2009. He said he was a bit shocked to see Apple's sudden announcement, but he saw the writing on the wall.
-<br />
-
-<br />
-Here is a fun fact that you might not have known: In addition to English, <a href="https://communities.apple.com/de/profile/tobias501/participation">Tobias Steen</a> in Germany said there were also Apple Support Communities in <a href="https://communities.apple.com/de/docs/DOC-250006812">Chinese, French, German, Japanese, Korean, Portuguese, and Spanish</a>. For some reason, the French and German versions do not have closure notices, but we are told they will meet the same fate.
-<br />
-
-<br />
-The forums brought together people of all ages, from 16-year-old <a href="https://communities.apple.com/fr/profile/batorousseauevan/participation">Evan Bato Rousseau</a> in France to 83-year-old Nobel Prize winner <a href="https://royalsociety.org/people/tim-hunt-11666/">Sir Tim Hunt</a> in England, who told us he found it to be a helpful resource, even if some of the answers were wonky.
-<br />
-
-<br />
-<a href="https://discussions.apple.com/profile/etresoft/participation">John Daniel</a>, the Canadian developer of macOS diagnostic tool <a href="https://etrecheck.com/en/index.html">EtreCheck</a>, said he was active in the Apple Support Community for more than two decades. Users like him who reached "Level 6" or higher based on their contributions received access to The Lounge, a private category of forums where Apple employees sometimes participated.
-<br />
-
-<br />
-Prior to 2020, John said Apple occasionally hosted in-person meetups for Support Community members, including a special visit to Apple Park. 
-<br />
-
-<br />
-"I don't agree with comments that so many are making about the Apple Support Community right now," he said, in response to those who described it as useless. "We regularly solved problems, identified significant issues with Apple projects, traced the cause of bugs and fixed them, and always learned new things. That's what I'm going to miss."
-<br />
-
-<br />
-<a href="https://communities.apple.com/es/profile/MrRojano97/participation">Elías Rojano Núñez</a> of Chile participated in the Spanish forums. He told us that he found it deeply satisfying when he was able to help others, and he was saddened that the Spanish forums were shuttered without any advanced notice, but he is grateful for the opportunity that he had and will always value the interactions he had with fellow contributors.
-<br />
-
-<br />
-Rojano Núñez shared a photo of some of the items he received from Apple over the years, including a 5-year Apple Support Community anniversary pin. There were also 10-year, 15-year, and 20-year pins. Over the years, merchandise given out included Apple-branded hats, shirts, tote bags, and even umbrellas once.
-<br />
-
-<br />
-<img alt="" class="aligncenter size-full wp-image-1077047" height="960" src="https://images.macrumors.com/article-new/2026/11/Apple-Support-Community-Merchandise.jpg" width="1280" />
-<br />
-Whatever its shortcomings, the Apple Support Community was more than just a place to ask questions. For some, it was a place to belong.
-<br />
-
-<br />
-To that, we say goodbye and thank you, not <a href="https://daringfireball.net/linked/2026/11/11/apple-support-community-ding-dong">good riddance</a>.<br />This article, &quot;<a href="https://www.macrumors.com/2026/11/11/apple-support-community-deserved-a-proper-goodbye/">Apple Support Community Deserved a Proper Goodbye</a>&quot; first appeared on <a href="https://www.macrumors.com">MacRumors.com</a><br /><br /><a href="https://forums.macrumors.com/threads/apple-support-community-deserved-a-proper-goodbye.2494222/">Discuss this article</a> in our forums<br /><br />]]></content:encoded>
 </item>
 </channel></rss>
