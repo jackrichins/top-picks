@@ -2,7 +2,601 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel>
 <title>Top Picks</title><link>https://jackrichins.github.io/top-picks</link>
 <description>The best of my feeds, picked by Claude.</description>
-<lastBuildDate>Fri, 20 Nov 2026 17:35:36 +0000</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 00:17:01 +0000</lastBuildDate>
+<item>
+<title>Plate Maintenance</title>
+<link>https://xkcd.com/3327/</link>
+<guid isPermaLink="false">9f267d678a928df3</guid>
+<pubDate>Sat, 21 Nov 2026 00:17:01 +0000</pubDate>
+<author>xkcd.com</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; On your always-include list. (score 10)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;xkcd.com&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> On your always-include list. (score 10)<p>From <b>xkcd.com</b>.</p><hr/><img alt="First we're going to have to relieve the built-up strain, but we'll do it one hemisphere at a time, so you'll just need to briefly move all your fragile stuff like buildings over to the other hemisphere while we work." src="https://imgs.xkcd.com/comics/plate_maintenance.png" title="First we're going to have to relieve the built-up strain, but we'll do it one hemisphere at a time, so you'll just need to briefly move all your fragile stuff like buildings over to the other hemisphere while we work." /><p><em>First we're going to have to relieve the built-up strain, but we'll do it one hemisphere at a time, so you'll just need to briefly move all your fragile stuff like buildings over to the other hemisphere while we work.</em></p><p><a href="https://www.explainxkcd.com/wiki/index.php/3327">Still not sure? Explain this comic</a></p>]]></content:encoded>
+</item>
+<item>
+<title>Finally, Apple can reveal the UK backdoor demand ↦</title>
+<link>https://sixcolors.com/link/2026/11/finally-apple-can-reveal-the-uk-backdoor-demand/</link>
+<guid isPermaLink="false">5d5d1c2b2793cc75</guid>
+<pubDate>Sat, 21 Nov 2026 00:17:01 +0000</pubDate>
+<author>Six Colors</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Apple can finally confirm the UK backdoor demand behind pulling Advanced Data Protection, a landmark encryption policy story. (score 9)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Six Colors&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Apple can at last admit what everyone knew about its restriction in February 2025 on iCloud’s Advanced Data Protection (ADP) for new users in the United Kingdom: the government made us do it.…&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Apple can finally confirm the UK backdoor demand behind pulling Advanced Data Protection, a landmark encryption policy story. (score 9)<p>From <b>Six Colors</b>.</p><hr/><p>Apple can at last admit what everyone knew about its <a href="https://sixcolors.com/post/2025/02/apple-is-removing-its-advanced-data-protection-feature-in-the-uk/">restriction in February 2025</a> on iCloud&#8217;s <a href="https://sixcolors.com/post/2022/12/apple-to-extend-end-to-end-encryption-add-other-security-features/">Advanced Data Protection</a> (ADP) for new users in the United Kingdom: the government made us do it.</p>
+<p>ADP provides end-to-end, device-based encryption for most iCloud data, and it was a remarkable bump up in privacy protection when Apple <a href="https://www.macworld.com/article/1439693/how-to-enable-manage-advanced-data-protection-icloud-data.html">released it suddenly in December 2022</a>. The February 2025 announcement offered no details as to why Apple made this enrollment change.</p>
+<p>Reporting in April 2025 revealed that the UK government had demanded Apple build a backdoor for access to iCloud data under the Investigatory Powers Act 2016, which also prevented Apple from revealing this demand. Apple instead disabled the feature for new users.</p>
+<p>On Thursday, <a href="https://investigatorypowerstribunal.org.uk/judgement/1-mr-vincent-kearney-2-british-broadcasting-corporation-v-1-chief-constable-of-the-police-service-of-northern-ireland-2-chief-constable-of-durham-constabulary-3-security-service-4-governme/">the UK Investigatory Powers Tribunal</a>, an independent body that allows challenges to government surveillance orders, said—paraphrasing—<a href="https://giftarticle.ft.com/giftarticle/actions/redeem/7d458e62-858a-4313-a16c-9ec3179ed12b">it was ridiculous for Apple to be unable to discuss something widely known in public</a>.</p>
+<p>Apple challenged an original broad order that would have jeopardized privacy for users worldwide, and a second one that more narrowly set the scope for British citizens. The company told <a href="https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/">some media outlets</a> that it &#8220;welcomes the decision to make public the fact that the U.K. Home Office issued a technical capability notice.&#8221;</p>
+<p><a href="https://investigatorypowerstribunal.org.uk/judgement/1-mr-vincent-kearney-2-british-broadcasting-corporation-v-1-chief-constable-of-the-police-service-of-northern-ireland-2-chief-constable-of-durham-constabulary-3-security-service-4-governme/">Go to the linked site</a>.</p><p><a href="https://sixcolors.com/link/2026/11/finally-apple-can-reveal-the-uk-backdoor-demand/">Read on Six Colors</a>.</p>]]></content:encoded>
+</item>
+<item>
+<title>A Look at Apple’s AI Photo Features</title>
+<link>https://512pixels.net/2026/11/a-look-at-apples-ai-photo-features/</link>
+<guid isPermaLink="false">291003fe6f6dee10</guid>
+<pubDate>Sat, 21 Nov 2026 00:17:01 +0000</pubDate>
+<author>512 Pixels</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A VFX veteran&amp;#x27;s critical look at Apple&amp;#x27;s generative photo tools, via Hackett. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;512 Pixels&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Joe Rosensteel over at Six Colors: In its 27 operating system releases, Apple added loads of generative image editing tools, and the tools have incrementally changed since they were introduced over the summer. I’m going to take my 20-plus years of experience in visual effects and talk about how well …&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> A VFX veteran&#x27;s critical look at Apple&#x27;s generative photo tools, via Hackett. (score 7)<p>From <b>512 Pixels</b>.</p><hr/>
+    <p>Joe Rosensteel <a href="https://sixcolors.com/post/2026/11/casting-an-expert-eye-on-apples-ai-photo-retouching-features/">over at Six Colors</a>:</p>
+    <blockquote>
+<p>In its 27 operating system releases, Apple <a href="https://sixcolors.com/post/2026/09/macos-27-golden-gate-review-bridging-the-tahoe-gap/">added loads of generative image editing tools</a>, and the tools have incrementally changed since they were introduced over the summer. I’m going to take my 20-plus years of experience in visual effects and talk about how well those tools work in practice.</p>
+</blockquote>
+    <p>I learned a ton reading through this.</p>
+  ]]></content:encoded>
+</item>
+<item>
+<title>Scope down permissions of existing sessions using AWS STS GetScopedCredentials</title>
+<link>https://aws.amazon.com/blogs/security/scope-down-permissions-of-existing-sessions-using-aws-sts-getscopedcredentials/</link>
+<guid isPermaLink="false">84e1518245d6ed77</guid>
+<pubDate>Sat, 21 Nov 2026 00:17:01 +0000</pubDate>
+<author>AWS Security Blog</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; New STS API to scope down session credentials for AI agents, a least-privilege pattern relevant to agent security. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;AWS Security Blog&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;When you build AI agents, you often want each agent or sub-agent to have only the permissions its tasks require, rather than the full permissions of the session that started it. GetScopedCredentials is a new AWS Security Token Service (AWS STS) API that you can use to scope down the permissions of existing temporary security […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> New STS API to scope down session credentials for AI agents, a least-privilege pattern relevant to agent security. (score 7)<p>From <b>AWS Security Blog</b>.</p><hr/><div class="Page-articleBody"> 
+ <div class="RichTextArticleBody RichTextBody"> 
+  <p>When you build AI agents, you often want each agent or sub-agent to have only the permissions its tasks require, rather than the full permissions of the session that started it. GetScopedCredentials is a new <span class="LinkEnhancement"><a class="Link" href="https://aws.amazon.com/sts" rel="noopener" target="_blank">AWS Security Token Service (AWS STS)</a></span> API that you can use to scope down the permissions of existing temporary security credentials. You can assign each agent, sub-agent, or process its own set of credentials that keep the caller’s <span class="LinkEnhancement"><a class="Link" href="https://aws.amazon.com/iam" rel="noopener" target="_blank">AWS Identity and Access Management (IAM)</a></span> identity but carry reduced permissions, a shorter session duration, or both.</p> 
+  <p>You can call GetScopedCredentials with the temporary security credentials you already use, such as those from aws login, an <span class="LinkEnhancement"><a class="Link" href="https://aws.amazon.com/ec2" rel="noopener" target="_blank">Amazon Elastic Compute Cloud (Amazon EC2)</a></span> instance profile, or an <span class="LinkEnhancement"><a class="Link" href="https://aws.amazon.com/lambda" rel="noopener" target="_blank">AWS Lambda</a></span> function. In each call, you pass a scope down policy, a shorter session duration, or both. A scope down policy is an inline policy that describes the maximum permissions for the new credentials. The resulting permissions are the intersection of your session’s effective permissions and the scope down policy, so they can only be reduced. Similarly, the session duration you request can’t exceed the remaining duration of the calling session. You can also call GetScopedCredentials again with the resulting credentials to scope down permissions or reduce session duration even further.</p> 
+  <p>GetScopedCredentials is designed as a building block. Because it scopes down permissions on the credentials you already have, you can build it into agent frameworks, services that issue credentials to other components, continuous integration and deployment (CI/CD) pipelines, and your own applications. You can also call it again with scoped-down credentials, so an orchestrating agent can give each sub-agent narrower access than its own.</p> 
+  <p>In this post, we walk through a few common use cases to get you started, show you how to call GetScopedCredentials, and explain how to manage access to it.</p> 
+  <div class="RichTextHeading"> 
+   <h2>Example use cases</h2> 
+   <p></p>
+  </div> 
+  <p>You can use GetScopedCredentials whenever a workload needs narrower access than the session that starts it. Examples include limiting what AI agents can do, scoping down permissions based on runtime context, and granting just-in-time access. We cover two of the most common use cases in more detail in this section.</p> 
+  <div class="RichTextHeading"> 
+   <h3><b>Limit what AI agents can do</b></h3> 
+   <p></p>
+  </div> 
+  <p>When you pass credentials to an agent, the agent can use any permission those credentials carry. An agent decides which actions to take at runtime, often based on prompts or tool output. If its credentials are overly permissive, an agent that makes a mistake can act beyond the task you gave it.</p> 
+  <p>Before you pass credentials to an agent, you can use GetScopedCredentials to scope down permissions to only what its tasks require, such as read access to a single <span class="LinkEnhancement"><a class="Link" href="https://aws.amazon.com/s3" rel="noopener" target="_blank">Amazon Simple Storage Service (Amazon S3)</a></span> bucket. You could also take the opposite approach and keep most of its permissions while removing only the actions the agent should never perform, such as deleting resources. An orchestrating agent can do the same for each sub-agent it starts. Because a scope down operation can only narrow permissions, a sub-agent never has more access than the agent that started it. To help ensure that your agents only have access to the scoped-down credentials, run them in isolated or sandbox environments such as <span class="LinkEnhancement"><a class="Link" href="https://aws.amazon.com/blogs/opensource/introducing-strands-box-ai-agent-sandboxes-powered-by-dogwood/" rel="noopener" target="_blank">AWS Strands Box</a></span>.</p> 
+  <div class="RichTextHeading"> 
+   <h3><b>Scope down permissions based on runtime context</b></h3> 
+   <p></p>
+  </div> 
+  <p>Many workloads run under a single IAM role but need different, narrower permissions for each task they perform. The right set of permissions for a task often depends on information the workload learns only at runtime, such as who sent a request.</p> 
+  <p>Consider a multi-tenant application that stores each tenant’s files under a separate prefix in one S3 bucket. This application uses a single IAM role to serve all its tenants, so the role can access every tenant’s prefix. However, each request should reach only the files of the tenant who sent it, and the application learns which tenant that is only after it authenticates the request. At that point, a trusted credential broker in the application takes the tenant details from the authenticated session and calls GetScopedCredentials with a scope down policy that allows access only to that tenant’s prefix. It passes only the scoped-down credentials to the worker that handles the request, so Amazon S3 denies that worker access to other tenants’ prefixes even though the original role covers them all.</p> 
+  <div class="RichTextHeading"> 
+   <h2>How to call GetScopedCredentials</h2> 
+   <p></p>
+  </div> 
+  <p>This section walks through the process of scoping down permissions for an existing session. Before you call GetScopedCredentials, make sure you have valid temporary security credentials and that they have the permissions to call the API. The following identity based policy grants that permission.</p> 
+  <div class="Enhancement CodeBlockEnhancement"> 
+   <div class="Enhancement-item"> 
+    <div class="CodeBlockWP hide-language"> 
+     <div class="code-toolbar"> 
+      <pre class="unlimited-height-code language-text"><code class="language-text">{
+  "Version": "2012-10-17",
+  "Statement": [{
+    "Effect": "Allow",
+    "Action": "sts:GetScopedCredentials",
+    "Resource": "*"
+  }]
+}</code></pre> 
+      <p></p>
+     </div> 
+     <p></p>
+    </div> 
+    <p></p>
+   </div> 
+   <p></p>
+  </div> 
+  <p>To call GetScopedCredentials, use the latest version of the <span class="LinkEnhancement"><a class="Link" href="https://aws.amazon.com/cli" rel="noopener" target="_blank">AWS Command Line Interface (AWS CLI)</a></span> or the AWS SDK for your programming language.</p> 
+  <div class="RichTextHeading"> 
+   <h3><b>Step 1: Define a scope down policy</b></h3> 
+   <p></p>
+  </div> 
+  <p>Write a scope down policy that describes the maximum permissions the resulting credentials should have. At launch, GetScopedCredentials accepts one inline scope down policy of up to 2,048 characters. You can write a scope down policy in many ways, such as authoring a policy from scratch, reusing or modifying an existing policy, or asking an AI assistant to draft one. This section covers two such approaches.</p> 
+  <p><b>Option A: Write the policy yourself</b><br /> <br /> If you know which actions and resources your task needs, write the policy directly. The following sample policy allows the resulting credentials to only read objects from a single S3 bucket.</p> 
+  <div class="Enhancement CodeBlockEnhancement"> 
+   <div class="Enhancement-item"> 
+    <div class="CodeBlockWP hide-language"> 
+     <div class="code-toolbar"> 
+      <pre class="unlimited-height-code language-text"><code class="language-text">{
+  "Version": "2012-10-17",
+  "Statement": [{
+    "Effect": "Allow",
+    "Action": "s3:GetObject",
+    "Resource": "arn:aws:s3:::amzn-s3-demo-bucket/*"
+  }]
+}</code></pre> 
+      <p></p>
+     </div> 
+     <p></p>
+    </div> 
+    <p></p>
+   </div> 
+   <p></p>
+  </div> 
+  <p>Make sure to include every action the task needs, including dependent actions. For example, if your task uses <span class="LinkEnhancement"><a class="Link" href="https://aws.amazon.com/athena" rel="noopener" target="_blank">Amazon Athena</a></span> to query data in Amazon S3, the policy must also allow <code class="CodeInline" style="color: #000;">s3:GetObject</code> on that data, because Athena reads it with your credentials.</p> 
+  <p>To keep most of the calling session’s permissions and remove only a few sensitive ones, use an Allow statement with <code class="CodeInline" style="color: #000;">NotAction</code>. This statement doesn’t grant additional access, because a scope down policy can only reduce permissions. The resulting credentials keep the calling session’s permissions except the actions you list, which makes this a quick way to set guardrails without listing each action a task needs. The following sample policy blocks identity and account management, assuming other roles, and deleting some critical resources.</p> 
+  <div class="Enhancement CodeBlockEnhancement"> 
+   <div class="Enhancement-item"> 
+    <div class="CodeBlockWP hide-language"> 
+     <div class="code-toolbar"> 
+      <pre class="unlimited-height-code language-text"><code class="language-text">{
+  "Version": "2012-10-17",
+  "Statement": [{
+    "Effect": "Allow",
+    "NotAction": [
+      "iam:*",
+      "organizations:*",
+      "account:*",
+      "sts:AssumeRole*",
+      "s3:DeleteBucket",
+      "ec2:TerminateInstances",
+      "rds:DeleteDBInstance",
+      "dynamodb:DeleteTable"
+    ],
+    "Resource": "*"
+  }]
+}</code></pre> 
+      <p></p>
+     </div> 
+     <p></p>
+    </div> 
+    <p></p>
+   </div> 
+   <p></p>
+  </div> 
+  <p><b>Option B: Generate the policy with IAM Policy Autopilot</b><br /> <br /> You can also use <span class="LinkEnhancement"><a class="Link" href="https://github.com/awslabs/iam-policy-autopilot" rel="noopener" target="_blank">IAM Policy Autopilot</a></span> to generate a scope down policy. IAM Policy Autopilot is an open source tool from AWS that analyzes the AWS SDK calls in your code and identifies the permissions it requires to run successfully. You can run it from the command line or as a Model Context Protocol (MCP) server in your AI coding assistant. To install it, see the <span class="LinkEnhancement"><a class="Link" href="https://github.com/awslabs/iam-policy-autopilot#getting-started" rel="noopener" target="_blank">Getting Started instructions</a></span> for IAM Policy Autopilot.</p> 
+  <p>We’ll use the following Python code to generate a scope down policy using IAM Policy Autopilot. It records a report’s status in an <span class="LinkEnhancement"><a class="Link" href="https://aws.amazon.com/dynamodb" rel="noopener" target="_blank">Amazon DynamoDB</a></span> table.</p> 
+  <div class="Enhancement CodeBlockEnhancement"> 
+   <div class="Enhancement-item"> 
+    <div class="CodeBlockWP hide-language"> 
+     <div class="code-toolbar"> 
+      <pre class="unlimited-height-code language-text"><code class="language-text">import json
+import logging
+import os
+
+import boto3
+from botocore.exceptions import ClientError
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+dynamodb = boto3.client("dynamodb")
+table_name = os.environ["TABLE_NAME"]
+
+
+def _response(status_code, message):
+    return {"statusCode": status_code, "body": json.dumps({"message": message})}
+
+
+def handler(event, context):
+    try:
+        request = json.loads(event.get("body") or "{}")
+        report_id = request["reportId"]
+    except (json.JSONDecodeError, KeyError, TypeError):
+        return _response(400, "Request body must be JSON with a reportId")
+
+    if not isinstance(report_id, str) or not report_id:
+        return _response(400, "reportId must be a non-empty string")
+
+    try:
+        dynamodb.put_item(
+            TableName=table_name,
+            Item={
+                "reportId": {"S": report_id},
+                "status": {"S": "READY"},
+            },
+            ConditionExpression="attribute_not_exists(reportId)",
+        )
+        return _response(200, "Report status saved")
+    except ClientError as error:
+        code = error.response["Error"]["Code"]
+        if code == "ConditionalCheckFailedException":
+            return _response(409, "Report status already exists")
+
+        logger.error("PutItem failed: %s", code)
+        return _response(500, "Unable to save the report status")</code></pre> 
+      <p></p>
+     </div> 
+     <p></p>
+    </div> 
+    <p></p>
+   </div> 
+   <p></p>
+  </div> 
+  <p>Save the code as <code class="CodeInline" style="color: #000;">report_status.py</code> and run the following command. If the generated policy exceeds the 2,048 character limit, set the <code class="CodeInline" style="color: #000;">max-policy-size</code> and <code class="CodeInline" style="color: #000;">allow-overpermissive-wildcards-to-limit-total-output-size</code> options to 2048. IAM Policy Autopilot then replaces groups of actions with wildcards to fit that size and warns you if it can’t.</p> 
+  <div class="Enhancement CodeBlockEnhancement"> 
+   <div class="Enhancement-item"> 
+    <div class="CodeBlockWP hide-language"> 
+     <div class="code-toolbar"> 
+      <pre class="unlimited-height-code language-text"><code class="language-text">iam-policy-autopilot generate-policies ./report_status.py \
+  --region us-west-2 \
+  --account 123456789012 \
+  --service-hints dynamodb \
+  --max-policy-size 2048 \
+  --allow-overpermissive-wildcards-to-limit-total-output-size 2048 \
+  --pretty</code></pre> 
+      <p></p>
+     </div> 
+     <p></p>
+    </div> 
+    <p></p>
+   </div> 
+   <p></p>
+  </div> 
+  <p>IAM Policy Autopilot returns the following policy.</p> 
+  <div class="Enhancement CodeBlockEnhancement"> 
+   <div class="Enhancement-item"> 
+    <div class="CodeBlockWP hide-language"> 
+     <div class="code-toolbar"> 
+      <pre class="unlimited-height-code language-text"><code class="language-text">{
+  "Id": "IamPolicyAutopilot",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "dynamodb:PutItem",
+        "dynamodb:WriteDataForReplication"
+      ],
+      "Resource": [
+        "arn:aws:dynamodb:us-west-2:123456789012:table/*"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "kms:Decrypt"
+      ],
+      "Resource": [
+        "arn:aws:kms:us-west-2:123456789012:key/*"
+      ],
+      "Condition": {
+        "StringEquals": {
+          "kms:ViaService": [
+            "dynamodb.us-west-2.amazonaws.com"
+          ]
+        }
+      }
+    }
+  ]
+}</code></pre> 
+      <p></p>
+     </div> 
+     <p></p>
+    </div> 
+    <p></p>
+   </div> 
+   <p></p>
+  </div> 
+  <p>IAM Policy Autopilot generates a starting policy that can include wildcards, either because specific resources can’t be inferred from the code, such as with the <code class="CodeInline" style="color: #000;">table/*</code> and <code class="CodeInline" style="color: #000;">key/*</code> resources in this example, or because an optional parameter that limits policy size replaced actions with wildcards. Review the generated policies and replace the wildcards with the actions and resources your task should access.</p> 
+  <p>However you create the policy, save it as <code class="CodeInline" style="color: #000;">scope-down-policy.json</code>. If you want to continue calling GetScopedCredentials with the resulting credentials, also include the <code class="CodeInline" style="color: #000;">sts:GetScopedCredentials</code> action in the Allow block of the permission policy.</p> 
+  <div class="RichTextHeading"> 
+   <h3><b>Step 2: Call GetScopedCredentials</b></h3> 
+   <p></p>
+  </div> 
+  <p>Pass the scope down policy you created to GetScopedCredentials. The following command also uses the optional <code class="CodeInline" style="color: #000;">duration-seconds</code> parameter to limit the resulting session duration and the optional <code class="CodeInline" style="color: #000;">scoped-session-description</code> parameter to record context for the scoped-down credentials. If you omit the <code class="CodeInline" style="color: #000;">duration-seconds</code> parameter, the credentials keep the calling session’s remaining duration.</p> 
+  <div class="Enhancement CodeBlockEnhancement"> 
+   <div class="Enhancement-item"> 
+    <div class="CodeBlockWP hide-language"> 
+     <div class="code-toolbar"> 
+      <pre class="unlimited-height-code language-text"><code class="language-text">aws sts get-scoped-credentials \
+  --policy '{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Action":"s3:GetObject","Resource":"arn:aws:s3:::amzn-s3-demo-bucket/*"}]}' \
+  --duration-seconds 300 \
+  --scoped-session-description report-status-job \
+  --region us-west-2</code></pre> 
+      <p></p>
+     </div> 
+     <p></p>
+    </div> 
+    <p></p>
+   </div> 
+   <p></p>
+  </div> 
+  <p>The response includes a new set of temporary security credentials, a <code class="CodeInline" style="color: #000;">SessionInfo</code> element, and some helpful information about session size and contents.</p> 
+  <div class="Enhancement CodeBlockEnhancement"> 
+   <div class="Enhancement-item"> 
+    <div class="CodeBlockWP hide-language"> 
+     <div class="code-toolbar"> 
+      <pre class="unlimited-height-code language-text"><code class="language-text">{
+  "Credentials": {
+    "AccessKeyId": "AKIAIOSFODNN7EXAMPLE",
+    "SecretAccessKey": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY,
+    "SessionToken": "IQoJb3JpZ2luX2VjEHMaCXVzL...",
+    "Expiration": "2026-10-12T03:00:00Z"
+  },
+  "SessionInfo": {
+    "Arn": "arn:aws:sts::111122223333:assumed-role/Developer/jane",
+    "ScopedSessionId": "AROADBQP57FF2AEXAMPLE:jane"
+  },
+  "SessionTokenUtilization": 17,
+  "SessionTokenSize": 724,
+  "ScopedPoliciesCount": 1
+}</code></pre> 
+      <p></p>
+     </div> 
+     <p></p>
+    </div> 
+    <p></p>
+   </div> 
+   <p></p>
+  </div> 
+  <p>Notice that the Amazon Resource Name (ARN) in the <code class="CodeInline" style="color: #000;">SessionInfo</code> element matches the ARN of your calling session. The scoped-down credentials retain the identity of the calling session, including the role session name, session tags and context keys.</p> 
+  <p>The <code class="CodeInline" style="color: #000;">ScopedPoliciesCount</code> value in the response shows how many scope down policies apply to the session. It increases only when a recursive call adds a new scope down policy and not when a call only shortens the session duration.</p> 
+  <p>Each GetScopedCredentials call is logged in <span class="LinkEnhancement"><a class="Link" href="https://aws.amazon.com/cloudtrail" rel="noopener" target="_blank">AWS CloudTrail</a></span>. The following event, shortened for readability, shows the call from this example.</p> 
+  <div class="Enhancement CodeBlockEnhancement"> 
+   <div class="Enhancement-item"> 
+    <div class="CodeBlockWP hide-language"> 
+     <div class="code-toolbar"> 
+      <pre class="unlimited-height-code language-text"><code class="language-text">{
+    "eventVersion": "1.11",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROADBQP57FF2AEXAMPLE:janee",
+        "arn": "arn:aws:sts::111122223333:assumed-role/Developer/jane",
+        "accessKeyId": "ASIAI44QH8DHBEXAMPLE",
+        ...
+    },
+    "eventTime": "2026-10-12T02:55:00Z",
+    "eventSource": "sts.amazonaws.com",
+    "eventName": "GetScopedCredentials",
+    "awsRegion": "us-west-2",
+    ...
+    "requestParameters": {
+        "policy": "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Action\":\"s3:GetObject\",\"Resource\":\"arn:aws:s3:::amzn-s3-demo-bucket/*\"}]}",
+        "scopedSessionDescription": "report-status-job",
+        "durationSeconds": 300
+    },
+    "responseElements": {
+        "credentials": {
+            "accessKeyId": "ASIAIOSFODNN7EXAMPLE",
+            "sessionToken": "IQoJb3JpZ2luX2VjEHMaCXVzL...",
+            "expiration": "2026-10-12T03:00:00Z"
+        },
+        "sessionInfo": {
+            "scopedSessionId": "AROADBQP57FF2AEXAMPLE:jane",
+            "arn": "arn:aws:sts::111122223333:assumed-role/Developer/jane"
+        },
+        "sessionTokenUtilization": 17,
+        "sessionTokenSize": 724,
+        "scopedPoliciesCount": 1
+    },
+    "readOnly": false,
+    ...
+}</code></pre> 
+      <p></p>
+     </div> 
+     <p></p>
+    </div> 
+    <p></p>
+   </div> 
+   <p></p>
+  </div> 
+  <p>The <code class="CodeInline" style="color: #000;">scopedSessionDescription</code> value in the CloudTrail event records the text you passed to the API call earlier. Later calls made with the scoped-down credentials show the scoped down session’s access key ID in <code class="CodeInline" style="color: #000;">userIdentity.accessKeyId</code>, which can be used to trace back to its immediate parent session.</p> 
+  <div class="RichTextHeading"> 
+   <h3><b>Step 3 (optional): Scope down the credentials again</b></h3> 
+   <p></p>
+  </div> 
+  <p>You can call GetScopedCredentials recursively with the scoped-down credentials to narrow permissions or reduce session duration even further. You can apply a maximum of three scope down policies to a session, and each new scope down policy intersects with all prior ones. Recursive calls that only shorten the session duration and don’t add a scope down policy don’t count toward this limit. For a recursive call to succeed, every earlier scope down policy must allow the <code class="CodeInline" style="color: #000;">sts:GetScopedCredentials</code> action.</p> 
+  <div class="RichTextHeading"> 
+   <h2>Managing access to GetScopedCredentials</h2> 
+   <p></p>
+  </div> 
+  <p>You can control access to the <code class="CodeInline" style="color: #000;">sts:GetScopedCredentials</code> action in all relevant policy types. You can also use the <code class="CodeInline" style="color: #000;">sts:DurationSeconds</code> condition key to limit the session duration of scoped-down credentials, and global condition keys such as <code class="CodeInline" style="color: #000;">aws:PrincipalArn</code>, <code class="CodeInline" style="color: #000;">aws:PrincipalTag</code>, and <code class="CodeInline" style="color: #000;">aws:SourceVpce</code> to restrict who can call the API and from where.</p> 
+  <div class="RichTextHeading"> 
+   <h2>Availability and request quota</h2> 
+   <p></p>
+  </div> 
+  <p>GetScopedCredentials is available in all AWS commercial Regions, AWS GovCloud (US) Regions, and the China Regions. The API has a dedicated request quota of 200 requests per second per account in each Region at launch. You can use scoped-down credentials with most AWS services. For a list of services that aren’t supported, see the <span class="LinkEnhancement"><a class="Link" href="https://docs.aws.amazon.com/STS/latest/APIReference/API_GetScopedCredentials.html" rel="noopener" target="_blank">GetScopedCredentials API reference</a></span>.</p> 
+  <div class="RichTextHeading"> 
+   <h2>Conclusion</h2> 
+   <p></p>
+  </div> 
+  <p>GetScopedCredentials gives you a building block for reducing permissions at runtime. This is particularly helpful when you want to give each agent, sub agent or workload only the access it needs.</p> 
+  <p>For more information about GetScopedCredentials, see the <span class="LinkEnhancement"><a class="Link" href="https://docs.aws.amazon.com/STS/latest/APIReference/API_GetScopedCredentials.html" rel="noopener" target="_blank">GetScopedCredentials API reference</a></span>. To learn how permissions are evaluated for scoped-down credentials, see <span class="LinkEnhancement"><a class="Link" href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_getscopedcredentials.html" rel="noopener" target="_blank">Permissions for GetScopedCredentials</a></span> and <span class="LinkEnhancement"><a class="Link" href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic_policy-eval-basics.html" rel="noopener" target="_blank">Policy evaluation for requests within a single account</a></span>. Now go build!</p> 
+  <p>If you have feedback about this post, submit comments in the Comments section below. If you have questions about this post, start a new thread on <span class="LinkEnhancement"><a class="Link" href="https://repost.aws/" rel="noopener" target="_blank">AWS re:Post</a></span> or <span class="LinkEnhancement"><a class="Link" href="https://console.aws.amazon.com/support/home" rel="noopener" target="_blank">contact AWS Support</a></span>.</p> 
+  <p></p>
+ </div> 
+</div> 
+<hr /> 
+<footer> 
+ <div class="blog-author-box"> 
+  <div class="blog-author-image"> 
+   <img alt="Vaishnavi Merugu" class="aligncenter size-full wp-image-44843" height="160" src="https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/20/Vaishnavi-Merugu-author.jpeg" width="120" />
+  </div> 
+  <h3 class="lb-h4">Vaishnavi Merugu</h3> 
+  <p>Vaishnavi is a Senior Technical Product Manager in AWS Identity. Her work focuses on products that simplify identity and access management for customers. Outside of work, she enjoys traveling and exploring new cultures and food.</p> 
+  <p></p>
+ </div> 
+</footer> 
+<footer> 
+ <div class="blog-author-box"> 
+  <div class="blog-author-image"> 
+   <img alt="Ryan Peng" class="aligncenter size-full wp-image-44844" height="160" src="https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/11/20/ryan-peng-author.jpeg" width="120" />
+  </div> 
+  <h3 class="lb-h4">Ryan Peng</h3> 
+  <p>Ryan is a Software Development Engineer in AWS Identity and Access Management (IAM), where he builds the short-term credential vending systems that customers rely on to grant and constrain access to their AWS resources. Most recently, he has focused on how workloads and AI agents can run with the narrowest set of permissions they need. Outside of work, Ryan enjoys watching and playing sports, and staying active outdoors.</p> 
+  <p></p>
+ </div> 
+</footer>]]></content:encoded>
+</item>
+<item>
+<title>Siri Recap Hands-On: Private, But Not Very Useful</title>
+<link>https://www.macrumors.com/2026/11/20/siri-recap-hands-on/</link>
+<guid isPermaLink="false">cb437550443cd0b1</guid>
+<pubDate>Sat, 21 Nov 2026 00:17:01 +0000</pubDate>
+<author>MacRumors: Mac News and Rumors - All Stories</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Hands-on with Siri Recap, Apple&amp;#x27;s privacy-isolated conversation summaries on Apple Watch. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacRumors: Mac News and Rumors - All Stories&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;With the watchOS 27.3 beta , Apple started testing Siri Recap. ‌Siri‌ Recap lets the Series 12 and Ultra 4 Apple Watch models listen to conversations to generate a brief summary of what was discussed. Actual audio is sectioned off from apps, Apple, and the rest of the OS, and then discarded after a summary is generated. It&amp;#x27;s a privacy-forward way of tracking what&amp;#x27;s going on around you, but after two weeks of testing, it&amp;#x27;s clear that the privacy safeguards limit its usefulness. Overly brief summa&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Hands-on with Siri Recap, Apple&#x27;s privacy-isolated conversation summaries on Apple Watch. (score 7)<p>From <b>MacRumors: Mac News and Rumors - All Stories</b>.</p><hr/>With <a href="https://www.macrumors.com/2026/11/03/watchos-27-3-audio-intelligence/">the watchOS 27.3 beta</a>, Apple started testing <a href="https://www.macrumors.com/guide/siri/">Siri</a> Recap. &zwnj;Siri&zwnj; Recap lets the Series 12 and Ultra 4 Apple Watch models listen to conversations to generate a brief summary of what was discussed. Actual audio is sectioned off from apps, Apple, and the rest of the OS, and then discarded after a summary is generated.
+<br />
+
+<br />
+<img alt="" class="aligncenter size-full wp-image-1064030" height="1125" src="https://images.macrumors.com/article-new/2026/09/apple-watch-series-12-siri-recap.jpg" width="2000" />
+<br />
+It's a privacy-forward way of tracking what's going on around you, but after two weeks of testing, it's clear that the privacy safeguards limit its usefulness. Overly brief summaries, lack of speaker labeling, and no original audio to compare against make &zwnj;Siri&zwnj; Recap unreliable.
+<br />
+
+<br />
+Before I get into my experience, I want to make it clear that &zwnj;Siri&zwnj; Recap is a beta feature in beta software. It hasn't been released yet, Apple hasn't finished refining it, and it won't be available to the public until watchOS 27.3 launches in December. Still, the bones are in place. Some of the issues I encountered could improve before release, but others are the result of the way it's built.
+<br />
+
+<br />
+My first recaps were from YouTube videos and Instagram Reels. &zwnj;Siri&zwnj; Recap can tell when I'm watching TV shows and movies, but it can't distinguish a YouTube video from a real-life conversation. I was surprised it summarized dialogue I wasn't involved in instead of waiting until it recognized my voice (which &zwnj;Siri&zwnj; can do). Listening in on ambient conversations makes it feel a little stalker-like. When &zwnj;Siri&zwnj; Recap is turned on, it's listening, and there's no indication for the people around you.
+<br />
+
+<br />
+<img alt="" class="aligncenter size-full wp-image-1078691" height="1125" src="https://images.macrumors.com/article-new/2026/11/siri-recap-review-4.jpg" width="2000" />
+<br />
+Most of my other recaps summarized short, inconsequential conversations with my partner that I don't need or want to revisit. I don't need to remember that my breakfast on Friday had one too many pieces of vegan bacon, or that my cat was playing with a silica packet. I don't need to remember discussions about Grand Theft Auto VI or that I saw a rabbit in the driveway the other day. There is an option to only have &zwnj;Siri&zwnj; Recap on at certain times of the day or in certain locations, which would eliminate that issue. Ironically, &zwnj;Siri&zwnj; did the best at summarizing shorter interactions I don't care about.
+<br />
+
+<br />
+<img alt="" class="aligncenter size-full wp-image-1078692" height="1125" src="https://images.macrumors.com/article-new/2026/11/siri-recap-review-3.jpg" width="2000" />
+<br />
+I've taken my cats to a few vet appointments recently, so I had an opportunity to test &zwnj;Siri&zwnj; Recap with genuinely important conversations where I get a flood of information. After the first visit, I learned &zwnj;Siri&zwnj; and I don't have the same opinion on the details that matter, and I found that summaries of longer conversations are just too concise and inaccurate to be helpful.
+<br />
+
+<br />
+I told the vet my cat is picky and will only eat one kind of dry food, but stays hydrated because she drinks a lot of water. In a separate part of the conversation, I said she was gaining weight even though her prescription food isn't for kittens. &zwnj;Siri&zwnj; combined those two parts of the conversation into a summary that doesn't make sense, and I had that issue in almost every long conversation.
+<br />
+
+<br />
+A few minutes later, I asked for a recommendation on heartworm medication because I've read about some problematic products that can make cats sick. The vet relayed a story about needing a particular brand for her cat because she has a rabbit at home, and rabbits are sensitive to a lot of medications. &zwnj;Siri&zwnj; Recap doesn't label speakers, so the summary of that conversation turned into a confusing amalgamation suggesting <em>I</em> have a rabbit at home. Inappropriately combining unrelated concepts is likely something that can be fixed, but the lack of speaker labels is intentional.
+<br />
+
+<br />
+<img alt="" class="aligncenter size-full wp-image-1078693" height="1125" src="https://images.macrumors.com/article-new/2026/11/siri-recap-review-1.jpg" width="2000" />
+<br />
+During a pre-surgery consultation, I think I ran into another limitation. Apple says potentially harmful content isn't summarized, which could cover a broad range of topics. Important parts of the conversation with the vet aren't in the summary, like some of the scarier surgical risks and resuscitation preferences. &zwnj;Siri&zwnj; doesn't say if anything was skipped because of the content, so I don't know if that information wasn't considered important or if it was filtered out.
+<br />
+
+<br />
+<img alt="" class="aligncenter size-full wp-image-1078694" height="1125" src="https://images.macrumors.com/article-new/2026/11/siri-recap-review-2.jpg" width="2000" />
+<br />
+Some of what &zwnj;Siri&zwnj; recapped <em>was</em> useful. If conversations were fact-heavy, &zwnj;Siri&zwnj; did a good job getting everything down, especially when dates were involved. I scheduled a follow-up appointment and &zwnj;Siri&zwnj; got the date right and the exact total of the bill when it was spoken aloud. Apple does say &zwnj;Siri&zwnj; Recap doesn't include financial info, so I'm not sure what counts. &zwnj;Siri&zwnj; is also surprisingly good at interpreting spoken medication names like benazepril and clopidogrel and correctly guessing what they're meant to be.
+<br />
+
+<br />
+<img alt="" class="aligncenter size-full wp-image-1078695" height="1125" src="https://images.macrumors.com/article-new/2026/11/siri-recap-review-6.jpg" width="2000" />
+<br />
+During a third vet visit, the recap did get many of the major points, but going over those notes made me realize this kind of summarization may not work, even when accurate. I had my own memory of the conversation and knew what I thought was important, but some of what &zwnj;Siri&zwnj; kept wasn't what mattered to me.
+<br />
+
+<br />
+Those &zwnj;Siri&zwnj; details I re-read were cemented in my memory over other information when I revisited the conversation later in the week, subtly changing how I remember the appointment. I worry having notes that aren't my own will overwrite what I would have remembered without them. It's almost like having a picture of something that happened in my head, and then having someone tell me it happened differently.
+<br />
+
+<br />
+<img alt="" class="aligncenter size-full wp-image-1078696" height="1125" src="https://images.macrumors.com/article-new/2026/11/siri-recap-review-5.jpg" width="2000" />
+<br />
+&zwnj;Siri&zwnj; Recap doesn't record full conversations for privacy reasons, but that leaves &zwnj;Siri&zwnj; to decide what to keep in a discussion and what's not. I don't trust &zwnj;Siri&zwnj; to make that kind of decision, personally. There's no option to go back and check what &zwnj;Siri&zwnj; left out since there are no recordings. I wouldn't want a version of &zwnj;Siri&zwnj; Recap that records full conversations because of the privacy concerns, but I'm not sure Apple has delivered a version that's both useful and privacy-forward.
+<br />
+
+<br />
+&zwnj;Siri&zwnj; picks and chooses what matters, and in my two-week test, &zwnj;Siri&zwnj; merged concepts and conversations in ways that were more confusing than helpful over and over again. &zwnj;Siri&zwnj; Recap isn't a feature I'm going to use, and it's not a feature I'd recommend to others.<div class="linkback">Related Roundups: <a href="https://www.macrumors.com/roundup/watchos-26/">watchOS 26</a>, <a href="https://www.macrumors.com/roundup/watchos-27/">watchOS 27</a></div><div class="linkback">Tag: <a href="https://www.macrumors.com/guide/siri/">Siri</a></div><div class="linkback">Related Forum: <a href="https://forums.macrumors.com/forums/apple-watch.172">Apple Watch</a></div><br />This article, &quot;<a href="https://www.macrumors.com/2026/11/20/siri-recap-hands-on/">Siri Recap Hands-On: Private, But Not Very Useful</a>&quot; first appeared on <a href="https://www.macrumors.com">MacRumors.com</a><br /><br /><a href="https://forums.macrumors.com/threads/siri-recap-hands-on-private-but-not-very-useful.2494904/">Discuss this article</a> in our forums<br /><br />]]></content:encoded>
+</item>
+<item>
+<title>Trump threatens ‘tremendous tax’ for moving AI data centers outside the US</title>
+<link>https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax</link>
+<guid isPermaLink="false">a63901ce59e5cfc8</guid>
+<pubDate>Sat, 21 Nov 2026 00:17:01 +0000</pubDate>
+<author>The Verge</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A threatened tax on offshore AI data centers could reshape where cloud providers like Azure build. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;President Donald Trump promised to put a &amp;quot;tremendous tax&amp;quot; on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. &amp;quot;We&amp;#x27;re not going to allow our companies to build data centers outside of our country,&amp;quot; Trump said at a […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> A threatened tax on offshore AI data centers could reshape where cloud providers like Azure build. (score 7)<p>From <b>The Verge</b>.</p><hr/>
+    <p>President Donald Trump <a href="https://apnews.com/article/trump-artificial-intelligence-data-centers-f1ac03b73d13445400eeed8631d9d879">promised</a> to put a “tremendous tax” on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them.</p>
+    <h1>Trump threatens ‘tremendous tax’ for moving AI data centers outside the US</h1>
+    <p class="duet--article--dangerously-set-cms-markup cbn62fh cbn62fg _19wv7tca _19wv7tc1">While policymakers across the country are putting new restrictions on the data center buildout, Trump is making threats.﻿</p>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK466_ELECTION_2024_CVirginia_E.jpg?quality=90&amp;strip=all&amp;crop=0.95588235294118%2C0%2C98.088235294118%2C100&amp;w=2400" alt="STK466_ELECTION_2024_CVirginia_E"/>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK466_ELECTION_2024_CVirginia_E.jpg?quality=90&amp;strip=all&amp;crop=0.95588235294118%2C0%2C98.088235294118%2C100&amp;w=2400" alt="STK466_ELECTION_2024_CVirginia_E"/>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/Lauren_BLURPLE.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Lauren Feiner"/>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“We’re not going to allow our companies to build data centers outside of our country,” Trump said at a press conference Friday following his summit with China President Xi Jinping and Russia President Vladimir Putin. “They allowed that to happen with chips and everything else, and it was very destructive to our country. It’s where we started going behind.” Should the US allow data centers to be built outside of the country, Trump warned, “China will take them all.”</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Trump didn’t share many details behind the plan, and apparently was floating the proposal publicly for the first time. “I don’t know if that’s a breaking story. But I haven’t even said that to my people,” Trump said, flanked by Vice President JD Vance and Secretary of State Marco Rubio. “But I’m telling them now. They’re here. Many of them are here.”</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Trump’s promise could be difficult to fulfill with a new Democratic majority Congress being sworn in within a couple of months. Even members of his own party recognize that the data center buildout has become an unpopular issue across the board. With states installing moratoriums and new restrictions on data center proposals, companies may be forced to look outside of the country, but Trump’s threat is an attempt to make that a less attractive alternative.</p>
+    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Here’s a transcript of the key part of Trump’s remarks:</p>
+    <blockquote>
+      <p>Whoever wins SI wins. And you ought to take advantage of the data centers. Make them pay you. Make them pay your community. But take advantage. Don’t shut them off. And there’s always somebody else in this country. But if it’s not this country, there’s somebody else outside.</p>
+      <p>We’re not going to allow our companies to build data centers outside of our country. We’re not going to allow that to happen. You know, they allowed that to happen with chips and everything else, and it was very destructive to our country. It’s where we started going behind.</p>
+      <p>So I just, I don’t know if that’s a breaking story. But I haven’t even said that to my people, but I’m telling them now. They’re here. Many of them are here. And we’re not going to allow companies to build data centers in other countries. If they do that, they can, but we’re going to put a tremendous tax on them.</p>
+    </blockquote>
+  ]]></content:encoded>
+</item>
+<item>
+<title>115 miles through the Balkans in 6 days</title>
+<link>https://www.youtube.com/shorts/EuvhVNdO_DA</link>
+<guid isPermaLink="false">581c95619b8e457c</guid>
+<pubDate>Sat, 21 Nov 2026 00:17:01 +0000</pubDate>
+<author>Kraig Adams</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A six day, 115 mile trek through the Peaks of the Balkans with snowbound passes. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Kraig Adams&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;I walked 115 miles in 6 days through Kosovo, Montenegro and Albania. In late May the high passes were still buried in snow. kraigadams.com/guides/peaks-of-the-balkans&lt;/p&gt;</description>
+</item>
+<item>
+<title>Five Questions As BYU Fights Past Demons vs. Kansas</title>
+<link>https://www.vanquishthefoe.com/byu-football/28157/five-questions-as-byu-football-fights-past-demons-vs-kansas</link>
+<guid isPermaLink="false">d8556ac2f7bcb38c</guid>
+<pubDate>Sat, 21 Nov 2026 00:17:01 +0000</pubDate>
+<author>Vanquish The Foe</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Preview of 10th ranked BYU&amp;#x27;s high-stakes road game at Kansas Saturday. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Vanquish The Foe&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;BYU plays their final true road game of the regular season in Lawrence on Saturday. The Cougars and Jayhawks kick off at 10:00am MT on ESPN. We don’t need to remind BYU fans of the importance of this game or the demons that come to life when the Cougars play Kansas. 10th-ranked BYU’s College Football […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Preview of 10th ranked BYU&#x27;s high-stakes road game at Kansas Saturday. (score 7)<p>From <b>Vanquish The Foe</b>.</p><hr/><figure>
+
+<img alt="" src="https://platform.vanquishthefoe.com/wp-content/uploads/sites/174/2026/11/gettyimages-2304031809.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	LAWRENCE, KANSAS - NOVEMBER 07: Quarterback Isaiah Marshall #8 of the Kansas Jayhawks looks to pass as he is pressured by defensive tackle Trenton Turner #54 of the UCF Knights at David Booth Kansas Memorial Stadium on November 07, 2026 in Lawrence, Kansas. (Photo by Ed Zurga/Getty Images) | Getty Images	</figcaption>
+</figure>
+<p class="wp-block-paragraph">BYU plays their final true road game of the regular season in Lawrence on Saturday. The Cougars and Jayhawks kick off at 10:00am MT on ESPN. </p>
+
+<p class="wp-block-paragraph">We don’t need to remind BYU fans of the importance of this game or the demons that come to life when the Cougars play Kansas. 10th-ranked BYU’s College Football Playoff hopes are very much alive. And they very much are at stake when these two teams square off at David Booth Kansas Memorial Stadium. </p>
+
+<p class="wp-block-paragraph">Let’s dive into five questions ahead of the matchup. </p>
+
+<p class="wp-block-paragraph"><strong>What demons are the Cougars facing against the Jayhawks? </strong></p>
+
+<p class="wp-block-paragraph">For starters, BYU has never beaten Kansas in football in three tries. Somehow, the Cougars have had more success against Kansas in basketball than football. The matchup everyone seems to be pointing to is the one in 2024. It’s a very similar situation. The Jayhawks traveled to Provo in mid-November with BYU at 9-0 with College Football Playoff hopes very alive. Kansas came with an unremarkable 3-6 record but had just beaten a ranked Iowa State team. BYU turned the ball over twice and committed one of the worst special teams blunders imaginable. A punt in a short field by Kansas while BYU was up three bounced off Evan Johnson&#8217;s helmet. Kansas recovered the muff and scored a few plays later to take the lead. It was one of the most devastating losses in recent BYU history.</p>
+
+<p class="wp-block-paragraph">Before that, Kansas and BYU met up in 2023, the Cougars’ last trip to Lawrence before this weekend. After leading 17-14 at halftime, BYU allowed 24 second half points as they unraveled, losing what was their first official Big 12 Conference game.</p>
+
+<p class="wp-block-paragraph">The demons didn’t start there either. The first meeting between the Cougars and Jayhawks was the Aloha Bowl in 1992. Kansas won on a late field goal and subsequent interception from Tom Young. </p>
+
+<p class="wp-block-paragraph"><strong>Just how dynamic is Kansas’ offense? </strong></p>
+
+<p class="wp-block-paragraph">Scoring-wise, Kansas is 49th in the FBS in points per game. That might not have BYU shaking in their boots, but the Jayhawks can move the ball in many ways. Quarterback Isaiah Marshall only threw three incompletions all game against West Virginia last week. Receivers Nik McMillan and Cam Pickett do most of the damage, accounting for nearly half of the receptions on the team by themselves. Watch out for Nahzae Cox, who is averaging 26.5 yards per catch as a deep threat. </p>
+
+<p class="wp-block-paragraph">At quarterback, Marshall certainly can hurt defenses with his legs. The signal caller totaled a whopping 164 rushing yards on 19 attempts against the Mountaineers, for an 8.6 yard average. He ranks second in the Big 12 in rushing yards by a quarterback. It’s not just a one-man show on the ground either. Five different Jayhawks carried the football in their 37-14 win over West Virginia. Three different ballcarriers collected at least 14 carries. All this amounts to Kansas boasting the 16th-ranked rushing offense in the FBS. </p>
+
+<p class="wp-block-paragraph"><strong>Where is BYU’s biggest advantage on offense? </strong></p>
+
+<p class="wp-block-paragraph">Like Kansas, BYU wants to run the ball. LJ Martin is getting healthier each week. Even after not playing during the second half against Baylor, Martin should be good to go for a bigger workload. When facing conference opponents, Kansas ranks 89th in rushing defense, allowing nearly 170 rushing yards per game against Big 12 foes. Kansas’ defense has been generally solid, but this seems like a weak point. The combination of Bear Bachmeier and Martin should get the run game going enough to control the game. BYU also has allowed the third-least sacks among all Power Four teams. The offensive line should be able to hold up against a middling Kansas pass rush. </p>
+
+<p class="wp-block-paragraph">Kansas is better against the pass, ranking 16th in completion percentage allowed and 47th in passing yards allowed (out of 138). </p>
+
+<p class="wp-block-paragraph"><strong>Are BYU’s road struggles a concern?</strong></p>
+
+<p class="wp-block-paragraph">BYU’s two losses this season have both come on the road. First, they inexplicably lost to unranked UCF in Orlando. A few weeks ago, Utah defeated the Cougars at Rice-Eccles Stadium. However, those aren’t the only examples of the Cougars struggling on the road this season. Their last road win came in Fort Worth against TCU. TCU came into the game 2-2 and outmatched. Yet it was 7-7 at halftime and the Cougars won by just seven, 17-10.</p>
+
+<p class="wp-block-paragraph">The Cougars mustered just 216 total yards of offense including a miniscule 62 passing yards. Granted, the weather was very wet and suboptimal for offense. Still, BYU played just as sloppy as the weather, with seven penalties as well. The road struggles are a real thing. That is something BYU needs to overcome. This will not be the most hostile crowd BYU has faced this year, but the Cougars have shown they can come out flat when the game isn’t in Provo. </p>
+
+<p class="wp-block-paragraph"><strong>Do style points matter for BYU?</strong></p>
+
+<p class="wp-block-paragraph">To put it bluntly, yes. In fact, it might be required. If BYU scrapes by the Jayhawks, the unpredictable committee may punish BYU for playing too close to a 5-6 Kansas team. The spread currently sits at 5.5 points in favor of the Cougars. Winning this game by six points to cover the spread may not be enough. This is because there are two teams just behind BYU in the College Football Playoff rankings hot on their tail. Wake Forest sits at No. 11 with just one loss and a possible trip to the ACC Championship Game in their future. Texas Tech is at 12, likely headed to Arlington. If both of those teams blow out their remaining opponents while BYU inches by Kansas or Cincinnati, the committee may allow one of those teams just behind them to leapfrog the Cougars. The Cougars need to win by double digits. </p>
+
+<p class="wp-block-paragraph"><em><strong>Prediction: BYU 27, Kansas 23</strong></em></p>]]></content:encoded>
+</item>
+<item>
+<title>F1&#x27;s new V8 engine agreed – five things you need to know</title>
+<link>https://www.the-race.com/formula-1/f1s-new-v8-engine-agreed-five-things-you-need-to-know/</link>
+<guid isPermaLink="false">3cc2583f03df1e60</guid>
+<pubDate>Sat, 21 Nov 2026 00:17:01 +0000</pubDate>
+<author>Formula 1 - The Race</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; F1 locks in a return to V8 engines for 2030, a big rules story. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Formula 1 - The Race&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;F1 will adopt V8 engines in 2030 now key stakeholders have unanimously agreed on key details that will underpin the new rules&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> F1 locks in a return to V8 engines for 2030, a big rules story. (score 7)<p>From <b>Formula 1 - The Race</b>.</p><hr/><img alt="F1&apos;s new V8 engine agreed &#x2013; five things you need to know" src="https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/WhatsApp-Image-2026-11-20-at-10.32.05.jpeg" /><p><em>F1&apos;s new V8 engine agreed &#x2013; five things you need to know</em></p><p><br />Formula 1 will adopt V8 engines in 2030 now key stakeholders have unanimously agreed on the key details that will underpin the new regulations.&#xa0;</p><p>A framework has been unanimously agreed by the FIA, Formula 1, the teams and the engine manufacturers to bring in a 2.1-litre, turbocharged V8 with a reduced electric element.</p><p>This switch will be made one year earlier than planned, bringing an early end to the V6 turbo-hybrid rules that only started a controversial new era this season with a switch to a near 50-50 split between internal combustion and electric power.&#xa0;&#xa0;</p><p>The FIA World Motor Sport Council will rubber-stamp the plan at a Shanghai meeting next month.&#xa0;</p><h3 id="how-key-final-progress-was-reached">How key final progress was reached</h3><p>A meeting of the F1 Commission on Monday, November 16 led to agreement in principle over the framework.&#xa0;</p><p>But it required some final progress to be made for the engine manufacturers themselves to accept ending the current rules cycle in 2029 and be satisfied with the switch.&#xa0;</p><p>The manufacturers are Mercedes, Ferrari, Red Bull/Ford, Audi Honda and future engine supplier General Motors - which was aiming to belatedly join the current rules cycle before the end of the decade (more on that shortly).&#xa0;</p><p>After the Commission, a meeting with the manufacturers &#x2013; which are represented in the Commission but have their own key discussion group with the other stakeholders &#x2013; went through key feedback to resolve what was necessary to push the proposal to the next stage.&#xa0;</p><p>This is what facilitated Friday&apos;s announcement of unanimous agreement of the technical framework.&#xa0;</p><h3 id="gm-will-delay-engine-to-fit">GM will delay engine to fit</h3><p>A key consequence of the change of timeline is what it means for GM&#x2019;s plans.&#xa0;</p><p>Its Cadillac team, which GM is a minority owner of alongside TWG Motorsports, joined the grid this year as a Ferrari customer on the condition it becomes a full works entry.&#xa0;</p><p>GM had been planning to debut that engine built to the current rules in 2029, which it was willing to accept even though it would be only two seasons before all-new rules came in as originally planned.&#xa0;</p><p>To accommodate the next rules era starting earlier, though, GM will delay its manufacturer debut so it does not have to design and build a V6 for one season only.</p><p>It is expected to remain a Ferrari customer for an extra year and the rules being agreed is well timed as the purpose-built GM engine facility opens in mid-December this year, which means the full might of its development push can be devoted to the new 2030 rules instead of a split project.&#xa0;</p><p>&quot;For a period of time, we were working on both,&#x201d; TWG boss Dan Towriss said in Las Vegas.&#xa0;&#x201c;So, they&apos;ve already got a V6 base to build off of, and working towards the V8. There are a number of designs that are in motion now.&#x201d;</p><h3 id="the-key-details">The key details</h3><p>Officially, the proposed 2030 engine will be a 2.1-litre turbo V8 that carries over &#x201c;some geometrical specifics&#x201d;, will feature limited hybridisation&#x201d; as well as sustainable fuels, and be married to a lighter chassis.&#xa0;</p><p>This is all part of the plan to make the engines simpler, cheaper and louder &#x2013; although the extent of that last point is still unclear given it will not be a normally aspirated engine.&#xa0;</p><p>&#x201c;I look at the old videos of the old engines, they give me goosebumps &#x2013; it&apos;s just that high-pitch squeal that I&apos;m missing from this era,&#x201d; said Mercedes driver George Russell.</p><p>McLaren&#x2019;s Oscar Piastri cautioned &#x201c;I don&apos;t know if they&apos;ll be exactly like the V8 engines that I grew up watching, necessarily&#x201d;, but added &#x201c;I think it&apos;s firstly great that we&apos;ve been listened to&#x201d;.&#xa0;</p><p>The turbocharger stays partly to satisfy manufacturer demand but also to assist with fuel efficiency, avoid larger tanks and more fuel usage at the start of races.&#xa0;</p><p>This also helps with the stated aim of making the car and engine around 80kg lighter with almost half of that coming on the engine side.&#xa0;</p><p>More details of this will surely come from the &#x201c;detailed regulatory framework&#x201d; that will go to the WMSC in Shanghai next month.</p><p>However, it does appear to represent a satisfactory compromise between what some manufacturers want in terms of hybridisation and FIA president Mohammed Ben Sulayem&#x2019;s initial desire for an even bigger, loud engine without a turbo.&#xa0;</p><p>&#x201c;The return of V8 engines represents an opportunity to reconnect with the DNA of this championship, bringing back the sound, emotion and pure racing that is loved worldwide,&#x201d; said Ben Sulayem.&#xa0;</p><p>&#x201c;Our vision is clear, lighter, simpler and more affordable cars that put driver skill at the heart of the competition.&#x201d;</p><h3 id="what%E2%80%99s-still-to-be-confirmed">What&#x2019;s still to be confirmed</h3><p>The FIA did not specify the hybrid element, which has been known for some time to be heading towards a 100kW base electric power contribution with an extra 100kW available as effectively a push-to-pass overtaking aid.&#xa0;</p><p>It will give the engine more than 1,000bhp at full power but crucially, compared to the current engines, not be dependent on the electric element and therefore not at the mercy of the energy limitations that have dogged the 2026 rules since their debut.&#xa0;</p><p>Why the hybrid element has not been exactly specified is unclear &#x2013; &#x201c;maybe it have some KERS or stuff like that&#x201d;, as Alpine boss Flavio Briatore put it &#x2013; but it stands to reason that this is being delayed until more detail can be shared about how it will work.&#xa0;</p><p>With the 2026 rules, the engine regulations were designed first, then the chassis and sporting regulations were contorted around them - leading to a fundamentally compromised product, all because the engine rules had to be set early to get all the targeted manufacturers committed.&#xa0;</p><p>This time the core V8 engine plan should be much simpler to align with the car design and operation, but there are still elements to decide - like exactly how a push-to-pass system should be managed and whether the active aero with movable front and rear wings is worth retaining when that was primarily adopted to assist with making the current cars more efficient on the straights.</p><h3 id="drivers-are-excitedwith-minor-caveats">Drivers are excited - with minor caveats</h3><p>Every single driver on the F1 grid has, publicly or privately, expressed their displeasure with the 2026 engines and their consequences.&#xa0;</p><p>So, unsurprisingly, all who have been asked about the return of V8s have welcomed the plan - from the general concept to the fact that there was a good degree of consultation with the drivers themselves.&#xa0;</p><p>Red Bull&#x2019;s Isack Hadjar said he was very excited for a &#x201c;full attack racing car&#x201d; and went as far as adding &#x201c;I don&apos;t see why that would not be the most fun cars of all time in 2030&#x201d;.&#xa0;</p><p>His team-mate, four-time world champion and vocal 2026 rules critic Max Verstappen, indicated he would have liked it to go further though.&#xa0;</p><p>&quot;If it&apos;s fully up to me, of course you go back to like a V10 or whatever,&#x201d; he said.&#xa0;&#x201c;That sounds even better, but I know that that&apos;s not something realistic.</p><p>&#x201c;So this is good, this is for sure in the right direction.&quot;</p><p>Seven-time world champion Lewis Hamilton&#x2019;s own caveat related to the detail of the as-yet undefined regulations that will define how the engines actually work &#x2013; although what he hopes for most should naturally be achieved simply by stripping back the electric side so much.&#xa0;</p><p>&#x201c;It&apos;s all good and well going to V8, it depends on how they design it, regulation wise,&#x201d; he said.</p><p>&#x201c;And going back to the good sound because that&apos;s I think been lacking since we&apos;ve been in the V6 era. Bring back the smaller exhaust and get that sound back.</p><p>&#x201c;And as long as we don&apos;t have the engine dying halfway down the straight, then I think that will be better.&#x201d;</p>]]></content:encoded>
+</item>
 <item>
 <title>Rain and Snow on the &quot;Wrong&quot; Side of the Mountains</title>
 <link>https://cliffmass.blogspot.com/2026/11/rain-and-snow-on-wrong-side-of-mountains.html</link>
@@ -6088,378 +6682,6 @@ Open the terminal &amp; run this below - most of the time it works fine after th
     <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/openai-chatgpt-wallet-approval-pop-up.jpeg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=2400" alt="A screenshot from a demo video for OpenAI’s ChatGPT Wallet"/><p><em>A screenshot from a demo video for OpenAI’s ChatGPT Wallet</em></p>
     <p>After you review the AI agent’s purchase and sign off on it, OpenAI says that, similar to using <a href="https://corporate.visa.com/en/solutions/commercial-solutions/knowledge-hub/tokenization.html">tap to pay</a>, <a href="https://support.apple.com/en-us/101554">Apple Pay</a>, or <a href="https://blog.google/products-and-platforms/platforms/google-pay/device-tokens-google-wallet/">Google Wallet</a>, it substitutes your credit card details with a payment token, so your actual card info isn’t shared with your Dots agent or the business you’re buying from. Eventually, OpenAI says it expects “users to be able to delegate purchases entirely to their agent by setting clear parameters—such as spending limits, purchase categories, or time periods—and pre-approve those purchases.”</p>
     <p>ChatGPT Wallet might not work everywhere. Some retailers have <a href="https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping">restrictions on AI agents</a> or <a href="https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse">block them</a> altogether. Earlier this year, <a href="https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping">Amazon blocked Meta’s Muse</a> agents. OpenAI says that in order for agents to use ChatGPT Wallet, “websites need to ensure agents are not inadvertently blocked, and payment and risk systems need to recognize legitimate purchases made by agents.”</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>The Large Effects of El Nino On Our Current Weather</title>
-<link>https://cliffmass.blogspot.com/2026/11/the-large-effects-of-el-nino-on-our.html</link>
-<guid isPermaLink="false">b3d85fd884f763c1</guid>
-<pubDate>Fri, 13 Nov 2026 17:35:44 +0000</pubDate>
-<author>Cliff Mass Weather Blog</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; On your always-include list. (score 10)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Cliff Mass Weather Blog&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Our current weather is being profoundly influenced by El Nino. And that influence is not about to end. Let me demonstrate this to you. The following is a map of the anomaly (difference from normal) of upper-level heights at 500 hPa pressure for the past week. You can think of this as the difference from normal of pressure around 18000 ft. A huge trough of low pressure is off our coast (purple color). Higher pressure/heights over the western U.S. (yellow color) Here is the forecast of the same up&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> On your always-include list. (score 10)<p>From <b>Cliff Mass Weather Blog</b>.</p><hr/><p><span style="font-size: medium;"><b>Our current weather is being profoundly influenced by El Nino.&nbsp; &nbsp;</b></span></p><p><span style="font-size: medium;"><b>And that influence is not about to end.</b></span></p><p><span style="font-size: medium;">Let me demonstrate this to you.</span></p><p><span style="font-size: medium;">The following is a map of the <i>anomaly</i> (difference from normal) of upper-level heights at 500 hPa pressure for the past week.&nbsp; You can think of this as the difference from normal of pressure around 18000 ft.</span></p><p><span style="font-size: medium;">A huge trough of low pressure is off our coast (purple color).&nbsp; Higher pressure/heights over the western U.S. (yellow color)</span></p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5OGZfA2gPDijOTJL2tNo2wUkYs-DXIKggX_5wC9q_hW9MKYqQILTbFBYIGjpWTCONO9Jl-K-wwzVayA9kGXDhzUTFj8wKlpEQq6eN2lTxUMrShypf0MuuZCbK_qe3wPdfo2oQbP8K3mBC2o7kjtOYVuX2Da036hDaCjHEMVzxQV2iPImiFnxn2_UY1eU/s874/Screenshot%202026-11-12%20at%207.24.04%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-size: medium;"><img border="0" height="279" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5OGZfA2gPDijOTJL2tNo2wUkYs-DXIKggX_5wC9q_hW9MKYqQILTbFBYIGjpWTCONO9Jl-K-wwzVayA9kGXDhzUTFj8wKlpEQq6eN2lTxUMrShypf0MuuZCbK_qe3wPdfo2oQbP8K3mBC2o7kjtOYVuX2Da036hDaCjHEMVzxQV2iPImiFnxn2_UY1eU/w395-h279/Screenshot%202026-11-12%20at%207.24.04%E2%80%AFPM.png" width="395" /></span></a></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;">Here is the forecast of the same upper-level heights/pressures for the next 5 days.&nbsp; Very similar pattern.&nbsp; Deep low off our coast aloft.</span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOv8CiuYTaYseWFUmy_DBAi6pNg5n_gJJVJTt0T0JSfSKQYpGLYGGwgg31dPn0yp60OUrUW_gzJzwczFZr5HIvhahFYaxlliO4-VVQMYfELChdH7dBOywh7-SZgm89oc9S5NlgbFIajqMb9A2bSzn8S6x6tmArEDWgKCE89H5lZU7yq_HG3BhNC22EQXM/s1374/Screenshot%202026-11-12%20at%208.05.06%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-size: medium;"><img border="0" height="255" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOv8CiuYTaYseWFUmy_DBAi6pNg5n_gJJVJTt0T0JSfSKQYpGLYGGwgg31dPn0yp60OUrUW_gzJzwczFZr5HIvhahFYaxlliO4-VVQMYfELChdH7dBOywh7-SZgm89oc9S5NlgbFIajqMb9A2bSzn8S6x6tmArEDWgKCE89H5lZU7yq_HG3BhNC22EQXM/s320/Screenshot%202026-11-12%20at%208.05.06%E2%80%AFPM.png" width="320" /></span></a></div><span style="font-size: medium;"><br /></span><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;">Now, let me show the pattern for very strong El Nino winters.&nbsp;</span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;">Mamma Mia!&nbsp; A strong offshore trough/low just like the last week!</span></div><span style="font-size: medium;"><br /><div style="text-align: center;"><img border="0" height="336" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimV4n2QOQJJbHSud1kODbvqvmp7iGsKshM-fz2iI7DWu4TLaH3SztBrsdymqB2YFnGBJqhUw20HX9XowJblJFwN3bhFRYE3Wj58aaTD1fYmGYVRBqkB5xGVN67L90c1F26o73SxcvjnJ_iQWakpjMi1a7rWyPbvhyMr_iy2XiAnOdu3Qmuad6CSWwop1g/w483-h336/Screenshot%202026-11-12%20at%207.49.02%E2%80%AFPM.png" width="483" /></div></span><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;">This upper-level El Nino pattern is associated with a persistent low-pressure area off our coast (see below).</span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwzHgxX1s0gnbKrVfsM8PTAHtR8dcbj-v2qWQ37ZyuJalQEUTKw5bvB0uxOUEUcIWYk0RMfR2gjLm0142G5wjyCjDy1CxCBIieOpvIfchhmVxOaS2t9mKhaxLj8BjHZaLF0feyYqBsKB7s2QkU-0ZStOQwoROZgRQO-auKnjEQjJhNO_gk-1x7LaDsq4E/s1388/Screenshot%202026-11-12%20at%208.23.27%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-size: medium;"><img border="0" height="343" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwzHgxX1s0gnbKrVfsM8PTAHtR8dcbj-v2qWQ37ZyuJalQEUTKw5bvB0uxOUEUcIWYk0RMfR2gjLm0142G5wjyCjDy1CxCBIieOpvIfchhmVxOaS2t9mKhaxLj8BjHZaLF0feyYqBsKB7s2QkU-0ZStOQwoROZgRQO-auKnjEQjJhNO_gk-1x7LaDsq4E/w516-h343/Screenshot%202026-11-12%20at%208.23.27%E2%80%AFPM.png" width="516" /></span></a></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><b>Which is VERY like the pressure pattern we have seen the last few days.</b></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;">To illustrate, here is the sea level pressure forecast for tomorrow morning at 8 AM. Looks just like the strong El Niñoino pattern!&nbsp; <b>Impressive low off our coast.</b></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj06c46LnfTqwR8dy_azVVcCu9E8PYQktHCyPSw1DIp5tm1D-v9mVXDhkPptxLKZ5eSI-ricmuhsGyjZLScf5zmhtdIqyXM1yYMH0WwkJUweUvdO1w4Ih9YrpEfhGWZNYePc9ADZre5nWDHkQKO2S1oEL6Xgx-tB092GlQswVwCngMrSkLJhAjbhMXtqic/s1206/Screenshot%202026-11-12%20at%208.29.33%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-size: medium;"><img border="0" height="236" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj06c46LnfTqwR8dy_azVVcCu9E8PYQktHCyPSw1DIp5tm1D-v9mVXDhkPptxLKZ5eSI-ricmuhsGyjZLScf5zmhtdIqyXM1yYMH0WwkJUweUvdO1w4Ih9YrpEfhGWZNYePc9ADZre5nWDHkQKO2S1oEL6Xgx-tB092GlQswVwCngMrSkLJhAjbhMXtqic/s320/Screenshot%202026-11-12%20at%208.29.33%E2%80%AFPM.png" width="320" /></span></a></div><span style="font-size: medium;"><br /></span><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;">Moisture tends to wrap around such "El Nino" lows, resulting in the heaviest precipitation on the coast and south of us (see plot of moisture transport below)</span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6MlKVJdFGzZUY1YnfKWjhhwnMZ6VQ4Pshc3zumN7D-XerMP4xj25rdqITqe1vmDfp-cNPy7ARbYDcSD4pYNKRY4WOrxQd8fB7yEDuyPjePy8UhxGV-7jIavWuk_DihGKb5x1A87HRJGe7bwGv5MBNkIWK5P5cDbchmviVlO8tojGfi5xy7iQfY_cfINk/s1366/Screenshot%202026-11-12%20at%208.19.58%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-size: medium;"><img border="0" height="380" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6MlKVJdFGzZUY1YnfKWjhhwnMZ6VQ4Pshc3zumN7D-XerMP4xj25rdqITqe1vmDfp-cNPy7ARbYDcSD4pYNKRY4WOrxQd8fB7yEDuyPjePy8UhxGV-7jIavWuk_DihGKb5x1A87HRJGe7bwGv5MBNkIWK5P5cDbchmviVlO8tojGfi5xy7iQfY_cfINk/w434-h380/Screenshot%202026-11-12%20at%208.19.58%E2%80%AFPM.png" width="434" /></span></a></div><span style="font-size: medium;"><br /></span><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;">During El Nino years, southern Oregon and northern California tend to get a lot of precipitation, and the current forecasts show exactly that (see total precipitation forecast through Wednesday morning below).</span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;">Vancouver Island gets a lot of precipitation as well because of the strong southerly flow circulating around the low-pressure system, which is forced to rise by the island's terrain.</span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1p9P8bY8iMwY5E3xyi4NlS4DrQr8pyY6xtsyEf0QPKRCOp-gW1PrxOxnbjsYOOlXljOUswJCC4CDOHbi6yHn7dtyyM7H4mK6zEzP2zndFXAYGCYpW6o5qwyoCZCRn8BYF_euGyQZzLwpQXDm5VjK0j7e7Mz5YwkUgFluNDQ3LZVxOXdhjKFNz3xbZTN4/s1088/Screenshot%202026-11-12%20at%208.39.27%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-size: medium;"><img border="0" height="502" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1p9P8bY8iMwY5E3xyi4NlS4DrQr8pyY6xtsyEf0QPKRCOp-gW1PrxOxnbjsYOOlXljOUswJCC4CDOHbi6yHn7dtyyM7H4mK6zEzP2zndFXAYGCYpW6o5qwyoCZCRn8BYF_euGyQZzLwpQXDm5VjK0j7e7Mz5YwkUgFluNDQ3LZVxOXdhjKFNz3xbZTN4/w493-h502/Screenshot%202026-11-12%20at%208.39.27%E2%80%AFPM.png" width="493" /></span></a></div><span style="font-size: medium;"><br /></span><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><b>There is a lot of gloom and doom in some of the media about this pattern, but it is actually quite favorable.&nbsp;</b></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;">The northern CA reservoirs are currently below normal, as are the reservoirs of southwest BC.&nbsp; <b>They will get a welcome refill.</b></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;"><br /></span></div><div class="separator" style="clear: both; text-align: left;"><span style="font-size: medium;">El Niño brings substantial precipitation to the Colorado River drainage, which is badly needed to fill the reservoirs such as Mead and Powell.&nbsp;</span></div><div class="separator" style="clear: both; text-align: left;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLmiosU1ecFASXH4u9P1l42L_URqZeLlJERCILDiD2NF5AIJoDUJTKUPGoiBst7ypzhdrbKPrZksjaSw49UiGqk95ARmutO06QnvGJSM6Pgwu4yM7qT9nECokTyan4YZUy_30EWobYDagFNo4v_1slTqu6hgKbawGz8qb92zUixddpHxj1GenYcOvpEWU/s1630/Screenshot%202026-11-12%20at%208.48.37%E2%80%AFPM.png" style="margin-left: 1em; margin-right: 1em;"><span style="font-size: medium;"><img border="0" height="121" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLmiosU1ecFASXH4u9P1l42L_URqZeLlJERCILDiD2NF5AIJoDUJTKUPGoiBst7ypzhdrbKPrZksjaSw49UiGqk95ARmutO06QnvGJSM6Pgwu4yM7qT9nECokTyan4YZUy_30EWobYDagFNo4v_1slTqu6hgKbawGz8qb92zUixddpHxj1GenYcOvpEWU/w681-h121/Screenshot%202026-11-12%20at%208.48.37%E2%80%AFPM.png" width="681" /></span></a></div><span style="font-size: medium;">___________________<br /></span><div class="separator" style="clear: both; text-align: center;"><p><b><span style="color: red; font-family: inherit;"><span style="font-size: medium;">Announcement</span></span></b></p><div class="separator"><span style="font-family: inherit;"><span style="font-size: medium;">I will hold a special online Zoom session at 10 AM on Saturday for <a href="https://www.patreon.com/cliffmass" style="color: #33aaff; text-decoration: none;">Patreon supporters</a>. I plan to talk about the seasonal forecast in much more depth and answer your questions.</span></span></div></div><div class="separator" style="clear: both; text-align: center;"><span style="font-size: medium;"><br /></span></div><br /><p><br /></p><p><br /></p>]]></content:encoded>
-</item>
-<item>
-<title>Ultimate Movie Series</title>
-<link>https://xkcd.com/3324/</link>
-<guid isPermaLink="false">98c440019bd834e6</guid>
-<pubDate>Fri, 13 Nov 2026 17:35:44 +0000</pubDate>
-<author>xkcd.com</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; On your always-include list. (score 10)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;xkcd.com&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> On your always-include list. (score 10)<p>From <b>xkcd.com</b>.</p><hr/><img alt="Sadly, none of the 14 Land Before Time films manage to make the list, although a small but devoted fan contingent argues that The Great Longneck Migration should beat out Guardians of the Galaxy." src="https://imgs.xkcd.com/comics/ultimate_movie_series.png" title="Sadly, none of the 14 Land Before Time films manage to make the list, although a small but devoted fan contingent argues that The Great Longneck Migration should beat out Guardians of the Galaxy." /><p><em>Sadly, none of the 14 Land Before Time films manage to make the list, although a small but devoted fan contingent argues that The Great Longneck Migration should beat out Guardians of the Galaxy.</em></p><p><a href="https://www.explainxkcd.com/wiki/index.php/3324">Still not sure? Explain this comic</a></p>]]></content:encoded>
-</item>
-<item>
-<title>Calvin and Hobbes - 2026-11-13</title>
-<link>https://www.gocomics.com/calvinandhobbes/2026/11/13</link>
-<guid isPermaLink="false">512da5cda4068d77</guid>
-<pubDate>Fri, 13 Nov 2026 17:35:44 +0000</pubDate>
-<author>Calvin and Hobbes</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; On your always-include list. (score 10)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Calvin and Hobbes&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Comic strip for 2026-11-13 Calvin and Hobbes&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> On your always-include list. (score 10)<p>From <b>Calvin and Hobbes</b>.</p><hr/><div class="comic-gallery" style="text-align: center; margin: 10px auto;">
-<p style="margin-bottom: 15px; font-style: italic;">Comic strip for 2026-11-13</p>
-    <div class="comic-panel" style="margin: 15px 0;">
-        <img alt="Calvin and Hobbes" src="https://featureassets.gocomics.com/assets/d29fda509e34013fcbbd005056a9545d?optimizer=image&amp;width=2800&amp;quality=85" style="height: auto;" />
-        <div class="panel-description" style="font-size: 0.9em; color: #666; margin-top: 5px; font-style: italic;">Calvin and Hobbes</div>
-    </div>
-</div>]]></content:encoded>
-</item>
-<item>
-<title>AI Doesn’t Have to Go Rogue to Break the World</title>
-<link>https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html</link>
-<guid isPermaLink="false">b26d1d48d37b00e6</guid>
-<pubDate>Fri, 13 Nov 2026 17:35:44 +0000</pubDate>
-<author>Schneier on Security</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Schneier essay on AI risk from DEF CON keynote. (score 9)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Schneier on Security&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;This essay is adapted from a keynote speech delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in CyberScoop . I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their own, not even maliciously. The last two matter more than the first. The third is the weirdest and potentially the most destabilizing. I started writing about this in 2021 and in my 2&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Schneier essay on AI risk from DEF CON keynote. (score 9)<p>From <b>Schneier on Security</b>.</p><hr/><p><em>This essay is adapted from <a href="https://www.youtube.com/watch?v=eEBv0STiYhI">a keynote speech</a> delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in <a href="https://www.schneier.com/essays/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html">CyberScoop</a>.</em></p>
-<p>I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their own, not even maliciously. The last two matter more than the first. The third is the weirdest and potentially the most destabilizing.</p>
-<p>I started writing about this in 2021 and in my 2022 book, <em>A Hacker&#8217;s Mind</em>. Back then I said it was mostly still science fiction, but not stupid science fiction. We&#8217;re seeing it more and more, especially in the past year. The trends I&#8217;m describing don&#8217;t require a major breakthrough in AI. They&#8217;re starting to happen now, and they&#8217;ll happen more often as AIs get better at autonomous problem-solving. And it will involve far more than computer code.</p>
-<p>AI will hack all sorts of social, economic and political systems. It will find vulnerabilities and exploit them. This is a difference in kind, not just degree. We&#8217;re not ready for it, and we need to think about the implications now.</p>
-<p>First, I want to broaden the term &#8220;hacking.&#8221;</p>
-<p>The tax code isn&#8217;t computer code, but it is code. It&#8217;s a series of algorithms with inputs and outputs. It has vulnerabilities, which we call loopholes, and exploits, which we call tax avoidance strategies. Black hat hackers exploit them for profit. We call them accountants and attorneys.</p>
-<p>What is a hack? One definition: &#8220;Something that a system permits, but is unanticipated and unwanted by the designers.&#8221; It&#8217;s subjective and implies novelty and cleverness. A hack follows the rules of a system but subverts its goals or intent, just as a software hack follows the logic of code while doing something its authors neither anticipated nor wanted.</p>
-<p>All systems of rules can be hacked, including professional sports, customer reward programs, financial systems and politics. Hacks even work against our cognitive functions. A curved hockey stick is a hack, and we know the name of the man who invented it. Mileage runs were a hack. The filibuster was originally a hack in Roman times. Gerrymandering is a hack. Hedge funds and private equity are full of them.</p>
-<p>A system is just a set of rules or norms, and the rules aren&#8217;t always formal. Even the best-designed rules will be incomplete, inconsistent or ambiguous. As long as people want to subvert a system&#8217;s goals, there will be hacks.</p>
-<p>AIs are becoming hackers. After decades of slow progress, they&#8217;ve gotten very good at finding and exploiting vulnerabilities in computer code. They do this largely autonomously, and they&#8217;re getting better scarily fast. But the implications extend far beyond software, to the tax code, financial regulations and all sorts of social, economic and political systems.</p>
-<p>There are two distinct issues. First, someone might instruct an AI to hack one of these systems, feeding it the world&#8217;s tax codes or financial regulations to find profitable loopholes. Second, an AI might hack a system on its own, inadvertently. Both are dangerous, but the second is worse because we might never know it happened.</p>
-<p>Now, reward hacking. AIs don&#8217;t solve problems the way people do. They stumble on solutions we never anticipated, and some subvert the intent of the system. They don&#8217;t share our context and don&#8217;t necessarily understand the implications, norms and values we take for granted.</p>
-<p>Reward hacking is when an AI achieves a goal in a way its designers neither wanted nor intended.</p>
-<p>Early pre-LLM examples are telling. In a two-person soccer simulation, an AI learned that kicking the ball out of bounds forced the opposing goalie to throw it in and leave the goal undefended. In a stacking simulation, an AI learned to flip a block upside down rather than stack it. In an evolution simulation where the goal was to cross a distant finish line, an AI made itself tall enough to fall over the line instead of growing longer legs or stronger muscles.</p>
-<p>These are all hacks, the result of poorly specified goals or rewards. Today, they&#8217;d come from bad prompting.</p>
-<p>The problem is universal. One researcher tried to teach a robot vacuum not to bump into things. Instead, it learned to drive backward, because there were no sensors in the back.</p>
-<p>Any capable AI will find hacks wherever the rules have problems, inconsistencies or loopholes that still produce an acceptable solution. We see a hack because we understand context. The AI doesn&#8217;t, at least not in the same way.</p>
-<p>This problem shows up often in myth.</p>
-<p>In the story of King Midas, the god Dionysus grants him a wish: everything he touches turns to gold. Midas ends up starving when his food, drink and daughter all turn to gold. It&#8217;s a specification problem. He programmed the wrong goal.</p>
-<p>In the Golem of Prague, a ghetto animates a clay statue to guard its residents. It guards them past all reason until they figure out how to turn it off. This is a guardrail problem. The villagers never limited the golem&#8217;s actions.</p>
-<p>More generally, think of this as the genie problem. Genies are precise about the wording of wishes and can be maliciously pedantic when granting them. There&#8217;s no way to outsmart a genie. Whatever you wish for, he can grant it in a way you wish he hadn&#8217;t.</p>
-<p>The reason is that in human language and thought, goals are always underspecified. We never include every caveat, exception and proviso, and we never close off every avenue for hacking. Any goal we specify will be incomplete. That&#8217;s largely fine in human interactions, because people understand context and usually act in good faith.</p>
-<p>If I asked you to get me coffee, you&#8217;d pour a cup from the nearest coffee pot or walk to the corner shop. You wouldn&#8217;t bring me a pound of raw beans, buy a coffee plantation or snatch a cup from a stranger&#8217;s hands. I wouldn&#8217;t have to specify any of that. You&#8217;d just know.</p>
-<p>Similarly, if I asked you to develop a technology that turns things to gold on touch, you wouldn&#8217;t build it to starve the person using it. You&#8217;d just know.</p>
-<p>In 2015, Volkswagen was caught cheating on emissions tests. Human engineers programmed a regular computer to detect testing and behave differently during it. The cheat went undetected for years because it&#8217;s hard to tell what software is doing.</p>
-<p>If I asked you to design engine control software that maximizes performance while passing emissions tests, you wouldn&#8217;t design it to cheat without realizing you were cheating. An AI would, because it will think &#8220;outside the box&#8221; when it has no concept of the box.</p>
-<p>Unless programmers specify that the system must not behave differently during testing, an AI might come up with the same hack. The programmers would be satisfied, the accountants would be ecstatic, and no one would know until someone audited the code.</p>
-<p>We can now constrain the goal to avoid that particular hack, but programmers won&#8217;t anticipate others. The lesson of the genie is that there will always be hacks programmers don&#8217;t anticipate.</p>
-<p>We&#8217;re building AI genies: systems that take broad instructions and figure out how to carry them out, sometimes in ways we didn&#8217;t expect or intend. That&#8217;s the whole point of vibe coding. You underspecify what you want and let the AI work it out. Sometimes that produces genie behavior.</p>
-<p>We can&#8217;t completely specify goals to an AI, and AIs can&#8217;t fully understand context. More precisely, current AIs have a shallow grasp of concepts. If we asked a current LLM to get me coffee, it would almost certainly do the right thing.</p>
-<p>I worry about goals that aren&#8217;t well represented in training data, and about hacks that aren&#8217;t obvious, whose effects are subtle, like the Volkswagen hack.</p>
-<p>Recommendation engines are an early example. They push people toward extreme content. No one programmed that. It emerged because that&#8217;s what people respond to. It didn&#8217;t take a bad actor. A basic automated system with feedback found the hack on its own.</p>
-<p>We&#8217;re now seeing a second generation with today&#8217;s AI coding systems. AI researcher Simon Willison asked Fable to track down a stray scrollbar in a web app. When he returned, it had opened browsers, written its own screenshot tools, edited the framework&#8217;s internal templates to make the bug appear on cue and set up a local web server to collect measurements. It found the bug, but it also did many things he never asked for. Another researcher gave Fable a complex task, and it tried to hack its own memory limits because it needed more storage.</p>
-<p>A new OpenAI model did something similar when it hacked into Hugging Face. It was being benchmarked on its ability to turn vulnerabilities into exploits. It decided the best way to reach its goal was to break out of its containment, access the internet and break into the Hugging Face network, because it thought the answers would be there.</p>
-<p>Today&#8217;s LLMs are acting like genies, especially when powerful models are combined with sophisticated harnesses.</p>
-<p>There are two kinds of genies. The Dionysus genie does the wrong thing. It understands your prompt literally but not correctly, and returns a mess you never intended. The Golem genie does the right thing but tramples everything in its path to get there. The paperclip maximizer is a Golem genie.</p>
-<p>Consider some examples. Ask an AI to deal with spam calls, and a Dionysus genie might change your phone number. Ask it to book a particular flight, and a Golem genie might hack the airline database because the flight is full. Ask it to get a refund for an online purchase, and a Dionysus genie might draft a legal threat on fake letterhead and send it to the company. Ask it to buy tickets to a popular concert, and a Golem genie might discover the ticketing system is rate-limited and spin up thousands of cloud servers to hammer it. You&#8217;d know if some of these things happened, but you might never realize if others did. More detailed prompting won&#8217;t fix this. The lesson of the genie is that no amount of detail is good enough.</p>
-<p>AI researchers aren&#8217;t surprised by any of this. Many are working on defenses against reward hacking and subtler forms of genie behavior. Some of this falls under &#8220;value alignment&#8221;: How do we teach AIs context? And how an AI satisfies a goal matters as much as whether it does. I want to build a benchmark to measure genie-like behavior, so we know where models stand and whether alignment is improving.</p>
-<p>Think beyond LLMs and computer code. Consider specialized AIs built to find loopholes, and hacks of more general systems: the tax code, financial regulations and democratic procedures.</p>
-<p>Financial systems are the most likely first target, because their rules are designed to be algorithmically tractable. High-frequency trading is itself a hack. Imagine giving an AI all of the world&#8217;s financial laws, plus all the news and financial data, and the goal of finding profitable loopholes. I suspect large investment banks are already doing this. The results will be novel tricks that are legal but unintended and unwanted, some of which might break the financial system.</p>
-<p>Tax loopholes are the next likely target, for the same reasons. For a while, AIs will identify potential loopholes, and human hackers, namely attorneys and accountants, will decide which are feasible.</p>
-<p>Further out, expect hacks of regulatory, legislative and procedural systems, and of the broader economy.</p>
-<p>Hacking is as old as humanity. We&#8217;re creative problem solvers and loophole exploiters. We manipulate systems to serve our interests and strive for more influence, power and wealth.</p>
-<p>Still, no human pursues their interests without constraint. Even sociopaths are limited by the complexity of society and their own contradictory impulses. They worry about their reputation and punishment, and they have limited time. These human qualities have limited hacking.</p>
-<p>Hacking changed as everything became computerized. Computers are uniquely hackable because of their formalism and complexity. Today, nearly everything is a computer, from cars and appliances to phones. Our social, economic and political systems, including taxation, finance and elections, all involve computers.</p>
-<p>Until recently, hacking was exclusively a human activity. Finding a novel hack required expertise, creativity, time and luck.</p>
-<p>AI hacking will change everything again. AIs aren&#8217;t bound by the constraints that limit people. They&#8217;ll think like aliens, and they&#8217;ll change hacking&#8217;s speed, scale, scope and sophistication, sometimes at our direction and sometimes on their own.</p>
-<p>Speed is the easiest to see. A creative process that takes a human months or years could be compressed into hours or seconds.</p>
-<p>Scale is next. Once AI systems start discovering hacks, they can exploit them at a scale we&#8217;re not ready for. We already see this with AI-generated slop, which is rampant on social media. AI bots post around the clock, sometimes overwhelming real human discussion. It&#8217;s hard to know how much of social media is still people talking to people. What looks like boisterous political debate may be bots arguing with other bots, artificially shaping what we think and what we think others think.</p>
-<p>Scope makes hacks more dangerous. AIs already make decisions that affect our lives, decisions we once thought belonged only to humans. As AI systems grow more capable, society will hand them more decisions, and more important ones. Hacks of these systems will do more damage.</p>
-<p>Finally, AI hackers are more sophisticated. They can hold more variables in working memory and generate more complex hacks. What might happen if you fed an AI the entire U.S. tax code? Would it figure out, without being told, that it&#8217;s smart to incorporate in Delaware and register a ship in Panama? Consider the Double Dutch Irish Sandwich, the strategy Apple and Google used to avoid paying U.S. taxes. It involves U.S., Dutch and Irish law and an offshore tax haven. How many loopholes will an AI find that we don&#8217;t already know about? Dozens? Hundreds? Thousands? We have no idea.</p>
-<p>These hacks will largely be perpetrated by the powerful against the rest of us. AI is fundamentally a power-enhancing technology, and so is hacking. The more power you already have, the more a hack gives you. If you or I found a tax hack, we might make a few thousand dollars. If a large investment bank found one, it and its clients could make billions.</p>
-<p>Our societal systems for dealing with hacks were built when hackers were human, and they reflect the pace of human hacking. We have no system of governance that can handle hundreds, let alone thousands, of newly discovered tax loopholes. We won&#8217;t be able to recover from an AI finding unanticipated but legal hacks of financial systems, operating at AI speed, scale, scope and sophistication. Hacking becomes a problem society can no longer manage.</p>
-<p>Now, defense. AIs that find software vulnerabilities help defenders as well as attackers. Vulnerabilities can be patched, removing them permanently, or turned into signatures that security systems use to detect and block attacks. In theory, AI could identify and patch every automatically discoverable vulnerability before a product ships. This is rapidly becoming routine in software development. We call it vulnops. We can imagine a future where accidental software vulnerabilities are a thing of the past.</p>
-<p>Deliberate vulnerabilities are different. There will be an arms race. AI will craft increasingly obscure back doors, and AI will find them. It becomes a contest between the speed of creation and the speed of patching, and between obfuscation and reverse engineering.</p>
-<p>The same logic applies to broader systems. Yes, AI hackers might find hundreds of vulnerabilities in the existing tax code. But the same technology can evaluate potential loopholes in any proposed tax law or ruling. A legislator, a watchdog group or a reporter could take the text of a bill and identify every exploitable loophole before it passes. The difference is that, unlike software, knowing about a tax loophole doesn&#8217;t mean it gets patched. In theory, though, we can fix them before the rich and powerful exploit them. So maybe defense will come out ahead here, too.</p>
-<p>That requires resilient governing structures that can respond quickly. It won&#8217;t help if updating the tax code takes years, or if a legislative hack becomes so entrenched that it can&#8217;t be fixed politically. Maybe a lobbyist put it there on purpose. Maybe it was discovered after the law passed, and now lobbyists want to keep it. Microsoft can patch the vulnerabilities it finds. Patching is much harder when legislatures have to do it. We need society&#8217;s rules and laws to be as patchable as our computers.</p>
-<p>This is a hard problem of modern governance, and it goes well beyond AI. It&#8217;s the problem of building governing structures for the speed and complexity of the information age.</p>
-<p>The umbrella idea is trust. What do we need for AI systems to be truly trustworthy? Capability isn&#8217;t enough.</p>
-<p>AIs won&#8217;t be trustworthy if the companies controlling them spy on us or subtly manipulate us. I call this the friend vs. tool problem. Will we have AI agents, or AI double agents?</p>
-<p>AIs won&#8217;t be trustworthy if they&#8217;re insecure. How do we know they haven&#8217;t been manipulated? Almost all AIs operate in adversarial environments, so someone will benefit from hacking them. Unless we know they&#8217;re secure, we shouldn&#8217;t trust their output.</p>
-<p>And AIs won&#8217;t be trustworthy if they act like genies. We need to know they&#8217;ll perform tasks the right way, not just perform the tasks we ask for.</p>
-<p>I&#8217;ve written extensively about the need for &#8220;integrous&#8221; AI, including how to think about the problem, what a research agenda looks like and what good laws and policies look like. I predict integrity will be the key security problem of this decade, just as confidentiality was the key problem of the last one. This applies to both AI and the internet of things.</p>
-<p>The big shift is agency, which I think of as Web 3.0. Computers now affect the physical world directly and with growing autonomy. Sensors go from data sources to attack surfaces, and actuators go from outputs to attack capabilities. An integrity failure no longer means bad spreadsheet data. It means the wrong dosage, the wrong valve position or the wrong braking distance.</p>
-<p>Integrity isn&#8217;t one thing. I break it into input integrity, processing integrity, storage integrity and contextual integrity. Each is complex and important, and each deserves its own talk. I&#8217;ve written about them, and I hope you&#8217;ll read it.</p>
-<p>Much of this isn&#8217;t really an AI problem. It&#8217;s not a technical problem so much as a capitalism problem or a democracy problem.</p>
-<p>The failures of late-stage capitalism and democracy in the information age both stem from the rich and powerful getting too good at hacking our social, economic and political systems. This is the core argument of my 2021 book.</p>
-<p>Seen this way, AI is exacerbating existing problems. Human inefficiency has largely kept those problems in check, and that won&#8217;t work much longer.</p>
-<p>So consider this a call to action. Technically, we need to understand how AIs hack systems, build systems that are resilient to hacking and build AIs that won&#8217;t act as genies. Politically, we need to learn to govern and regulate at the speed of technology. Otherwise, market failures will overwhelm our ability to govern them.</p>
-<p>I said hacking is as old as humanity and that AIs will overwhelm our ability to deal with it. The solutions aren&#8217;t specific to AI, but AI makes them more urgent. We need to understand them, and we need to implement them.</p>]]></content:encoded>
-</item>
-<item>
-<title>Microsoft, and Its Customers, Are Suffering a Global Cloud Outage</title>
-<link>https://daringfireball.net/linked/2026/11/13/microsoft-cloud-outage</link>
-<guid isPermaLink="false">c8db2e84d82bce4c</guid>
-<pubDate>Fri, 13 Nov 2026 17:35:44 +0000</pubDate>
-<author>Daring Fireball</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Major Microsoft 365 outage affects Jack&amp;#x27;s employer&amp;#x27;s cloud, with Gruber&amp;#x27;s take. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Ashley Belanger, Ars Technica: A global outage taking down a wide range of Microsoft 365 services remains ongoing Friday morning. The outage started midday Thursday, impacting users of Microsoft email, cloud, and AI services. Microsoft has documented the full list of services impacted by the error, while moving early Friday morning to protect customers around the world from losing emails during the extended disruptions. “Recovery actions are ongoing,” the Microsoft 365 Status account confirmed o&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Major Microsoft 365 outage affects Jack&#x27;s employer&#x27;s cloud, with Gruber&#x27;s take. (score 8)<p>From <b>Daring Fireball</b>.</p><hr/>
-    <p>By John Gruber</p>
-    <p><a href="https://www.workos.com/airlock?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q42026">WorkOS</a>: Let agents use your tools without giving them free rein.</p>
-    <ul>
-      <li>
-        <a href="https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/">Microsoft, and Its Customers, Are Suffering a Global Cloud Outage</a>
-      </li>
-      <li>
-<p>Ashley Belanger, Ars Technica:</p><p>A global outage taking down a wide range of Microsoft 365 services remains ongoing Friday morning.</p><p>The outage started midday Thursday, impacting users of Microsoft
-email, cloud, and AI services. Microsoft has documented the <a href="https://status.cloud.microsoft/">full
-list of services impacted</a> by the error, while moving early Friday
-morning to protect customers around the world from losing emails
-during the extended disruptions.</p>
-
-<p>“Recovery actions are ongoing,” the Microsoft 365 Status account confirmed on X. “To help preserve delayed mail during this event, we’ve extended email timeout to 48 hours.”</p><p>So it’s more like Microsoft 363 at this point.</p><p>★ Friday, 13 November 2026</p></li>
-    </ul>
-  ]]></content:encoded>
-</item>
-<item>
-<title>New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs</title>
-<link>https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html</link>
-<guid isPermaLink="false">b22ac9ef96f03abc</guid>
-<pubDate>Fri, 13 Nov 2026 17:35:44 +0000</pubDate>
-<author>The Hacker News</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; New attacks on AMD SEV-SNP confidential computing, squarely in Jack&amp;#x27;s area. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server&amp;#x27;s operator out. One of them, Mior, can also modify a VM&amp;#x27;s memory and fake the signed report confirming which software it runs. Both need control of the server&amp;#x27;s hypervisor, and Mior also needs control of the server&amp;#x27;s BIOS. Researchers&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> New attacks on AMD SEV-SNP confidential computing, squarely in Jack&#x27;s area. (score 8)<p>From <b>The Hacker News</b>.</p><hr/>
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi28SrA-dW0l0kreAg1vMHHOgBRMM7lzxv5qg2FT2HzRxReJ96pxZP4Fjpm15fYWDDgWpbBI8iC119aE37t_kmQ4guoA70NUlJsdiA4hFvTg8fflx9fsKqUsGuoB-S9VS5pPd38EBVYRGmvKIT5EylE3IwEK8bBCp5CkLrdTwhbyUA2xWN_0iOynP33yE8/s1600/amd-flaws.jpg"/>
-    <p>Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.</p>
-    <p>One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers showed both in lab tests on AMD EPYC server processors.</p>
-    <p>AMD, which makes the processors, lists SEV firmware for Mior and microcode for Skyfall, both dated August 12. It plans to give server makers platform firmware in November for Skyfall and in December for Mior, and fixes for embedded chips later. Customers are told to get the BIOS update from their server maker.</p>
-    <p>SEV-SNP brings confidential computing to AMD EPYC server processors. It uses hardware-enforced memory encryption and access control to protect a VM, even from the host's hypervisor.</p>
-    <p>The ETH Zurich team behind Mior attacked SEV-SNP while it was starting up. During start-up, a security co-processor on the chip, the Platform Security Processor (PSP), fills in a table called the Reverse Map Table (RMP). The RMP records who owns each page of memory and what they may do with it.</p>
-    <p>The team redirected the PSP's writes to the memory of a graphics card it controlled, instead of to main memory. The team used a card because it believes the PSP reads the values back to check them, and the card could return them. Start-up then finished without errors, but part of the real RMP, including the entry that protects the table itself, stayed uninitialized.</p>
-    <p>That let the hypervisor rewrite the RMP's protections. The team then enabled debugging on a confidential VM that had it disabled and used the PSP's own debug commands to read and write the VM's memory. This worked in all 1,000 attempts across both test runs.</p>
-    <p>SEV-SNP also measures a VM's software image when the VM starts, and the PSP signs attestation reports that include this measurement. In a second test, the team copied a harmless VM's measurement into a malicious VM, so the malicious VM's attestation reports described the harmless image instead.</p>
-    <p>
-      <a href=""/>
-    </p>
-    <p>The attack needs control of the hypervisor and the BIOS (also called UEFI), plus a PCIe device such as a graphics card, the <a href="https://xca-attacks.github.io/mior/mior_ccs26.pdf">Mior paper</a> says. For the tests, the team modified the BIOS to leave the chip's memory-routing settings unlocked.</p>
-    <p>"We operate in AMD’s threat model defined for SEV-SNP. AMD explicitly distrusts the UEFI, thus an attacker can modify the UEFI," the researchers say.</p>
-    <p>Ordinary VMs already trust their host and its firmware, so Mior gives an attacker nothing new against them, the team says.</p>
-    <p>The team ran Mior on one EPYC 9135, a Zen 5 chip. It considers Zen 3 and Zen 4 chips potentially affected but did not test them because it had no setup that allowed it to change their BIOS.</p>
-    <p>The debugging and attestation tests both worked with ciphertext hiding turned on. That optional SEV-SNP feature stops the hypervisor from even reading encrypted VM memory.</p>
-    <p>Two earlier attacks by some of the same researchers, the <a href="https://xca-attacks.github.io/fabricked/">Fabricked attack</a> and the <a href="https://thehackernews.com/2025/10/rmpocalypse-single-8-byte-write.html">RMPocalypse attack</a>, also corrupted the RMP as SEV-SNP started up. Mior is a separate flaw, unrelated to Fabricked and to the fix for it, the team says. It also worked on older firmware from before that fix.</p>
-    <p>Skyfall comes from a team at ETH Zurich and Google. It builds on <a href="https://thehackernews.com/2025/07/amd-warns-of-new-transient-scheduler.html">Transient Scheduler Attacks</a> (TSA), a group of flaws in AMD processors that can leak data through instruction timing. TSA was first disclosed on July 8, 2025.</p>
-    <p>The team found that when a hypervisor intentionally causes a VM to fail to start, the processor has already cached part of the VM's saved state. That data is left behind without the usual cleanup, and the hypervisor can read it through TSA.</p>
-    <p>This way, the team recovered a VM's saved register values and a disk-encryption key from a test VM. For the key, it changed the VM's kernel to pause at the moment the key sat in registers. In a real attack, the team says, a hypervisor can instead use a technique called SEV-Step to step through the VM until the key reaches the registers.</p>
-    <p>Skyfall can also read VM memory, but only three fixed cache lines in a page it targets, at offsets 0x0c0, 0x380 and 0x3c0. The rest of the page stays out of reach.</p>
-    <p>The attack needs a malicious host or hypervisor, but no tampering with the hardware. The team tested it on an EPYC 7313, a Zen 3 chip, and on EPYC 9124 and 9334 chips, which are Zen 4. It did not show the leak on Zen 5 chips.</p>
-    <p>Beyond VMs, the Skyfall team read decrypted microcode updates on all three test chips. It also recovered register values stored in System Management Mode (SMM) memory, which even the operating system kernel normally cannot read. Both of these attacks need privileged software on the machine.</p>
-    <p>The program committee of the IEEE Symposium on Security and Privacy, which accepted the <a href="https://skyfall-attack.github.io/assets/skyfall.pdf">Skyfall paper</a>, said it overlooks what a realistic attack on VMs would need. That includes a processor core free of other activity, failing VM starts and performance-counter reads at high speed, and a VM that does not crash or time out during the attack.</p>
-    <h3>Affected Processors and Fixes</h3>
-    <p>AMD tracks Mior as CVE-2026-0462 and rates it 5.9 on the CVSS 4.0 scale in a <a href="https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3059.html">security advisory</a>. It tracks Skyfall's VM leak as CVE-2026-40671, rated 4.9, in a <a href="https://www.amd.com/en/resources/product-security/bulletin/amd-sb-3061.html">second advisory</a> that describes the flaw as exposing VM register data.</p>
-    <p>For Mior, the company lists only SEV-SNP as affected, not the earlier SEV and SEV-ES versions.</p>
-    <p>It lists the same five EPYC server lines for both flaws, with these fixes:</p>
-    <table>
-      <tr>
-        <th>As listed in the two advisories</th>
-        <td/>
-        <td/>
-        <td/>
-      </tr>
-      <tr>
-        <th>EPYC series</th>
-        <th>Mior platform firmware (target)</th>
-        <th>Mior SEV firmware (August 12)</th>
-        <th>Skyfall platform firmware (target)</th>
-      </tr>
-      <tr><td>7003</td><td>
-        <pre>MilanPI-SP3_1.0.0.L</pre> (December)
-      </td>
-      <td>
-        <pre>1.3A.03</pre>
-      </td>
-      <td>
-        <pre>MilanPI-SP3_1.0.0.L</pre> (November)
-      </td>
-    </tr>
-      <tr><td>8004</td><td>
-        <pre>GenoaPI_1.0.0.K</pre> (December)
-      </td>
-      <td>
-        <pre>1.3A.4</pre>
-      </td>
-      <td>
-        <pre>Genoa_100J Patch 3</pre> (November)
-      </td>
-    </tr>
-      <tr><td>8005</td><td>
-        <pre>TurinPI_1.0.0.C</pre> (December)
-      </td>
-      <td>
-        <pre>1.3A.0A</pre>
-      </td>
-      <td>
-        <pre>TurinPI_1.0.0.C</pre> (November)
-      </td>
-    </tr>
-      <tr><td>9004</td><td>
-        <pre>GenoaPI_1.0.0.K</pre> (December)
-      </td>
-      <td>
-        <pre>1.3A.4</pre>
-      </td>
-      <td>
-        <pre>Genoa_100J Patch 3</pre> (November)
-      </td>
-    </tr>
-      <tr><td>9005</td><td>
-        <pre>TurinPI_1.0.0.C</pre> (December)
-      </td>
-      <td>
-        <pre>1.3A.0A</pre>
-      </td>
-      <td>
-        <pre>TurinPI_1.0.0.C</pre> (November)
-      </td>
-    </tr>
-    </table>
-    <p>The two advisories give the same TurinPI_1.0.0.C package different target months. Microcode for Skyfall is dated August 12 for each of these lines. The Instinct MI300A accelerator has a Skyfall patch dated September 21, and fixes for embedded EPYC models are due between January and April 2027.</p>
-    <p>The Mior team says updated firmware that mitigates the flaw is already out, and the Skyfall team says new microcode has been released. The advisories do not say whether those updates work on their own or only as part of the BIOS updates, and they list no workaround.</p>
-    <p>Supermicro, a server maker, has published a <a href="https://www.supermicro.com/en/support/security_AMD-SB-3059">BIOS fix list</a> covering flaws in dozens of its H12, H13, and H14 motherboards. The same pages say the boards also need a BMC firmware update and that the company is still testing affected products.</p>
-    <p>Because the fixes are implemented in the host's firmware, customers who rent confidential VMs depend on their cloud provider to install them. The advisory covering Mior also lists TCB (trusted computing base) values for SNP attestation next to each fixed firmware version. It does not say how VM owners should check them.</p>
-    <p>Neither advisory says whether the flaws have been used in attacks. Both teams have published code, and the Mior <a href="https://github.com/xca-attacks/mior">proof-of-concept code</a> needs a BIOS patched to leave the memory-routing settings unlocked.</p>
-    <p>The EDK II project assigned Skyfall's SMM leak CVE-2026-18448 and rates it 5.6. AMD's <a href="https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7072.html">EDK II bulletin</a> traces it to missing TSA mitigations in EDK II firmware code.</p>
-    <p>The bulletin lists EPYC and Ryzen chips, including embedded models, and recommends the company's earlier TSA mitigations plus an EDK II patch when one is available.</p>
-    <p>For the five EPYC server lines listed above, the bulletin lists only that patch, due in November. Platform firmware with the fix is already available for other chips, including the EPYC 4004 and 4005 models. The EDK II project's own advisory lists no patched version as of today.</p>
-    <p><a href="https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ">Google News</a>,</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>Ten minutes a day</title>
-<link>https://seths.blog/2026/11/ten-minutes-a-day/</link>
-<guid isPermaLink="false">60928cc31bd5f5c0</guid>
-<pubDate>Fri, 13 Nov 2026 17:35:44 +0000</pubDate>
-<author>Seth&#x27;s Blog</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Seth Godin short essay on habits. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Seth&amp;#x27;s Blog&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;You can’t become fluent in a foreign language in ten minutes a day, even if you try for months. On the other hand, here are a dozen things many of us can do (or do better) if we stick with it: Three-ball jugglingTouch typingRubik’s CubeDrawingMental mathMemorizing a deck of cards or people’s namesMeditatingHistory or geographyFinding […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Seth Godin short essay on habits. (score 8)<p>From <b>Seth&#x27;s Blog</b>.</p><hr/><p class="wp-block-paragraph">You can&#8217;t become fluent in a foreign language in ten minutes a day, even if you try for months.</p>
-
-
-
-<p class="wp-block-paragraph">On the other hand, here are a dozen things many of us can do (or do better) if we stick with it:</p>
-
-
-
-<p class="wp-block-paragraph">Three-ball juggling<br />Touch typing<br />Rubik’s Cube<br />Drawing<br />Mental math<br />Memorizing a deck of cards or people&#8217;s names<br />Meditating<br />History or geography<br />Finding joy in small things<br />Typography<br />Ukulele<br />Italic handwriting<br />Morse code<br />Excel and HTML</p>
-
-
-
-<p class="wp-block-paragraph">There are two hard parts:</p>
-
-
-
-<ol class="wp-block-list">
-<li>The seven minutes after minute three</li>
-
-
-
-<li>Doing it again tomorrow</li>
-</ol>
-
-
-
-<p class="wp-block-paragraph">&#8220;I can&#8217;t do that,&#8221; might often be more honestly reported as, &#8220;I haven&#8217;t chosen to be able to do that.&#8221;</p>]]></content:encoded>
-</item>
-<item>
-<title>Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases</title>
-<link>https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html</link>
-<guid isPermaLink="false">bb391ea7c8dbe312</guid>
-<pubDate>Fri, 13 Nov 2026 17:35:44 +0000</pubDate>
-<author>The Hacker News</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Hardware wallet supply-chain implants, a real security lesson. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase from the wallet&amp;#x27;s screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Hardware wallet supply-chain implants, a real security lesson. (score 7)<p>From <b>The Hacker News</b>.</p><hr/>
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivDE4uIn_bV4GUrsw0LjzqBnnNaQM_0lzJhrSy89nrShmwNlFcsVucCFpzzZ2LMkkSMF-XMb8rp0e7_Maemyj5sypkVIf4s2Wx5pbJXkOwf0vMkG9ThBQAHhvJ_mKWHq78f_iJYhAM2l1Hp_Zk3VtB_bVvYFmZTX4WakIpC_Zib0rlFnDG-H674JSP5Mg/s1600/implant.jpg"/>
-    <p>Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday.</p>
-    <p>The implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other two from photos their owners sent, and has had no reports of lost funds.</p>
-    <p>A firmware update released earlier this week, version 2.13.1, stops the implants found so far from capturing anything on wallets that run it, the company said, but “the update can’t protect a wallet backup that was captured before it.”</p>
-    <p>The company has not changed its advice to anyone who bought a Trezor from CryptoBilis since March, including from the reseller's stores on Tokopedia and Shopee:</p>
-    <ul>
-      <li>Move your funds to a new wallet with a new recovery phrase. Restoring the old phrase on another wallet does not solve the problem.</li>
-      <li>Do not set up an unused wallet from the reseller, and never type an existing recovery phrase into one.</li>
-      <li>Keep the wallet and contact Trezor Support, which offers a new Trezor wallet to anyone who bought from the reseller since March. Contact Support too if you are not sure where your wallet came from.</li>
-      <li>Do not weigh or open the wallet to check it. Neither is a reliable test.</li>
-      <li>Never share your recovery phrase, as the company will never ask for it. Scammers may pose as the company to offer replacements or refunds.</li>
-    </ul>
-    <p>Version 2.13.1 was released for the Safe 7, Safe 5, Safe 3 and Model T, according to the company's <a href="https://trezor.io/other/product-updates/trezor-firmware-changelog-all-versions-and-release-dates">firmware changelog</a>. The company will not publish technical details that could help attackers or put customers at risk, it said in an <a href="https://trezor.io/blog/news/our-cryptobilis-investigation-what-we-found-and-what-weve-changed">investigation update</a>.</p>
-    <p>Its engineers extracted and analyzed the implant's firmware from the first wallet it reported. The implant sits between the Safe 5's main board and its screen and changes nothing on the wallet itself, including its firmware and Secure Element, the company found.</p>
-    <p>
-      <a href=""/>
-    </p>
-    <p>The implant copies the recovery phrase when the wallet shows it during backup creation, and when someone types it in to restore an existing wallet to the device. It also copies a passphrase if one appears on the screen. It encrypts the data before sending it, and if it cannot connect, it keeps the data and tries again until it succeeds.</p>
-    <p>The <a href="https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html">company first warned of a suspected implant on October 30</a>, two days after a buyer reported it and before its lab had seen the wallet.</p>
-    <p>CryptoBilis served as an official reseller for the company's wallets in Southeast Asia until October 9, when the company removed it. That was the day Ledger, another hardware wallet maker, began investigating losses of funds among the reseller's customers.</p>
-    <p>Ledger later confirmed an <a href="https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html">unauthorized implant</a> in a wallet the reseller sold. Attackers had fitted genuine Ledger devices with hidden components designed to capture the recovery phrase during setup, then drained wallets in a single coordinated operation, Ledger said in an <a href="https://www.ledger.com/blog-response-hardware-implant-attack">incident statement</a>.</p>
-    <p>Trezor says the implants in its wallets work the same way as those found in Ledger devices, adapted to the Safe 5's display. It has not said who fitted the implants or where in the supply chain that happened.</p>
-    <p>The three wallets were bought between August 20 and September 23. So far the company has found implants only in Safe 5 wallets sold by the reseller, and none in wallets from its other resellers or in its other models.</p>
-    <p>After the October reports, it asked people who bought a Trezor from the reseller to get in touch, and 48 have done so. It is checking their wallets in its lab or from photos of the insides, and has not said how many it has checked so far.</p>
-    <p>The company says none of the three owners has lost funds. Trezor wallets are self-custodial, so it cannot see anyone's balance.</p>
-    <p>The company says it has cut its reseller network by about 80%, dropping trustworthy partners that posed no immediate threat but did not fit its stricter new rules. It first announced the reduction on October 13 in a <a href="https://x.com/Trezor/status/2110000774314873020">post on X</a>, more than two weeks before the first report of an implant in one of its own wallets.</p>
-    <p>In a <a href="https://x.com/Dantoshi/status/2110000117856248141">partner letter</a> that day, it told the dropped resellers that they would get no new stock, could sell what they had until January 1, 2027, and would then be removed from its list of authorized sellers.</p>
-    <p>It is still investigating. It will post an update if it confirms an implant outside the reseller's wallets or the Safe 5, receives a report of lost funds linked to the implants, or releases new protections.</p>
-    <p><a href="https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ">Google News</a>,</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>Apple Launches Two Products Today</title>
-<link>https://www.macrumors.com/2026/11/13/apple-launches-two-products-today/</link>
-<guid isPermaLink="false">6a5de9cfc7e0637a</guid>
-<pubDate>Fri, 13 Nov 2026 17:35:44 +0000</pubDate>
-<author>MacRumors: Mac News and Rumors - All Stories</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Apple launches HomeView and new Apple TV 4K, top Apple news. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacRumors: Mac News and Rumors - All Stories&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Apple is releasing two new products today, Friday, November 13: the all-new Apple HomeView and the fourth-generation Apple TV 4K, both of which have been available to pre-order since mid-October. Apple HomeView : Apple&amp;#x27;s new smart home display, powered by Apple Intelligence with Siri AI, for entertainment and managing the home. Available in tabletop and wall-mounted models, it can recognize up to six users by face, each with a personalized Home Screen. The HomeView is priced at $299. Apple TV 4K&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Apple launches HomeView and new Apple TV 4K, top Apple news. (score 7)<p>From <b>MacRumors: Mac News and Rumors - All Stories</b>.</p><hr/>Apple is releasing two new products today, Friday, November 13: the all-new Apple HomeView and the fourth-generation Apple TV 4K, both of which have been available to pre-order since mid-October.
-<br />
-<img alt="" class="aligncenter size-full wp-image-1071590" height="900" src="https://images.macrumors.com/article-new/2026/10/apple-pro-tell-logo.jpg" width="1600" />
-<br />
-<ul><li><strong>Apple HomeView</strong>: Apple's new smart home display, powered by Apple Intelligence with Siri AI, for entertainment and managing the home. Available in tabletop and wall-mounted models, it can recognize up to six users by face, each with a personalized Home Screen. The HomeView is priced at &#36;299.</li>
-<br />
-<li><strong>Apple TV 4K</strong>: adds Siri AI, the A19 chip, an updated Siri Remote with Find My, and support for four-speaker surround sound with HomePod mini 2. The Apple TV 4K comes with 128GB of storage and is priced at &#36;299.</li></ul>Both products were announced on October 13 alongside the HomePod mini 2, which launched October 30. 
-<br />
-
-<br />
-As things stand, HomeView is not sold in the European Union because Siri AI is currently unavailable on iOS in the region due to regulatory constraints. Apple has said it is "working constructively with the EU in an attempt to find a path forward," but has provided no timeline for EU availability.<br />This article, &quot;<a href="https://www.macrumors.com/2026/11/13/apple-launches-two-products-today/">Apple Launches Two Products Today</a>&quot; first appeared on <a href="https://www.macrumors.com">MacRumors.com</a><br /><br /><a href="https://forums.macrumors.com/threads/apple-launches-two-products-today.2494307/">Discuss this article</a> in our forums<br /><br />]]></content:encoded>
-</item>
-<item>
-<title>Claude’s Duet agent is a little neurotic and surprisingly helpful</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on</link>
-<guid isPermaLink="false">45588fb5b049e775</guid>
-<pubDate>Fri, 13 Nov 2026 17:35:44 +0000</pubDate>
-<author>The Verge</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Review of Anthropic&amp;#x27;s AI agent, relevant to AI changing work. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Normally, the products I test don&amp;#x27;t offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic&amp;#x27;s AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don&amp;#x27;t write code. It&amp;#x27;s been an interesting couple […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Review of Anthropic&#x27;s AI agent, relevant to AI changing work. (score 7)<p>From <b>The Verge</b>.</p><hr/>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b2 _18mzr4b0 _18mzr4b7 _18mzr4b5 _19wv7tc1 _18mzr4bb">Normally, the products I test don’t offer to help me write up my experience with them. Duet is different.</p>
-    <h1>Claude’s Duet agent is a little neurotic and surprisingly helpful</h1>
-    <p class="duet--article--dangerously-set-cms-markup cbn62fi cbn62fg _19wv7tcb _19wv7tc1">Duet is a decent helper, if a little jumpy at times.</p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04398_processed.jpg?quality=90&amp;strip=all&amp;crop=0.012500000000003%2C0%2C99.975%2C100&amp;w=2400" alt="DSC04398_processed"/>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04398_processed.jpg?quality=90&amp;strip=all&amp;crop=16.675%2C0%2C66.65%2C100&amp;w=2400" alt="DSC04398_processed"/>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/author_profile_images/195790/ALLISON_JOHNSON.0.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Allison Johnson"/>
-    <p>Claude Duet is Anthropic’s AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don’t write code. It’s been an interesting couple of months: Instinct gave us <a href="https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots">an impressive text-based assistant</a>, Meta offered us its cute little guy, Muse, <a href="https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping">to help us buy things</a>, and OpenAI gave us <a href="https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent">the more work-oriented Dots</a>. Claude Duet is even more focused on work than those. It’s also more consumer-friendly than <a href="https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now">Claude Cowork</a>, which was more consumer-friendly than Claude Code — the coding agent that <a href="https://www.theverge.com/report/874308/anthropic-claude-code-opus-hype-moment">kicked off a whole hype cycle</a> earlier this year. I’ve been testing it over the past week as I navigate a busy travel and work schedule. At turns it has been truly useful, kind of a nag, and very eager to write about itself.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Duet is still a “research preview” according to Anthropic, and access is limited to Pro, Max, and Ultra subscribers in the US, with a waitlist to join. It’s not here to order you burritos, either; it’s for “professionals and small business owners” and is meant to use its judgment about what needs your attention most.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Like Meta’s Muse, Duet has its own app. (If you’re keeping score at home, yes, it has been updated to fully support the iPhone Duo). Duet uses Claude’s characteristically cheery, minimalist design. The app is consumer-friendly and approachable. Once you’ve connected all the productivity and chat services you want, it’ll look for ways to help out with and suggest them as cards you can swipe left or right to hide or accept — kind of a to-do list Tinder.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">In the name of testing, I went all in on Duet and gave it everything: my work email, calendar, Google Docs, and Slack. This gave it plenty of grist for the mill in more ways than I’d even realized at first. Because our biweekly staff meeting is automatically summarized in an email from Gemini, and Duet had access to my email, it was able to connect the dots between something said in a meeting and a direct message in Slack. Duet also worked out who my boss is because we have a shared Google Doc for our weekly 1:1 meetings. AI is at its most useful when it can suck up lots of data, and Duet wasted no time doing so.</p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/IMG_3369.png?quality=90&amp;strip=all&amp;w=2400" alt="&lt;em&gt;You can swipe left or right on these cards to dismiss or get Duet started on them.&lt;/em&gt;"/><p><em>&lt;em&gt;You can swipe left or right on these cards to dismiss or get Duet started on them.&lt;/em&gt;</em></p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/IMG_3417.png?quality=90&amp;strip=all&amp;w=2400" alt="&lt;em&gt;Rude of Duet to point out that I only had three lines written with a deadline looming.&lt;/em&gt;"/><p><em>&lt;em&gt;Rude of Duet to point out that I only had three lines written with a deadline looming.&lt;/em&gt;</em></p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Duet has started each morning by greeting me with a brief message and some quick highlights for my day, like reminding me to pack an item required for a video shoot before my flight. Below that, it would suggest to-dos, usually ending in an offer to help draft a message or add an item to an agenda.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">This has often been helpful, though it sometimes felt like interacting with a slightly neurotic personal assistant. In one instance, I’d emailed someone I interviewed for a story that the article was likely to go up on Tuesday and that I’d send a link when it did. I submitted my draft to my editors late at night on Monday, and Tuesday morning Duet was beside itself. It wasn’t quite 9AM yet when it pointed out that the story was still waiting for an edit and I needed to get on that — or else I wouldn’t be able to send the link I promised. The concern was a bit misplaced. And it didn’t pick up on the nuance in my message implying that this was not a hard deadline, nor the fact that it was only 7AM local time for my editor.</p>
-    <p class="duet--article--dangerously-set-cms-markup c39lj12 _19wv7tc9">This sometimes felt like interacting with a slightly neurotic personal assistant</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">In other cases, it was surprisingly helpful. In planning out the next few weeks I’d missed the fact that upcoming time off would only leave me with a couple of working days before another big draft was due. Duet proposed a solution, offered to update the Google Doc with weekly notes for my editor, and drafted a Slack message for him noting the update. Reader, the message was a little too good. It copied my millennial habit of writing in all lowercase — which it pointed out in a slightly self-congratulatory aside — and used an abbreviation we often use to refer to our CMS. But it also shortened the word “signature” to “sig,” which I never would and made me laugh out loud. In any case, there’s no fooling anyone; the Slack message was tagged with a “sent with Claude” label.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Duet often volunteered to help start my drafts, which is always a hard no for me. I’ll type up my own little blogs, thank you very much Claude. If you’re not a writer, I can see how taking care of little writing chores here and there would be helpful. But this started feeling like a Spider-Man-pointing-at-Spider-Man moment when the task it wanted to help with was reviewing itself.</p>
-    <p class="duet--article--dangerously-set-cms-markup c39lj12 _19wv7tc9">Maybe that’s how CEOs live</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">It was a little uncanny, too. Even setting aside the fact that I was writing about Duet, it’s kind of weird knowing that it can read every email, draft, and Slack I send. It can read all of that because I opted in to sharing that data, and I knew full well what I was doing. But it’s another thing to see it in practice. I wonder if it would change how I work if I knew I didn’t really need to take responsibility for putting things on my calendar, writing down a to-do list, or paying attention in a meeting because Duet will just handle it. Maybe that’s how CEOs live. Not that I cherish creating calendar entries, but I wonder if I would end up feeling a bit disconnected from my workplace.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">I don’t think Duet or any other AI agent is quite ready to make us feel like we’re all the CEOs of our own little worlds. There’s a key word in the title “personal assistant”: personal. A person can pick up on nuances in tone to understand what’s a big deal and what isn’t. A person will pick up on communication norms and deploy them sensibly. A person can be tactful. Anthropic’s blog post mentions that the company is continuing to “test its judgment about when to message you,” so it’s possible Duet will calibrate a little better over time. But AI overall isn’t good at understanding nuance or tone, and it’s not clear if it ever will be.</p>
-    <p>For me, Duet made it a little more clear what I want AI to do for me and what I don’t. Communication happens all over the place in a modern workplace — in emails, DMs, meetings, shared docs. Having AI find discrepancies that have been overlooked between all of these sources and point them out proactively is really helpful. I like it as a backstop for my own organizational systems, not as a replacement for them. I don’t like it in the creative process. Like, at all. I want to find “my own ways into and around a topic,” <a href="https://www.reddit.com/r/nerdfighters/comments/1vbmoj5/comment/p0vzmog/">as Hank Green said of his own reliance on AI</a>. If you send a robot to do the legwork, you miss the opportunity to stumble across something unexpected. It’s part of what makes the work enjoyable. And I’m certainly not about to let an agent review itself for me. You hear that, Duet?</p>
   ]]></content:encoded>
 </item>
 </channel></rss>
