@@ -2,7 +2,261 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel>
 <title>Top Picks</title><link>https://jackrichins.github.io/top-picks</link>
 <description>The best of my feeds, picked by Claude.</description>
-<lastBuildDate>Sat, 21 Nov 2026 00:17:01 +0000</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 15:36:28 +0000</lastBuildDate>
+<item>
+<title>Calvin and Hobbes - 2026-11-21</title>
+<link>https://www.gocomics.com/calvinandhobbes/2026/11/21</link>
+<guid isPermaLink="false">12b768147d42a7d8</guid>
+<pubDate>Sat, 21 Nov 2026 15:36:28 +0000</pubDate>
+<author>Calvin and Hobbes</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; On your always-include list. (score 10)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Calvin and Hobbes&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Comic strip for 2026-11-21 Calvin and Hobbes&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> On your always-include list. (score 10)<p>From <b>Calvin and Hobbes</b>.</p><hr/><div class="comic-gallery" style="text-align: center; margin: 10px auto;">
+<p style="margin-bottom: 15px; font-style: italic;">Comic strip for 2026-11-21</p>
+    <div class="comic-panel" style="margin: 15px 0;">
+        <img alt="Calvin and Hobbes" src="https://featureassets.gocomics.com/assets/dc087a709e34013fcbbd005056a9545d?optimizer=image&amp;width=2800&amp;quality=85" style="height: auto;" />
+        <div class="panel-description" style="font-size: 0.9em; color: #666; margin-top: 5px; font-style: italic;">Calvin and Hobbes</div>
+    </div>
+</div>]]></content:encoded>
+</item>
+<item>
+<title>Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS</title>
+<link>https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html</link>
+<guid isPermaLink="false">b60d82862205555a</guid>
+<pubDate>Sat, 21 Nov 2026 15:36:28 +0000</pubDate>
+<author>The Hacker News</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Signal is defending end-to-end encryption against on-device AI agents in iOS 27, a new frontier for private messaging. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is &amp;quot;incomplete.&amp;quot; The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Signal is defending end-to-end encryption against on-device AI agents in iOS 27, a new frontier for private messaging. (score 8)<p>From <b>The Hacker News</b>.</p><hr/>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1cVX1DZUDMTkSc3kGcO8KsGd-MIBr6py39SuaRxG1wCxVVfKIQhiQaywRpjn95FQV4tMy0dWyNc49745cwqBBLpGzVK_eut-DGLBaidiiYCdIH65bXGtopuPJ7dofJzAJVJ6cWrKp2JJb5gNrODQuWtK7vZZp824ecrz4_DHWWJIaC5wS6aYfsMsKshg4/s1600/signal.jpg"/>
+    <p>Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is "incomplete."</p>
+    <p>The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal screen.</p>
+    <p>It also builds upon a similar setting that Signal <a href="https://thehackernews.com/2025/05/weekly-recap-apt-campaigns-browser.html#:~:text=Signal%20Says%20No%20to%20Recall">introduced</a> in Windows 11 last May following Microsoft's release of the controversial Recall feature.</p>
+    <p>Calling the agentic integrations into Android, iOS, and Windows an "existential threat to Signal," Meredith Whittaker, president of the Signal Foundation, said the move is designed to uphold its privacy guarantees in the AI era.</p>
+    <p>"In order to gain access to information about you, these OS AI agents 'scan' the information that's on your screen," Whittaker <a href="https://signal.org/blog/protecting-your-privacy/">said</a>. "In doing so, your Signal data is captured, then made available to these agentic systems in order to allow them to answer your questions and do your bidding."</p>
+    <p>"The net result is that these AI capabilities in the operating system are undermining Signal's ability to independently guarantee privacy."</p>
+    <p>The risk here is that AI agents can capture and store the information accessed from Signal either locally or on remote servers, with the activity occurring outside of the platform's control and potentially putting the privacy of all the participants in a conversation at risk.</p>
+    <p>Users who want to disable the option can do so by navigating to Settings &gt; Privacy &gt; App Security &gt; toggle "Block Siri AI" (on iOS) or "Screen security" (on Android).</p>
+    <p>
+      <a href=""/>
+    </p>
+    <p>"However, doing so will potentially expose your (and your contacts') Signal content to these AI agents, and break our privacy guarantees," Signal said.</p>
+    <p>"Our remedy is also incomplete – while we are doing everything we can, restricting screenshots does not address other more sneaky ways AI agents could potentially access application data, such as retrieving content already present on a user's device via the file system."</p>
+    <p>Signal also pointed out that application developers lack robust tools to prevent AI agents from eroding application-level privacy. It also called out the companies for failing to provide adequate documentation about how these systems work to help design necessary controls to prevent the agents from accessing sensitive application data.</p>
+    <p>Specifically, it's urging the tech giants to provide "two common-sense remedies" to help protect the privacy of its users -</p>
+    <ul>
+      <li>Access to easy and well-documented way to opt their app out of AI data access and processing entirely, including screen reading, filesystem access, notifications, APIs, and other OS frameworks, without making drastic compromises to the core user experience</li>
+      <li>Create better documentation and technical specifications around how AI agents function, specifically with regards to data access and processing</li>
+    </ul>
+    <p>The concerns are not theoretical. Reuters recently <a href="https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/">reported</a> that Muse, Meta's AI agent, was able to bypass its own official "Connector" tool to obtain access to Signal messages on both an Apple computer and an Android device by taking advantage of the broad operating system permissions granted to it during initial setup.</p>
+    <p>On macOS, for example, the agent leveraged macOS's accessibility and screenshot tools to navigate to the Signal app, take screenshots, extract text from those images, and regenerate the textual content within the Muse app. On Android, it read messages by abusing its access to the device's push notifications.</p>
+    <p>In one case highlighted by the news agency, the AI agent alerted a Meta staffer using Muse on her personal phone with a reminder to respond to a message from her sister on Signal. "This seems like an extreme privacy violation. I definitely did not grant it access to other apps, or recall being asked about this," the employee said in an internal post.</p>
+    <p>"We also see a growing need for tools that can prevent third-party agents, like Meta's Muse, from accessing application data using the deep permissions that users are encouraged to grant them during setup," Whittaker said.</p>
+    <p>"In many cases these agents are leveraging accessibility settings that were meant to empower actual people to get the most out of their apps and services, not to act as a skeleton key that provides access to AI agents."</p>
+    <p>Late last month, Apple <a href="https://support.apple.com/149076">released</a> iOS 27.2 with an "Excluded Apps" option that <a href="https://www.eff.org/deeplinks/2026/10/victory-you-can-now-exclude-apps-siri-ai">lets users</a> choose which apps Siri, Search, and suggestions can access. With Google Gemini, users have the <a href="https://support.google.com/gemini/answer/13695044">ability to disconnect apps</a> via the Connected Apps settings.</p>
+    <p>Earlier this week, the iPhone maker also <a href="https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html">previewed</a> new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents.</p>
+    <p><a href="https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ">Google News</a>,</p>
+  ]]></content:encoded>
+</item>
+<item>
+<title>A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats</title>
+<link>https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html</link>
+<guid isPermaLink="false">a045d06f680001f2</guid>
+<pubDate>Sat, 21 Nov 2026 15:36:28 +0000</pubDate>
+<author>The Hacker News</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A one-page attack on an AI assistant&amp;#x27;s memory and connected credentials shows how agent security is breaking down. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;A malicious webpage could extract a Meta Muse user&amp;#x27;s private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user&amp;#x27;s connected accounts. The work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user&amp;#x27;s&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> A one-page attack on an AI assistant&#x27;s memory and connected credentials shows how agent security is breaking down. (score 7)<p>From <b>The Hacker News</b>.</p><hr/>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYiVrbfn3FWfI_uNyjj8q9SZ38d2mHKu2ehdtYYKPwyg-05yKJBYUAPEaVxJq5KDGwU11X2tmEKNUKPIHQY9s67e1K9w_8NRdEOxVCDJqqMbQ6F27kfOj3GKjcQ3-0WHFNg7uYT6QeIU90qX1YW_Zvyn7WhZwpV41i5Pj6watQsF7Ti8NN1GIQLxw-jPc/s1600/muse-ai.jpg"/>
+    <p>A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown.</p>
+    <p>The same attack could be extended to reach the credentials Muse stores for the user's connected accounts.</p>
+    <p>The work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's cloud machine. NebuSec, the security firm that published it yesterday, says Muse's team has since fixed every weakness it describes.</p>
+    <p>Muse is Meta's personal AI agent, launched on September 8, that works through the online accounts a user connects to it and can make purchases on their behalf. Each person's agent runs on its own cloud computer.</p>
+    <p>There, a monitoring layer called Sentinel is meant to be the single gate for anything the agent sends out, and the passwords and tokens for connected accounts are supposed to stay beyond the agent's reach.</p>
+    <p>
+      <a href=""/>
+    </p>
+    <p>Muse's team described the aim at launch: "So we designed the system to assume the agent may be under attack and limit the potential damage."</p>
+    <p>In the demonstration, a malicious page the agent opened could pull a user's conversation history and stored memories to an external server and alter them, with no prompt shown to the user, according to the firm's <a href="https://nebusec.ai/research/meta-muse-credential-exposure/">research write-up</a>.</p>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZnPU8k823yly65d9kRWaMSl4Xtd7GdxXzDOdTDqIuEUorZA-UeG27ybMfR8snN6UbzL_xHsaE_B99SQq4FPYzDD4b0aIS6dGY6GwfTUSSwNxrX_e4GQhwdSAsBzY0DbdeugAYR7i5RIPOv_jRYnjQsDzp_1_zPRN22mL22nf9P0FNh9Qvc4Xfuf69EFM/s1600/MUSE.jpg"/>
+    <p>From there, the researchers chained a flaw in Muse's built-in browser, which the assistant uses for tasks such as creating PDFs, to a Linux kernel flaw, thereby taking full control of the user's cloud machine. They set out that chain in a <a href="https://nebusec.ai/research/inside-meta-muse/">technical breakdown</a>.</p>
+    <p>That full control reached the credential store, the saved files, and Sentinel itself, the parts Muse's <a href="https://muse.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse">security design</a> keeps walled off from the agent.</p>
+    <p>The compromise went no further than that one machine. The researchers did not break out to the shared server beneath it or into other users' machines.</p>
+    <p>Muse was built to assume its own agent could be turned against the user and to box in any break-in. Each of those controls worked as designed, the firm said, yet the attack still ran the whole way through.</p>
+    <p>The firm says it reported the findings to Muse's team and that the exploits were all fixed before publication. Meta has not publicly confirmed the fixes or commented on the work, and the write-up does not say whether any user data was accessed before the patches went in.</p>
+    <p>The firm's Muse research broke into the cloud system behind the assistant, unlike an <a href="https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html">earlier Muse flaw</a> found in September, which only let malware already on a user's Mac hijack the assistant on the device.</p>
+    <p><a href="https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ">Google News</a>,</p>
+  ]]></content:encoded>
+</item>
+<item>
+<title>GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys</title>
+<link>https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html</link>
+<guid isPermaLink="false">6b855967ce0b41d3</guid>
+<pubDate>Sat, 21 Nov 2026 15:36:28 +0000</pubDate>
+<author>The Hacker News</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A critical bug in the library most apps use to handle OpenPGP keys, triggered just by importing a hostile key. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> A critical bug in the library most apps use to handle OpenPGP keys, triggered just by importing a hostile key. (score 7)<p>From <b>The Hacker News</b>.</p><hr/>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTmX4ayWzvM0EzPttZ610B2837FppeU5AEmQmztLH2lai78EDQtjrp4wVI_bubSe2c2NGBE5sqBT9Py1mKkHQKN2faBkOzU70d7FntrpYD7Et2eeBxLNy2gzByAo1i8Aaw_VMBZD62RnBMY2md3iNfegK9M_NR5qTRDBw8s0uwKy1w7JoTV0zkDS_17Lse/s1600/pgp.jpg"/>
+    <p>A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.</p>
+    <p>The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions.</p>
+    <p>The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0, whether the library is loaded as a shared library, a Windows DLL, or statically linked into the program.</p>
+    <p>Examples the project gives include most mail clients, many XMPP clients, Samba, and its own Gpg4win, GnuPG Desktop, and GnuPG VS-Desktop packages.</p>
+    <p>The project has not reported any attacks exploiting the flaw, and it notes that remote code execution cannot be ruled out.</p>
+    <p>Its example of a path to the bug is signed data sent to an application. Which programs pass such material to the library without a manual key import is not something the advisory says.</p>
+    <p>The flaw is a double free, meaning the same memory is released twice. It sits in two routines, read_status() and read_colon_line(), that read status lines and key listings coming back from GnuPG.</p>
+    <p>When the input runs long, the routines move the data to a larger buffer but record the new address only if they finish without errors. An error in between leaves a pointer to memory that was already freed, and cleanup then frees it a second time, as the project's <a href="https://static.dev.gnupg.org/T8557.html">tracker entry</a> details.</p>
+    <p>The flaw was found by Johan Carlsson and reported to the project by GitLab last week. Disclosure was set for November 25, the advisory says, and moved up because the new Ruby2Shell bug forced the company to update earlier.</p>
+    <p>
+      <a href=""/>
+    </p>
+    <h3>What to Update</h3>
+    <p>The fixed library version is GPGME 2.3.1, released this week. A version 2.3.0 was never publicly available.</p>
+    <p>What to install depends on where the library sits:</p>
+    <ul>
+      <li>Shared library or DLL: update to GPGME 2.3.1, available from the project's <a href="https://gnupg.org/download/">official downloads</a> and detailed in its <a href="https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html">security advisory</a>.</li>
+      <li>Windows: Gpg4win 5.1.2 bundles the fixed library. Its <a href="https://www.gpg4win.org/change-history.html">release notes</a> call the issue severe and say to update as soon as possible.</li>
+      <li>Older versions that cannot move to 2.3.1: the advisory carries a patch, and the legacy branch has its own fixed release, 1.24.4, whose <a href="https://dev.gnupg.org/T7659.html">legacy release notes</a> say the project cannot guarantee that the branch will see every security patch.</li>
+      <li>Bundled and statically linked copies: these are affected too, and updates to the system's shared library do not reach them, so the applications that contain them need their own rebuilt releases.</li>
+      <li>GPGMEPP and GPGMEQT: no update is needed.</li>
+    </ul>
+    <p>The advisory offers no interim workaround for software that cannot update yet.</p>
+    <p><a href="https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ">Google News</a>,</p>
+  ]]></content:encoded>
+</item>
+<item>
+<title>Attackers&#x27; AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access</title>
+<link>https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html</link>
+<guid isPermaLink="false">cb982b8062ddc4dd</guid>
+<pubDate>Sat, 21 Nov 2026 15:36:28 +0000</pubDate>
+<author>The Hacker News</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Amazon reports attackers using autonomous AI agents to find and exploit a zero-day, a real milestone for offensive AI. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Hacker News&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server&amp;#x27;s storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Amazon reports attackers using autonomous AI agents to find and exploit a zero-day, a real milestone for offensive AI. (score 7)<p>From <b>The Hacker News</b>.</p><hr/>
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEIG6Wgi3wGQXrsdGKEf4ORPFjHVGpRkoSUPraOJfKhGmB0vYFojLq2mCuOP3a71_XpNZusvn45ZDa1J3a7eQ0WE3XJY0FGunHVWB1yHBluJT5vSDCmzkhaFGiHjeKbnoah6noyZ3mNInS-mjJK1Gfcf7jT3A60ZYR_eknSgt_sEa6MNGM-DA5-aLXMbZ5/s1600/medical-ai.jpg"/>
+    <p>Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.</p>
+    <p>The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup, which runs with no login enabled.</p>
+    <p>The maintainers have merged a fix in the source code, but there is still no fixed version to install.</p>
+    <p>MONAI Label is a server that research teams use to label medical scans and train imaging models; it is a separate program from the broader MONAI framework.</p>
+    <p>The weakness is a path-traversal flaw in the parts of the server that store uploaded images and labels. A file identifier supplied by the caller is appended to the storage folder and written to disk without checking that the result remains within that folder.</p>
+    <p>The server writes with the privileges of the account it runs under, so an attacker cannot write anywhere on the machine, but a writable code or settings location can open a path to running code. Authentication is off by default, so any client that can reach the server over the network can set off the write. Versions 0.8.5 and earlier are affected.</p>
+    <p>Amazon reconstructed the intrusion after finding the operator's own Cairn control panel sitting on the internet without a password. Cairn is an open-source framework that runs AI agents as automated penetration testers, and the exposed panel revealed the agents' task settings, prompts, and run history.</p>
+    <p>Over about 48 hours in September, the agents mapped the application's interface and reached the point of writing files to the server in roughly 11 minutes, the company said in its <a href="https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/">incident report</a>.</p>
+    <p>
+      <a href=""/>
+    </p>
+    <p>The agents worked with little step-by-step direction. The operator set the goal of getting shell access and chose the targets, and the agents selected the methods themselves, according to the company.</p>
+    <p>Investigators tie the campaign to a China-linked actor with moderate confidence, pointing to Simplified Chinese prompts, China Standard Time settings, and targets likely of interest to China. They did not connect the work to a named group or establish that a government was behind it.</p>
+    <p>A root shell came later, and not within those 11 minutes. In a separate session, the agents used the same flaw to plant a file that Python runs automatically at startup. They then triggered a training feature that started a new Python process, which loaded that file and connected back to the attacker as root.</p>
+    <p>That root access was on one university server, and whether another MONAI Label system would give the same result depends on how it is run and what its service account can do.</p>
+    <p>In a later session, the operator handed the agents a tunnel into a second university network running the same software. Amazon believes the network was broken into in the same way but has not confirmed the second compromise.</p>
+    <p>The maintainers confirmed the flaw and merged <a href="https://github.com/Project-MONAI/MONAILabel/pull/1915">the source fix</a> on October 19, which forces uploads to resolve inside the approved folders and rejects empty names or names that begin with a dot.</p>
+    <p>Their <a href="https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94">security advisory</a>, published earlier this week, still lists no patched version and says the correction will arrive in a future release. The newest <a href="https://pypi.org/project/monailabel/">release listing</a> remains 0.8.5, which dates to 2024. A merged fix in source code is not the same as a package you can install.</p>
+    <p>The flaw is now listed in the <a href="https://www.cve.org/CVERecord?id=CVE-2026-133968">CVE record</a> as CVE-2026-133968, published this week and rated 9.8 out of 10, a critical score. The project's advisory still shows no CVE assigned, which is a lag in updating that page, not a sign of a second flaw.</p>
+    <h3>What to Do Now</h3>
+    <p>With no fixed release available, the practical steps are to cut off exposure and limit what a compromised server could reach:</p>
+    <ul>
+      <li>Block untrusted network access to MONAI Label servers with firewall and routing rules, not just hard-to-guess URLs.</li>
+      <li>Turn on authentication, which the server leaves off by default.</li>
+      <li>Run the server under a limited account rather than root, and restrict the folders it can write to.</li>
+      <li>Do not assume a source build is safe. Confirm it includes the October fix before treating it as patched.</li>
+      <li>If a server was reachable, check for unexpected Python startup files and unusual training jobs, the path the reported attack used.</li>
+    </ul>
+    <p>The company's account is based on its own reconstruction and has not been independently confirmed. It does not show that patient scans or records were taken, that clinical systems were touched, or that the attacker reached past the university targets described.</p>
+    <p>The campaign also included failed operations, and the root result on one server should not be taken as the outcome for every MONAI Label deployment.</p>
+    <p><a href="https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFWFJvWldoaFkydGxjbTVsZDNNdVkyOXRLQUFQAQ">Google News</a>,</p>
+  ]]></content:encoded>
+</item>
+<item>
+<title>CTO of ‘RansomwareHelp’ Indicted for Wire Fraud</title>
+<link>https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/</link>
+<guid isPermaLink="false">6f8e1df6c6d79057</guid>
+<pubDate>Sat, 21 Nov 2026 15:36:28 +0000</pubDate>
+<author>Krebs on Security</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A ransomware recovery firm that claimed crypto magic was just paying the attackers, a great Krebs cautionary tale. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Krebs on Security&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use &amp;quot;advanced cryptographic tools&amp;quot; to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption key and charging victims a markup for work that was never performed.&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> A ransomware recovery firm that claimed crypto magic was just paying the attackers, a great Krebs cautionary tale. (score 7)<p>From <b>Krebs on Security</b>.</p><hr/><p>The chief technology officer and co-founder of <strong>ransomwarehelp.com</strong>, a six year old Florida business that claimed to use &#8220;advanced cryptographic tools&#8221; to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption key and charging victims a markup for work that was never performed.</p>
+<div class="wp-caption aligncenter" id="attachment_74706" style="width: 759px;"><img alt="" class=" wp-image-74706" height="344" src="https://krebsonsecurity.com/wp-content/uploads/2026/11/ransomwarehelp.png" width="749" /><p class="wp-caption-text" id="caption-attachment-74706">A portion of the now-defunct website ransomwarehelp.com.</p></div>
+<p>The website RansomwareHelp urged victims &#8220;Do not pay the ransom!,&#8221; claiming its advanced cryptographic tools could restore 100 percent of data, servers, and systems to their original format, and that there was no need to give in to extortion demands.</p>
+<p>&#8220;Our cryptography experts use proprietary tools and algorithms to achieve 100% data recovery, all backed by a success rate of over 99%,&#8221; the website enthused, claiming the company had over 28 years of experience and a team of 80 experts in cryptography, cybersecurity, forensic analysis and reverse engineering. &#8220;We never promote, intermediate or pay ransom to threat actors on behalf of our clients.&#8221;</p>
+<p>But according to <a href="https://krebsonsecurity.com/wp-content/uploads/2026/11/palacio.pdf" rel="noopener" target="_blank">an indictment</a> (PDF) returned this week in Rhode Island, the company&#8217;s co-founder &#8212; 52-year-old <strong>Juan Ricardo Palacio Escobar</strong> of Miami and Medellin, Colombia &#8212; routinely paid ransomware groups for a decryption key to unlock victim data, and then charged those victims well above what he&#8217;d secretly paid the threat actors [Palacio&#8217;s indictment was reported earlier this week by <a href="https://www.404media.co/ransomware-fraud-attack-fbi-indictment/" rel="noopener" target="_blank">404 Media</a>, but for some reason that story did not name the defendant&#8217;s company].</p>
+<p>The indictment says the FBI set up a sting operation in which the feds were posing both as a ransomware victim company and as a fictitious ransomware group. Pretending to be victims of a cyberattack, investigators contacted RansomwareHelp and supplied the company with a copy of a phony ransomware note, saying they did not wish to pay a ransom. RansomwareHelp replied by reiterating its policy against negotiating with or making ransom payments to threat actors.</p>
+<p>The government said Palacio soon after contacted the fake ransomware group run by the FBI and requested the lowest possible price for the decryptor. FBI investigators responded with a price of .2 bitcoin, or around $13,000 at the time. Less than 48 hours later, Palacio allegedly told agents acting as the victim company that the diagnostic assessment was successful and that the cost of decrypting the files would be $13,260.</p>
+<p>The following day, the government alleges, Palacio messaged the fictitious ransomware group operated by the feds and asked to reduce the ransom demand to $4,000 for the purchase of a decryption tool. The indictment states that the agreed upon price was around $6,000 in bitcoin, and that Palacio charged the FBI&#8217;s fake victim firm $16,010, including an initial $2,750 diagnostic fee and the full fee of $13,260.</p>
+<p><strong>Paul Ihme </strong>is co-founder of the security firm <strong>Soteria</strong>. Ihme told KrebsOnSecurity that in 2024 he heard from a small accounting firm that had paid RansomwareHelp a diagnostic fee to help recover from a Lockbit ransomware infection that had locked all of their company and client data.</p>
+<p>Ihme said RansomwareHelp sent a proposal to the victim with a recovery price of $438,880, which it claimed included &#8220;professional configuration of forensic servers,&#8221; &#8220;expert engineering hours of programming to configure decryption algorithms,&#8221; and &#8220;eight (6-hour processing cycles) related to the decryption process.&#8221;</p>
+<div class="wp-caption aligncenter" id="attachment_74708" style="width: 759px;"><a href="https://krebsonsecurity.com/wp-content/uploads/2026/11/ransomwarehelpproposal.png" rel="noopener" target="_blank"><img alt="" class="wp-image-74708" height="428" src="https://krebsonsecurity.com/wp-content/uploads/2026/11/ransomwarehelpproposal.png" width="749" /></a><p class="wp-caption-text" id="caption-attachment-74708">A portion of the proposal that RansomwareHelp sent to a victim accounting firm in March 2024. Click to enlarge.</p></div>
+<p>The proposal stated that the recovery process involved reverse engineering the ransomware encryption using &#8220;510 preconfigured forensic servers of the maximum quantitative capacity located in different parts of the world.&#8221;</p>
+<p>&#8220;Our programmers will inject randomly the encryption codes extracted during the forensic and cryptographic analysis using brute force processes,&#8221; the proposal claimed.<span id="more-74696"></span></p>
+<p>Ihme said RansomwareHelp insisted that they be allowed unrestricted remote access into the victim&#8217;s network to run their diagnostic checks and analyses, using an Anydesk remote desktop software installer. Ihme believes RansomwareHelp insisted on that remote access in part so that the company could delete all copies of the ransomware notes left by the attackers on the victim&#8217;s network.</p>
+<p>A typical ransomware note is a plain text file that introduces the ransomware group and lays out their demands, and it includes a way to contact them &#8212; often an email address or a live chat session on a darknet website. In most cases, the attackers will leave a copy of the ransom note on every system on the victim network that gets locked.</p>
+<p>But Ihme said a review of the company&#8217;s network at the time found only one copy of the ransom note, which was unearthed from a backup snapshot on one of the infected computers. When they connected to the Lockbit chat server with the provided user ID, they discovered that someone had already been negotiating with the Lockbit extortionists for several days.</p>
+<div class="wp-caption aligncenter" id="attachment_74709" style="width: 759px;"><a href="https://krebsonsecurity.com/wp-content/uploads/2026/11/lockbit-ransomwarehelp1.png" rel="noopener" target="_blank"><img alt="" class="wp-image-74709" height="525" src="https://krebsonsecurity.com/wp-content/uploads/2026/11/lockbit-ransomwarehelp1.png" width="749" /></a><p class="wp-caption-text" id="caption-attachment-74709">A screenshot of a 2024 conversation between Lockbit and RansomwareHelp, which was secretly negotiating with the extortion group. Click to enlarge.</p></div>
+<p>&#8220;The charitable view would be to say that they were using Anydesk so they could grab the stuff they needed without having to walk the client through downloading and uploading a bunch of stuff,&#8221; Ihme said. &#8220;A legitimate firm would say, &#8216;Hey, send us a copy of the ransom note,&#8217; which will have a link or URL to go to and chat with the threat actors. What they were doing is using that access to delete ransomware notes off the systems. The only reason they would do that is to prevent the victim from jumping into that chat itself.&#8221;</p>
+<p>Indeed, RansomwareHelp pleaded with the Lockbit group throughout the chat not to reveal to the victim that they were negotiating. However, Lockbit quickly grew annoyed with the length of the negotiations, replying that the victims had waited too long and that the ransom demand would increase by $100,000 for every day they dithered further.</p>
+<div class="wp-caption aligncenter" id="attachment_74710" style="width: 1224px;"><a href="https://krebsonsecurity.com/wp-content/uploads/2026/11/lockbit-ransomwarehelp2.png" rel="noopener" target="_blank"><img alt="" class="wp-image-74710 size-full" height="838" src="https://krebsonsecurity.com/wp-content/uploads/2026/11/lockbit-ransomwarehelp2.png" width="1214" /></a><p class="wp-caption-text" id="caption-attachment-74710">The Lockbit representative starts raising the ransom demand after multiple negotiators begin interacting with the threat actors. Click to enlarge.</p></div>
+<p>In the end, the accounting firm took Ihme&#8217;s advice and went with a more established security firm that helped them negotiate a payment to Lockbit.</p>
+<p>&#8220;The victim told us, &#8216;If we don&#8217;t get this data back, our business is over&#8217;,&#8221; Ihme recalled. &#8220;They ended up paying half of what RansomwareHelp was going to charge them.&#8221;</p>
+<p>The chats show RansomwareHelp kept pestering Lockbit to negotiate a deal even after it was clear a new negotiator was engaging with the ransomware group on the victim&#8217;s behalf.</p>
+<p>&#8220;I tell you something, that person who is negotiating with you for the other chat is damaging the whole process,&#8221; RansomwareHelp wrote to Lockbit. &#8220;Please do not change the price. I am doing my best to achieve it.&#8221;</p>
+<p>Ihme said RansomwareHelp primarily targeted small to medium sized businesses that weren&#8217;t particularly tech-savvy, noting that many of the technical claims made on the company&#8217;s website and in their proposal are patently farcical. For example, the proposal sent to the accounting firm said it could break six types of encryption, and then proceeded to list a number of irrelevant password hashing algorithms like SHA-256.</p>
+<p>&#8220;If it were really true these guys could decrypt any ransomware out there, this guy would be a billionaire,&#8221; Ihme said. &#8220;They were going after people who don&#8217;t have any technical knowledge, are desperate, and don&#8217;t have anyone advising them about how any of this stuff works.&#8221;</p>
+<p>The case against Palacio marks the latest in a string of recent prosecutions by the <strong>U.S. Department of Justice</strong> (DoJ) targeting security firms alleged to have conspired with fraudsters to defraud clients. In early October, the government <a href="https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/" rel="noopener" target="_blank">charged</a> 54-year-old <strong>Edward Dubrovsky</strong>, an executive at the Canadian cybersecurity firm Cybersteward. The government has sealed the case against Dubrovsky, but he is currently facing cyber extortion and conspiracy charges.</p>
+<p>Around the same time as Dubrovsky&#8217;s arrest, the DoJ <a href="https://www.justice.gov/opa/pr/known-cybersecurity-expert-and-owner-florida-ransomware-remediation-company-charged" rel="noopener" target="_blank">charged</a> <strong>MonsterCloud CEO Zohar Pinhasi</strong>, 50, with wire fraud and conspiracy for allegedly charging customers to remediate ransomware attacks without paying the hackers. According to charging documents, Pinhasi secretly went behind his customers’ backs and paid hackers anyway, paying ransomware groups $8 million while charging customers $19 million.</p>
+<p>In July, <strong>Angelo Martino</strong>, a 41-year-old ransomware negotiator from Land O’Lakes, Florida, was <a href="https://www.justice.gov/opa/pr/florida-ransomware-negotiator-who-extorted-and-attacked-multiple-us-victims-sentenced-prison" rel="noopener" target="_blank">sentenced to 70 months in prison</a> for conspiring with the Blackcat/ALPHV ransomware group to extort multiple victims. According to the DoJ, Martino was paid by BlackCat attackers to provide confidential information about the negotiating position and strategy of his employer’s clients and enable the ransomware actors to maximize the ransoms paid by the victims.</p>]]></content:encoded>
+</item>
+<item>
+<title>There’s Something Weird Going On at Apple</title>
+<link>https://www.macsparky.com/blog/2026/11/theres-something-weird-going-on-at-apple/</link>
+<guid isPermaLink="false">80bf60a6b80cfbc7</guid>
+<pubDate>Sat, 21 Nov 2026 15:36:28 +0000</pubDate>
+<author>MacSparky</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; MacSparky reads the tea leaves on Apple&amp;#x27;s recent turn toward delight and whimsy under John Ternus. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacSparky&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;If you’re paying attention, there’s something weird going on at Apple lately. On the most recent MacBook Pro, the PROLED model, they put the glowing Apple logo back in the lid. The CEO, John Ternus, even commented on that in a recent interview with Steven Levy , where he bragged about it. When Siri AI released, a lot of us were complaining that it didn’t have enough third-party support and third-party app developers had their hands tied. Applying our traditional Apple thinking caps, we all figur&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> MacSparky reads the tea leaves on Apple&#x27;s recent turn toward delight and whimsy under John Ternus. (score 7)<p>From <b>MacSparky</b>.</p><hr/><p class="wp-block-paragraph">If you&#8217;re paying attention, there&#8217;s something weird going on at Apple lately.</p>
+
+
+
+<p class="wp-block-paragraph">On the most recent MacBook Pro, the PROLED model, they put the glowing Apple logo back in the lid. The CEO, John Ternus, even commented on that in a <a href="https://www.wired.com/story/i-spent-30-minutes-with-apples-ceo-now-i-know-why-john-ternus-got-the-job/">recent interview with Steven Levy</a>, where he bragged about it.</p>
+
+
+
+<p class="wp-block-paragraph">When Siri AI released, a lot of us were complaining that it didn&#8217;t have enough third-party support and third-party app developers had their hands tied. Applying our traditional Apple thinking caps, we all figured that at the soonest we&#8217;d get a little bit more access next June, but this would take years. Yet that <a href="https://developer.apple.com/news/?id=gdk2umrf">expanded third-party access</a> is already showing up in the point release betas.</p>
+
+
+
+<p class="wp-block-paragraph">After the iPhone Duo released, a lot of people complained they wished it had Face ID. Well, the device doesn&#8217;t have hardware for that, but it does have a front-facing camera. And in the latest point release for the iPhone Duo, Apple&#8217;s turned on a <a href="https://www.macrumors.com/2026/11/16/iphone-duo-face-unlock-hands-on/">form of face identification</a>. It doesn&#8217;t work for everything because it&#8217;s not as secure as Face ID, but it is something a user can select to get to their phone more quickly.</p>
+
+
+
+<p class="wp-block-paragraph">It just seems Apple lately is a lot more nimble with their updates and responsiveness.</p>
+
+
+
+<p class="wp-block-paragraph">Maybe this is just a weird set of coincidences. But I&#8217;d like to attribute it to John Ternus. He is, after all, a product guy. And I can&#8217;t help but think that he uses and cares about these things more than Tim Cook did.</p>
+
+
+
+<p class="wp-block-paragraph">This isn&#8217;t meant to be a dig on Tim Cook. He did his job. And the company became a lot bigger and more profitable under his watch, but I&#8217;m not in it for the stock price. I&#8217;m in it for the user experience, and lately I&#8217;m noticing things.</p>
+
+
+
+<p class="wp-block-paragraph">I almost didn&#8217;t create this newsletter out of fear that I would jinx it all, but we may be entering a new phase with Apple products where things are a bit more delightful. I sure hope that&#8217;s the case.</p>
+<p>The post <a href="https://www.macsparky.com/blog/2026/11/theres-something-weird-going-on-at-apple/">There&#8217;s Something Weird Going On at Apple</a> appeared first on <a href="https://www.macsparky.com">MacSparky</a>.</p>]]></content:encoded>
+</item>
+<item>
+<title>Emergent properties</title>
+<link>https://seths.blog/2026/11/emergent-properties/</link>
+<guid isPermaLink="false">a8245f0682878e3f</guid>
+<pubDate>Sat, 21 Nov 2026 15:36:28 +0000</pubDate>
+<author>Seth&#x27;s Blog</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Seth Godin on how systems grow surprising side effects, a useful lens for anyone shaping a platform. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Seth&amp;#x27;s Blog&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;No system stays the way it began, and all systems evolve characteristics that surprise us. The rise of the automobile system led to roads and gas stations, of course, but also parking lots, drive-through fast food restaurants and drunk driving. The TV industrial complex was based on the effectiveness of advertising, and the ads that […]&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Seth Godin on how systems grow surprising side effects, a useful lens for anyone shaping a platform. (score 7)<p>From <b>Seth&#x27;s Blog</b>.</p><hr/><h2><a href="https://seths.blog/2026/11/emergent-properties/">Emergent properties</a></h2>
+			
+<p class="wp-block-paragraph">No system stays the way it began, and all systems evolve characteristics that surprise us.</p><p class="wp-block-paragraph">The rise of the automobile system led to roads and gas stations, of course, but also parking lots, drive-through fast food restaurants and drunk driving.</p><p class="wp-block-paragraph">The TV industrial complex was based on the effectiveness of advertising, and the ads that were among the most profitable were for beverages and snack foods, which made those industries ever more efficient and led to convenience foods and also widespread obesity.</p><p class="wp-block-paragraph">And factory farming feeds billions of people. Competitive pressures led to a rise in fertilizer use and a destruction of topsoil, which also dramatically shifts the climate.</p><p class="wp-block-paragraph">Any complex system will soon surprise us with its unanticipated effects.</p>]]></content:encoded>
+</item>
+<item>
+<title>Penalised Antonelli beats Verstappen with both Ferraris out in Q2</title>
+<link>https://www.the-race.com/formula-1/penalised-antonelli-beats-verstappen-with-both-ferraris-out-in-q2/</link>
+<guid isPermaLink="false">ffb2c8e335fc38fb</guid>
+<pubDate>Sat, 21 Nov 2026 15:36:28 +0000</pubDate>
+<author>Formula 1 - The Race</author>
+<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Las Vegas GP qualifying chaos puts Verstappen on pole despite Antonelli&amp;#x27;s top lap, ahead of tonight&amp;#x27;s race. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Formula 1 - The Race&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Kimi Antonelli topped qualifying at F1’s Las Vegas Grand Prix, but Max Verstappen will start from pole position, and both Ferraris missed the pole battle&lt;/p&gt;</description>
+<content:encoded><![CDATA[<p><b>Why:</b> Las Vegas GP qualifying chaos puts Verstappen on pole despite Antonelli&#x27;s top lap, ahead of tonight&#x27;s race. (score 7)<p>From <b>Formula 1 - The Race</b>.</p><hr/><img alt="Penalised Antonelli beats Verstappen with both Ferraris out in Q2" src="https://storage.ghost.io/c/dd/af/ddafbd99-2ccd-468c-b622-4b3cccf80b49/content/images/2026/11/XPB_1455454_HiRes.jpg" /><p><em>Penalised Antonelli beats Verstappen with both Ferraris out in Q2</em></p><p>Kimi Antonelli topped qualifying at Formula 1&#x2019;s Las Vegas Grand Prix, but Max Verstappen will start from pole position because of the Mercedes driver&#x2019;s grid penalty, and both Ferraris failed to make the pole fight.</p><p>Antonelli has a five-place grid penalty for taking the updated Mercedes ADUO turbocharger this weekend, but he minimised the damage of that beautifully in Q3.</p><p>Antonelli gambled by dropping back from a squabbling pack of cars on the final runs as he ended up crossing the line with only a couple of seconds to spare.</p><p>But that turned out perfectly as he was in the ideal track position to pick up a huge slipstream from multiple cars at the end of the lap to set a 1m33.893s.</p><p>That was two and a half tenths quicker than Max Verstappen, who couldn&#x2019;t improve on his second Q3 run.</p><p>But he&#x2019;ll start from pole position because of Antonelli&#x2019;s penalty and will share the front row of the grid with the man he <a href="https://www.the-race.com/formula-1/why-verstappen-escaped-grid-drop-for-russell-practice-clash/" rel="noreferrer">clashed with in practice</a>, George Russell.</p><p>Russell asked Mercedes for a tow from Antonelli, which didn&#x2019;t transpire.</p><p>Lando Norris was fourth for McLaren ahead of Isack Hadjar and Arvid Lindblad&#x2019;s Racing Bulls, who was a career-best sixth.</p><p>Oscar Piastri was seventh but he has to serve a 10-place grid penalty.</p><p>Liam Lawson was eighth ahead of Alpine&#x2019;s Pierre Gasly, who had been second in Q2. Team-mate Franco Colapinto rounded out the top 10, after brushing the wall.</p><h3 id="both-ferraris-out-in-q2">Both Ferraris out in Q2</h3><p>The biggest shock of qualifying proved to be a double Ferrari Q2 elimination, the first time the team has failed to get a car into Q3 since Imola last year.</p><p>Lewis Hamilton was struggling throughout FP3 and qualifying, and looked vulnerable to an early exit from the start.</p><p>But team-mate Charles Leclerc ended up joining him in the danger zone after he made an error into Turn 7, ruined his lap and then fell short of making the chequered flag for another attempt.</p><p>As others improved, that meant Leclerc and Hamilton were shuffled down to 11th and 12th.</p><p>Behind them were the Audis and Williams, with Nico Hulkenberg leading Carlos Sainz, Gabriel Bortoleto and Alex Albon.</p><p>Rafael Camara was knocked out in 17th in his second-ever F1 qualifying session, seven hundredths away from a second successive Q2 session.</p><p>Sergio Perez was 18th for Cadillac - his best qualifying since Monaco - even though he was left without a tow from his team-mate Valtteri Bottas on his lap, as in Bottas&#x2019;s words, &#x201c;We lost each other.&#x201d;</p><p>Fernando Alonso and Lance Stroll were 19th and 20th for Aston Martin, ahead of Bottas and Bearman, who sacrificed his qualifying session to tow Camara, because of his huge grid penalty.</p><h3 id="q3-classification">Q3 classification</h3><p>1 Kimi Antonelli (Mercedes) 1m33.893s<br />2 Max Verstappen (Red Bull) +0.258s<br />3 George Russell (Mercedes) +0.331s<br />4 Lando Norris (McLaren) +0.351s<br />5 Isack Hadjar (Red Bull) +0.699s<br />6 Arvid Lindblad (Racing Bulls) +0.775s<br />7 Oscar Piastri (McLaren) +1.006s<br />8 Liam Lawson (Racing Bulls) +1.197s<br />9 Pierre Gasly (Alpine) +1.212s<br />10 Franco Colapinto (Alpine) +1.421s</p><h3 id="out-in-q2">Out in Q2</h3><p>11 Charles Leclerc (Ferrari) 1m35.197s +0.111s (gap to Q3)<br />12 Lewis Hamilton (Ferrari) +0.167s<br />13 Nico Hulkenberg (Audi) +0.374s<br />14 Carlos Sainz (Williams) +0.555s<br />15 Gabriel Bortoleto (Audi) +0.907s<br />16 Alex Albon (Williams) +1.039s</p><h3 id="out-in-q1">Out in Q1</h3><p>17 Rafael Camara (Haas) 1m36.220s +0.071s (gap to Q2)<br />18 Sergio Perez (Cadillac) +1.234s<br />19 Fernando Alonso (Aston Martin) +1.251s<br />20 Lance Stroll (Aston Martin) +1.401s<br />21 Valtteri Bottas (Cadillac) +1.452s<br />22 Ollie Bearman (Haas) no time</p>]]></content:encoded>
+</item>
 <item>
 <title>Plate Maintenance</title>
 <link>https://xkcd.com/3327/</link>
@@ -6047,641 +6301,6 @@ hell saying they’re considering ordering some ice water.</p>
     <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/TERRENCE_BLURPLE.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Terrence O'Brien"/>
     <p>SpaceX CEO Elon Musk said during the company’s <a href="https://www.theverge.com/science/1014150/spacex-q3-2026-earnings">third-quarter earnings call</a> that “success is not guaranteed on these first flights, but I’d say it’s more likely than not that this succeeds next flight.” While not a complete success, in that the company was unable to recover the entire launch vehicle, it still stands as a milestone for the Starship program. And, since it has previously caught boosters on previous launches, there is reason to believe the failure today was not an insurmountable obstacle. SpaceX is still <a href="https://www.space.com/space-exploration/launches-spacecraft/spacex-says-starship-flight-15-booster-aborted-chopsticks-landing-catch-after-launch-due-to-guidance-issue-video">trying to determine</a> what caused the booster to abort its landing and detonate over the Gulf of Mexico.</p>
     <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">In the video above, you can watch Starship plunge through the clouds, flip vertically, and, with surprising grace, ease itself between the waiting arms of Mechazilla at around 4:20 PM ET.</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>Calvin and Hobbes - 2026-11-14</title>
-<link>https://www.gocomics.com/calvinandhobbes/2026/11/14</link>
-<guid isPermaLink="false">b0fb12f41b3479ac</guid>
-<pubDate>Sat, 14 Nov 2026 15:36:13 +0000</pubDate>
-<author>Calvin and Hobbes</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; On your always-include list. (score 10)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Calvin and Hobbes&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Comic strip for 2026-11-14 Calvin and Hobbes&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> On your always-include list. (score 10)<p>From <b>Calvin and Hobbes</b>.</p><hr/><div class="comic-gallery" style="text-align: center; margin: 10px auto;">
-<p style="margin-bottom: 15px; font-style: italic;">Comic strip for 2026-11-14</p>
-    <div class="comic-panel" style="margin: 15px 0;">
-        <img alt="Calvin and Hobbes" src="https://featureassets.gocomics.com/assets/d3f2bb109e34013fcbbd005056a9545d?optimizer=image&amp;width=2800&amp;quality=85" style="height: auto;" />
-        <div class="panel-description" style="font-size: 0.9em; color: #666; margin-top: 5px; font-style: italic;">Calvin and Hobbes</div>
-    </div>
-</div>]]></content:encoded>
-</item>
-<item>
-<title>Have your AI call my AI</title>
-<link>https://seths.blog/2026/11/have-your-ai-call-my-ai/</link>
-<guid isPermaLink="false">92f2a9982225d42a</guid>
-<pubDate>Sat, 14 Nov 2026 15:36:13 +0000</pubDate>
-<author>Seth&#x27;s Blog</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Seth Godin on AI making it easier to hide unfair clauses in contracts, and why you&amp;#x27;ll need your own AI to read the fine print. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Seth&amp;#x27;s Blog&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Sharp lawyers have often used the fine print to win an advantage in a contract. It’s called the fine print for a reason–you’re not supposed to read it. But you should. Now, armed with AI, it’s significantly easier to bury arcane, unfair or unanticipated clauses in agreements, even (and especially) if we don’t expect it. […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Seth Godin on AI making it easier to hide unfair clauses in contracts, and why you&#x27;ll need your own AI to read the fine print. (score 8)<p>From <b>Seth&#x27;s Blog</b>.</p><hr/><p class="wp-block-paragraph">Sharp lawyers have often used the fine print to win an advantage in a contract. It&#8217;s called the fine print for a reason&#8211;you&#8217;re not supposed to read it. But you should.</p>
-
-
-
-<p class="wp-block-paragraph">Now, armed with AI, it&#8217;s significantly easier to bury arcane, unfair or unanticipated clauses in agreements, even (and especially) if we don&#8217;t expect it.</p>
-
-
-
-<p class="wp-block-paragraph">You shouldn&#8217;t sign anything until you&#8217;ve had your AI read it. And if it&#8217;s important, have your lawyer and her AI read it too.</p>
-
-
-
-<p class="wp-block-paragraph">The next step seems reasonable to me: You and I describe our agreement in plain English and then our mutual AI&#8217;s work out a written agreement that actually captures what we&#8217;ve agreed on. And for the avoidance of doubt, append each AI&#8217;s interpretation to the contract itself. </p>
-
-
-
-<p class="wp-block-paragraph">It shouldn&#8217;t be confrontational or adversarial. After all, it&#8217;s an <em>agreement</em>.</p>]]></content:encoded>
-</item>
-<item>
-<title>Spend Your Boon</title>
-<link>https://www.macsparky.com/blog/2026/11/spend-your-boon/</link>
-<guid isPermaLink="false">ef67bbce040f2d16</guid>
-<pubDate>Sat, 14 Nov 2026 15:36:13 +0000</pubDate>
-<author>MacSparky</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; David Sparks on spending the time agentic AI gives back wisely, a thoughtful take on AI and how people work. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacSparky&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Occasionally, some technical advancement arrives that gives us more time. Historically, these advances were hundreds of years apart. Now they come a lot quicker. Right now, we’re going through the disruption tumble dryer once again with the arrival of agentic AI. The upside to these things is that once we get our arms around the new thing, some things that used to take a lot of time now take very little. That gives us, in theory, extra time. In other words, a boon. A lot of us are getting our ar&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> David Sparks on spending the time agentic AI gives back wisely, a thoughtful take on AI and how people work. (score 7)<p>From <b>MacSparky</b>.</p><hr/><p>Occasionally, some technical advancement arrives that gives us more time. Historically, these advances were hundreds of years apart. Now they come a lot quicker. Right now, we’re going through the disruption tumble dryer once again with the arrival of agentic AI.</p>
-<p>The upside to these things is that once we get our arms around the new thing, some things that used to take a lot of time now take very little. That gives us, in theory, extra time.</p>
-<p>In other words, a boon.</p>
-<p>A lot of us are getting our arms around AI now to actually start realizing that boon. I am! I don’t know how this whole AI thing is going to shake out, but I can’t deny AI’s taken a lot of donkey work off my plate.</p>
-<p>The question is how we spend that boon.</p>
-<p>When we talk about getting time back, we all give lip service to the idea of spending it on ourselves. Because in our heads, that quality-of-life moment is always just around the corner, right up until the moment they put you in a box.</p>
-<p>But too often, what we actually do is the opposite. We look at our increased capacity and take on more work. The space opens up, and we immediately fill it by putting more on our backs.</p>
-<p>At the end of the day, we’ve gained productivity and lost quality of life. Somehow, the boon that was supposed to give us breathing room has left us with even more to do. This keeps happening to us all.</p>
-<p>This time, I’m actively trying to spend the boon on myself.</p>
-<p>I’m using my AI boon to become more analog. By that, I mean more time in the woodshop, in the garden, reading books, taking care of myself, and spending time with my family.</p>
-<p>Those are the things I want the extra time for. I want to get the necessary work done and then go touch grass.</p>
-<p>This is a lot more difficult than it sounds.</p>
-<p>These technology jumps are like catnip to me. The more I play with them, the deeper I want to go. I get one thing working and immediately see three more things I could get it to do. Before long, I’m spending the afternoon investigating how to save myself an afternoon.</p>
-<p>And even when the technology does save me time, there’s still that temptation to fill the space with more work. I could <em>make more content</em> or take on another <em>thing</em>. After all, things are fun.</p>
-<p>This time, however, I’m not ensnaring myself. I’m making a sincere effort to let the saved time stay mine. I want my AI boon to be a particularly well-built cabinet or a trip with my wife.</p>
-<p>How about you? Have you thought about how you’ll spend your boon?</p>
-<p>As these tools become more capable, we will all have opportunities to make this choice. If we don’t think about it, we’ll fall right into that more-at-the-grindstone trap.</p>
-<p>So when something gives you an hour back, decide where you want that hour to go.</p>
-<p>Don’t squander your boon.</p>
-<p>The post <a href="https://www.macsparky.com/blog/2026/11/spend-your-boon/">Spend Your Boon</a> appeared first on <a href="https://www.macsparky.com">MacSparky</a>.</p>]]></content:encoded>
-</item>
-<item>
-<title>Jensen Huang and the decline of the visionary showman founder CEO</title>
-<link>https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo</link>
-<guid isPermaLink="false">ded66b88e7c630e7</guid>
-<pubDate>Sat, 14 Nov 2026 15:36:13 +0000</pubDate>
-<author>The Verge</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A Verge feature on Jensen Huang and the fading era of showman founder CEOs, good leadership and industry analysis. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> A Verge feature on Jensen Huang and the fading era of showman founder CEOs, good leadership and industry analysis. (score 7)<p>From <b>The Verge</b>.</p><hr/>
-    <p>On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of <a href="https://www.theverge.com/2025/1/6/24337899/nvidias-ces-keynote-isnt-in-a-ballroom-its-in-a-stadium-and-that-stadium-is-packed">a 14,000-person arena absolutely packed</a> with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that shimmered in the stadium’s lights.</p>
-    <h1>Jensen Huang and the decline of the visionary showman founder CEO</h1>
-    <p class="duet--article--dangerously-set-cms-markup cbn62fi cbn62fg _19wv7tcb _19wv7tc1">The Steve Jobs of GPUs has been shown the door.﻿</p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2194622930.jpg?quality=90&amp;strip=all&amp;crop=0%2C3.3309998833275%2C100%2C93.338000233345&amp;w=2400" alt="Nvidia’s CEO Jensen Huang Unveils New Innovations At CES 2025"/><p><em>Nvidia’s CEO Jensen Huang Unveils New Innovations At CES 2025</em></p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2194622930.jpg?quality=90&amp;strip=all&amp;crop=14.2875%2C0%2C71.425%2C100&amp;w=2400" alt="Nvidia’s CEO Jensen Huang Unveils New Innovations At CES 2025"/><p><em>Nvidia’s CEO Jensen Huang Unveils New Innovations At CES 2025</em></p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/Sean_BLURPLE.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Sean Hollister"/>
-    <p>Few are cheering for Jensen Huang now. <a href="https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns">He has left Nvidia</a> after seemingly enabling <a href="https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling">two chip smuggling scandals</a> and allegedly having <a href="https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow">three extramarital affairs</a>, including one with an alleged Chinese spy at the same time he was mingling with President Donald Trump.</p>
-    <p>The world is watching to see <a href="https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy">if this scandal might disrupt the entire US AI industry</a> and perhaps destabilize the stock market along with it. That’s because Huang wasn’t merely running <a href="https://www.theverge.com/news/809017/nvidia-5-trillion-market-cap-ai">the first $5 trillion company</a>, he was the visionary leader in control of the must-have GPUs powering the worldwide AI boom, part of a company that represents around 6 percent of the S&amp;P 500 stock market index all by itself. And he didn’t plan for succession if he ever stepped down.</p>
-    <p>The 63-year-old once said <a href="https://lexfridman.com/jensen-huang-transcript/#:~:text=I%E2%80%99m%20famous%20in%20saying%20that%20I%20don%E2%80%99t%20believe%20in%20succession%20planning.">he preferred to die on the job</a>; he once suggested he’d work <a href="https://www.tweaktown.com/news/90797/nvidia-ceo-wants-to-stay-in-charge-of-the-company-until-he-becomes-robot/index.html">until he was 90 or 100</a>, then carry on leading the company as a robot.</p>
-    <p>It’s not easy to replace Huang, partly because he had no deputies. <a href="https://www.cnbc.com/make-it/2026/11/12/nvidia-jensen-huang-management-structure.html">Around 60 employees reported directly to the CEO</a>. “He built the company around himself, and everything that happened there flowed through him,” says IDC analyst and former computing journalist Tom Mainelli.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“Jensen is Nvidia, and Nvidia is Jensen,” Jon Peddie, a computer industry analyst who’s been tracking Nvidia since its inception, tells me.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">But Nvidia isn’t Jensen anymore. He has left the company he cofounded 33 years ago. It’s the end of an era, and not just for Nvidia — because Jensen Huang was Big Tech’s last true example of a visionary showman founder CEO.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“He was both the visionary and the tactical leader, the closest thing tech has had to Steve Jobs,” Moor Insights &amp; Strategy chief analyst Pat Moorhead tells me.</p>
-    <p>Elon Musk <a href="https://www.theverge.com/23815634/tesla-elon-musk-origin-founder-twitter-land-of-the-giants">didn’t exactly found Tesla</a> and has quite the track record of broken promises, and Meta’s Mark Zuckerberg has <a href="https://www.theverge.com/cs/features/991659/meta-mark-zuckerberg-future-glasses-ai-instagram/">proven to be neither visionary nor showman</a> so far. Google’s Larry Page and Sergey Brin stepped away in 2019 as their company <a href="https://www.theverge.com/2019/12/4/20994361/google-alphabet-larry-page-sergey-brin-sundar-pichai-co-founders-ceo-timeline">dealt with growing employee turmoil</a>, leaving the company in the hands of Sundar Pichai, and both Microsoft and Apple have each passed the torch twice since the days of Bill Gates and Steve Jobs.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Some say Apple’s Steve Jobs broke the CEO mold, but he created a mold of his own. Huang was one of countless tech leaders who followed his example by introducing their products in keynote speeches, adopting a single recognizable piece of clothing like Jobs’ trademark black turtleneck, and even occasionally teasing “one more thing” for the surprise at the end of their presentations. In the newsroom, we’d sometimes joke about the Jobs wannabes; many were stiff suits who didn’t have the credibility to pull it off.</p>
-    <p>I thought Huang might be a Jobs wannabe, too, the first time I saw that he’d adopted a black jacket as his uniform. (It was not always a leather jacket; an <a href="https://www.theverge.com/2012/5/15/3022346/nvidia-geforce-grid-cloud-virtual-gpu">earlier</a> <a href="https://www.theverge.com/2013/3/19/4123636/nvidia">version</a> was a Nvidia-branded softshell.) Huang later insisted on wearing a jacket even when the temperature was hot — more than once, I saw him sweat profusely rather than take it off. Unlike Jobs, he also held quite a few keynotes when he didn’t have much news to share; he liked to repeat the company’s previous accomplishments as if they were brand-new.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">But even if Huang didn’t have the same gravitas as Jobs, he did have exciting tech up his sleeves and loved to demo it onstage. He knew how to get people excited about the future of visual computing with eye-opening gaming graphics, physics and lighting demos, and eventually image recognition, AI weather simulations, digital copies of real-world factories, and the robots that can virtually train in them.</p>
-    <p>His Nvidia tried to educate people about the how and why of GPUs, too; I still remember in 2008 when Nvidia invited the Mythbusters to demo the difference between serial processing and parallel processing <a href="https://www.youtube.com/watch?v=8_ZTvG1WQxM">by firing a 1,100-nozzle paintball gun</a> to “paint” the Mona Lisa in one shot.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _18mzr4b6 _18mzr4b5 _19wv7tc1">What I didn’t know back then: Huang was a visionary founder. He took Nvidia to fame and fortune through a series of tremendous bets.</p>
-    <p>In 1996, three years after he cofounded the company at a Denny’s diner, Nvidia nearly went out of business while working on a failed graphics chip for the Sega Dreamcast game console. But even though he didn’t deliver that chip, Huang personally convinced Sega to invest $5 million afterward, <a href="https://www.wsj.com/business/nvidia-stock-jensen-huang-sega-irimajiri-chips-ai-906247db">The Wall Street Journal reported</a> in 2024.</p>
-    <p>He then turned around and bet the company again on the Riva 128 PC graphics accelerator, an effort so ambitious he had to lay off over half of Nvidia’s roughly 100 staffers, skip the prototyping stage, and rush it straight to production, and he still only had one month of payroll left by the time it shipped, <a href="https://www.newyorker.com/magazine/2023/12/04/how-jensen-huangs-nvidia-is-powering-the-ai-revolution">The New Yorker wrote</a> in 2023. Thankfully, it was a success, selling <a href="https://www.gamespot.com/articles/nvidia-ships-over-a-million-riva-128s/1100-2462441/">a million units in just four months</a> and paving the way for both the GeForce GPU and <a href="https://www.tomshardware.com/reviews/nvidia-announces-riva-128zx,58-3.html">a long-term relationship</a> with chip fabricator TSMC.</p>
-    <p>Roughly eight years later, Huang decided it wasn’t enough to be the leader in PC gaming graphics alone. <a href="https://lexfridman.com/jensen-huang-transcript/#:~:text=it%20completely%20consumed%20all%20of%20the%20company%E2%80%99s%20gross%20profit%20dollars">He bet the company’s entire gross profit</a>, he told podcaster Lex Fridman, on shipping a new feature inside those graphics cards that no one had asked for: CUDA. It was the ability to use a GPU for other kinds of computing tasks beyond graphics, and Huang said it increased the cost of every GeForce graphics card by 50 percent.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“Originally there was no market or market demand for it. It was almost as if they built it because they could,” says Peddie. “Jensen had the vision for what it could be and the courage to pursue it in spite of the opinions of others.”</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“NVIDIA was effectively investing in a computing platform that extended far beyond graphics, with no guarantee of a near-term return,” says HotTech analyst Dave Altavilla.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“Huang saw that a GPU was really a parallel computer that happened to render graphics. CUDA turned that insight into a platform, and it’s why NVIDIA was ready when AI arrived,” Mainelli tells me.</p>
-    <p>It was a bad time for graphics cards to suddenly cost more. When <a href="https://en.wikipedia.org/wiki/Great_Recession">the Great Recession</a> hit in 2007–2009, and Nvidia laptop graphics chips also started <a href="https://www.sec.gov/Archives/edgar/data/1045810/000119312508145974/d8k.htm">failing due to design defects</a>, the company lost 80 percent of its market value.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">But Huang believed in CUDA enough to invest even more. “He literally handed out high-end NVIDIA GPUs to researchers at industry conferences, while the company seeded universities like Stanford with hardware to encourage development on its platform,” says Altavilla. And by 2012, Nvidia’s potential for AI had started to emerge.</p>
-    <p>That’s when University of Toronto researchers used Nvidia GPUs to train a <a href="https://www.artsci.utoronto.ca/news/neural-network-behind-geoffrey-hinton-s-nobel-prize-be-preserved-computer-history-museum">prize-winning image-recognition neural network called AlexNet</a>, which is widely credited for sparking the AI revolution.</p>
-    <p>Not all of Huang’s visions panned out the way he publicly expected. That AlexNet demo <a href="https://techcrunch.com/2025/03/18/an-ai-model-from-over-a-decade-ago-sparked-nvidias-investment-in-autonomous-vehicles/">directly led to Huang’s bets on chips for self-driving cars</a>, he said, but he didn’t exactly predict AI — CUDA was instead thought of as better and more affordable supercomputing for researchers and scientists. In 2013, <a href="https://www.theverge.com/2013/3/19/4123636/nvidia">I also wrote about how his grand plan for the future of the company</a> relied heavily on putting Nvidia chips in your phone, which didn’t pan out.</p>
-    <p>But that bet on ARM-based phone chips did put Nvidia inside every Nintendo Switch and may have helped make future “AI superchips” possible — the latest Nvidia AI server chips have ARM CPU cores. And in 2022, the leaders of the AI revolution launched the most groundbreaking AI tech yet on Nvidia hardware: ChatGPT. Six years earlier, Huang hand-delivered Nvidia’s first purpose-built AI workstation to OpenAI, and by 2022 <a href="https://www.techzine.eu/news/infrastructure/103120/microsoft-turned-azure-into-a-computing-giant-to-enable-chatgpt/">Microsoft had strung together tens of thousands of Nvidia A100 GPUs</a> to handle the load.</p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/IMG_4354.1419979390.webp?quality=90&amp;strip=all&amp;crop=0.48828125%2C0%2C99.0234375%2C100&amp;w=2400"/>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/2013-03-19_00-37-32verge.webp?quality=90&amp;strip=all&amp;crop=0.044642857142854%2C0%2C99.910714285714%2C100&amp;w=2400"/>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“Every time competitors got close, he moved the fight up a level: the chip, then the server, then networking with the $6.9 billion Mellanox deal, then the full rack, all tied together by CUDA,” says Moorhead. “The speed came from how he ran the company,” he adds. “Decisions that took other companies four weeks took Nvidia four days.”</p>
-    <p class="duet--article--dangerously-set-cms-markup c39lj12 _19wv7tc9">“Decisions that took other companies four weeks took Nvidia four days.”</p>
-    <p>As Nvidia’s fortunes and profit ballooned — thousands of dollars in pure profit <a href="https://www.theverge.com/news/620206/nvidia-q4-2025-earnings">every single second!</a> — and as it became clearer that AI would reshape the world in one way or another, something strange happened. Huang became a celebrity. In summer 2024, <a href="https://www.wsj.com/world/asia/jensen-huang-nvidia-ceo-taiwan-fame-99630726">The Wall Street Journal</a> and social media chronicled that he received a hero’s welcome in his birthplace of Taiwan. He stopped over and over to sign autographs, including <a href="https://www.theverge.com/2024/6/4/24166297/nvidia-jensen-huang-computex-signing">one on a woman’s chest</a>.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">In person, at presentations, and in the company’s investor Q&amp;As, I saw the tone shift. People began treating the leather-jacketed man like an actual rockstar instead of a wannabe rockstar, asking for photos and autographs and complimenting him rather than asking tough questions.</p>
-    <p>It felt like he’d attained Steve Jobs’ infamous <a href="https://en.wikipedia.org/wiki/Reality_distortion_field">“reality distortion field”</a> at last — until he popped that bubble himself with his infidelity.</p>
-    <p>But one fewer reality distortion field in the world isn’t necessarily a bad thing, and as Apple has shown, a company doesn’t go bust just because its charismatic founder is gone. <a href="https://www.theverge.com/22639629/tim-cook-apple-ten-years-decade-steve-jobs-legacy">Tim Cook made Apple the most profitable company in the world</a>. The question now is: who for Nvidia?</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _18mzr4ba _19wv7tc1">“He was the king,” says Peddie. “Make no mistake – it was the Jensen Huang company. He called all the shots, took all the glory, and shouldered all the blame.”</p>
-    <h2>Does Nvidia work without Huang?</h2>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Even without a named successor, analysts don’t think Nvidia is in big trouble yet.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“This is a stock shock, not a business shock, for the next year. The roadmap and manufacturing are locked in through 2027,” says Pat Moorhead, Moor Insights &amp; Strategy. “The question is whether Nvidia keeps inventing at Jensen’s pace once those plans run out. The bigger risk than any rival chip is customers hedging during a vacuum. That is why the next CEO needs technical credibility, an operating model that doesn’t depend on one person, and a plan to protect CUDA.”</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“Founder visionary, culture setter, leader, AI industry spokesperson etc., is the real loss. We don’t think anything changes strategically,” says Creative Strategies analyst Ben Bajarin.” The product roadmap is set and remains strong, and the next several generations are already in design, in tape-out or on order. NVIDIA is still the company best placed to ship its roadmap at scale, because it has spent years locking up the supply chain behind it, from leading-edge wafers and CoWoS-class packaging to HBM and the rack-level partners. That supply position does not walk out the door with one person.”</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“He was the consummate showman, salesman, and visionary for NVIDIA, so he will be hard to replace,” says IDC analyst Tom Mainelli. “But the company’s technology road map is sound, and the team behind him is still there. Choosing the right person to replace him will be key, and there will undoubtedly be bumps along the way. But the company will survive.”</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">“Jensen built an exceptionally talented organization with a deep engineering bench, a mature, heavily-resourced software ecosystem, and strong customer relationships,” says Dave Altavilla, HotTech Vision and Analysis. “His departure undoubtedly leaves a leadership and strategic vision gap, but the technology, talent, and execution capabilities he helped establish aren’t going away. The real question is whether his successor can sustain that same long-term vision and willingness to invest ahead of the market.”</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1 _1upt4f27">“No one in the company really wants to step into his shoes, so an outsider is going to have to be found,” says Jon Peddie of Jon Peddie Research. “Whoever that is will not be Jensen, won’t have the same ambitions, the same contacts and relationships, the same vision, or the same courage to make big, long-term bets. We’ve seen this in Apple, AMD, Intel, and other companies. So the stock will probably get battered around a bit until investors see some stability and fewer ‘what if’ questions.”</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>Wilford Woodruff I Champion of Temple Revelation I Restoration Revealed I EP. 37</title>
-<link>https://www.youtube.com/watch?v=pACQWwMrh8o</link>
-<guid isPermaLink="false">a57622f6e538e647</guid>
-<pubDate>Sat, 14 Nov 2026 15:36:13 +0000</pubDate>
-<author>Scripture Central</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Full Restoration Revealed episode with Jennifer Mackley on Wilford Woodruff and St. George Temple revelation. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Scripture Central&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;What did Wilford Woodruff see in the St. George Temple that would help shape the future of Latter-day Saint temple worship? In this episode of Restoration Revealed, host Casey Griffiths and special guest Jennifer Mackley explore the remarkable life and legacy of Wilford Woodruff and his important role in the development of LDS temple doctrine. From the construction and dedication of the St. George Temple to the expansion of temple ordinances, covenants, and work for the dead, discover how this p&lt;/p&gt;</description>
-</item>
-<item>
-<title>This Dog Followed Me for Days in the Himalayas</title>
-<link>https://www.youtube.com/shorts/iFFNUNiov6Y</link>
-<guid isPermaLink="false">6b0e910da0e9296f</guid>
-<pubDate>Sat, 14 Nov 2026 15:36:13 +0000</pubDate>
-<author>Kraig Adams</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Kraig Adams&amp;#x27; Himalayan trek with a stray dog companion, a charming adventure story. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Kraig Adams&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;A small white stray followed me for days on the Mardi Himal Trek in Nepal. I named him Ghost.&lt;/p&gt;</description>
-</item>
-<item>
-<title>There’s Something Weird Inside Mars</title>
-<link>https://www.youtube.com/shorts/lG4atCDzv0E</link>
-<guid isPermaLink="false">912e05befa6f3412</guid>
-<pubDate>Sat, 14 Nov 2026 15:36:13 +0000</pubDate>
-<author>Cleo Abram</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Cleo Abram explains the Mars dichotomy and what lies inside the planet, a strong science explainer. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Cleo Abram&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;There’s something weird inside Mars… If you took a slice of the surface you’d see that the north is all low flatlands, but the south is super bumpy with mountains three times taller than Mount Everest… This weird divided geography is called the “Mars Dichotomy” and to find out why, scientists tracked TINY shifts in orbiting satellites&amp;#x27; paths over many years to map what’s inside Mars And found the mantle is HUNDREDS of degrees hotter in the Southern hemisphere than in the Northern one. The inside&lt;/p&gt;</description>
-</item>
-<item>
-<title>How to watch no. 12 BYU Football vs. Baylor</title>
-<link>https://www.vanquishthefoe.com/byu-football/28104/how-to-watch-no-12-byu-cougars-football-vs-baylor-bears-big-12-fox</link>
-<guid isPermaLink="false">13c34a5f6b715879</guid>
-<pubDate>Sat, 14 Nov 2026 15:36:13 +0000</pubDate>
-<author>Vanquish The Foe</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; No. 12 BYU hosts Baylor tonight with a time change due to the FAA ground stop. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Vanquish The Foe&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;BYU Football’s penultimate home game is set to be played on Saturday evening (note the time change, due to the FAA ground stop) against the Baylor Bears. The BYU Cougars got off to a hot start but have dropped two of the last three games. Last week, BYU fell short at Utah, losing by a […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> No. 12 BYU hosts Baylor tonight with a time change due to the FAA ground stop. (score 7)<p>From <b>Vanquish The Foe</b>.</p><hr/><figure>
-
-<img alt="" src="https://platform.vanquishthefoe.com/wp-content/uploads/sites/174/2026/11/gettyimages-2303851182.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
-	<figcaption>
-	SALT LAKE CITY, UT - NOVEMBER 07: BYU Cougars cornerback Therrian Alexander III (1) seen prior to a college football game between the BYU Cougars and the Utah Utes on November 7, 2026 at Rice Eccles stadium in Salt Lake City, Utah. (Photo by Aaron Baker/Icon Sportswire via Getty Images) | Icon Sportswire via Getty Images	</figcaption>
-</figure>
-<p class="wp-block-paragraph">BYU Football’s penultimate home game is set to be played on Saturday evening (note the time change, due to the FAA ground stop) against the Baylor Bears.</p>
-
-<figure class="wp-block-embed is-type-rich is-provider-instagram wp-block-embed-instagram"><div class="wp-block-embed__wrapper">
-<blockquote class="instagram-media"><div> <a href="https://www.instagram.com/p/DftR8oLOAlc/?utm_source=ig_embed&amp;utm_campaign=loading" target="_blank"> <div> <div></div> <div> <div></div> <div></div></div></div><div></div> <div></div><div> <div>View this post on Instagram</div></div><div></div> <div><div> <div></div> <div></div> <div></div></div><div> <div></div> <div></div></div><div> <div></div> <div></div> <div></div></div></div> <div> <div></div> <div></div></div></a></div></blockquote>
-</div></figure>
-
-<p class="wp-block-paragraph">The BYU Cougars got off to a hot start but have dropped two of the last three games. Last week, BYU fell short at Utah, losing by a final score of 28-20. BYU is 7-2 overall with a 4-2 Big 12 record, tied for third place behind Utah and Texas Tech. </p>
-
-<p class="wp-block-paragraph">While BYU is 12 in the AP Poll, they are no. 10 in the CFP ranking, dropping from no. 9 last week. </p>
-
-<p class="wp-block-paragraph">Baylor has a 6-3 overall record and is also 4-2 in the Big 12. The Bears defeated Iowa State in Waco last week, the final score was 42-31. The week before that, Baylor did what BYU couldn’t, and won big at UCF — 41-9 the final in that one. </p>
-
-<p class="wp-block-paragraph">Saturday is the sixth matchup between BYU and Baylor. BYU has the 3-2 edge in the series, including winning the past two meetings. </p>
-
-<p class="wp-block-paragraph">ESPN’s Matchup Predictor gives BYU a 68 percent chance of winning. Here’s how to watch:</p>
-
-<p class="wp-block-paragraph"><strong>Game Date/Time:</strong></p>
-
-<ul class="wp-block-list">
-<li>Sat. Nov. 14 5:00 p.m. MT</li>
-</ul>
-
-<p class="wp-block-paragraph"><strong>Location:</strong></p>
-
-<ul class="wp-block-list">
-<li>LaVell Edwards Stadium, Provo, Utah</li>
-</ul>
-
-<p class="wp-block-paragraph"><strong>Channel:</strong></p>
-
-<ul class="wp-block-list">
-<li>FOX</li>
-</ul>
-
-<p class="wp-block-paragraph"><strong>Game Notes:</strong></p>
-
-<ul class="wp-block-list">
-<li><strong><a href="https://storage.googleapis.com/byucougars-prod/2026/11/12/1HAkTYf1VXyIXB6WsgArZdmPTQBo4hTFNHFb0OeB.pdf">BYU</a></strong></li>
-
-
-
-<li><strong><a href="https://storage.googleapis.com/byucougars-prod/2026/11/12/GlqxJ1VVHhp6h6GnsreGrygz4d9bieEF56dVfNvS.pdf">Baylor</a></strong></li>
-</ul>
-
-<p class="wp-block-paragraph"><strong><br />TV Broadcast Team:</strong></p>
-
-<ul class="wp-block-list">
-<li>Jack Kizer (play-by-play)</li>
-
-
-
-<li>Mark Helfrich (analyst)</li>
-</ul>
-
-<p class="wp-block-paragraph"><strong>Pre-Game Show:</strong></p>
-
-<ul class="wp-block-list">
-<li>BYU Sports Nation GameDay (3:00 p.m. MT on BYUtv and <strong><a href="http://byutv.org/">byutv.org</a></strong>)</li>
-
-
-
-<li>Tune in to see behind the scenes.</li>
-</ul>
-
-<p class="wp-block-paragraph"><strong>Post-Game Show:</strong></p>
-
-<ul class="wp-block-list">
-<li>BYU Sports Nation GameDay (Immediately following the game’s end on BYUtv and <a href="http://byutv.org/"><strong>byutv.org</strong></a>)</li>
-
-
-
-<li>Player and coach interviews, game highlights, analysis, and more.</li>
-</ul>
-
-<p class="wp-block-paragraph"><strong>Radio Coverage:</strong></p>
-
-<ul class="wp-block-list">
-<li><a href="https://siriusxm.zgkv.net/c/482924/302649/4694?u=https%3A%2F%2Fwww.siriusxm.com%2Fchannels%2Fbyuradio&amp;subId2=[sb1113awD][28017][][n][][][][][][][]" rel="noreferrer noopener" target="_blank"><strong>BYU Radio Sirius XM 166</strong></a></li>
-
-
-
-<li><a href="https://www.byuradio.org/"><strong>BYUradio.org</strong></a></li>
-
-
-
-<li><a href="https://www.byuradio.org/apps"><strong>BYU Radio App</strong></a></li>
-
-
-
-<li><strong><a href="https://app.ksltv.com/p/RtIGzIhL/ksl-newsradio?channel=toOpc4NS">KSL Newsradio 102.7 FM/1160 AM</a></strong></li>
-</ul>
-
-<p class="wp-block-paragraph"><strong>Watch Online:</strong></p>
-
-<ul class="wp-block-list">
-<li><a href="https://www.foxsports.com/live"><strong>foxsports.com/live</strong></a></li>
-</ul>]]></content:encoded>
-</item>
-<item>
-<title>Andrew Sharp: ‘Jensen Huang Was Always Going to Lose’</title>
-<link>https://daringfireball.net/linked/2026/11/13/sharp-huang</link>
-<guid isPermaLink="false">5a2fbb2faf21f67a</guid>
-<pubDate>Sat, 14 Nov 2026 00:17:50 +0000</pubDate>
-<author>Daring Fireball</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Gruber points to a sharp contrarian take on Jensen Huang&amp;#x27;s fall, the week&amp;#x27;s biggest tech story. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Daring Fireball&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Andrew Sharp, in an excellent column at Sharp Text: I have a variety of thoughts after spending the past several days reading and recording podcasts about these (figurative and literal) affairs, but let me express one unpopular sentiment at the outset: what happened to Jensen Huang this week is tragic and depressing. I have a disease that makes me sympathetic to almost anyone who ends up on the wrong end of viral outrage and panic, and unfortunately it’s flaring up again. Huang is one of the gre&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Gruber points to a sharp contrarian take on Jensen Huang&#x27;s fall, the week&#x27;s biggest tech story. (score 8)<p>From <b>Daring Fireball</b>.</p><hr/>
-<p>Andrew Sharp, in an excellent column at Sharp Text:</p>
-
-<blockquote>
-  <p>I have a variety of thoughts after spending the past several days
-reading and recording podcasts about these (figurative and
-literal) affairs, but let me express one unpopular sentiment at
-the outset: what happened to Jensen Huang this week is tragic and
-depressing.</p>
-
-<p>I have a disease that makes me sympathetic to almost anyone who
-ends up on the wrong end of viral outrage and panic, and
-unfortunately it’s flaring up again. Huang is one of the greatest
-CEOs in American history. He’s still hyper competent, he’s been
-incredibly important to the growth of the AI ecosystem, and
-frankly, he’s among the most sane of the contemporary tech leaders
-we have on offer. His fall from grace has been not only stunning
-but seemingly coordinated.</p>
-</blockquote>
-
-<p><a href="https://daringfireball.net/linked/2026/11/13/huangs-final-hours-inside-nvidia">It is sad</a>. But it’s also <a href="https://daringfireball.net/linked/2026/11/12/reuters-third-woman">funny</a>. Many tragedies are also <a href="https://theonion.com/the-sinking-of-the-titanic-100-years-later-1819590664/">hilarious</a>. (That’s a key to Shakespeare’s enduring fame — his tragedies had funny scenes and his comedies had <a href="https://www.smithsonianmag.com/arts-culture/why-scholars-still-debate-whether-or-not-shakespeares-merchant-venice-anti-semitic-180958867/">painful themes</a>.)</p>
-
-<p>But I think it’s now a <em>very</em> open question whether Jensen Huang was even a vaguely responsible CEO, let alone “one of the greatest CEOs in American history”. What’s undisputed is that he’s one of the greatest technical innovators in history. Nvidia technology is world-beating in several regards. But that doesn’t make him a great CEO. If Nvidia falls apart because he — by his own admission — rejected the notion of succession planning and structured the company with no hierarchy other than himself at the center, that’s an abject failure. Ignoring the fact that he himself knew the risks he was taking with his sexual escapades, he could have been hit by a bus on any given day. The leadership structure Huang cultivated is like being the sole breadwinner in a family and not having a life insurance policy. If that breadwinner dies in an accident and leaves their family destitute, no one’s going to call them “one of the greatest parents in history”. Maybe it’ll all work out for Nvidia though. We don’t know yet. Only time will tell. But I don’t think it looks good at the moment. If I owned Nvidia stock I’d sell it all right now.</p>
-
-<p>The above doesn’t even touch upon my belief that Nvidia’s meteoric rise to the top market cap in the world was fueled — to some extent — <a href="https://finance.yahoo.com/news/nvidia-100-billion-openai-investment-110000256.html">by a circular financing racket</a>. If my side of that argument is ultimately proven correct — that the AI bubble is essentially an elaborate, complex Ponzi scheme — Huang’s plaque in the CEO Hall of Fame will go in the Infamy Wing alongside Enron’s Jeffrey Skilling, Elizabeth Holmes, and     Sam Bankman-Fried. Maybe I’m all wet about that. But I’d say it’s at least an open question at the moment.</p>
-
-<p>Sharp, nearing his conclusion:</p>
-
-<blockquote>
-  <p>Huang repeatedly belittled those people with both his rhetoric and
-his company’s behavior, and indeed, he questioned the patriotism
-of anyone who dared to object. In so doing, he was waging war with
-not only large swaths of the U.S. security apparatus, but also the
-realities of Xi Jinping’s China that would inevitably make it
-impossible to sustain his position without looking naive, selfish,
-and unforgivably reckless.</p>
-</blockquote>
-
-<p>Read the whole thing, and Sharp ends up making the case himself that Huang, ultimately, was a terrible CEO, not a great one.</p>
-
-<p class="x-netnewswire-hide" style="padding-top: 1.5em;"><em>Link: <strong><a href="https://sharptext.net/2026/jensen-huang-was-always-going-to-lose/">sharptext.net/2026/jensen-huang-was-always-going-to-lose/</a></strong></em></p>
-]]></content:encoded>
-</item>
-<item>
-<title>Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents</title>
-<link>https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/</link>
-<guid isPermaLink="false">6e216e79b327fb09</guid>
-<pubDate>Sat, 14 Nov 2026 00:17:50 +0000</pubDate>
-<author>AWS Security Blog</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Amazon caught threat actors running real cybercrime campaigns with open-source AI pentest agents, a security shift worth knowing. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;AWS Security Blog&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;From Oct. 3 to Nov. 5, 2026, Amazon’s MadPot, a globally distributed network of decoy threat sensors, captured requests from AI agents that included operating memory from offensive campaigns that threat actors ran on ARTEX, an open-source agentic AI penetration testing framework. The ARTEX agents sent these requests to MadPot sensors configured to present as […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Amazon caught threat actors running real cybercrime campaigns with open-source AI pentest agents, a security shift worth knowing. (score 8)<p>From <b>AWS Security Blog</b>.</p><hr/><p>From Oct. 3 to Nov. 5, 2026, Amazon’s MadPot, a globally distributed network of decoy threat sensors, captured requests from AI agents that included operating memory from offensive campaigns that threat actors ran on ARTEX, an open-source agentic AI penetration testing framework. The ARTEX agents sent these requests to MadPot sensors configured to present as popular large language model (LLM) inference APIs, and the requests carried the agents’ own records of their campaigns. </p> 
-<p>Amazon Threat Intelligence assessed threat activity referencing potentially affected AWS customers and notified them as appropriate. Because activity against other organizations could not be confirmed, this post shares the findings and indicators of compromise (IOCs) so that organizations that run the affected technologies can review their own environments.</p> 
-<p>The most prominent ARTEX campaign was a large-scale theft of credentials to access AI models, organized as a self-sustaining operation in which stolen keys paid for the LLM inference powering further credential hunting. Another campaign targeted cryptocurrency exchanges for know-your-customer (KYC) verification bypass using real-time deepfake injection. In aggregate, the agent records show that agentic frameworks have progressed from experimental use to sustained, multi-objective offensive operations that run with minimal human intervention. This post describes how these campaigns operated based on the agents’ own descriptions of the campaigns.</p> 
-<h2>Attribution and instructions</h2> 
-<p>Amazon Threat Intelligence assesses with moderate confidence that ARTEX was used for these campaigns due to prompt references to ARTEX tooling and other technical artifacts referencing ARTEX. Threat actors instructed ARTEX agents through standing instruction prompts that set the mission objectives, targeting rules, and operational constraints. Within those instructions, the agents handled the work themselves. In one credential theft campaign, operators told the agents to work through a fixed sequence of countries, prioritize enterprise production sites over personal projects, and grade every stolen credential by whether it worked and what it could reach. Agents were directed to treat credentials exposed publicly for more than 30 days as low-value inventory.</p> 
-<p>Amazon Threat Intelligence also assess with moderate confidence these are disparate Chinese-nexus threat groups due to use of simplified Chinese language in prompts, China time-zone configurations, targeting consistent with Chinese interests, and tooling predominantly used by Chinese-nexus threats. Sample instructions included setting red lines, such as excluding mainland China targets and government domains, and required all outbound traffic to go through proxies.</p> 
-<h2>How MadPot saw inside these campaigns</h2> 
-<p>MadPot presents controlled services to potential attackers and records how they discover, test, and attempt to compromise or abuse them. MadPot telemetry allows Amazon Threat Intelligence to observe attacker behavior without exposing customer workloads. In this case, the MadPot sensors presented popular LLM-compatible chat-completions interfaces on various ports. Agentic frameworks sent prompts to these interfaces as part of their offensive workflows, treating them as LLM inference backends.</p> 
-<p>The resulting telemetry contained the persistent task context, system prompts, tool histories, knowledge-graph state, and reported findings that these frameworks ordinarily send to an LLM to make operational decisions. Because agentic frameworks retain the history of past conversations, individual requests often contain the full operational history of a campaign. That history described activity that occurred before and between the captured requests, on systems MadPot does not monitor. Amazon Threat Intelligence did not observe that activity as it happened and cannot verify the outcomes the agents reported, but the records show what the actors were pursuing.</p> 
-<p>Most of the activity used ARTEX to divide work among planner, worker, verification, and compression agents sharing a persistent knowledge graph. The knowledge graph acts as the operation’s shared memory: every agent reads from it, and writes its results back, so each agent picks up where the others left off. The agents’ records described reconnaissance, vulnerability testing, credential theft, cloud-privilege expansion, and cryptocurrency fraud attempts across hundreds of targets spanning AI application platforms and other workloads. These records show how threat actors are organizing persistent, financially motivated offensive operations using agentic AI frameworks.</p> 
-<h3>Campaign 1: Stealing AI credentials at industrial scale</h3> 
-<p>In this campaign, threat actors used AI agents to steal API keys and other credentials that grant access to AI models, most likely so they could use those models while someone else paid for them. The agents’ records show stolen keys being fed into the framework’s own model gateway, where they powered the agents searching for more keys. Beyond AI model access keys, cloud credentials were treated as a doorway to more access. Agents validated identities through each provider’s token and identity services, enumerated storage, assessed permission scope, and went after managed AI model services, secrets and parameter stores, and application identities. They prioritized access to premium frontier models over general cloud permissions.</p> 
-<p>Agents recorded use of different AI gateways, keys, and models, but they all used a shared method: find internet-exposed AI applications, extract the upstream provider keys they hold, validate those keys, and store them in a managed pool. The agents focused on applications that aggregate provider keys, because one weak management interface can expose many downstream accounts. Targets included LLM gateways and proxy platforms such as One API, New API, Veloera, Sub2API, and LiteLLM, and AI application builders such as Dify, FastGPT, Langflow, RAGFlow, Open WebUI, LobeChat, and Ollama. A codified vulnerability playbook mapped each fingerprinted product to its known attack chain, including uninitialized installs that could be claimed, anonymous management and provider-configuration endpoints, default administrator credentials, such as the LiteLLM default master key, CVE-2025-3248 (Langflow), CVE-2026-28797 (RAGFlow), an authentication bypass via the isCliRequest header in One API family systems, SSRF through URL-fetch features to cloud metadata services, and secrets left in client-side JavaScript, source maps, debug routes, and environment files.</p> 
-<p>To find those keys, discovery drew on internet scanning services, certificate transparency, and public code and artifact sources: GitHub repositories and event archives (targeting secrets that fell outside automated revocation), npm and PyPI tarballs, container image layers, notebooks, model-hosting spaces, paste sites, and Telegram channels. One parallel operation worked through a fixed country sequence, prioritizing enterprise production sites, and graded every credential: L1 for a lead, L2 for a confirmed working API call, and L3 for quantified impact, such as readable data or spendable balance. Keys exposed publicly for more than 30 days were treated as low-value inventory.</p> 
-<h3>Campaign 2: Defeating identity verification with deepfakes</h3> 
-<p>In this campaign, threat actors used AI agents to defeat the identity verification (KYC) checks at two cryptocurrency exchanges with deepfakes. The agents’ records show generating real-time deepfake video to pass live selfie checks and forged ID document photos to pass document checks.</p> 
-<p>The records describe a methodical approach to the liveness check, which is a security method that confirms a person interacting with a digital system is a real, living human being physically present at the time of capture. The agents reverse-engineered one vendor’s liveness protocol in detail, documenting the face-detection event stream it sends, how it tracks face position during the check, and the coordinate system it uses to tell the user where to move. Their best recorded attempt completed the full movement sequence with the face positioned within 7 pixels of the target. Even so, the vendor’s server-side verdict rejected the deepfake in every attempt the agents recorded. In parallel, a separate session built a real-time deepfake video pipeline on a single consumer-grade GPU using an open-source face animation model. By splitting the model and avoiding unnecessary memory copies on the GPU, it reached 11.5 frames per second, close to what a live video check expects.</p> 
-<p>The agents worked on the ID document as well. Verification vendors look for signs that a document photo was edited or is a picture of a screen rather than a camera capture. To get past those checks, the agents recorded building synthetic camera metadata whose image dimensions matched the real values inside the JPEG file, and preserving the original camera compression tables that re-saving an edited image would normally replace. The result is an altered image that looks, at the file level, like an untouched camera photo.</p> 
-<p>This campaign also shows how ARTEX runs several workstreams toward one goal. At least four agent sessions ran at once: one searched for ways to cash out, one worked on clearing account balances, one set up the deepfake video pipeline, and one carried out the verification bypass. They shared findings and handed off tasks through cross-session tools.</p> 
-<h2>What this means for defenders</h2> 
-<p>None of the techniques in these campaigns were new. What AI agents change is the speed and persistence of the attacker. The agents succeeded where basic security hygiene was missing, including default or hardcoded credentials, keys left in code and public artifacts, unauthenticated interfaces and inference endpoints, and unpatched software. Getting those fundamentals right remains the most effective defense.</p> 
-<p>Given the speed and persistence of the attackers, organizations should assume exposed secrets and misconfigurations will be found quickly and remediate accordingly. They should bring AI applications, model gateways, and inference endpoints under the same controls as other production systems, and they should watch for misuse of AI services through unexpected spend or unusual usage.</p> 
-<h2>Indicators of Compromise (IOCs)</h2> 
-<table class="Table-table" style="border-collapse: collapse; border: 1px solid black;"> 
- <tbody> 
-  <tr> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IOC Value</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IOC Type</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">First Seen</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Last Seen</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Annotation</td> 
-  </tr> 
-  <tr> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">104.28.225[.]223</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IPv4</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-17</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-19</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Campaign 1</td> 
-  </tr> 
-  <tr> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">31.22.91[.]156</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IPv4</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-14</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-19</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Campaign 1</td> 
-  </tr> 
-  <tr> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">150.136.38[.]110</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IPv4</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-31</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-31</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Campaign 1</td> 
-  </tr> 
-  <tr> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">128.242.115[.]131</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IPv4</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-31</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-31</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Campaign 1</td> 
-  </tr> 
-  <tr> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">216.176.239[.]231</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IPv4</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-11-02</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-11-02</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Campaign 1</td> 
-  </tr> 
-  <tr> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">212.107.28[.]51</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IPv4</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-14</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-14</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Campaign 2</td> 
-  </tr> 
-  <tr> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">103.142.140[.]158</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IPv4</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-17</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-17</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Campaign 2</td> 
-  </tr> 
-  <tr> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">104.28.251[.]98</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IPv4</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-18</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-18</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Campaign 2</td> 
-  </tr> 
-  <tr> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">104.28.251[.]99</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IPv4</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-18</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-18</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Campaign 2</td> 
-  </tr> 
-  <tr> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">104.28.219[.]97</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IPv4</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-18</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-18</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Campaign 2</td> 
-  </tr> 
-  <tr> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">125.103.213[.]41</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">IPv4</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-18</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">2026-10-19</td> 
-   <td class="Table-cell" colspan="1" rowspan="1" style="border: 1px solid black; padding: 8px;">Campaign 2</td> 
-  </tr> 
- </tbody> 
-</table> 
-<p>If you have questions, start a new thread on <span class="LinkEnhancement"><a class="Link" href="https://repost.aws/tags/TAO7Z4bI5hQVWMiYFs34QhIA" rel="noopener" target="_blank">AWS re:Post</a></span> or reach out to <span class="LinkEnhancement"><a class="Link" href="https://console.aws.amazon.com/support/home" rel="noopener" target="_blank">AWS Support</a></span>.</p> 
-<hr /> 
-<footer> 
- <div class="blog-author-box"> 
-  <div class="blog-author-image">
-   <img alt="CJ Moses" class="aligncenter size-full wp-image-25308" height="160" src="https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2022/05/24/CJ_Moses.jpeg" width="107" />
-  </div> 
-  <h3 class="lb-h4">CJ Moses</h3> 
-  <p>CJ Moses is the CISO of Amazon Integrated Security. In his role, CJ leads security engineering and operations across Amazon. His mission is to enable Amazon businesses by making the benefits of security the path of least resistance. CJ joined Amazon in December 2007, holding various roles including Consumer CISO, and most recently AWS CISO, before becoming CISO of Amazon Integrated Security September of 2023.</p> 
-  <p>Prior to joining Amazon, CJ led the technical analysis of computer and network intrusion efforts at the Federal Bureau of Investigation’s Cyber Division. CJ also served as a Special Agent with the Air Force Office of Special Investigations (AFOSI). CJ led several computer intrusion investigations seen as foundational to the security industry today.</p> 
-  <p>CJ holds degrees in Computer Science and Criminal Justice, and is an active SRO GT America GT2 race car driver.</p> 
- </div> 
-</footer>]]></content:encoded>
-</item>
-<item>
-<title>Microsoft 365 Outage Resolving After Nearly 24 Hours</title>
-<link>https://www.macrumors.com/2026/11/13/microsoft-365-outage-resolving/</link>
-<guid isPermaLink="false">17dee417df0b8636</guid>
-<pubDate>Sat, 14 Nov 2026 00:17:50 +0000</pubDate>
-<author>MacRumors: Mac News and Rumors - All Stories</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; The nearly day-long Microsoft 365 outage is finally resolving, big news at Jack&amp;#x27;s own company. (score 8)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;MacRumors: Mac News and Rumors - All Stories&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;The ongoing Microsoft 365 outage is resolving after nearly 24 hours. The company said the underlying issue has been fixed and it is seeing &amp;quot;broad recovery and stability&amp;quot; across its services as it works to restore access to customers. The Microsoft 365 downtime started at approximately 1 p.m. Eastern Time on Thursday. Customers could not access their Outlook email or use some features in Teams and Copilot. Exchange accounts in Apple Mail were also affected. Most calling, meeting, and messaging fu&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> The nearly day-long Microsoft 365 outage is finally resolving, big news at Jack&#x27;s own company. (score 8)<p>From <b>MacRumors: Mac News and Rumors - All Stories</b>.</p><hr/>The <a href="https://www.macrumors.com/2026/11/13/major-microsoft-365-outage-continues/">ongoing Microsoft 365 outage is resolving</a> after nearly 24 hours. The company said the underlying issue <a href="https://x.com/Microsoft/status/2121282013600907325?s=20">has been fixed</a> and it is seeing "broad recovery and stability" across its services as it works to restore access to customers.
-<br />
-
-<br />
-<img alt="" class="aligncenter size-full wp-image-1077403" height="720" src="https://images.macrumors.com/article-new/2026/11/microsoft-365-icons.jpg" width="1280" />
-<br />
-The Microsoft 365 downtime started at approximately 1 p.m. Eastern Time on Thursday. Customers could not access their Outlook email or use some features in Teams and Copilot. Exchange accounts in Apple Mail were also affected. Most calling, meeting, and messaging functions stayed online, but some users ran into errors scheduling meetings or adding calendar entries.
-<br />
-
-<br />
-Businesses, educational institutions, and governments worldwide were impacted by the outage.
-<br />
-
-<br />
-Microsoft apologized for the outage and said it was unrelated to a cyberattack or AI agents. It was caused by an issue introduced in an earlier network capacity upgrade. Microsoft said it will give a full incident report after completing a review.
-<br />
-<blockquote>We are deeply sorry for the disruption this incident has caused our customers and partners. We know the trust they place in our services and take that responsibility extremely seriously. We are seeing broad recovery and stability across our services.
-<br />
-
-<br />
-This was a technical issue not related to cyber or AI / agents. The incident was introduced by an issue during an earlier network capacity upgrade that surfaced following a recent network change. We have addressed the underlying issue and continue to restore service to remaining customers and regions.
-<br />
-
-<br />
-Given the scale of demand, we restored services gradually, validating stability at each stage. While this took longer, it helped ensure a stable restoration.
-<br />
-
-<br />
-We will provide a full post-incident report once our review is complete.</blockquote>
-<br />
-Just over two weeks ago, Microsoft <a href="https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/">announced plans</a> to eliminate thousands of jobs. The company offered voluntary buyouts to 60,000 people, or a quarter of its global workforce, presumably to cut costs while its AI spending grows.
-<br />
-
-<br />
-Microsoft's <a href="https://status.cloud.microsoft/m365">Service Health Status page</a> still says some services may be unavailable at the current time.<div class="linkback">Tag: <a href="https://www.macrumors.com/guide/microsoft/">Microsoft</a></div><br />This article, &quot;<a href="https://www.macrumors.com/2026/11/13/microsoft-365-outage-resolving/">Microsoft 365 Outage Resolving After Nearly 24 Hours</a>&quot; first appeared on <a href="https://www.macrumors.com">MacRumors.com</a><br /><br /><a href="https://forums.macrumors.com/threads/microsoft-365-outage-resolving-after-nearly-24-hours.2494356/">Discuss this article</a> in our forums<br /><br />]]></content:encoded>
-</item>
-<item>
-<title>Impressions from the Apple Store: The MacBook Pro with PROLED XDR Display</title>
-<link>https://512pixels.net/2026/11/macbook-proled-impressions/</link>
-<guid isPermaLink="false">e867bd64af82536d</guid>
-<pubDate>Sat, 14 Nov 2026 00:17:50 +0000</pubDate>
-<author>512 Pixels</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Hackett&amp;#x27;s hands-on impressions of the new MacBook Pro display from a favorite Apple writer. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;512 Pixels&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;I dropped by my local Apple Store yesterday to spend some time with the new MacBook Pro. I currently use a 14-inch MacBook Pro with an M4 Max. It is a completely fantastic machine. The screen is far more capable than any of my work requires, and the size is just perfect. It seems that the new …&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Hackett&#x27;s hands-on impressions of the new MacBook Pro display from a favorite Apple writer. (score 7)<p>From <b>512 Pixels</b>.</p><hr/><p>I dropped by my local Apple Store yesterday to spend some time with the <a href="https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/">new MacBook Pro</a>.</p>
-<p>I currently use a 14-inch MacBook Pro with an M4 Max. It is a completely fantastic machine. The screen is far more capable than any of my work requires, and the size is just perfect.</p>
-<p>It seems that the new MacBook Pro improves on both of these things.</p>
-<p>For years, any time Apple released an updated display, it would talk about how close the pixels seemed to the surface of the glass. Just think back to the last pre-laminated display you used on a regular basis, then look at something more modern. It’s hard to believe that there used to be a physical air gap between the display and the cover glass on Apple’s products.</p>
-<p>The PROLED brings this to the next level. It really feels like the pixels <em>are</em> the glass. The brightness and vibrancy are just unreal.</p>
-<p><a href="https://media.512pixels.net/wp-content/uploads/2026/11/15-mattebook-pro.jpg">Way back in the day</a>, I had a 15-inch unibody MacBook Pro with the matte display. It lacked some of the punch of its glossy siblings, but I preferred it.</p>
-<p>I have never lived with any of Apple’s current nano-texture displays, but even in the bright lights of the Apple Store, I could not help but notice the slight difference in sharpness between the two PROLED machines sitting side by side.</p>
-<p>I was initially a little turned off by that, but then I touched the displays. The nano-texture felt much better; my fingers glided with far less effort than on the regular glass.</p>
-<p>Touching macOS felt <em>weird</em>. I suspect I&rsquo;d end up using this the same way I use an iPad with a keyboard case. Reaching up is great for big, inexact actions like scrolling or swiping between apps, but when it comes to my day-to-day work, a mouse or trackpad makes a lot more sense.</p>
-<p>I think that is totally fine by me and by Apple. Touch is <a href="https://www.youtube.com/watch?v=hdMszZ2ah5Q">not the point of this laptop</a>, but for some people, it’s going to be a huge addition.</p>
-<p>After spending some time in awe of the display and swiping around macOS, I picked up the 14-inch model and was shocked at how much lighter it feels than my 14-inch M4 Max. Shaving half a pound off the notebook makes a big difference. Apple doing so without removing any ports or reducing battery life is very impressive, and counter to what the company <a href="https://512pixels.net/2026/10/hello-again-10-years-later">has done in the past</a>. If you’re a 16-inch person, the weight difference is even more noticeable.</p>
-<p>If I carried my notebook around every day, I would be much more tempted to switch. As it is, I am staying put, but next time I buy a MacBook Pro, I’m in for a heck of an upgrade.</p>]]></content:encoded>
-</item>
-<item>
-<title>Apple Creator Studio .keyx and AI Features</title>
-<link>https://mjtsai.com/blog/2026/11/13/apple-creator-studio-keyx-and-ai-features/</link>
-<guid isPermaLink="false">1594f6a102f42092</guid>
-<pubDate>Sat, 14 Nov 2026 00:17:50 +0000</pubDate>
-<author>Michael Tsai</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Tsai rounds up Apple&amp;#x27;s Creator Studio updates and new AI features with commentary. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Michael Tsai&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Apple (TidBITS, MacRumors): Apple today introduced transformative updates to Apple Creator Studio, the powerful collection of creative apps designed to put studio-grade tools into the hands of modern creators across Mac, iPad, and iPhone. Final Cut Pro for Mac now includes built-in MotionVFX — an expansive collection of visual effects, plug-ins, transitions, templates, and motion […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Tsai rounds up Apple&#x27;s Creator Studio updates and new AI features with commentary. (score 7)<p>From <b>Michael Tsai</b>.</p><hr/><p><a href="https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/">Apple</a> (<a href="https://tidbits.com/2026/11/04/apple-creator-studio-adds-new-creation-tools-and-intelligence-features/">TidBITS</a>, <a href="https://www.macrumors.com/2026/10/27/apple-updates-creator-studio-ai-features/">MacRumors</a>):</p>
-<blockquote cite="https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/">
-<p>Apple today introduced transformative updates to <a href="https://www.apple.com/apple-creator-studio/">Apple Creator Studio</a>, the powerful collection of creative apps designed to put studio-grade tools into the hands of modern creators across Mac, iPad, and iPhone. Final Cut Pro for Mac now includes built-in MotionVFX &mdash; an expansive collection of visual effects, plug-ins, transitions, templates, and motion graphics tools &mdash; as well as seamless editing in Pixelmator Pro. Apple&rsquo;s curated Content Hub now includes video assets and is available in Final Cut Pro. Music creators using Logic Pro for Mac gain a new intelligent assistant in beta, an enhanced Stem Splitter that now separates drums, and a redesigned Browser that incorporates all sounds, with music understanding and even a Splice library. Pixelmator Pro introduces Generate Fill, which lets creators transform selected areas of an image using natural language. Keynote, Pages, and Numbers introduce new AI features in beta, including assistants that understand document context and new Model Context Protocol (MCP) support for workflow automation. They also add stock video in the Content Hub and new premium themes and templates.</p>
-<p>[&#8230;]</p>
-<p>Keynote introduces support for Keynote Interchange Format (.keyx), an open JSON-based bundle file format designed to be readable and accessible to external tools, developer workflows, and AI agents.</p>
-</blockquote>
-
-<p><a href="https://maly.io/@danielmunoz/117514137958324273">Daniel Mu&ntilde;oz</a>:</p>
-<blockquote cite="https://maly.io/@danielmunoz/117514137958324273">
-<p>It&rsquo;s somewhat infuriating that big companies are now willing to do things for AI agents that they refused to do for years for humans with accessibility needs, or even for human developers.</p>
-</blockquote>
-
-<p><a href="https://x.com/bunchjesse/status/2115076780285739258">Jesse Bunch</a> (via <a href="https://daringfireball.net/linked/2026/10/27/apple-creator-studio-updates">John Gruber</a>):</p>
-<blockquote cite="https://x.com/bunchjesse/status/2115076780285739258">
-<p>Our new in-app assistants can help you get things done in record time. MCP allows you to bring your own agent if you want. And an open source format for Keynote (and Python library!) so you can create Keynote documents programmatically on any platform.</p>
-</blockquote>
-
-<p><a href="https://mastodon.social/@stroughtonsmith/117513227427123918">Steve Troughton-Smith</a>:</p>
-<blockquote cite="https://mastodon.social/@stroughtonsmith/117513227427123918">
-<p>One of the questions we asked when Apple introduced Creator Studio was whether the update cadence would change for Apple&rsquo;s pro apps, perhaps due to the expanded budget the subscription model might bring.</p>
-<p>It certainly feels like it has! We&rsquo;ve had several significant updates this year to apps that historically tend not to receive updates for years on end.</p>
-</blockquote>
-
-<p><a href="https://mastodon.social/@nicklockwood/117513503132854982">Nick Lockwood</a>:</p>
-<blockquote cite="https://mastodon.social/@nicklockwood/117513503132854982">
-<p>What bothers me about this is that it&rsquo;s a violation of the implicit agreement, namely that as Apple users we pay a premium for hardware with the understanding that it subsidises amazing first-party software.</p>
-<p>It seems like Apple has shifted to an approach where every app or service has to be profitable in its own right or it will be starved of resources and left to rot, which sucks because a focus on profit extraction is almost always incompatible with a good software experience.</p>
-</blockquote>
-
-<p><a href="https://x.com/bzamayo/status/2115120270826770599">Benjamin Mayo</a>:</p>
-<blockquote cite="https://x.com/bzamayo/status/2115120270826770599">
-<p>It&rsquo;s very odd that the Creator Studio apps now have their own concept of an &lsquo;Assistant&rsquo;. This should just be Siri AI, or at least done as a plugin architecture so a Creator Studio subscription unlocks the additional capabilities inside the Siri AI surfaces.</p>
-</blockquote>
-
-<p><a href="https://www.macstories.net/reviews/a-closer-look-at-apples-upcoming-creator-studio-update/">John Voorhees</a>:</p>
-<blockquote cite="https://www.macstories.net/reviews/a-closer-look-at-apples-upcoming-creator-studio-update/">
-<p>But even though my editing workflow hasn&rsquo;t changed much, the design of the app has. Logic Pro has been given a Liquid Glass makeover that emphasizes black and dark gray over its predecessor&rsquo;s lighter gray treatment.</p>
-<p>[&#8230;]</p>
-<p>The new Unified Browser, which now houses those loops I&rsquo;ve made, includes other enhancements, too. You can search using natural language queries, drag a loop into the search field to find similar loops, and quickly narrow results with dynamic tag filtering.</p>
-<p>[&#8230;]</p>
-<p>One of my favorite features is Logic Pro&rsquo;s new Intelligent Assistant, a new beta feature that <a href="https://www.macstories.net/news/apple-creator-studio-to-add-motionvfx-ai-assistants-and-mcp-support-in-november/">combines models from Apple and OpenAI</a> to help guide you through the music creation process.</p>
-<p>[&#8230;]</p>
-<p>In my testing, I was impressed to find a very complete set of features accessible via MCP, which runs a local server and uses a shared JavaScript API that adds a layer that&rsquo;s exclusive to each app. That means, for example, that you could set up a workflow with an agent to generate invoices in Pages, automatically populate fields in Numbers with the details, from Pages and your payment processor or bank, and then generate slides of the data to report on your revenue results periodically.</p>
-</blockquote>
-
-<p><a href="https://www.macsparky.com/blog/2026/11/creator-studio-early-automation-tests/">David Sparks</a>:</p>
-<blockquote cite="https://www.macsparky.com/blog/2026/11/creator-studio-early-automation-tests/">
-<p>There are some practical details worth knowing. The app has to be open, and if you have several windows open, the agent needs to identify the one it should work on.</p>
-<p>[&#8230;]</p>
-<p>I keep beating the drum that productivity apps need to adapt for use with agentic AI going forward, and I&rsquo;m glad to see the iWork team is getting on board.</p>
-</blockquote>
-
-<p>Previously:</p>
-<ul>
-<li><a href="https://mjtsai.com/blog/2026/10/20/xcode-projects-for-the-command-line-and-coding-agents/">Xcode Projects for the Command Line and Coding Agents</a></li>
-<li><a href="https://mjtsai.com/blog/2026/09/17/xcodes-new-xcproj-files-are-json/">Xcode&rsquo;s New .xcproj Files Are JSON</a></li>
-<li><a href="https://mjtsai.com/blog/2026/07/21/apple-financial-statements-products-vs-services/">Apple Financial Statements: Products vs. Services</a></li>
-<li><a href="https://mjtsai.com/blog/2026/02/13/apple-creator-studio-ai-usage-limits/">Apple Creator Studio AI Usage Limits</a></li>
-<li><a href="https://mjtsai.com/blog/2026/02/10/apple-creator-studio-now-shipping/">Apple Creator Studio Now Shipping</a></li>
-<li><a href="https://mjtsai.com/blog/2026/01/13/apple-creator-studio/">Apple Creator Studio</a></li>
-<li><a href="https://mjtsai.com/blog/2013/10/26/exploring-the-new-iwork-file-formats/">Exploring the New iWork File Formats</a></li>
-</ul>]]></content:encoded>
-</item>
-<item>
-<title>DNS Resolution Failures in macOS 26 and 27</title>
-<link>https://mjtsai.com/blog/2026/11/13/dns-resolution-failures-in-macos-26-and-27/</link>
-<guid isPermaLink="false">7c9bb6c05114c94b</guid>
-<pubDate>Sat, 14 Nov 2026 00:17:50 +0000</pubDate>
-<author>Michael Tsai</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; Tsai flags DNS resolution failures getting worse in macOS 27.2, a real reliability bug Jack may hit. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;Michael Tsai&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Wade Tregaskis: Sporadically (once every week or two) on macOS 26, domain name resolution will just abruptly stop working. But, it gets worse. I recently updated to macOS 27.2, and now the problem occurs multiple times an hour. That is, name resolution fails if done through Apple’s libraries – through dig or nslookup it continues […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> Tsai flags DNS resolution failures getting worse in macOS 27.2, a real reliability bug Jack may hit. (score 7)<p>From <b>Michael Tsai</b>.</p><hr/><h1><a href="https://mjtsai.com/blog/2026/11/13/dns-resolution-failures-in-macos-26-and-27/">DNS Resolution Failures in macOS 26 and 27</a></h1>
-
-<blockquote>
-<p>Sporadically (once every week or two) on macOS 26, domain name resolution will just abruptly stop working. But, it gets worse. I recently updated to macOS 27.2, and now the problem occurs multiple times an hour.</p><p>That is, name resolution fails if done through Apple’s libraries – through <pre>dig</pre> or <pre>nslookup</pre> it continues to work just fine, which means things like <pre>ping</pre> also work just fine, but e.g. <pre>curl</pre> and Safari do not.</p>
-<p>[…]</p><p>I’ve been seeing this issue on multiple completely independent Macs and networks for many months now – and now, as noted, it’s a thousand times worse in macOS 27[…]</p></blockquote><p>He has some workarounds like killing <pre>configd</pre>.</p><p>Previously:</p><ul><li><a href="https://mjtsai.com/blog/2015/06/30/mac-os-x-10-10-4-improves-networking-reliability/">Mac OS X 10.10.4 “Improves Networking Reliability”</a></li><li><a href="https://mjtsai.com/blog/2015/05/27/mac-os-x-10-10-4-replaces-discoveryd-with-mdnsresponder/">Mac OS X 10.10.4 Replaces discoveryd With mDNSResponder</a></li><li><a href="https://mjtsai.com/blog/2015/01/13/why-dns-in-os-x-10-10-is-broken/">Why DNS in OS X 10.10 Is Broken</a></li></ul><h2><a href=""/><a href=""/>
-4 Comments 
- <a href="https://mjtsai.com/blog/2026/11/13/dns-resolution-failures-in-macos-26-and-27/feed/">RSS</a> · <a href="https://twitter.com/search?q=from%3Amjtsai%20since%3A2026-11-13%20until%3A2026-11-14&amp;src=typed_query&amp;f=top">Twitter</a> · <a href="https://mastodon.social/@mjtsai/117610782118394031">Mastodon</a></h2>
-
-<p><a href=""/></p><p>Remember the days when Panther would hang for 30 seconds whenever it saw an AAAA record? Memories.</p><p><a href=""/></p><p>I'm pretty sure I see this problem fairly frequently in macOS 15 Sequoia as well as iOS 18. This bug has been a thing for a while and really makes Apple devices feel like they're finicky when trying to view websites. Might not be the same exact bug, but on iOS, I force quit Safari a lot to force it to connect to websites more quickly.</p><p><a href=""/></p><p>When this happens.<br/>
-I close Safari<br/>
-Open the terminal &amp; run this below - most of the time it works fine after that.</p><p>sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder</p>]]></content:encoded>
-</item>
-<item>
-<title>FAA ground stop shuts down flights nationwide</title>
-<link>https://www.theverge.com/news/1033489/faa-ground-stop</link>
-<guid isPermaLink="false">e18331339fe85b34</guid>
-<pubDate>Sat, 14 Nov 2026 00:17:50 +0000</pubDate>
-<author>The Verge</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; A nationwide FAA ground stop over a telecom failure is major breaking infrastructure news. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop &amp;quot;due to extraordinary circumstances and for reasons of safety,&amp;quot; while planes in the air will be allowed to land. The FAA tweeted just after 5PM ET that, &amp;quot;There has been a temporary telecommunications outage - out of […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> A nationwide FAA ground stop over a telecom failure is major breaking infrastructure news. (score 7)<p>From <b>The Verge</b>.</p><hr/>
-    <p>Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop “due to extraordinary circumstances and for reasons of safety,” while planes in the air will be allowed to land. The FAA <a href="https://x.com/FAANews/status/2121363171361575176">tweeted just after 5PM ET</a> that, “There has been a temporary telecommunications outage - out of an abundance of caution all flights have been halted. Every flight has been accounted for and international flights will be handled on a case by case basis.” The flight tracking site <a href="https://www.flightaware.com/live/airport/delays">FlightAware</a> lists 10,494 US flights as delayed and 3,396 flights canceled as of 6:16PM ET.</p>
-    <h1>FAA ground stop shuts down flights nationwide</h1>
-    <p class="duet--article--dangerously-set-cms-markup cbn62fh cbn62fg _19wv7tca _19wv7tc1">A communications problem is reportedly affecting Air Route Traffic Control Centers.</p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2284677563.jpg?quality=90&amp;strip=all&amp;crop=0%2C0.003072196620586%2C100%2C99.993855606759&amp;w=2400" alt="LaGuardia Airport"/>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2284677563.jpg?quality=90&amp;strip=all&amp;crop=0%2C0.003072196620586%2C100%2C99.993855606759&amp;w=2400" alt="LaGuardia Airport"/>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/RICHARD_BLURPLE.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Richard Lawler"/>
-    <p><a href="https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa">According to CNN</a>, the last nationwide ground stop in 2023 lasted for about 90 minutes <a href="https://www.theverge.com/2023/1/11/23549834/usa-flights-grounded-faa-computer-glitch">after the NOTAM (Notice to Air Missions) system for pilots went down</a>, and the last one prior to that was after the attacks on September 11th, 2001.</p>
-    <p>Speaking to reporters at the White House on Friday afternoon, Homeland Security Secretary Markwayne Mullin told reporters that there is currently no reason to suspect a cyberattack or other national security threat, or any connection to the recent <a href="https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage">Microsoft Outlook outage</a>, but that so far no cause has been ruled out for the “telecommunications outage.”</p>
-    <p>When asked about any possible connection to the cloud-based AI Strategic Management of Airspace, Routes and Trajectories <a href="https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/">(SMART) system</a> that was activated <a href="https://www.faa.gov/newsroom/statements/general-statements#:~:text=SMART%20Expanding%20Across%20the%20Nation">nationwide</a> on November 10th, he said they were looking into that. Air Space Intelligence (ASI), the company that designed the system and was awarded a <a href="https://www.asi.com/news/asi-awarded-faa-contract-fmds-smart">12-year $875 million contract</a> in June to deploy it, denied any connection, <a href="https://x.com/AirSpaceIntel/status/2121371183836696583">tweeting</a> “The current ground stop is not based on or a result of the SMART system, any product of ASI or our integration with FAA and ATC.”</p>
-    <p>Mullin also said international flights and departures are being handled on a case-by-case basis, while <a href="https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247">NBC News</a> and the <a href="https://www.nytimes.com/live/2026/11/13/us/ground-stop-nationwide-flights-faa/7e641bd3-ee6d-55df-9913-c153e835b25e?smid=url-share">New York Times</a> report that some flights headed to Europe and Asia have taken off from Boston and New York.</p>
-    <p>Jon Ostrower of <a href="https://theaircurrent.com/intel/faa-confirms-nationwide-groundstop-due-to-widespread-atc-frequency-issues/">The Air Current</a> reports that the outage began with the Chicago air traffic control center, followed by centers in Boston, Washington, New York, and Minneapolis, and as the FAA issued a ground stop for aircraft flying east, more facilities began reporting problems. He says the problems are disrupting both the radar and radio frequencies used by air traffic controllers and pilots, while a CNN update on Friday cited an unnamed source claiming the FAA “doesn’t know yet what is going on,” with no clear answers about the cause.</p>
-    <p class="duet--article--dangerously-set-cms-markup duet--article--standard-paragraph _1044qizi _18mzr4b1 _18mzr4b0 _19wv7tc1">Updated, Friday, November 13th: Added additional details.</p>
-  ]]></content:encoded>
-</item>
-<item>
-<title>ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you</title>
-<link>https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet</link>
-<guid isPermaLink="false">d7b20a332085770c</guid>
-<pubDate>Sat, 14 Nov 2026 00:17:50 +0000</pubDate>
-<author>The Verge</author>
-<description>&lt;p&gt;&lt;b&gt;Why:&lt;/b&gt; OpenAI lets its agents make purchases, a real step in agentic AI with clear security implications. (score 7)&lt;/p&gt;&lt;p&gt;From &lt;b&gt;The Verge&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and &amp;quot;eligible US-issued American Express, Chase, Mastercard and Visa cards.&amp;quot; After adding a card […]&lt;/p&gt;</description>
-<content:encoded><![CDATA[<p><b>Why:</b> OpenAI lets its agents make purchases, a real step in agentic AI with clear security implications. (score 7)<p>From <b>The Verge</b>.</p><hr/>
-    <p>After launching its <a href="https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent">Dots AI agents platform</a> earlier this year, OpenAI is <a href="https://openai.com/index/introducing-chatgpt-wallet/">launching a wallet</a> for the agents. ChatGPT Wallet is <a href="https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet">rolling out starting today</a> for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and “eligible US-issued American Express, Chase, Mastercard and Visa cards.”</p>
-    <h1>ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you</h1>
-    <p class="duet--article--dangerously-set-cms-markup cbn62fh cbn62fg _19wv7tca _19wv7tc1">OpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents.﻿</p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=2400" alt="STKS539_AI_AGENTS_SHOPPING_B"/>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=2400" alt="STKS539_AI_AGENTS_SHOPPING_B"/>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STEVIE_BONIFIELD_BLURPLE.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96" alt="Stevie Bonifield"/>
-    <p>After adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they’ll check in with you each time before checking out. OpenAI’s <a href="https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet">support page</a> says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan.</p>
-    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/openai-chatgpt-wallet-approval-pop-up.jpeg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=2400" alt="A screenshot from a demo video for OpenAI’s ChatGPT Wallet"/><p><em>A screenshot from a demo video for OpenAI’s ChatGPT Wallet</em></p>
-    <p>After you review the AI agent’s purchase and sign off on it, OpenAI says that, similar to using <a href="https://corporate.visa.com/en/solutions/commercial-solutions/knowledge-hub/tokenization.html">tap to pay</a>, <a href="https://support.apple.com/en-us/101554">Apple Pay</a>, or <a href="https://blog.google/products-and-platforms/platforms/google-pay/device-tokens-google-wallet/">Google Wallet</a>, it substitutes your credit card details with a payment token, so your actual card info isn’t shared with your Dots agent or the business you’re buying from. Eventually, OpenAI says it expects “users to be able to delegate purchases entirely to their agent by setting clear parameters—such as spending limits, purchase categories, or time periods—and pre-approve those purchases.”</p>
-    <p>ChatGPT Wallet might not work everywhere. Some retailers have <a href="https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping">restrictions on AI agents</a> or <a href="https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse">block them</a> altogether. Earlier this year, <a href="https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping">Amazon blocked Meta’s Muse</a> agents. OpenAI says that in order for agents to use ChatGPT Wallet, “websites need to ensure agents are not inadvertently blocked, and payment and risk systems need to recognize legitimate purchases made by agents.”</p>
   ]]></content:encoded>
 </item>
 </channel></rss>
