@@ -35,7 +35,7 @@ Claude scheduled tasks follow these steps. The evening and weekend tasks run wit
       - Keep the `link` and `source` (the publication name only, like "Reuters") from the export.
       - Write `/tmp/briefing.json` as `{"items": [{"topic": "...", "summary": "...", "link": "...", "source": "..."}]}`, most important first.
       - If Techmeme can't be reached, skip the briefing and build without it.
-   3. **Fetch saved archive.ph pages on the Mac.** archive.ph refuses cloud machines but works from Jack's Mac. (PDFs and archive.ph links that wrap an original URL need nothing here: `kindle.py` reads the original directly, with OCR for scanned PDFs.)
+   3. **Fetch saved archive.ph / archive.is pages on the Mac.** archive.ph refuses cloud machines but works from Jack's Mac. (Saved PDFs need nothing extra: `kindle.py` reads them, with OCR for scanned pages. For archive links that name the original page, it falls back to the original if the Mac copy is missing or only a "loading" stub.)
       - Run `REEDER_LATER_FEED="<the links>" python3 kindle.py --archive-links /tmp/archive.json`. If it lists 0 pages, skip to the next step.
       - For each `{url, file}` in it, download the page on the Mac with `device_bash` into the connected folder: `mkdir -p $HOME/mnt/RichinsReader/fetched && curl -sfL -m 60 -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" -o "$HOME/mnt/RichinsReader/fetched/<file>" "<url>"` (several per call is fine). Skip any that fail.
       - Stage the downloaded files with `device_stage_files` (paths `/Users/jackr/RichinsReader/fetched/<file>`) and add `--prefetched /mnt/user-data/uploads/RichinsReader/fetched` to the build command below.

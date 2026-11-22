@@ -131,11 +131,13 @@ def is_archive(url):
     return urlparse(url).netloc.lower().removeprefix("www.") in ARCHIVE_HOSTS
 
 
-def unwrap_archive(url):
-    """archive.ph's outbound links look like https://archive.ph/o/<id>/<original url>: return the original.
-    (archive.ph itself refuses connections from cloud machines, so the original is the only way in.)"""
-    m = re.match(r"https?://(?:www\.)?archive\.[a-z]+/o/[A-Za-z0-9]+/(https?://.+)$", url or "")
-    return m.group(1) if m and is_archive(url) else url
+def archive_original(url):
+    """The original page an archive.ph link points at, or None. Handles outbound links
+    (archive.ph/o/<id>/<url>), dated snapshots (archive.ph/2026.11.13-112631/<url>) and archive.ph/newest/<url>.
+    Short snapshot links (archive.ph/AbCd1) don't name the original."""
+    m = re.match(r"https?://(?:www\.)?archive\.[a-z]+/(?:o/[A-Za-z0-9]+|[0-9][0-9.]*-?[0-9]*|newest|oldest)/(https?://.+)$",
+                 url or "")
+    return m.group(1) if m and is_archive(url) else None
 
 
 def title_from_url(url):
@@ -143,7 +145,10 @@ def title_from_url(url):
     from urllib.parse import unquote
     name = unquote(urlparse(url).path.rstrip("/").rsplit("/", 1)[-1])
     name = re.sub(r"\.(pdf|html?|aspx?|php)$", "", name, flags=re.I)
-    return re.sub(r"\s+", " ", re.sub(r"[_+]", " ", name)).strip()
+    if not re.search(r"\.pdf$", urlparse(url).path, re.I):
+        name = name.replace("-", " ")  # web page slugs like exclusive-apple-tv-neuromancer
+    name = re.sub(r"\s+", " ", re.sub(r"[_+]", " ", name)).strip()
+    return name[:1].upper() + name[1:]
 
 
 def image_item(im, uid):
@@ -223,29 +228,45 @@ def prefetch_name(url):
 
 def full_text(pick, want_images, max_images):
     """Return (body_html, [image items]). Falls back to the summary when extraction fails."""
-    url = unwrap_archive(pick.get("link") or "")
+    url = pick.get("link") or ""
     body = pick.get("content_html")  # full text saved by curate.py, images included
     if len(re.sub(r"<[^>]+>", "", body or "")) < 400 and "<img" not in (body or ""):
-        try:
-            saved = Path(PREFETCHED[0]) / prefetch_name(url) if PREFETCHED and is_archive(url) else None
-            if saved and saved.exists() and saved.stat().st_size > 0:
-                content, ctype = saved.read_bytes(), ""
-            else:
-                r = requests.get(url, headers={"User-Agent": UA}, timeout=40)
-                r.raise_for_status()
-                content, ctype = r.content, r.headers.get("content-type", "")
-            if "pdf" in ctype.lower() or content[:5] == b"%PDF-":
-                body, images = pdf_body(content, pick["id"], want_images)
-                if len(re.sub(r"<[^>]+>", "", body)) >= 200 or images:
-                    return normalize_xhtml(body), images
-                body = None
-            else:
-                body = trafilatura.extract(content.decode("utf-8", "replace"), url=url, output_format="html",
-                                           include_images=want_images, include_links=False, include_tables=True,
-                                           favor_recall=True)
-        except Exception as e:  # noqa: BLE001
-            log(f"  ! {url}: {e}")
-            body = None
+        # archive.ph refuses cloud machines, so for its links try the copy fetched on Jack's Mac first, then
+        # the original page the link names (archive.ph/o/ links only give a "loading..." stub anyway)
+        sources = [url]
+        if is_archive(url):
+            saved = Path(PREFETCHED[0]) / prefetch_name(url) if PREFETCHED else None
+            sources = ([saved] if saved and saved.exists() and saved.stat().st_size > 0 else []) + \
+                      ([archive_original(url)] if archive_original(url) else [])
+        body = None
+        for src in sources:
+            try:
+                if isinstance(src, Path):
+                    content, ctype = src.read_bytes(), ""
+                else:
+                    r = requests.get(src, headers={"User-Agent": UA}, timeout=40)
+                    r.raise_for_status()
+                    content, ctype = r.content, r.headers.get("content-type", "")
+                if "pdf" in ctype.lower() or content[:5] == b"%PDF-":
+                    pbody, images = pdf_body(content, pick["id"], want_images)
+                    if len(re.sub(r"<[^>]+>", "", pbody)) >= 200 or images:
+                        return normalize_xhtml(pbody), images
+                    continue
+                page = content.decode("utf-8", "replace")
+                found = trafilatura.extract(page, url=url, output_format="html",
+                                            include_images=want_images, include_links=False, include_tables=True,
+                                            favor_recall=True)
+                if len(re.sub(r"<[^>]+>", "", found or "")) < 400 and "<img" not in (found or ""):
+                    continue
+                body = found
+                if pick.get("title_from_link"):  # a placeholder title: use the page's real headline
+                    meta = trafilatura.extract_metadata(page)
+                    if meta and meta.title and meta.title.strip().lower() not in ARCHIVE_HOSTS:
+                        # drop a trailing site name, like "... | WIRED" (archive.ph may truncate it to "| WIR...")
+                        pick["title"] = re.sub(r"\s+\|\s+[^|]{1,30}$", "", re.sub(r"\s+", " ", meta.title).strip())
+                break
+            except Exception as e:  # noqa: BLE001
+                log(f"  ! {src}: {e}")
 
     text_len = len(re.sub(r"<[^>]+>", "", body or ""))
     if not body or (text_len < 400 and "<img" not in body):
@@ -327,8 +348,9 @@ def later_items(kc, sent_ids):
         tag = data.get("title") or "Later"
         for e in data.get("items", []):
             raw_url = e.get("url") or e.get("external_url") or ""
-            url = unwrap_archive(raw_url)  # an archive.ph link that wraps the original: use the original
-            host = urlparse(url).netloc.lower().removeprefix("www.")
+            url = raw_url
+            original = archive_original(url) or url  # for archive.ph links, the page it archived
+            host = urlparse(original).netloc.lower().removeprefix("www.")
             meta = e.get("_reeder") or {}
             media_types = {m.get("type") for m in meta.get("media") or []}
             if (not url or any(host == b or host.endswith("." + b) for b in STRIP_LINK_HOSTS)
@@ -344,9 +366,11 @@ def later_items(kc, sent_ids):
                 continue  # only articles saved within the last week, except tags listed in later_include_all
             text = e.get("content_text") or re.sub(r"<[^>]+>", " ", e.get("content_html") or "")
             title = e.get("title") or (text.strip().split(". ")[0][:90] if text.strip() else host)
-            if title.strip().lower().removeprefix("www.") in ARCHIVE_HOSTS | {host, ""} and title_from_url(url):
-                title = title_from_url(url)  # Reeder titles bare PDF links by host, like "archive.is"
+            placeholder = title.strip().lower().removeprefix("www.") in ARCHIVE_HOSTS | {host, ""}
+            if placeholder and title_from_url(original):
+                title = title_from_url(original)  # Reeder titles archive links by host, like "archive.is"
             items.append({"id": iid, "kind": "article", "title": title, "link": url, "feed": host or "Later",
+                          "title_from_link": placeholder,
                           "folder": "__later__", "summary": text[:500], "score": 8,
                           "reason": f"You saved this to {tag} in Reeder.",
                           "content_html": e.get("content_html") or "", "saved": saved, "keep_all": keep_all})
