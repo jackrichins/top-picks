@@ -315,15 +315,22 @@ def make_cover(name, tagline, date_label, edition, place, picks, feed_count, sas
     y = 420
     d.line([(M, y), (W - M, y)], fill=INK, width=7)
     d.line([(M, y + 14), (W - M, y + 14)], fill=INK, width=2)
-    small = F("sans-bold.woff", 24)
-    d.text((M, y + 46), edition.upper(), font=small, fill=INK, anchor="lm")
-    d.text((W / 2, y + 46), f"{place}, {date_label}".upper(), font=small, fill=INK, anchor="mm")
-    d.text((W - M, y + 46), "CURATED BY CLAUDE", font=small, fill=INK, anchor="rm")
-    d.line([(M, y + 78), (W - M, y + 78)], fill=INK, width=2)
-    d.line([(M, y + 92), (W - M, y + 92)], fill=INK, width=7)
+    # the date, large enough to read on a Kindle library thumbnail
+    size = 96
+    while size > 48 and d.textlength(date_label, font=F("sans-black.woff", size)) > cw:
+        size -= 4
+    d.text((W / 2, y + 82), date_label, font=F("sans-black.woff", size), fill=INK, anchor="mm")
+    d.line([(M, y + 140), (W - M, y + 140)], fill=INK, width=2)
+    small = F("sans-bold.woff", 26)
+    d.text((M, y + 172), edition.upper(), font=small, fill=INK, anchor="lm")
+    d.text((W / 2, y + 172), place.upper(), font=small, fill=INK, anchor="mm")
+    d.text((W - M, y + 172), "CURATED BY CLAUDE", font=small, fill=INK, anchor="rm")
+    d.line([(M, y + 204), (W - M, y + 204)], fill=INK, width=2)
+    d.line([(M, y + 218), (W - M, y + 218)], fill=INK, width=7)
+    y += 126  # the dateline band grew by this much
 
     # illustration
-    art_h = 640
+    art_h = 540
     art = photo_scene(cw, art_h, sasquatch_on=sasquatch) if PHOTO.exists() else scene(cw, art_h, sasquatch_on=sasquatch)
     img.paste(art, (M, y + 125))
     if PHOTO.exists():
