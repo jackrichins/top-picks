@@ -144,15 +144,19 @@ def sasquatch(d, x, base, s, fill=INK):
     rnd = random.Random(11)
     for shape in SASQUATCH_PARTS:
         _shaggy(d, [(x + (px - 168) * s, base + (py - 394) * s) for px, py in _smooth(shape)], x, base, s, fill, rnd)
-    # the folded newspaper in his forward hand
+    # a Kindle in his forward hand, tilted up so he can read it: dark bezel, light e-ink screen
     def T(pts):
         return [(x + (px - 168) * s, base + (py - 394) * s) for px, py in pts]
-    d.polygon(T([(226, 200), (264, 190), (272, 232), (232, 242)]), fill=PAPER, outline=fill)
-    d.polygon(T([(229, 205), (262, 196), (264, 203), (231, 212)]), fill=fill)          # masthead
-    for row in range(5):
-        y0 = 218 + row * 4.5
-        d.line(T([(232, y0), (267, y0 - 8)]), fill=90, width=max(1, int(1.2 * s)))
-    d.ellipse([x + (222 - 168) * s, base + (204 - 394) * s, x + (240 - 168) * s, base + (230 - 394) * s], fill=fill)  # hand
+    def tilt(pts, cx=248, cy=212, a=-0.22):
+        c, sn = math.cos(a), math.sin(a)
+        return [(cx + (px - cx) * c - (py - cy) * sn, cy + (px - cx) * sn + (py - cy) * c) for px, py in pts]
+    w = max(1, int(1.2 * s))
+    d.polygon(T(tilt([(230, 180), (268, 180), (268, 240), (230, 240)])), fill=fill, outline=PAPER, width=w)  # bezel
+    d.polygon(T(tilt([(234, 185), (264, 185), (264, 230), (234, 230)])), fill=PAPER)                       # screen
+    for row in range(7):                                                                                   # lines of text
+        y0 = 190 + row * 5.5
+        d.line(T(tilt([(237, y0), (261 if row % 3 != 2 else 252, y0)])), fill=110, width=w)
+    d.ellipse([x + (222 - 168) * s, base + (212 - 394) * s, x + (240 - 168) * s, base + (238 - 394) * s], fill=fill)  # hand
 
 
 PHOTO = Path(__file__).resolve().parent / "assets" / "rainier-north-aerial.jpg"
@@ -223,7 +227,7 @@ def photo_scene(width, height, sasquatch_on=True, seed=5):
         tree(d, x + rnd.uniform(-15, 15), ridge_y(x) + 40, h, h * 0.40)
     if sasquatch_on:
         sx = sw * 0.70
-        sasquatch(d, sx, ridge_y(sx) + 10, 1.15)
+        sasquatch(d, sx, ridge_y(sx) + 10, 1.35)
     d.rectangle([0, 0, sw - 1, sh - 1], outline=INK, width=10)
     return img.resize((width, height), Image.LANCZOS)
 
