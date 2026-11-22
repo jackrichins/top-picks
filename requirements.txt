@@ -10,3 +10,4 @@ pdfminer.six>=20231228
 pytesseract>=0.3.10  # OCR for scanned PDFs (needs the tesseract program; without it, pages come through as images)
 numpy>=1.24
 scipy>=1.10  # finds photos on scanned PDF pages
+pdfplumber>=0.10  # tables in text PDFs

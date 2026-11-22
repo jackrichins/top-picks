@@ -57,6 +57,9 @@ h2.section { font-family: sans-serif; font-size: 1.0em; text-transform: uppercas
 p.meta { font-family: sans-serif; font-size: 0.8em; color: #444; margin: 0 0 0.2em; }
 p.why { font-size: 0.9em; font-style: italic; margin: 0 0 1.2em; }
 img { max-width: 100%; height: auto; }
+table { border-collapse: collapse; margin: 0.8em 0; font-size: 0.9em; }
+th, td { border: 1px solid #000; padding: 0.2em 0.4em; text-align: left; vertical-align: top; }
+th { font-weight: bold; }
 div.code { font-family: monospace; font-size: 0.8em; white-space: pre-wrap; margin: 0.8em 0; }
 figure { margin: 1em 0; }
 .front li { margin-bottom: 0.6em; }
@@ -232,6 +235,90 @@ def find_photos(im, ocr=None):
     return sorted(keep, key=lambda b: (b[1] // 50, b[0]))  # reading order: top to bottom, left to right
 
 
+MAX_TABLE_COLUMNS = 5  # wider tables become pictures: a Paperwhite page is too narrow to read them as text
+
+
+def find_ruled_tables(im):
+    """Boxes around ruled tables (grids of long horizontal and vertical lines) on a scanned page.
+    OCR scrambles tables, so these are kept as pictures."""
+    from scipy import ndimage as ndi
+    g = np.asarray(im, dtype=np.float32)
+    h, w = g.shape
+    ink = g < 160
+    solid = ndi.binary_opening(ink, np.ones((9, 9)))  # dark areas (photos, edges), not thin rules
+    horiz = ndi.binary_opening(ink, np.ones((1, max(20, int(0.08 * w))))) & ~solid
+    vert = ndi.binary_opening(ink, np.ones((max(15, int(0.025 * h)), 1))) & ~solid
+    grid = ndi.binary_dilation(horiz | vert, np.ones((5, 5)))
+    lab, _ = ndi.label(grid)
+    out = []
+    for sl in ndi.find_objects(lab):
+        y0, y1, x0, x1 = sl[0].start, sl[0].stop, sl[1].start, sl[1].stop
+        if x1 - x0 < 0.15 * w or y1 - y0 < 0.03 * h:
+            continue
+        hl = ndi.label(horiz[y0:y1, x0:x1])[1]
+        vl = ndi.label(ndi.binary_dilation(vert[y0:y1, x0:x1], np.ones((1, 3))))[1]
+        if hl >= 3 and vl >= 3 and (g[y0:y1, x0:x1] > 200).mean() > 0.6:  # 2+ rows and columns, light inside
+            pad = 6
+            out.append((max(0, x0 - pad), max(0, y0 - pad), min(w, x1 + pad), min(h, y1 + pad)))
+    return out
+
+
+def _overlaps(a, b):
+    return a[0] < b[2] and b[0] < a[2] and a[1] < b[3] and b[1] < a[3]
+
+
+def table_html(rows):
+    rows = [[re.sub(r"\s+", " ", c or "").strip() for c in r] for r in rows if any((c or "").strip() for c in r)]
+    if not rows:
+        return ""
+    head, *body = rows
+    th = "".join(f"<th>{html.escape(c)}</th>" for c in head)
+    tr = "".join("<tr>" + "".join(f"<td>{html.escape(c)}</td>" for c in r) + "</tr>" for r in body)
+    return f"<table><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table>"
+
+
+def _lines_html(lines):
+    """pdfplumber text lines (with positions) to paragraphs: a bigger vertical gap starts a new one."""
+    out, para, prev = [], [], None
+    for ln in lines:
+        height = ln["bottom"] - ln["top"]
+        if prev is not None and ln["top"] - prev["bottom"] > 0.6 * height:
+            out.append("\n".join(para))
+            para = []
+        para.append(ln["text"])
+        prev = ln
+    if para:
+        out.append("\n".join(para))
+    return _paragraphs("\n\n".join(out))
+
+
+def text_pdf_page_html(plumb_page, render_page, add_image, name):
+    """A text PDF page with tables: its text and tables in reading order. Tables of up to MAX_TABLE_COLUMNS
+    columns become real tables; wider ones (or ones that don't extract cleanly) become pictures."""
+    tables = sorted(plumb_page.find_tables(), key=lambda t: t.bbox[1])
+    boxes = [t.bbox for t in tables]
+    lines = [ln for ln in plumb_page.extract_text_lines()
+             if not any(b[0] - 2 <= (ln["x0"] + ln["x1"]) / 2 <= b[2] + 2 and b[1] - 2 <= (ln["top"] + ln["bottom"]) / 2 <= b[3] + 2
+                        for b in boxes)]
+    out, k = [], 0
+    for j, t in enumerate(tables):
+        above = [ln for ln in lines[k:] if ln["bottom"] <= t.bbox[1] + 2]
+        out.append(_lines_html(above))
+        k += len(above)
+        rows = t.extract()
+        cols = max((len(r) for r in rows), default=0)
+        if 2 <= cols <= MAX_TABLE_COLUMNS and len(rows) >= 2:
+            out.append(table_html(rows))
+        else:
+            scale = 3.0
+            im = render_page.render(scale=scale).to_pil().convert("L")
+            x0, top, x1, bottom = t.bbox
+            out.append(add_image(im.crop((int((x0 - 4) * scale), int((top - 4) * scale),
+                                          int((x1 + 4) * scale), int((bottom + 4) * scale))), f"{name}_t{j}", "Table"))
+    out.append(_lines_html(lines[k:]))
+    return "".join(out)
+
+
 def pdf_body(data, uid, want_images):
     """Turn a PDF into reading HTML: its text, plus the photos in it, without whole-page images (they're
     unreadable on a Kindle). Text PDFs become paragraphs and keep their embedded pictures. Scanned pages
@@ -244,9 +331,14 @@ def pdf_body(data, uid, want_images):
         pytesseract.get_tesseract_version()
     except Exception:  # noqa: BLE001
         pytesseract = None
+    import pdfplumber
     doc = pdfium.PdfDocument(data)
     n = len(doc)
     parts, images = [], []
+    try:
+        plumb = pdfplumber.open(io.BytesIO(data))
+    except Exception:  # noqa: BLE001
+        plumb = None
 
     def add_image(im, name, alt):
         if len(images) >= MAX_PDF_PHOTOS:
@@ -271,17 +363,21 @@ def pdf_body(data, uid, want_images):
         if scanned:
             im = page.render(scale=2.0).to_pil().convert("L")
             if pytesseract:
-                photos = find_photos(im, pytesseract) if want_images else []
+                tables = find_ruled_tables(im) if want_images else []
+                photos = [p for p in (find_photos(im, pytesseract) if want_images else [])
+                          if not any(_overlaps(p, t) for t in tables)]
+                for j, box in enumerate(tables):
+                    figures.append(add_image(im.crop(box), f"p{i}_t{j}", "Table"))
                 for j, box in enumerate(photos):
                     figures.append(add_image(im.crop(box), f"p{i}_{j}", "Photo"))
                 try:
                     text = pytesseract.image_to_string(im)
-                    if photos:  # blank the photos so OCR doesn't read them as garbage text, unless that
+                    if photos or tables:  # blank them so OCR doesn't read them as garbage text, unless that
                         clean = im.copy()  # confuses its column finding (it can on newspaper pages)
-                        for box in photos:
+                        for box in photos + tables:
                             clean.paste(255, box)
                         alt = pytesseract.image_to_string(clean)
-                        if len(alt.strip()) >= 0.7 * len(text.strip()):
+                        if len(alt.strip()) >= 0.3 * len(text.strip()):  # a collapse means it lost the columns
                             text = alt
                 except Exception as e:  # noqa: BLE001
                     log(f"  ! OCR failed on page {i + 1}: {e}")
@@ -294,8 +390,18 @@ def pdf_body(data, uid, want_images):
                         figures.append(add_image(obj.get_bitmap(render=True).to_pil(), f"p{i}_{j}", "Picture"))
                     except Exception:  # noqa: BLE001
                         pass
-        parts.append(_paragraphs(text))
+        page_html = None
+        if not scanned and plumb is not None:
+            try:
+                pp = plumb.pages[i]
+                if pp.find_tables():
+                    page_html = text_pdf_page_html(pp, page, add_image if want_images else (lambda *a: ""), f"p{i}")
+            except Exception as e:  # noqa: BLE001  fall back to plain text
+                log(f"  ! table extraction failed on page {i + 1}: {e}")
+        parts.append(page_html if page_html is not None else _paragraphs(text))
         parts.extend(f for f in figures if f)
+    if plumb is not None:
+        plumb.close()
     doc.close()
     if n > MAX_PDF_PAGES:
         parts.append(f"<p><i>The first {MAX_PDF_PAGES} of {n} pages are included.</i></p>")
