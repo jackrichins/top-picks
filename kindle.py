@@ -176,6 +176,8 @@ def _paragraphs(text):
 
 
 MAX_PDF_PHOTOS = 24
+TRANSCRIPTS = {}  # "<item id>_p<page>": Claude's transcription of a scanned page (see --ocr-export)
+MAX_TRANSCRIBE_PAGES = 40  # per edition; pages past this use Tesseract alone
 
 
 def _regions(mask, w, h, size, min_area=0.012, min_side=0.08):
@@ -371,6 +373,9 @@ def pdf_body(data, uid, want_images):
                 for j, box in enumerate(photos):
                     figures.append(add_image(im.crop(box), f"p{i}_{j}", "Photo"))
                 try:
+                    if f"{uid}_p{i}" in TRANSCRIPTS:  # Claude read this page: far better than Tesseract
+                        text = TRANSCRIPTS[f"{uid}_p{i}"]
+                        raise StopIteration
                     text = pytesseract.image_to_string(im)
                     if photos or tables:  # blank them so OCR doesn't read them as garbage text, unless that
                         clean = im.copy()  # confuses its column finding (it can on newspaper pages)
@@ -379,8 +384,12 @@ def pdf_body(data, uid, want_images):
                         alt = pytesseract.image_to_string(clean)
                         if len(alt.strip()) >= 0.3 * len(text.strip()):  # a collapse means it lost the columns
                             text = alt
+                except StopIteration:
+                    pass
                 except Exception as e:  # noqa: BLE001
                     log(f"  ! OCR failed on page {i + 1}: {e}")
+            elif f"{uid}_p{i}" in TRANSCRIPTS:
+                text = TRANSCRIPTS[f"{uid}_p{i}"]
             elif want_images:
                 figures.append(add_image(im, f"p{i}", f"Page {i + 1}"))
         elif want_images:
@@ -416,27 +425,109 @@ def prefetch_name(url):
     return hashlib.sha1(url.encode()).hexdigest()[:16] + ".html"
 
 
+def _sources(url):
+    """Where to read a link from. archive.ph refuses cloud machines, so for its links try the copy fetched
+    on Jack's Mac first, then the original page the link names (archive.ph/o/ links only give a stub)."""
+    if not is_archive(url):
+        return [url]
+    saved = Path(PREFETCHED[0]) / prefetch_name(url) if PREFETCHED else None
+    return ([saved] if saved and saved.exists() and saved.stat().st_size > 0 else []) + \
+           ([archive_original(url)] if archive_original(url) else [])
+
+
+def _fetch(src):
+    if isinstance(src, Path):
+        return src.read_bytes(), ""
+    r = requests.get(src, headers={"User-Agent": UA}, timeout=40)
+    r.raise_for_status()
+    return r.content, r.headers.get("content-type", "")
+
+
+def _strips(im, max_h=1400):
+    """Split a tall page image into strips Claude can read at full resolution, cutting at blank rows."""
+    g = np.asarray(im, dtype=np.float32)
+    out, top = [], 0
+    while im.height - top > max_h:
+        lo, hi = top + int(max_h * 0.75), top + max_h
+        rows = g[lo:hi].mean(axis=1)
+        cut = lo + int(np.argmax(rows))  # the whitest row in the window: between lines of text
+        out.append(im.crop((0, top, im.width, cut)))
+        top = cut
+    out.append(im.crop((0, top, im.width, im.height)))
+    return out
+
+
+def ocr_export(picks, folder):
+    """Save the scanned PDF pages in this edition as images (plus Tesseract's draft) for Claude to
+    transcribe. Writes <folder>/manifest.json: [{key, title, page, pages, images, draft}]."""
+    import pypdfium2 as pdfium
+    try:
+        import pytesseract
+    except Exception:  # noqa: BLE001
+        pytesseract = None
+    from pdfminer.high_level import extract_text
+    folder = Path(folder)
+    folder.mkdir(parents=True, exist_ok=True)
+    manifest, budget = [], MAX_TRANSCRIBE_PAGES
+    for p in picks:
+        if budget <= 0 or len(re.sub(r"<[^>]+>", "", p.get("content_html") or "")) >= 400:
+            continue
+        data = None
+        for src in _sources(p.get("link") or ""):
+            try:
+                content, ctype = _fetch(src)
+            except Exception:  # noqa: BLE001
+                continue
+            if "pdf" in ctype.lower() or content[:5] == b"%PDF-":
+                data = content
+                break
+        if not data:
+            continue
+        doc = pdfium.PdfDocument(data)
+        for i in range(min(len(doc), MAX_PDF_PAGES)):
+            if budget <= 0:
+                break
+            page = doc[i]
+            try:
+                text = extract_text(io.BytesIO(data), page_numbers=[i]) or ""
+            except Exception:  # noqa: BLE001
+                text = ""
+            pw, ph = page.get_size()
+            big = any(((lambda b: (b[2] - b[0]) * (b[3] - b[1]))(o.get_bounds() if hasattr(o, "get_bounds") else o.get_pos()))
+                      > 0.5 * pw * ph for o in page.get_objects(filter=[pdfium.raw.FPDF_PAGEOBJ_IMAGE]))
+            if not (big or len(text.strip()) < 200):
+                continue  # real text: nothing to transcribe
+            im = page.render(scale=max(2.0, 1600 / pw)).to_pil().convert("L")  # about 1600 pixels wide
+            key = f"{p['id']}_p{i}"
+            files = []
+            for k, strip in enumerate(_strips(im)):
+                f = folder / f"{re.sub(r'[^A-Za-z0-9_-]', '-', key)}_{k}.png"
+                strip.save(f)
+                files.append(str(f))
+            draft = ""
+            if pytesseract:
+                try:
+                    draft = pytesseract.image_to_string(im)
+                except Exception:  # noqa: BLE001
+                    pass
+            manifest.append({"key": key, "title": p.get("title"), "page": i + 1, "pages": len(doc),
+                             "images": files, "draft": draft})
+            budget -= 1
+        doc.close()
+    (folder / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False))
+    log(f"{len(manifest)} scanned PDF pages to transcribe in {folder}")
+
+
 def full_text(pick, want_images, max_images):
     """Return (body_html, [image items]). Falls back to the summary when extraction fails."""
     url = pick.get("link") or ""
     body = pick.get("content_html")  # full text saved by curate.py, images included
     if len(re.sub(r"<[^>]+>", "", body or "")) < 400 and "<img" not in (body or ""):
-        # archive.ph refuses cloud machines, so for its links try the copy fetched on Jack's Mac first, then
-        # the original page the link names (archive.ph/o/ links only give a "loading..." stub anyway)
-        sources = [url]
-        if is_archive(url):
-            saved = Path(PREFETCHED[0]) / prefetch_name(url) if PREFETCHED else None
-            sources = ([saved] if saved and saved.exists() and saved.stat().st_size > 0 else []) + \
-                      ([archive_original(url)] if archive_original(url) else [])
+        sources = _sources(url)
         body = None
         for src in sources:
             try:
-                if isinstance(src, Path):
-                    content, ctype = src.read_bytes(), ""
-                else:
-                    r = requests.get(src, headers={"User-Agent": UA}, timeout=40)
-                    r.raise_for_status()
-                    content, ctype = r.content, r.headers.get("content-type", "")
+                content, ctype = _fetch(src)
                 if "pdf" in ctype.lower() or content[:5] == b"%PDF-":
                     pbody, images = pdf_body(content, pick["id"], want_images)
                     if len(re.sub(r"<[^>]+>", "", pbody)) >= 200 or images:
@@ -760,7 +851,13 @@ def main():
                          "so they can be fetched on the Mac, then exit")
     ap.add_argument("--prefetched", metavar="DIR",
                     help="folder of archive.ph pages fetched on the Mac, named as --archive-links says")
+    ap.add_argument("--ocr-export", metavar="DIR",
+                    help="save this edition's scanned PDF pages as images for Claude to transcribe, then exit")
+    ap.add_argument("--transcripts", metavar="FILE",
+                    help='JSON {"<key>": "text"} of Claude\'s transcriptions of the pages from --ocr-export')
     args = ap.parse_args()
+    if args.transcripts:
+        TRANSCRIPTS.update(json.loads(Path(args.transcripts).read_text(encoding="utf-8")))
     if args.prefetched:
         PREFETCHED[:] = [args.prefetched]
 
@@ -833,6 +930,9 @@ def main():
     if later:
         log(f"Adding {len(later)} articles from your Later list")
     picks = later + picks
+    if args.ocr_export:
+        ocr_export(picks, args.ocr_export)
+        return
     if len(picks) < kc.get("min_articles", 3):
         log(f"Only {len(picks)} articles today; skipping the Kindle edition.")
         return
