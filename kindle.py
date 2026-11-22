@@ -26,6 +26,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
 
+import numpy as np
 import requests
 import trafilatura
 import yaml
@@ -171,20 +172,89 @@ def _paragraphs(text):
     return "".join(out)
 
 
+MAX_PDF_PHOTOS = 24
+
+
+def _regions(mask, w, h, size, min_area=0.012, min_side=0.08):
+    """Bounding boxes of the large blobs in a boolean mask, after smoothing it at the given size."""
+    from scipy import ndimage as ndi
+    k = np.ones((size, size))
+    mask = ndi.binary_fill_holes(ndi.binary_closing(ndi.binary_opening(mask, k), k))
+    lab, _ = ndi.label(mask)
+    out = []
+    for sl in ndi.find_objects(lab):
+        y0, y1, x0, x1 = sl[0].start, sl[0].stop, sl[1].start, sl[1].stop
+        if (x1 - x0) * (y1 - y0) >= min_area * w * h and x1 - x0 >= min_side * w and y1 - y0 >= min_side * h:
+            out.append((x0, y0, x1, y1))
+    return out
+
+
+def find_photos(im, ocr=None):
+    """Boxes around the photos on a scanned page (a grayscale PIL image), so they can be cropped out.
+    Two kinds: continuous-tone photos (newspapers, prints) are darker than the paper but smooth, unlike type;
+    grainy photocopied photos keep coarse light-and-dark structure that body text loses once blurred.
+    Candidates that OCR finds full of words are text columns, and wide banners at the very top are
+    mastheads, so both are dropped."""
+    from scipy import ndimage as ndi
+    g = np.asarray(im, dtype=np.float32)
+    h, w = g.shape
+    s = min(w, h)
+    k = max(9, int(0.03 * s))
+    mean = ndi.uniform_filter(g, k)
+    fine = ndi.uniform_filter(np.abs(g - ndi.gaussian_filter(g, 1.5)), k)
+    inked = mean < 235
+    if not inked.any():
+        return []
+    paper = np.percentile(g[g > 60], 80) if (g > 60).any() else 255
+    boxes = _regions((mean < paper - 25) & (fine < 0.55 * np.median(fine[inked])), w, h, max(5, int(0.02 * s)))
+    blur = ndi.gaussian_filter(g, 0.006 * s)
+    k2 = max(9, int(0.05 * s))
+    m = ndi.uniform_filter(blur, k2)
+    std = np.sqrt(np.maximum(ndi.uniform_filter(blur * blur, k2) - m * m, 0))
+    boxes += [b for b in _regions(std > 22, w, h, k2 // 2) if (b[2] - b[0]) * (b[3] - b[1]) < 0.45 * w * h]
+    keep = []
+    for b in sorted(boxes, key=lambda b: -(b[2] - b[0]) * (b[3] - b[1])):
+        if any(b[0] >= o[0] - 10 and b[1] >= o[1] - 10 and b[2] <= o[2] + 10 and b[3] <= o[3] + 10 for o in keep):
+            continue  # inside a photo we already have
+        bw, bh = b[2] - b[0], b[3] - b[1]
+        if b[1] < 0.15 * h and bw > 2.5 * bh:
+            continue  # a masthead or letterhead banner
+        if ocr:
+            try:
+                d = ocr.image_to_data(im.crop(b), output_type=ocr.Output.DICT)
+                words = sum(1 for t, c in zip(d["text"], d["conf"])
+                            if float(c) > 70 and len(re.sub(r"[^A-Za-z]", "", t)) >= 3)
+                if words / (bw * bh / 1e5) > 10:
+                    continue  # mostly words: a column of text, not a photo
+            except Exception:  # noqa: BLE001
+                pass
+        keep.append(b)
+    return sorted(keep, key=lambda b: (b[1] // 50, b[0]))  # reading order: top to bottom, left to right
+
+
 def pdf_body(data, uid, want_images):
-    """Turn a PDF into reading HTML. Text PDFs become paragraphs. Scanned pages (little real text, or a
-    full-page picture) are read with OCR when Tesseract is installed, and the page itself is included as an
-    image so photos, sketches, and maps survive. Returns (html, [image items])."""
+    """Turn a PDF into reading HTML: its text, plus the photos in it, without whole-page images (they're
+    unreadable on a Kindle). Text PDFs become paragraphs and keep their embedded pictures. Scanned pages
+    (little real text, or a full-page picture) are read with OCR, and any photos on them are cropped out.
+    Without Tesseract there's no OCR, so scanned pages fall back to page images. Returns (html, [image items])."""
     import pypdfium2 as pdfium
     from pdfminer.high_level import extract_text
     try:
         import pytesseract
         pytesseract.get_tesseract_version()
-    except Exception:  # noqa: BLE001  no OCR here: scanned pages still come through as images
+    except Exception:  # noqa: BLE001
         pytesseract = None
     doc = pdfium.PdfDocument(data)
     n = len(doc)
     parts, images = [], []
+
+    def add_image(im, name, alt):
+        if len(images) >= MAX_PDF_PHOTOS:
+            return ""
+        item = image_item(im, f"{uid}_{name}")
+        images.append(item)
+        return f'<figure><img src="{item.file_name}" alt="{alt}"/></figure>'
+
     for i in range(min(n, MAX_PDF_PAGES)):
         page = doc[i]
         try:
@@ -192,26 +262,40 @@ def pdf_body(data, uid, want_images):
         except Exception:  # noqa: BLE001
             text = ""
         pw, ph = page.get_size()
-        big_picture = False
+        pictures = []
         for obj in page.get_objects(filter=[pdfium.raw.FPDF_PAGEOBJ_IMAGE]):
             l, b, r, t = obj.get_bounds() if hasattr(obj, "get_bounds") else obj.get_pos()
-            if (r - l) * (t - b) > 0.5 * pw * ph:
-                big_picture = True
-                break
-        scanned = big_picture or len(text.strip()) < 200
+            pictures.append((obj, (r - l) * (t - b) / (pw * ph)))
+        scanned = any(frac > 0.5 for _, frac in pictures) or len(text.strip()) < 200
+        figures = []
         if scanned:
-            im = page.render(scale=2.0).to_pil()
+            im = page.render(scale=2.0).to_pil().convert("L")
             if pytesseract:
+                photos = find_photos(im, pytesseract) if want_images else []
+                for j, box in enumerate(photos):
+                    figures.append(add_image(im.crop(box), f"p{i}_{j}", "Photo"))
                 try:
-                    text = pytesseract.image_to_string(im.convert("L"))
+                    text = pytesseract.image_to_string(im)
+                    if photos:  # blank the photos so OCR doesn't read them as garbage text, unless that
+                        clean = im.copy()  # confuses its column finding (it can on newspaper pages)
+                        for box in photos:
+                            clean.paste(255, box)
+                        alt = pytesseract.image_to_string(clean)
+                        if len(alt.strip()) >= 0.7 * len(text.strip()):
+                            text = alt
                 except Exception as e:  # noqa: BLE001
                     log(f"  ! OCR failed on page {i + 1}: {e}")
-            if want_images:
-                item = image_item(im, f"{uid}_p{i}")
-                images.append(item)
-                parts.append(f'<figure><img src="{item.file_name}" alt="Page {i + 1}"/>'
-                             f"<figcaption>Page {i + 1} of {n}</figcaption></figure>")
+            elif want_images:
+                figures.append(add_image(im, f"p{i}", f"Page {i + 1}"))
+        elif want_images:
+            for j, (obj, frac) in enumerate(pictures):
+                if 0.02 < frac <= 0.5:  # a real picture, not a speck or the page background
+                    try:
+                        figures.append(add_image(obj.get_bitmap(render=True).to_pil(), f"p{i}_{j}", "Picture"))
+                    except Exception:  # noqa: BLE001
+                        pass
         parts.append(_paragraphs(text))
+        parts.extend(f for f in figures if f)
     doc.close()
     if n > MAX_PDF_PAGES:
         parts.append(f"<p><i>The first {MAX_PDF_PAGES} of {n} pages are included.</i></p>")
