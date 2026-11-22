@@ -414,7 +414,9 @@ def pdf_body(data, uid, want_images):
     doc.close()
     if n > MAX_PDF_PAGES:
         parts.append(f"<p><i>The first {MAX_PDF_PAGES} of {n} pages are included.</i></p>")
-    return "".join(parts), images
+    # a sentence that runs over a page break shouldn't split into two paragraphs
+    out = re.sub(r"(?<=[a-z,;-])</p><p>(?=[a-z])", " ", "".join(parts))
+    return out, images
 
 
 PREFETCHED = []  # folder of archive.ph pages fetched on Jack's Mac (see --archive-links and --prefetched)
