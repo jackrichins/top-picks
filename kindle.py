@@ -228,15 +228,17 @@ def later_items(kc, sent_ids):
             if iid in sent_ids:
                 continue
             saved = datetime.fromtimestamp(meta["date"] + APPLE_EPOCH, timezone.utc) if meta.get("date") else None
-            if not saved or saved < datetime.now(timezone.utc) - timedelta(days=kc.get("later_window_days", 7)):
-                continue  # only articles saved within the last week
+            keep_all = tag.lower() in {t.lower() for t in kc.get("later_include_all", [])}
+            if not keep_all and (not saved or saved < datetime.now(timezone.utc) - timedelta(days=kc.get("later_window_days", 7))):
+                continue  # only articles saved within the last week, except tags listed in later_include_all
             text = e.get("content_text") or re.sub(r"<[^>]+>", " ", e.get("content_html") or "")
             title = e.get("title") or (text.strip().split(". ")[0][:90] if text.strip() else host)
             items.append({"id": iid, "kind": "article", "title": title, "link": url, "feed": host or "Later",
                           "folder": "__later__", "summary": text[:500], "score": 8,
                           "reason": f"You saved this to {tag} in Reeder.",
-                          "content_html": e.get("content_html") or "", "saved": saved})
+                          "content_html": e.get("content_html") or "", "saved": saved, "keep_all": keep_all})
     seen_links, unique = set(), []
+    items.sort(key=lambda i: not i["keep_all"])  # a copy from a later_include_all tag wins duplicates
     for i in items:  # the same article saved to both Later and Links appears once
         key = i["link"].split("#")[0].rstrip("/")
         if key not in seen_links:
@@ -244,7 +246,9 @@ def later_items(kc, sent_ids):
             unique.append(i)
     items = unique
     items.sort(key=lambda i: i["saved"] or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
-    return items[: kc.get("later_max", 40)]
+    keep = [i for i in items if i["keep_all"]]  # later_include_all tags are never capped
+    rest = [i for i in items if not i["keep_all"]]
+    return keep + rest[: max(0, kc.get("later_max", 40) - len(keep))]
 
 
 def techmeme_top(limit=15):
