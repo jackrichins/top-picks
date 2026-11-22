@@ -35,11 +35,16 @@ Claude scheduled tasks follow these steps. The evening and weekend tasks run wit
       - Keep the `link` and `source` (the publication name only, like "Reuters") from the export.
       - Write `/tmp/briefing.json` as `{"items": [{"topic": "...", "summary": "...", "link": "...", "source": "..."}]}`, most important first.
       - If Techmeme can't be reached, skip the briefing and build without it.
-   3. **Build it** (this adds new articles Jack saved to Later or Links in Reeder, and the briefing):
+   3. **Fetch saved archive.ph pages on the Mac.** archive.ph refuses cloud machines but works from Jack's Mac. (PDFs and archive.ph links that wrap an original URL need nothing here: `kindle.py` reads the original directly, with OCR for scanned PDFs.)
+      - Run `REEDER_LATER_FEED="<the links>" python3 kindle.py --archive-links /tmp/archive.json`. If it lists 0 pages, skip to the next step.
+      - For each `{url, file}` in it, download the page on the Mac with `device_bash` into the connected folder: `mkdir -p $HOME/mnt/RichinsReader/fetched && curl -sfL -m 60 -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" -o "$HOME/mnt/RichinsReader/fetched/<file>" "<url>"` (several per call is fine). Skip any that fail.
+      - Stage the downloaded files with `device_stage_files` (paths `/Users/jackr/RichinsReader/fetched/<file>`) and add `--prefetched /mnt/user-data/uploads/RichinsReader/fetched` to the build command below.
+   4. **Build it** (this adds new articles Jack saved to Later or Links in Reeder, and the briefing):
       `mkdir -p /mnt/user-data/outputs && REEDER_LATER_FEED="<the links>" python3 kindle.py --no-send --briefing /tmp/briefing.json --out /mnt/user-data/outputs/The-Richins-Reader-YYYY-MM-DD.epub`
+      The Reeder feeds sometimes fail for a moment: if the build logs `! Later feed`, wait 15 seconds and run it again (up to 3 tries).
       Use today's date. It prints JSON with the title. If it says there are too few articles, skip the rest of this step.
-   4. **Drop it in the Mac's outbox** with `device_commit_files`: stagedPath is the file above, devicePath is `/Users/jackr/RichinsReader/outbox/<same file name>`. A background helper on the Mac sends anything in the outbox to Jack's Kindle with Mail, then moves it to `/Users/jackr/RichinsReader/sent/` with a receipt named `<file name>.ok`.
-   5. **Wait for the receipt.** Every 30 seconds for up to 3 minutes, list `/Users/jackr/RichinsReader/sent` with `device_list_dir` and look for `<file name>.ok`.
-   6. **Record it.** Only if the receipt appeared: `python3 kindle.py --mark-sent`, then commit `state/` (the send time and which saved articles were delivered) with the message `Kindle edition sent` and push. If no receipt appeared, don't mark it sent (the helper will still send it when it can; the next edition then repeats these articles, which is harmless) and say so in your report.
-   7. If the Mac can't be reached, skip the send and don't mark it sent. The next Kindle edition will include these articles.
+   5. **Drop it in the Mac's outbox** with `device_commit_files`: stagedPath is the file above, devicePath is `/Users/jackr/RichinsReader/outbox/<same file name>`. A background helper on the Mac sends anything in the outbox to Jack's Kindle with Mail, then moves it to `/Users/jackr/RichinsReader/sent/` with a receipt named `<file name>.ok`.
+   6. **Wait for the receipt.** Every 30 seconds for up to 3 minutes, list `/Users/jackr/RichinsReader/sent` with `device_list_dir` and look for `<file name>.ok`.
+   7. **Record it.** Only if the receipt appeared: `python3 kindle.py --mark-sent`, then commit `state/` (the send time and which saved articles were delivered) with the message `Kindle edition sent` and push. If no receipt appeared, don't mark it sent (the helper will still send it when it can; the next edition then repeats these articles, which is harmless) and say so in your report.
+   8. If the Mac can't be reached, skip the send and don't mark it sent. The next Kindle edition will include these articles.
 8. **Check.** Confirm the pushes succeeded. Report the number of picks, the top 3 titles, and whether the Kindle edition was sent.

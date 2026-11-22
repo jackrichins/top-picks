@@ -123,16 +123,126 @@ def normalize_xhtml(body):
     return re.sub(r"^<div>|</div>$", "", out)
 
 
+ARCHIVE_HOSTS = {"archive.ph", "archive.is", "archive.today", "archive.li", "archive.md", "archive.vn", "archive.fo"}
+MAX_PDF_PAGES = 40
+
+
+def is_archive(url):
+    return urlparse(url).netloc.lower().removeprefix("www.") in ARCHIVE_HOSTS
+
+
+def unwrap_archive(url):
+    """archive.ph's outbound links look like https://archive.ph/o/<id>/<original url>: return the original.
+    (archive.ph itself refuses connections from cloud machines, so the original is the only way in.)"""
+    m = re.match(r"https?://(?:www\.)?archive\.[a-z]+/o/[A-Za-z0-9]+/(https?://.+)$", url or "")
+    return m.group(1) if m and is_archive(url) else url
+
+
+def title_from_url(url):
+    """A readable title from a link's file name, like 'June 18 1982 Bigfoot Tracks Investigation Umatilla NF'."""
+    from urllib.parse import unquote
+    name = unquote(urlparse(url).path.rstrip("/").rsplit("/", 1)[-1])
+    name = re.sub(r"\.(pdf|html?|aspx?|php)$", "", name, flags=re.I)
+    return re.sub(r"\s+", " ", re.sub(r"[_+]", " ", name)).strip()
+
+
+def image_item(im, uid):
+    im = im.convert("L")
+    im.thumbnail((1000, 1400))
+    buf = io.BytesIO()
+    im.save(buf, "JPEG", quality=70)
+    return epub.EpubItem(uid=f"img{uid}", file_name=f"images/img{uid}.jpg", media_type="image/jpeg",
+                         content=buf.getvalue())
+
+
+def _paragraphs(text):
+    """Plain extracted text to <p> blocks: blank lines split paragraphs, single line breaks are joined."""
+    text = re.sub(r"(\w)-\n(\w)", r"\1\2", text.replace("\r", ""))  # words hyphenated across lines
+    out = []
+    for para in re.split(r"\n\s*\n", text):
+        para = re.sub(r"\s*\n\s*", " ", para).strip()
+        if len(re.sub(r"[^A-Za-z0-9]", "", para)) >= 3:  # drop stray marks and page furniture
+            out.append(f"<p>{html.escape(para)}</p>")
+    return "".join(out)
+
+
+def pdf_body(data, uid, want_images):
+    """Turn a PDF into reading HTML. Text PDFs become paragraphs. Scanned pages (little real text, or a
+    full-page picture) are read with OCR when Tesseract is installed, and the page itself is included as an
+    image so photos, sketches, and maps survive. Returns (html, [image items])."""
+    import pypdfium2 as pdfium
+    from pdfminer.high_level import extract_text
+    try:
+        import pytesseract
+        pytesseract.get_tesseract_version()
+    except Exception:  # noqa: BLE001  no OCR here: scanned pages still come through as images
+        pytesseract = None
+    doc = pdfium.PdfDocument(data)
+    n = len(doc)
+    parts, images = [], []
+    for i in range(min(n, MAX_PDF_PAGES)):
+        page = doc[i]
+        try:
+            text = extract_text(io.BytesIO(data), page_numbers=[i]) or ""
+        except Exception:  # noqa: BLE001
+            text = ""
+        pw, ph = page.get_size()
+        big_picture = False
+        for obj in page.get_objects(filter=[pdfium.raw.FPDF_PAGEOBJ_IMAGE]):
+            l, b, r, t = obj.get_bounds() if hasattr(obj, "get_bounds") else obj.get_pos()
+            if (r - l) * (t - b) > 0.5 * pw * ph:
+                big_picture = True
+                break
+        scanned = big_picture or len(text.strip()) < 200
+        if scanned:
+            im = page.render(scale=2.0).to_pil()
+            if pytesseract:
+                try:
+                    text = pytesseract.image_to_string(im.convert("L"))
+                except Exception as e:  # noqa: BLE001
+                    log(f"  ! OCR failed on page {i + 1}: {e}")
+            if want_images:
+                item = image_item(im, f"{uid}_p{i}")
+                images.append(item)
+                parts.append(f'<figure><img src="{item.file_name}" alt="Page {i + 1}"/>'
+                             f"<figcaption>Page {i + 1} of {n}</figcaption></figure>")
+        parts.append(_paragraphs(text))
+    doc.close()
+    if n > MAX_PDF_PAGES:
+        parts.append(f"<p><i>The first {MAX_PDF_PAGES} of {n} pages are included.</i></p>")
+    return "".join(parts), images
+
+
+PREFETCHED = []  # folder of archive.ph pages fetched on Jack's Mac (see --archive-links and --prefetched)
+
+
+def prefetch_name(url):
+    import hashlib
+    return hashlib.sha1(url.encode()).hexdigest()[:16] + ".html"
+
+
 def full_text(pick, want_images, max_images):
     """Return (body_html, [image items]). Falls back to the summary when extraction fails."""
-    url = pick.get("link") or ""
+    url = unwrap_archive(pick.get("link") or "")
     body = pick.get("content_html")  # full text saved by curate.py, images included
     if len(re.sub(r"<[^>]+>", "", body or "")) < 400 and "<img" not in (body or ""):
         try:
-            r = requests.get(url, headers={"User-Agent": UA}, timeout=25)
-            r.raise_for_status()
-            body = trafilatura.extract(r.text, url=url, output_format="html", include_images=want_images,
-                                       include_links=False, include_tables=True, favor_recall=True)
+            saved = Path(PREFETCHED[0]) / prefetch_name(url) if PREFETCHED and is_archive(url) else None
+            if saved and saved.exists() and saved.stat().st_size > 0:
+                content, ctype = saved.read_bytes(), ""
+            else:
+                r = requests.get(url, headers={"User-Agent": UA}, timeout=40)
+                r.raise_for_status()
+                content, ctype = r.content, r.headers.get("content-type", "")
+            if "pdf" in ctype.lower() or content[:5] == b"%PDF-":
+                body, images = pdf_body(content, pick["id"], want_images)
+                if len(re.sub(r"<[^>]+>", "", body)) >= 200 or images:
+                    return normalize_xhtml(body), images
+                body = None
+            else:
+                body = trafilatura.extract(content.decode("utf-8", "replace"), url=url, output_format="html",
+                                           include_images=want_images, include_links=False, include_tables=True,
+                                           favor_recall=True)
         except Exception as e:  # noqa: BLE001
             log(f"  ! {url}: {e}")
             body = None
@@ -216,7 +326,8 @@ def later_items(kc, sent_ids):
             continue
         tag = data.get("title") or "Later"
         for e in data.get("items", []):
-            url = e.get("url") or e.get("external_url") or ""
+            raw_url = e.get("url") or e.get("external_url") or ""
+            url = unwrap_archive(raw_url)  # an archive.ph link that wraps the original: use the original
             host = urlparse(url).netloc.lower().removeprefix("www.")
             meta = e.get("_reeder") or {}
             media_types = {m.get("type") for m in meta.get("media") or []}
@@ -224,7 +335,7 @@ def later_items(kc, sent_ids):
                     or any(str(a.get("mime_type", "")).startswith(("audio", "video")) for a in e.get("attachments") or [])
                     or media_types & {"video", "audio"}):
                 continue
-            iid = "later-" + re.sub(r"[^a-z0-9]+", "-", (e.get("id") or url).lower())[-60:]
+            iid = "later-" + re.sub(r"[^a-z0-9]+", "-", (e.get("id") or raw_url).lower())[-60:]
             if iid in sent_ids:
                 continue
             saved = datetime.fromtimestamp(meta["date"] + APPLE_EPOCH, timezone.utc) if meta.get("date") else None
@@ -233,6 +344,8 @@ def later_items(kc, sent_ids):
                 continue  # only articles saved within the last week, except tags listed in later_include_all
             text = e.get("content_text") or re.sub(r"<[^>]+>", " ", e.get("content_html") or "")
             title = e.get("title") or (text.strip().split(". ")[0][:90] if text.strip() else host)
+            if title.strip().lower().removeprefix("www.") in ARCHIVE_HOSTS | {host, ""} and title_from_url(url):
+                title = title_from_url(url)  # Reeder titles bare PDF links by host, like "archive.is"
             items.append({"id": iid, "kind": "article", "title": title, "link": url, "feed": host or "Later",
                           "folder": "__later__", "summary": text[:500], "score": 8,
                           "reason": f"You saved this to {tag} in Reeder.",
@@ -428,7 +541,14 @@ def main():
                     help="JSON of Claude's Techmeme summaries to include as 'The Day in Tech'")
     ap.add_argument("--mark-sent", action="store_true",
                     help="record that the edition was sent (when Mail on the Mac sent it) and exit")
+    ap.add_argument("--archive-links", metavar="FILE",
+                    help="list new saved archive.ph pages (which refuse cloud machines) as JSON [{url, file}] "
+                         "so they can be fetched on the Mac, then exit")
+    ap.add_argument("--prefetched", metavar="DIR",
+                    help="folder of archive.ph pages fetched on the Mac, named as --archive-links says")
     args = ap.parse_args()
+    if args.prefetched:
+        PREFETCHED[:] = [args.prefetched]
 
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     kc = cfg.get("kindle") or {}
@@ -459,6 +579,14 @@ def main():
         log("Recorded the Kindle edition as sent.")
         return
     STRIP_LINK_HOSTS[:] = kc.get("strip_link_hosts") or []
+    if args.archive_links:
+        sent_path = ROOT / "state" / "later_sent.json"
+        sent_ids = set(json.loads(sent_path.read_text())) if sent_path.exists() else set()
+        links = [{"url": i["link"], "file": prefetch_name(i["link"])}
+                 for i in later_items(kc, sent_ids) if is_archive(i["link"])]
+        Path(args.archive_links).write_text(json.dumps(links, indent=1))
+        log(f"{len(links)} saved archive.ph pages to fetch on the Mac")
+        return
     if not kc.get("enabled"):
         log("Kindle edition is turned off in config.yaml.")
         return

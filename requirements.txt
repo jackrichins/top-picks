@@ -5,3 +5,6 @@ requests>=2.31
 trafilatura>=1.12
 ebooklib>=0.18
 pillow>=10.1
+pypdfium2>=4.0
+pdfminer.six>=20231228
+pytesseract>=0.3.10  # OCR for scanned PDFs (needs the tesseract program; without it, pages come through as images)
